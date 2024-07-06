@@ -21,15 +21,12 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0.x'
+          
       - name: Install dependencies
         run: dotnet restore
+        
       - name: Build
-        run: dotnet build
-
-      - name: Show all files in workspace
-        run: |
-          cd ${{ github.workspace }}
-          ls -li
+        run: dotnet build -c RELEASE
 
       - name: Show all .nupkg files within Release folders in workspace
         run: find ${{ github.workspace }} -type d -name "Release" -exec find {} -type f -name "*.nupkg" \;
