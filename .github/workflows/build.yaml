@@ -20,8 +20,14 @@ jobs:
           git submodule init
           git submodule update --force --recursive --init --remote
 
-      - name: Build .NET
-        uses: https://git.alexandrejournet.dev/alexandre.journet/devops/build/dotnet@0.0.1
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+      - name: Install dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build
 
       - name: Show all .nupkg files within Release folders in workspace
         run: find $GITHUB_WORKSPACE -type d -name "Release" -exec find {} -type f -name "*.nupkg" \;

@@ -6,13 +6,13 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{39F0A503-4163-4A4A-8928-AC52EE2A0AEF}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		.gitea\workflows\build.yaml = .gitea\workflows\build.yaml
 		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
 		CONTRIBUTING.md = CONTRIBUTING.md
 		Directory.Build.targets = Directory.Build.targets
 		LICENSE = LICENSE
 		README.md = README.md
-		.gitea\workflows\deploy-to-nuget.yaml = .gitea\workflows\deploy-to-nuget.yaml
+		.github\workflows\deploy-to-nuget.yaml = .github\workflows\deploy-to-nuget.yaml
+		.github\workflows\build.yaml = .github\workflows\build.yaml
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.NET.Domain", "Radiant.NET.Domain\Radiant.NET.Domain.csproj", "{EF4703F2-12A9-46A8-BDF5-5B479E64557C}"
