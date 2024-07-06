@@ -1,0 +1,54 @@
+name: Build and deploy to Nuget
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Show branch name
+        run: echo ${{ github.ref }}
+
+      - name: Checkout submodules
+        run: |
+          git config --file .gitmodules --get-regexp url | while read url; do
+            git config --file=.gitmodules $(echo "$url" | sed -E "s/https:\/\/git.alexandrejournet.dev\//http:\/\/${{secrets.PAT_TOKEN}}@192.168.1.100:10300\//")
+          done
+          git submodule sync
+          git submodule init
+          git submodule update --force --recursive --init --remote
+
+      - name: Extract tag
+        id: extract_tag
+        run: echo "::set-output name=TAG::$(echo ${GITHUB_REF#refs/tags/})"
+
+      - name: Update AssemblyInformationalVersion
+        run: |
+          TAG=${{ steps.extract_tag.outputs.TAG }}
+          sed -i "s/<AssemblyInformationalVersion>.*<\/AssemblyInformationalVersion>/<AssemblyInformationalVersion>${TAG}<\/AssemblyInformationalVersion>/" $GITHUB_WORKSPACE/Directory.Build.targets
+          sed -i "s/<Version>.*<\/Version>/<Version>${TAG}<\/Version>/" $GITHUB_WORKSPACE/Directory.Build.targets
+
+      - name: Show Directory.Build.targets
+        run: cat $GITHUB_WORKSPACE/Directory.Build.targets
+
+      - name: Build .NET
+        uses: https://git.alexandrejournet.dev/alexandre.journet/devops/build/dotnet@0.0.1
+
+      - name: Find NuGet packages
+        run: |
+          find $GITHUB_WORKSPACE -type d -name "Release" -exec find {} -type f -name "*.nupkg" \;
+          packages=$(find $GITHUB_WORKSPACE -type d -name "Release" -exec find {} -type f -name "*.nupkg" \;)
+          echo "$packages" > packages.txt
+
+      - name: Push NuGet packages
+        run: |
+          while IFS= read -r package; do
+            echo "START - Push to nuget: $package"
+            dotnet nuget push "$package" --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGET_API_KEY }} --skip-duplicate
+            echo "END - Push to nuget: $package"
+          done < packages.txt

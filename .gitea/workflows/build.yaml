@@ -1,0 +1,27 @@
+name: Build Workflow
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Show branch name
+        run: echo ${{ github.ref_name }}
+
+      - name: Checkout submodules
+        run: |
+          git submodule sync
+          git submodule init
+          git submodule update --force --recursive --init --remote
+
+      - name: Build .NET
+        uses: https://git.alexandrejournet.dev/alexandre.journet/devops/build/dotnet@0.0.1
+
+      - name: Show all .nupkg files within Release folders in workspace
+        run: find $GITHUB_WORKSPACE -type d -name "Release" -exec find {} -type f -name "*.nupkg" \;

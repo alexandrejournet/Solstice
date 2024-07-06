@@ -1,0 +1,24 @@
+[submodule "Radiant.NET.API"]
+	path = Radiant.NET.API
+	url = git@github.com:Radiant-NET/Radiant.NET.API.git
+[submodule "Radiant.NET.Applications"]
+	path = Radiant.NET.Applications
+	url = git@github.com:Radiant-NET/Radiant.NET.Applications.git
+[submodule "Radiant.NET.Database.Conventions"]
+	path = Radiant.NET.Database.Conventions
+	url = git@github.com:Radiant-NET/Radiant.NET.Database.Conventions.git
+[submodule "Radiant.NET.Database.MySql"]
+	path = Radiant.NET.Database.MySql
+	url = git@github.com:Radiant-NET/Radiant.NET.Database.MySql.git
+[submodule "Radiant.NET.Database.PostgreSQL"]
+	path = Radiant.NET.Database.PostgreSQL
+	url = git@github.com:Radiant-NET/Radiant.NET.Database.PostgreSQL.git
+[submodule "Radiant.NET.Repository"]
+	path = Radiant.NET.Repository
+	url = git@github.com:Radiant-NET/Radiant.NET.Repository.git
+[submodule "Radiant.NET.Domain"]
+	path = Radiant.NET.Domain
+	url = git@github.com:Radiant-NET/Radiant.NET.Domain.git
+[submodule "Radiant.NET.Scheduled"]
+	path = Radiant.NET.Scheduled
+	url = git@github.com:Radiant-NET/Radiant.NET.Scheduled.git

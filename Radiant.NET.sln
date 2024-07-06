@@ -1,0 +1,79 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{39F0A503-4163-4A4A-8928-AC52EE2A0AEF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitea\workflows\build.yaml = .gitea\workflows\build.yaml
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		Directory.Build.targets = Directory.Build.targets
+		LICENSE = LICENSE
+		README.md = README.md
+		.gitea\workflows\deploy-to-nuget.yaml = .gitea\workflows\deploy-to-nuget.yaml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.NET.Domain", "Radiant.NET.Domain\Radiant.NET.Domain.csproj", "{EF4703F2-12A9-46A8-BDF5-5B479E64557C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.NET.Repository", "Radiant.NET.Repository\Radiant.NET.Repository.csproj", "{29BA1A0B-5696-4913-B5DC-032B8E7E7B7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.NET.Applications", "Radiant.NET.Applications\Radiant.NET.Applications.csproj", "{46728B8C-BFB6-4A4F-87EB-C1A99B6A9912}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.NET.API", "Radiant.NET.API\Radiant.NET.API.csproj", "{AA000AB1-F717-4EE8-98B7-64DAE2BCA978}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.NET.Database.MySql", "Radiant.NET.Database.MySql\Radiant.NET.Database.MySql.csproj", "{398EB35A-98E2-453A-8337-13B97CE570C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.NET.Database.PostgreSQL", "Radiant.NET.Database.PostgreSQL\Radiant.NET.Database.PostgreSQL.csproj", "{BD69F3F4-2EFD-43E3-A081-FECD1F769DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radiant.NET.Database.Conventions", "Radiant.NET.Database.Conventions\Radiant.NET.Database.Conventions.csproj", "{964375CE-C955-48BE-BCEB-9F0C0415EBB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radiant.NET.Scheduled", "Radiant.NET.Scheduled\Radiant.NET.Scheduled.csproj", "{A97211B6-8A58-4202-AC2B-30F9ED15482E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF4703F2-12A9-46A8-BDF5-5B479E64557C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4703F2-12A9-46A8-BDF5-5B479E64557C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4703F2-12A9-46A8-BDF5-5B479E64557C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4703F2-12A9-46A8-BDF5-5B479E64557C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BA1A0B-5696-4913-B5DC-032B8E7E7B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BA1A0B-5696-4913-B5DC-032B8E7E7B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BA1A0B-5696-4913-B5DC-032B8E7E7B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BA1A0B-5696-4913-B5DC-032B8E7E7B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46728B8C-BFB6-4A4F-87EB-C1A99B6A9912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46728B8C-BFB6-4A4F-87EB-C1A99B6A9912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46728B8C-BFB6-4A4F-87EB-C1A99B6A9912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46728B8C-BFB6-4A4F-87EB-C1A99B6A9912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA000AB1-F717-4EE8-98B7-64DAE2BCA978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA000AB1-F717-4EE8-98B7-64DAE2BCA978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA000AB1-F717-4EE8-98B7-64DAE2BCA978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA000AB1-F717-4EE8-98B7-64DAE2BCA978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398EB35A-98E2-453A-8337-13B97CE570C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398EB35A-98E2-453A-8337-13B97CE570C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398EB35A-98E2-453A-8337-13B97CE570C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398EB35A-98E2-453A-8337-13B97CE570C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD69F3F4-2EFD-43E3-A081-FECD1F769DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD69F3F4-2EFD-43E3-A081-FECD1F769DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD69F3F4-2EFD-43E3-A081-FECD1F769DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD69F3F4-2EFD-43E3-A081-FECD1F769DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{964375CE-C955-48BE-BCEB-9F0C0415EBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{964375CE-C955-48BE-BCEB-9F0C0415EBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{964375CE-C955-48BE-BCEB-9F0C0415EBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{964375CE-C955-48BE-BCEB-9F0C0415EBB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97211B6-8A58-4202-AC2B-30F9ED15482E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97211B6-8A58-4202-AC2B-30F9ED15482E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97211B6-8A58-4202-AC2B-30F9ED15482E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97211B6-8A58-4202-AC2B-30F9ED15482E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6142B40E-0101-4E33-985E-0DCB07CDC7CD}
+	EndGlobalSection
+EndGlobal
