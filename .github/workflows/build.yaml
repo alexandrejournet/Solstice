@@ -26,5 +26,10 @@ jobs:
       - name: Build
         run: dotnet build
 
+      - name: Show all files in workspace
+        run: |
+          cd ${{ github.workspace }}
+          ls -li
+
       - name: Show all .nupkg files within Release folders in workspace
         run: find ${{ github.workspace }} -type d -name "Release" -exec find {} -type f -name "*.nupkg" \;
