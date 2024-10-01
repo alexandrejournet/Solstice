@@ -51,6 +51,6 @@ jobs:
         run: |
           while IFS= read -r package; do
             echo "START - Push to nuget: $package"
-            dotnet nuget push "$package" --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGET_API_KEY }} --skip-duplicate
+            dotnet nuget push "$package" --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGET_API_KEY }} --skip-duplicate --no-symbols
             echo "END - Push to nuget: $package"
           done < packages.txt
