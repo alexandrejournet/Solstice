@@ -46,3 +46,11 @@ jobs:
           find $GITHUB_WORKSPACE -type d -name "Release" -exec find {} -type f -name "*.nupkg" \;
           packages=$(find $GITHUB_WORKSPACE -type d -name "Release" -exec find {} -type f -name "*.nupkg" \;)
           echo "$packages" > packages.txt
+
+      - name: Push NuGet packages
+        run: |
+          while IFS= read -r package; do
+            echo "START - Push to nuget: $package"
+            dotnet nuget push "$package" --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGET_API_KEY }} --skip-duplicate
+            echo "END - Push to nuget: $package"
+          done < packages.txt
