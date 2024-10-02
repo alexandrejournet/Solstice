@@ -15,21 +15,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "�
 		.github\workflows\build.yaml = .github\workflows\build.yaml
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.NET.Domain", "Radiant.NET.Domain\Radiant.NET.Domain.csproj", "{EF4703F2-12A9-46A8-BDF5-5B479E64557C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.Domain", "Radiant.Domain\Radiant.Domain.csproj", "{EF4703F2-12A9-46A8-BDF5-5B479E64557C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.NET.Repository", "Radiant.NET.Repository\Radiant.NET.Repository.csproj", "{29BA1A0B-5696-4913-B5DC-032B8E7E7B7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.Repository", "Radiant.Repository\Radiant.Repository.csproj", "{29BA1A0B-5696-4913-B5DC-032B8E7E7B7D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.NET.Applications", "Radiant.NET.Applications\Radiant.NET.Applications.csproj", "{46728B8C-BFB6-4A4F-87EB-C1A99B6A9912}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.Applications", "Radiant.Applications\Radiant.Applications.csproj", "{46728B8C-BFB6-4A4F-87EB-C1A99B6A9912}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.NET.API", "Radiant.NET.API\Radiant.NET.API.csproj", "{AA000AB1-F717-4EE8-98B7-64DAE2BCA978}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.API", "Radiant.API\Radiant.API.csproj", "{AA000AB1-F717-4EE8-98B7-64DAE2BCA978}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.NET.Database.MySql", "Radiant.NET.Database.MySql\Radiant.NET.Database.MySql.csproj", "{398EB35A-98E2-453A-8337-13B97CE570C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.Database.MySql", "Radiant.Database.MySql\Radiant.Database.MySql.csproj", "{398EB35A-98E2-453A-8337-13B97CE570C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.NET.Database.PostgreSQL", "Radiant.NET.Database.PostgreSQL\Radiant.NET.Database.PostgreSQL.csproj", "{BD69F3F4-2EFD-43E3-A081-FECD1F769DC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radiant.Database.PostgreSQL", "Radiant.Database.PostgreSQL\Radiant.Database.PostgreSQL.csproj", "{BD69F3F4-2EFD-43E3-A081-FECD1F769DC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radiant.NET.Database.Conventions", "Radiant.NET.Database.Conventions\Radiant.NET.Database.Conventions.csproj", "{964375CE-C955-48BE-BCEB-9F0C0415EBB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radiant.Database.Conventions", "Radiant.Database.Conventions\Radiant.Database.Conventions.csproj", "{964375CE-C955-48BE-BCEB-9F0C0415EBB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radiant.NET.Scheduled", "Radiant.NET.Scheduled\Radiant.NET.Scheduled.csproj", "{A97211B6-8A58-4202-AC2B-30F9ED15482E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radiant.Scheduled", "Radiant.Scheduled\Radiant.Scheduled.csproj", "{A97211B6-8A58-4202-AC2B-30F9ED15482E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

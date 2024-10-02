@@ -1,24 +1,24 @@
-[submodule "Radiant.NET.API"]
-	path = Radiant.NET.API
+[submodule "Radiant.API"]
+	path = Radiant.API
 	url = git@github.com:Radiant-NET/Radiant.NET.API.git
-[submodule "Radiant.NET.Applications"]
-	path = Radiant.NET.Applications
+[submodule "Radiant.Applications"]
+	path = Radiant.Applications
 	url = git@github.com:Radiant-NET/Radiant.NET.Applications.git
-[submodule "Radiant.NET.Database.Conventions"]
-	path = Radiant.NET.Database.Conventions
+[submodule "Radiant.Database.Conventions"]
+	path = Radiant.Database.Conventions
 	url = git@github.com:Radiant-NET/Radiant.NET.Database.Conventions.git
-[submodule "Radiant.NET.Database.MySql"]
-	path = Radiant.NET.Database.MySql
+[submodule "Radiant.Database.MySql"]
+	path = Radiant.Database.MySql
 	url = git@github.com:Radiant-NET/Radiant.NET.Database.MySql.git
-[submodule "Radiant.NET.Database.PostgreSQL"]
-	path = Radiant.NET.Database.PostgreSQL
+[submodule "Radiant.Database.PostgreSQL"]
+	path = Radiant.Database.PostgreSQL
 	url = git@github.com:Radiant-NET/Radiant.NET.Database.PostgreSQL.git
-[submodule "Radiant.NET.Repository"]
-	path = Radiant.NET.Repository
+[submodule "Radiant.Repository"]
+	path = Radiant.Repository
 	url = git@github.com:Radiant-NET/Radiant.NET.Repository.git
-[submodule "Radiant.NET.Domain"]
-	path = Radiant.NET.Domain
+[submodule "Radiant.Domain"]
+	path = Radiant.Domain
 	url = git@github.com:Radiant-NET/Radiant.NET.Domain.git
-[submodule "Radiant.NET.Scheduled"]
-	path = Radiant.NET.Scheduled
+[submodule "Radiant.Scheduled"]
+	path = Radiant.Scheduled
 	url = git@github.com:Radiant-NET/Radiant.NET.Scheduled.git
