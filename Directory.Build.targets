@@ -1,11 +1,11 @@
 <Project>
     <PropertyGroup>
-        <Version>0.0.0</Version>
+        <Version>0.0.0-alpha.1</Version>
         <Copyright>Copyright © Alexandre JOURNET 2023</Copyright>
         <Company>Alexandre JOURNET</Company>
         <AssemblyVersion>0.0.0.1</AssemblyVersion>
         <AssemblyFileVersion>0.0.0.1</AssemblyFileVersion>
-        <AssemblyInformationalVersion>0.0.0</AssemblyInformationalVersion>
+        <AssemblyInformationalVersion>0.0.0-alpha.1</AssemblyInformationalVersion>
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     </PropertyGroup>
   </Project>

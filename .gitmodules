@@ -1,24 +1,24 @@
-[submodule "Radiant.API"]
-	path = Radiant.API
+[submodule "Solstice.API"]
+	path = Solstice.API
 	url = git@github.com:Radiant-NET/Radiant.NET.API.git
-[submodule "Radiant.Applications"]
-	path = Radiant.Applications
+[submodule "Solstice.Applications"]
+	path = Solstice.Applications
 	url = git@github.com:Radiant-NET/Radiant.NET.Applications.git
-[submodule "Radiant.Database.Conventions"]
-	path = Radiant.Database.Conventions
+[submodule "Solstice.Database.Conventions"]
+	path = Solstice.Database.Conventions
 	url = git@github.com:Radiant-NET/Radiant.NET.Database.Conventions.git
-[submodule "Radiant.Database.MySql"]
-	path = Radiant.Database.MySql
+[submodule "Solstice.Database.MySql"]
+	path = Solstice.Database.MySql
 	url = git@github.com:Radiant-NET/Radiant.NET.Database.MySql.git
-[submodule "Radiant.Database.PostgreSQL"]
-	path = Radiant.Database.PostgreSQL
+[submodule "Solstice.Database.PostgreSQL"]
+	path = Solstice.Database.PostgreSQL
 	url = git@github.com:Radiant-NET/Radiant.NET.Database.PostgreSQL.git
-[submodule "Radiant.Repository"]
-	path = Radiant.Repository
+[submodule "Solstice.Repository"]
+	path = Solstice.Repository
 	url = git@github.com:Radiant-NET/Radiant.NET.Repository.git
-[submodule "Radiant.Domain"]
-	path = Radiant.Domain
+[submodule "Solstice.Domain"]
+	path = Solstice.Domain
 	url = git@github.com:Radiant-NET/Radiant.NET.Domain.git
-[submodule "Radiant.Scheduled"]
-	path = Radiant.Scheduled
+[submodule "Solstice.Scheduled"]
+	path = Solstice.Scheduled
 	url = git@github.com:Radiant-NET/Radiant.NET.Scheduled.git

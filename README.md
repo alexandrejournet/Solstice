@@ -11,7 +11,7 @@ In Visual Studio, search for **Radiant** in the NuGet Package Manager and instal
 Alternatively, you can use the .NET CLI. Here's how to add a Radiant package:
 
 ```bash
-dotnet add package Radiant.PackageName
+dotnet add package Solstice.PackageName
 ```
 Replace `PackageName` with the name of the package you want to install.
 
