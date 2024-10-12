@@ -1,24 +1,24 @@
 [submodule "Solstice.API"]
 	path = Solstice.API
-	url = git@github.com:Radiant-NET/Radiant.NET.API.git
+	url = git@github.com:alexandrejournet/Solstice.API.git
 [submodule "Solstice.Applications"]
 	path = Solstice.Applications
-	url = git@github.com:Radiant-NET/Radiant.NET.Applications.git
+	url = git@github.com:alexandrejournet/Solstice.Applications.git
 [submodule "Solstice.Database.Conventions"]
 	path = Solstice.Database.Conventions
-	url = git@github.com:Radiant-NET/Radiant.NET.Database.Conventions.git
+	url = git@github.com:alexandrejournet/Solstice.Database.Conventions.git
 [submodule "Solstice.Database.MySql"]
 	path = Solstice.Database.MySql
-	url = git@github.com:Radiant-NET/Radiant.NET.Database.MySql.git
+	url = git@github.com:alexandrejournet/Solstice.Database.MySql.git
 [submodule "Solstice.Database.PostgreSQL"]
 	path = Solstice.Database.PostgreSQL
-	url = git@github.com:Radiant-NET/Radiant.NET.Database.PostgreSQL.git
+	url = git@github.com:alexandrejournet/Solstice.Database.PostgreSQL.git
 [submodule "Solstice.Repository"]
 	path = Solstice.Repository
-	url = git@github.com:Radiant-NET/Radiant.NET.Repository.git
+	url = git@github.com:alexandrejournet/Solstice.Repository.git
 [submodule "Solstice.Domain"]
 	path = Solstice.Domain
-	url = git@github.com:Radiant-NET/Radiant.NET.Domain.git
+	url = git@github.com:alexandrejournet/Solstice.Domain.git
 [submodule "Solstice.Scheduled"]
 	path = Solstice.Scheduled
-	url = git@github.com:Radiant-NET/Radiant.NET.Scheduled.git
+	url = git@github.com:alexandrejournet/Solstice.Scheduled.git
