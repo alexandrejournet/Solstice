@@ -402,3 +402,8 @@ FodyWeavers.xsd
 .DS_Store
 
 .vscode
+
+# DOCFX
+.cache
+/docs/_site/
+/docs/**/

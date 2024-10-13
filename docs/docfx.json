@@ -1,0 +1,102 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../Solstice.API",
+          "files": [
+            "Solstice.API.csproj"
+          ]
+        }
+      ],
+      "dest": "API"
+    },
+    {
+      "src": [
+        {
+          "src": "../Solstice.Domain",
+          "files": [
+            "Solstice.Domain.csproj"
+          ]
+        }
+      ],
+      "dest": "Domain"
+    },
+    {
+      "src": [
+        {
+          "src": "../Solstice.Applications",
+          "files": [
+            "Solstice.Applications.csproj"
+          ]
+        }
+      ],
+      "dest": "Services"
+    },
+    {
+      "src": [
+        {
+          "src": "../Solstice.Repository",
+          "files": [
+            "Solstice.Repository.csproj"
+          ]
+        }
+      ],
+      "dest": "Repository"
+    },
+    {
+      "src": [
+        {
+          "src": "..",
+          "files": [
+            "Solstice.Database.Conventions/Solstice.Database.Conventions.csproj",
+            "Solstice.Database.MySql/Solstice.Database.MySql.csproj",
+            "Solstice.Database.PostgreSQL/Solstice.Database.PostgreSQL.csproj"
+          ]
+        }
+      ],
+      "dest": "Database"
+    },
+    {
+      "src": [
+        {
+          "src": "../Solstice.Scheduled",
+          "files": [
+            "Solstice.Scheduled.csproj"
+          ]
+        }
+      ],
+      "dest": "Scheduled"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "Solstice",
+      "_appTitle": "Solstice",
+      "_enableSearch": true,
+      "pdf": true
+    }
+  }
+}

@@ -13,6 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "�
 		README.md = README.md
 		.github\workflows\deploy-to-nuget.yaml = .github\workflows\deploy-to-nuget.yaml
 		.github\workflows\build.yaml = .github\workflows\build.yaml
+		docs\docfx.json = docs\docfx.json
+		docs\toc.yml = docs\toc.yml
+		.github\workflows\deploy-docs-to-gh-pages.yaml = .github\workflows\deploy-docs-to-gh-pages.yaml
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solstice.Domain", "Solstice.Domain\Solstice.Domain.csproj", "{EF4703F2-12A9-46A8-BDF5-5B479E64557C}"
