@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Repository.IUnitOfWork
+  commentId: T:Solstice.Repository.IUnitOfWork
+  id: IUnitOfWork
+  parent: Solstice.Repository
+  children:
+  - Solstice.Repository.IUnitOfWork.GetRepository``2
+  langs:
+  - csharp
+  - vb
+  name: IUnitOfWork
+  nameWithType: IUnitOfWork
+  fullName: Solstice.Repository.IUnitOfWork
+  type: Interface
+  source:
+    id: IUnitOfWork
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/UnitOfWorks/IUnitOfWork.cs
+    startLine: 4
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository
+  syntax:
+    content: 'public interface IUnitOfWork : IDisposable'
+    content.vb: Public Interface IUnitOfWork Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+- uid: Solstice.Repository.IUnitOfWork.GetRepository``2
+  commentId: M:Solstice.Repository.IUnitOfWork.GetRepository``2
+  id: GetRepository``2
+  parent: Solstice.Repository.IUnitOfWork
+  langs:
+  - csharp
+  - vb
+  name: GetRepository<TRepository, TEntity>()
+  nameWithType: IUnitOfWork.GetRepository<TRepository, TEntity>()
+  fullName: Solstice.Repository.IUnitOfWork.GetRepository<TRepository, TEntity>()
+  type: Method
+  source:
+    id: GetRepository
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/UnitOfWorks/IUnitOfWork.cs
+    startLine: 6
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository
+  syntax:
+    content: 'TRepository GetRepository<TRepository, TEntity>() where TRepository : ICoreRepository<TEntity> where TEntity : class'
+    typeParameters:
+    - id: TRepository
+    - id: TEntity
+    return:
+      type: '{TRepository}'
+    content.vb: Function GetRepository(Of TRepository As ICoreRepository(Of TEntity), TEntity As Class)() As TRepository
+  overload: Solstice.Repository.IUnitOfWork.GetRepository*
+  nameWithType.vb: IUnitOfWork.GetRepository(Of TRepository, TEntity)()
+  fullName.vb: Solstice.Repository.IUnitOfWork.GetRepository(Of TRepository, TEntity)()
+  name.vb: GetRepository(Of TRepository, TEntity)()
+references:
+- uid: Solstice.Repository
+  commentId: N:Solstice.Repository
+  href: Solstice.html
+  name: Solstice.Repository
+  nameWithType: Solstice.Repository
+  fullName: Solstice.Repository
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Repository
+    name: Repository
+    href: Solstice.Repository.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Repository
+    name: Repository
+    href: Solstice.Repository.html
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Solstice.Repository.IUnitOfWork.GetRepository*
+  commentId: Overload:Solstice.Repository.IUnitOfWork.GetRepository
+  href: Solstice.Repository.IUnitOfWork.html#Solstice_Repository_IUnitOfWork_GetRepository__2
+  name: GetRepository
+  nameWithType: IUnitOfWork.GetRepository
+  fullName: Solstice.Repository.IUnitOfWork.GetRepository
+- uid: '{TRepository}'
+  commentId: '!:TRepository'
+  definition: TRepository
+  name: TRepository
+  nameWithType: TRepository
+  fullName: TRepository
+- uid: TRepository
+  commentId: '!:TRepository'
+  name: TRepository
+  nameWithType: TRepository
+  fullName: TRepository

@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Database.Conventions.Helpers
+  commentId: N:Solstice.Database.Conventions.Helpers
+  id: Solstice.Database.Conventions.Helpers
+  children:
+  - Solstice.Database.Conventions.Helpers.ICaseHelper
+  - Solstice.Database.Conventions.Helpers.LowerCaseHelper
+  - Solstice.Database.Conventions.Helpers.SnakeCaseHelper
+  - Solstice.Database.Conventions.Helpers.UpperCaseHelper
+  - Solstice.Database.Conventions.Helpers.UpperSnakeCaseHelper
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Database.Conventions.Helpers
+  nameWithType: Solstice.Database.Conventions.Helpers
+  fullName: Solstice.Database.Conventions.Helpers
+  type: Namespace
+  assemblies:
+  - Solstice.Database.Conventions
+references:
+- uid: Solstice.Database.Conventions.Helpers.ICaseHelper
+  commentId: T:Solstice.Database.Conventions.Helpers.ICaseHelper
+  parent: Solstice.Database.Conventions.Helpers
+  href: Solstice.Database.Conventions.Helpers.ICaseHelper.html
+  name: ICaseHelper
+  nameWithType: ICaseHelper
+  fullName: Solstice.Database.Conventions.Helpers.ICaseHelper
+- uid: Solstice.Database.Conventions.Helpers.LowerCaseHelper
+  commentId: T:Solstice.Database.Conventions.Helpers.LowerCaseHelper
+  href: Solstice.Database.Conventions.Helpers.LowerCaseHelper.html
+  name: LowerCaseHelper
+  nameWithType: LowerCaseHelper
+  fullName: Solstice.Database.Conventions.Helpers.LowerCaseHelper
+- uid: Solstice.Database.Conventions.Helpers.SnakeCaseHelper
+  commentId: T:Solstice.Database.Conventions.Helpers.SnakeCaseHelper
+  href: Solstice.Database.Conventions.Helpers.SnakeCaseHelper.html
+  name: SnakeCaseHelper
+  nameWithType: SnakeCaseHelper
+  fullName: Solstice.Database.Conventions.Helpers.SnakeCaseHelper
+- uid: Solstice.Database.Conventions.Helpers.UpperCaseHelper
+  commentId: T:Solstice.Database.Conventions.Helpers.UpperCaseHelper
+  href: Solstice.Database.Conventions.Helpers.UpperCaseHelper.html
+  name: UpperCaseHelper
+  nameWithType: UpperCaseHelper
+  fullName: Solstice.Database.Conventions.Helpers.UpperCaseHelper
+- uid: Solstice.Database.Conventions.Helpers.UpperSnakeCaseHelper
+  commentId: T:Solstice.Database.Conventions.Helpers.UpperSnakeCaseHelper
+  href: Solstice.Database.Conventions.Helpers.UpperSnakeCaseHelper.html
+  name: UpperSnakeCaseHelper
+  nameWithType: UpperSnakeCaseHelper
+  fullName: Solstice.Database.Conventions.Helpers.UpperSnakeCaseHelper
+- uid: Solstice.Database.Conventions.Helpers
+  commentId: N:Solstice.Database.Conventions.Helpers
+  href: Solstice.html
+  name: Solstice.Database.Conventions.Helpers
+  nameWithType: Solstice.Database.Conventions.Helpers
+  fullName: Solstice.Database.Conventions.Helpers
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Database
+    name: Database
+    href: Solstice.Database.html
+  - name: .
+  - uid: Solstice.Database.Conventions
+    name: Conventions
+    href: Solstice.Database.Conventions.html
+  - name: .
+  - uid: Solstice.Database.Conventions.Helpers
+    name: Helpers
+    href: Solstice.Database.Conventions.Helpers.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Database
+    name: Database
+    href: Solstice.Database.html
+  - name: .
+  - uid: Solstice.Database.Conventions
+    name: Conventions
+    href: Solstice.Database.Conventions.html
+  - name: .
+  - uid: Solstice.Database.Conventions.Helpers
+    name: Helpers
+    href: Solstice.Database.Conventions.Helpers.html

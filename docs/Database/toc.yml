@@ -1,0 +1,42 @@
+### YamlMime:TableOfContent
+items:
+- uid: Solstice.Database.Conventions.Helpers
+  name: Solstice.Database.Conventions.Helpers
+  items:
+  - uid: Solstice.Database.Conventions.Helpers.ICaseHelper
+    name: ICaseHelper
+  - uid: Solstice.Database.Conventions.Helpers.LowerCaseHelper
+    name: LowerCaseHelper
+  - uid: Solstice.Database.Conventions.Helpers.SnakeCaseHelper
+    name: SnakeCaseHelper
+  - uid: Solstice.Database.Conventions.Helpers.UpperCaseHelper
+    name: UpperCaseHelper
+  - uid: Solstice.Database.Conventions.Helpers.UpperSnakeCaseHelper
+    name: UpperSnakeCaseHelper
+- uid: Solstice.Database.Conventions.Injections
+  name: Solstice.Database.Conventions.Injections
+  items:
+  - uid: Solstice.Database.Conventions.Injections.ConventionsInjections
+    name: ConventionsInjections
+- uid: Solstice.Database.Conventions.NamingConventions
+  name: Solstice.Database.Conventions.NamingConventions
+  items:
+  - uid: Solstice.Database.Conventions.NamingConventions.LowerCaseNamingConvention
+    name: LowerCaseNamingConvention
+  - uid: Solstice.Database.Conventions.NamingConventions.SnakeCaseNamingConvention
+    name: SnakeCaseNamingConvention
+  - uid: Solstice.Database.Conventions.NamingConventions.UpperCaseNamingConvention
+    name: UpperCaseNamingConvention
+  - uid: Solstice.Database.Conventions.NamingConventions.UpperSnakeCaseNamingConvention
+    name: UpperSnakeCaseNamingConvention
+- uid: Solstice.Database.MySql.Injections
+  name: Solstice.Database.MySql.Injections
+  items:
+  - uid: Solstice.Database.MySql.Injections.MySqlInjections
+    name: MySqlInjections
+- uid: Solstice.Database.PostgreSQL.Injections
+  name: Solstice.Database.PostgreSQL.Injections
+  items:
+  - uid: Solstice.Database.PostgreSQL.Injections.PostgreSqlInjections
+    name: PostgreSqlInjections
+memberLayout: SamePage

@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Domain.Exceptions
+  commentId: N:Solstice.Domain.Exceptions
+  id: Solstice.Domain.Exceptions
+  children:
+  - Solstice.Domain.Exceptions.CoreException
+  - Solstice.Domain.Exceptions.CoreExceptionEnum
+  - Solstice.Domain.Exceptions.CoreExceptionEnumExtension
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Domain.Exceptions
+  nameWithType: Solstice.Domain.Exceptions
+  fullName: Solstice.Domain.Exceptions
+  type: Namespace
+  assemblies:
+  - Solstice.Domain
+references:
+- uid: Solstice.Domain.Exceptions.CoreException
+  commentId: T:Solstice.Domain.Exceptions.CoreException
+  parent: Solstice.Domain.Exceptions
+  href: Solstice.Domain.Exceptions.CoreException.html
+  name: CoreException
+  nameWithType: CoreException
+  fullName: Solstice.Domain.Exceptions.CoreException
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum
+  commentId: T:Solstice.Domain.Exceptions.CoreExceptionEnum
+  parent: Solstice.Domain.Exceptions
+  href: Solstice.Domain.Exceptions.CoreExceptionEnum.html
+  name: CoreExceptionEnum
+  nameWithType: CoreExceptionEnum
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnumExtension
+  commentId: T:Solstice.Domain.Exceptions.CoreExceptionEnumExtension
+  parent: Solstice.Domain.Exceptions
+  href: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.html
+  name: CoreExceptionEnumExtension
+  nameWithType: CoreExceptionEnumExtension
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnumExtension
+- uid: Solstice.Domain.Exceptions
+  commentId: N:Solstice.Domain.Exceptions
+  href: Solstice.html
+  name: Solstice.Domain.Exceptions
+  nameWithType: Solstice.Domain.Exceptions
+  fullName: Solstice.Domain.Exceptions
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Domain
+    name: Domain
+    href: Solstice.Domain.html
+  - name: .
+  - uid: Solstice.Domain.Exceptions
+    name: Exceptions
+    href: Solstice.Domain.Exceptions.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Domain
+    name: Domain
+    href: Solstice.Domain.html
+  - name: .
+  - uid: Solstice.Domain.Exceptions
+    name: Exceptions
+    href: Solstice.Domain.Exceptions.html

@@ -1,0 +1,1106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.API.Scanning.CoreAssemblyScanning
+  commentId: T:Solstice.API.Scanning.CoreAssemblyScanning
+  id: CoreAssemblyScanning
+  parent: Solstice.API.Scanning
+  children:
+  - Solstice.API.Scanning.CoreAssemblyScanning.#ctor
+  - Solstice.API.Scanning.CoreAssemblyScanning.#ctor(System.String)
+  - Solstice.API.Scanning.CoreAssemblyScanning.Load(System.Reflection.AssemblyName)
+  - Solstice.API.Scanning.CoreAssemblyScanning.ScanAndLoadAssemblies
+  langs:
+  - csharp
+  - vb
+  name: CoreAssemblyScanning
+  nameWithType: CoreAssemblyScanning
+  fullName: Solstice.API.Scanning.CoreAssemblyScanning
+  type: Class
+  source:
+    id: CoreAssemblyScanning
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.API/Scanning/CoreAssemblyScanning.cs
+    startLine: 9
+  assemblies:
+  - Solstice.API
+  namespace: Solstice.API.Scanning
+  syntax:
+    content: 'public class CoreAssemblyScanning : AssemblyLoadContext'
+    content.vb: Public Class CoreAssemblyScanning Inherits AssemblyLoadContext
+  inheritance:
+  - System.Object
+  - System.Runtime.Loader.AssemblyLoadContext
+  inheritedMembers:
+  - System.Runtime.Loader.AssemblyLoadContext.EnterContextualReflection
+  - System.Runtime.Loader.AssemblyLoadContext.EnterContextualReflection(System.Reflection.Assembly)
+  - System.Runtime.Loader.AssemblyLoadContext.GetAssemblyName(System.String)
+  - System.Runtime.Loader.AssemblyLoadContext.GetLoadContext(System.Reflection.Assembly)
+  - System.Runtime.Loader.AssemblyLoadContext.LoadFromAssemblyName(System.Reflection.AssemblyName)
+  - System.Runtime.Loader.AssemblyLoadContext.LoadFromAssemblyPath(System.String)
+  - System.Runtime.Loader.AssemblyLoadContext.LoadFromNativeImagePath(System.String,System.String)
+  - System.Runtime.Loader.AssemblyLoadContext.LoadFromStream(System.IO.Stream)
+  - System.Runtime.Loader.AssemblyLoadContext.LoadFromStream(System.IO.Stream,System.IO.Stream)
+  - System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDll(System.String)
+  - System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDllFromPath(System.String)
+  - System.Runtime.Loader.AssemblyLoadContext.SetProfileOptimizationRoot(System.String)
+  - System.Runtime.Loader.AssemblyLoadContext.StartProfileOptimization(System.String)
+  - System.Runtime.Loader.AssemblyLoadContext.ToString
+  - System.Runtime.Loader.AssemblyLoadContext.Unload
+  - System.Runtime.Loader.AssemblyLoadContext.All
+  - System.Runtime.Loader.AssemblyLoadContext.Assemblies
+  - System.Runtime.Loader.AssemblyLoadContext.CurrentContextualReflectionContext
+  - System.Runtime.Loader.AssemblyLoadContext.Default
+  - System.Runtime.Loader.AssemblyLoadContext.IsCollectible
+  - System.Runtime.Loader.AssemblyLoadContext.Name
+  - System.Runtime.Loader.AssemblyLoadContext.Resolving
+  - System.Runtime.Loader.AssemblyLoadContext.ResolvingUnmanagedDll
+  - System.Runtime.Loader.AssemblyLoadContext.Unloading
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Solstice.API.Scanning.CoreAssemblyScanning.#ctor
+  commentId: M:Solstice.API.Scanning.CoreAssemblyScanning.#ctor
+  id: '#ctor'
+  parent: Solstice.API.Scanning.CoreAssemblyScanning
+  langs:
+  - csharp
+  - vb
+  name: CoreAssemblyScanning()
+  nameWithType: CoreAssemblyScanning.CoreAssemblyScanning()
+  fullName: Solstice.API.Scanning.CoreAssemblyScanning.CoreAssemblyScanning()
+  type: Constructor
+  source:
+    id: .ctor
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.API/Scanning/CoreAssemblyScanning.cs
+    startLine: 13
+  assemblies:
+  - Solstice.API
+  namespace: Solstice.API.Scanning
+  syntax:
+    content: public CoreAssemblyScanning()
+    content.vb: Public Sub New()
+  overload: Solstice.API.Scanning.CoreAssemblyScanning.#ctor*
+  nameWithType.vb: CoreAssemblyScanning.New()
+  fullName.vb: Solstice.API.Scanning.CoreAssemblyScanning.New()
+  name.vb: New()
+- uid: Solstice.API.Scanning.CoreAssemblyScanning.#ctor(System.String)
+  commentId: M:Solstice.API.Scanning.CoreAssemblyScanning.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Solstice.API.Scanning.CoreAssemblyScanning
+  langs:
+  - csharp
+  - vb
+  name: CoreAssemblyScanning(string)
+  nameWithType: CoreAssemblyScanning.CoreAssemblyScanning(string)
+  fullName: Solstice.API.Scanning.CoreAssemblyScanning.CoreAssemblyScanning(string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.API/Scanning/CoreAssemblyScanning.cs
+    startLine: 17
+  assemblies:
+  - Solstice.API
+  namespace: Solstice.API.Scanning
+  syntax:
+    content: public CoreAssemblyScanning(string directoryPath)
+    parameters:
+    - id: directoryPath
+      type: System.String
+    content.vb: Public Sub New(directoryPath As String)
+  overload: Solstice.API.Scanning.CoreAssemblyScanning.#ctor*
+  nameWithType.vb: CoreAssemblyScanning.New(String)
+  fullName.vb: Solstice.API.Scanning.CoreAssemblyScanning.New(String)
+  name.vb: New(String)
+- uid: Solstice.API.Scanning.CoreAssemblyScanning.ScanAndLoadAssemblies
+  commentId: M:Solstice.API.Scanning.CoreAssemblyScanning.ScanAndLoadAssemblies
+  id: ScanAndLoadAssemblies
+  parent: Solstice.API.Scanning.CoreAssemblyScanning
+  langs:
+  - csharp
+  - vb
+  name: ScanAndLoadAssemblies()
+  nameWithType: CoreAssemblyScanning.ScanAndLoadAssemblies()
+  fullName: Solstice.API.Scanning.CoreAssemblyScanning.ScanAndLoadAssemblies()
+  type: Method
+  source:
+    id: ScanAndLoadAssemblies
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.API/Scanning/CoreAssemblyScanning.cs
+    startLine: 22
+  assemblies:
+  - Solstice.API
+  namespace: Solstice.API.Scanning
+  syntax:
+    content: public void ScanAndLoadAssemblies()
+    content.vb: Public Sub ScanAndLoadAssemblies()
+  overload: Solstice.API.Scanning.CoreAssemblyScanning.ScanAndLoadAssemblies*
+- uid: Solstice.API.Scanning.CoreAssemblyScanning.Load(System.Reflection.AssemblyName)
+  commentId: M:Solstice.API.Scanning.CoreAssemblyScanning.Load(System.Reflection.AssemblyName)
+  id: Load(System.Reflection.AssemblyName)
+  parent: Solstice.API.Scanning.CoreAssemblyScanning
+  langs:
+  - csharp
+  - vb
+  name: Load(AssemblyName)
+  nameWithType: CoreAssemblyScanning.Load(AssemblyName)
+  fullName: Solstice.API.Scanning.CoreAssemblyScanning.Load(System.Reflection.AssemblyName)
+  type: Method
+  source:
+    id: Load
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.API/Scanning/CoreAssemblyScanning.cs
+    startLine: 46
+  assemblies:
+  - Solstice.API
+  namespace: Solstice.API.Scanning
+  summary: When overridden in a derived class, allows an assembly to be resolved based on its <xref href="System.Reflection.AssemblyName" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected override Assembly Load(AssemblyName assemblyName)
+    parameters:
+    - id: assemblyName
+      type: System.Reflection.AssemblyName
+      description: The object that describes the assembly to be resolved.
+    return:
+      type: System.Reflection.Assembly
+      description: The resolved assembly, or <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+    content.vb: Protected Overrides Function Load(assemblyName As AssemblyName) As Assembly
+  overridden: System.Runtime.Loader.AssemblyLoadContext.Load(System.Reflection.AssemblyName)
+  overload: Solstice.API.Scanning.CoreAssemblyScanning.Load*
+references:
+- uid: Solstice.API.Scanning
+  commentId: N:Solstice.API.Scanning
+  href: Solstice.html
+  name: Solstice.API.Scanning
+  nameWithType: Solstice.API.Scanning
+  fullName: Solstice.API.Scanning
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.API
+    name: API
+    href: Solstice.API.html
+  - name: .
+  - uid: Solstice.API.Scanning
+    name: Scanning
+    href: Solstice.API.Scanning.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.API
+    name: API
+    href: Solstice.API.html
+  - name: .
+  - uid: Solstice.API.Scanning
+    name: Scanning
+    href: Solstice.API.Scanning.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Runtime.Loader.AssemblyLoadContext
+  commentId: T:System.Runtime.Loader.AssemblyLoadContext
+  parent: System.Runtime.Loader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext
+  name: AssemblyLoadContext
+  nameWithType: AssemblyLoadContext
+  fullName: System.Runtime.Loader.AssemblyLoadContext
+- uid: System.Runtime.Loader.AssemblyLoadContext.EnterContextualReflection
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.EnterContextualReflection
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.entercontextualreflection#system-runtime-loader-assemblyloadcontext-entercontextualreflection
+  name: EnterContextualReflection()
+  nameWithType: AssemblyLoadContext.EnterContextualReflection()
+  fullName: System.Runtime.Loader.AssemblyLoadContext.EnterContextualReflection()
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.EnterContextualReflection
+    name: EnterContextualReflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.entercontextualreflection#system-runtime-loader-assemblyloadcontext-entercontextualreflection
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.EnterContextualReflection
+    name: EnterContextualReflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.entercontextualreflection#system-runtime-loader-assemblyloadcontext-entercontextualreflection
+  - name: (
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.EnterContextualReflection(System.Reflection.Assembly)
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.EnterContextualReflection(System.Reflection.Assembly)
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.entercontextualreflection#system-runtime-loader-assemblyloadcontext-entercontextualreflection(system-reflection-assembly)
+  name: EnterContextualReflection(Assembly)
+  nameWithType: AssemblyLoadContext.EnterContextualReflection(Assembly)
+  fullName: System.Runtime.Loader.AssemblyLoadContext.EnterContextualReflection(System.Reflection.Assembly)
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.EnterContextualReflection(System.Reflection.Assembly)
+    name: EnterContextualReflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.entercontextualreflection#system-runtime-loader-assemblyloadcontext-entercontextualreflection(system-reflection-assembly)
+  - name: (
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.EnterContextualReflection(System.Reflection.Assembly)
+    name: EnterContextualReflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.entercontextualreflection#system-runtime-loader-assemblyloadcontext-entercontextualreflection(system-reflection-assembly)
+  - name: (
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.GetAssemblyName(System.String)
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.GetAssemblyName(System.String)
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.getassemblyname
+  name: GetAssemblyName(string)
+  nameWithType: AssemblyLoadContext.GetAssemblyName(string)
+  fullName: System.Runtime.Loader.AssemblyLoadContext.GetAssemblyName(string)
+  nameWithType.vb: AssemblyLoadContext.GetAssemblyName(String)
+  fullName.vb: System.Runtime.Loader.AssemblyLoadContext.GetAssemblyName(String)
+  name.vb: GetAssemblyName(String)
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.GetAssemblyName(System.String)
+    name: GetAssemblyName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.getassemblyname
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.GetAssemblyName(System.String)
+    name: GetAssemblyName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.getassemblyname
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.GetLoadContext(System.Reflection.Assembly)
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.GetLoadContext(System.Reflection.Assembly)
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.getloadcontext
+  name: GetLoadContext(Assembly)
+  nameWithType: AssemblyLoadContext.GetLoadContext(Assembly)
+  fullName: System.Runtime.Loader.AssemblyLoadContext.GetLoadContext(System.Reflection.Assembly)
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.GetLoadContext(System.Reflection.Assembly)
+    name: GetLoadContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.getloadcontext
+  - name: (
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.GetLoadContext(System.Reflection.Assembly)
+    name: GetLoadContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.getloadcontext
+  - name: (
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromAssemblyName(System.Reflection.AssemblyName)
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.LoadFromAssemblyName(System.Reflection.AssemblyName)
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromassemblyname
+  name: LoadFromAssemblyName(AssemblyName)
+  nameWithType: AssemblyLoadContext.LoadFromAssemblyName(AssemblyName)
+  fullName: System.Runtime.Loader.AssemblyLoadContext.LoadFromAssemblyName(System.Reflection.AssemblyName)
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromAssemblyName(System.Reflection.AssemblyName)
+    name: LoadFromAssemblyName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromassemblyname
+  - name: (
+  - uid: System.Reflection.AssemblyName
+    name: AssemblyName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assemblyname
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromAssemblyName(System.Reflection.AssemblyName)
+    name: LoadFromAssemblyName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromassemblyname
+  - name: (
+  - uid: System.Reflection.AssemblyName
+    name: AssemblyName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assemblyname
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromAssemblyPath(System.String)
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.LoadFromAssemblyPath(System.String)
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromassemblypath
+  name: LoadFromAssemblyPath(string)
+  nameWithType: AssemblyLoadContext.LoadFromAssemblyPath(string)
+  fullName: System.Runtime.Loader.AssemblyLoadContext.LoadFromAssemblyPath(string)
+  nameWithType.vb: AssemblyLoadContext.LoadFromAssemblyPath(String)
+  fullName.vb: System.Runtime.Loader.AssemblyLoadContext.LoadFromAssemblyPath(String)
+  name.vb: LoadFromAssemblyPath(String)
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromAssemblyPath(System.String)
+    name: LoadFromAssemblyPath
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromassemblypath
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromAssemblyPath(System.String)
+    name: LoadFromAssemblyPath
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromassemblypath
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromNativeImagePath(System.String,System.String)
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.LoadFromNativeImagePath(System.String,System.String)
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromnativeimagepath
+  name: LoadFromNativeImagePath(string, string)
+  nameWithType: AssemblyLoadContext.LoadFromNativeImagePath(string, string)
+  fullName: System.Runtime.Loader.AssemblyLoadContext.LoadFromNativeImagePath(string, string)
+  nameWithType.vb: AssemblyLoadContext.LoadFromNativeImagePath(String, String)
+  fullName.vb: System.Runtime.Loader.AssemblyLoadContext.LoadFromNativeImagePath(String, String)
+  name.vb: LoadFromNativeImagePath(String, String)
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromNativeImagePath(System.String,System.String)
+    name: LoadFromNativeImagePath
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromnativeimagepath
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromNativeImagePath(System.String,System.String)
+    name: LoadFromNativeImagePath
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromnativeimagepath
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromStream(System.IO.Stream)
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.LoadFromStream(System.IO.Stream)
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromstream#system-runtime-loader-assemblyloadcontext-loadfromstream(system-io-stream)
+  name: LoadFromStream(Stream)
+  nameWithType: AssemblyLoadContext.LoadFromStream(Stream)
+  fullName: System.Runtime.Loader.AssemblyLoadContext.LoadFromStream(System.IO.Stream)
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromStream(System.IO.Stream)
+    name: LoadFromStream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromstream#system-runtime-loader-assemblyloadcontext-loadfromstream(system-io-stream)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromStream(System.IO.Stream)
+    name: LoadFromStream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromstream#system-runtime-loader-assemblyloadcontext-loadfromstream(system-io-stream)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromStream(System.IO.Stream,System.IO.Stream)
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.LoadFromStream(System.IO.Stream,System.IO.Stream)
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromstream#system-runtime-loader-assemblyloadcontext-loadfromstream(system-io-stream-system-io-stream)
+  name: LoadFromStream(Stream, Stream)
+  nameWithType: AssemblyLoadContext.LoadFromStream(Stream, Stream)
+  fullName: System.Runtime.Loader.AssemblyLoadContext.LoadFromStream(System.IO.Stream, System.IO.Stream)
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromStream(System.IO.Stream,System.IO.Stream)
+    name: LoadFromStream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromstream#system-runtime-loader-assemblyloadcontext-loadfromstream(system-io-stream-system-io-stream)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.LoadFromStream(System.IO.Stream,System.IO.Stream)
+    name: LoadFromStream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadfromstream#system-runtime-loader-assemblyloadcontext-loadfromstream(system-io-stream-system-io-stream)
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDll(System.String)
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDll(System.String)
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadunmanageddll
+  name: LoadUnmanagedDll(string)
+  nameWithType: AssemblyLoadContext.LoadUnmanagedDll(string)
+  fullName: System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDll(string)
+  nameWithType.vb: AssemblyLoadContext.LoadUnmanagedDll(String)
+  fullName.vb: System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDll(String)
+  name.vb: LoadUnmanagedDll(String)
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDll(System.String)
+    name: LoadUnmanagedDll
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadunmanageddll
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDll(System.String)
+    name: LoadUnmanagedDll
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadunmanageddll
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDllFromPath(System.String)
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDllFromPath(System.String)
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadunmanageddllfrompath
+  name: LoadUnmanagedDllFromPath(string)
+  nameWithType: AssemblyLoadContext.LoadUnmanagedDllFromPath(string)
+  fullName: System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDllFromPath(string)
+  nameWithType.vb: AssemblyLoadContext.LoadUnmanagedDllFromPath(String)
+  fullName.vb: System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDllFromPath(String)
+  name.vb: LoadUnmanagedDllFromPath(String)
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDllFromPath(System.String)
+    name: LoadUnmanagedDllFromPath
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadunmanageddllfrompath
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.LoadUnmanagedDllFromPath(System.String)
+    name: LoadUnmanagedDllFromPath
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.loadunmanageddllfrompath
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.SetProfileOptimizationRoot(System.String)
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.SetProfileOptimizationRoot(System.String)
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.setprofileoptimizationroot
+  name: SetProfileOptimizationRoot(string)
+  nameWithType: AssemblyLoadContext.SetProfileOptimizationRoot(string)
+  fullName: System.Runtime.Loader.AssemblyLoadContext.SetProfileOptimizationRoot(string)
+  nameWithType.vb: AssemblyLoadContext.SetProfileOptimizationRoot(String)
+  fullName.vb: System.Runtime.Loader.AssemblyLoadContext.SetProfileOptimizationRoot(String)
+  name.vb: SetProfileOptimizationRoot(String)
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.SetProfileOptimizationRoot(System.String)
+    name: SetProfileOptimizationRoot
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.setprofileoptimizationroot
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.SetProfileOptimizationRoot(System.String)
+    name: SetProfileOptimizationRoot
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.setprofileoptimizationroot
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.StartProfileOptimization(System.String)
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.StartProfileOptimization(System.String)
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.startprofileoptimization
+  name: StartProfileOptimization(string)
+  nameWithType: AssemblyLoadContext.StartProfileOptimization(string)
+  fullName: System.Runtime.Loader.AssemblyLoadContext.StartProfileOptimization(string)
+  nameWithType.vb: AssemblyLoadContext.StartProfileOptimization(String)
+  fullName.vb: System.Runtime.Loader.AssemblyLoadContext.StartProfileOptimization(String)
+  name.vb: StartProfileOptimization(String)
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.StartProfileOptimization(System.String)
+    name: StartProfileOptimization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.startprofileoptimization
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.StartProfileOptimization(System.String)
+    name: StartProfileOptimization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.startprofileoptimization
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.ToString
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.ToString
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.tostring
+  name: ToString()
+  nameWithType: AssemblyLoadContext.ToString()
+  fullName: System.Runtime.Loader.AssemblyLoadContext.ToString()
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.tostring
+  - name: (
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.Unload
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.Unload
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.unload
+  name: Unload()
+  nameWithType: AssemblyLoadContext.Unload()
+  fullName: System.Runtime.Loader.AssemblyLoadContext.Unload()
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.Unload
+    name: Unload
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.unload
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.Unload
+    name: Unload
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.unload
+  - name: (
+  - name: )
+- uid: System.Runtime.Loader.AssemblyLoadContext.All
+  commentId: P:System.Runtime.Loader.AssemblyLoadContext.All
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.all
+  name: All
+  nameWithType: AssemblyLoadContext.All
+  fullName: System.Runtime.Loader.AssemblyLoadContext.All
+- uid: System.Runtime.Loader.AssemblyLoadContext.Assemblies
+  commentId: P:System.Runtime.Loader.AssemblyLoadContext.Assemblies
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.assemblies
+  name: Assemblies
+  nameWithType: AssemblyLoadContext.Assemblies
+  fullName: System.Runtime.Loader.AssemblyLoadContext.Assemblies
+- uid: System.Runtime.Loader.AssemblyLoadContext.CurrentContextualReflectionContext
+  commentId: P:System.Runtime.Loader.AssemblyLoadContext.CurrentContextualReflectionContext
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.currentcontextualreflectioncontext
+  name: CurrentContextualReflectionContext
+  nameWithType: AssemblyLoadContext.CurrentContextualReflectionContext
+  fullName: System.Runtime.Loader.AssemblyLoadContext.CurrentContextualReflectionContext
+- uid: System.Runtime.Loader.AssemblyLoadContext.Default
+  commentId: P:System.Runtime.Loader.AssemblyLoadContext.Default
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.default
+  name: Default
+  nameWithType: AssemblyLoadContext.Default
+  fullName: System.Runtime.Loader.AssemblyLoadContext.Default
+- uid: System.Runtime.Loader.AssemblyLoadContext.IsCollectible
+  commentId: P:System.Runtime.Loader.AssemblyLoadContext.IsCollectible
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.iscollectible
+  name: IsCollectible
+  nameWithType: AssemblyLoadContext.IsCollectible
+  fullName: System.Runtime.Loader.AssemblyLoadContext.IsCollectible
+- uid: System.Runtime.Loader.AssemblyLoadContext.Name
+  commentId: P:System.Runtime.Loader.AssemblyLoadContext.Name
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.name
+  name: Name
+  nameWithType: AssemblyLoadContext.Name
+  fullName: System.Runtime.Loader.AssemblyLoadContext.Name
+- uid: System.Runtime.Loader.AssemblyLoadContext.Resolving
+  commentId: E:System.Runtime.Loader.AssemblyLoadContext.Resolving
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.resolving
+  name: Resolving
+  nameWithType: AssemblyLoadContext.Resolving
+  fullName: System.Runtime.Loader.AssemblyLoadContext.Resolving
+- uid: System.Runtime.Loader.AssemblyLoadContext.ResolvingUnmanagedDll
+  commentId: E:System.Runtime.Loader.AssemblyLoadContext.ResolvingUnmanagedDll
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.resolvingunmanageddll
+  name: ResolvingUnmanagedDll
+  nameWithType: AssemblyLoadContext.ResolvingUnmanagedDll
+  fullName: System.Runtime.Loader.AssemblyLoadContext.ResolvingUnmanagedDll
+- uid: System.Runtime.Loader.AssemblyLoadContext.Unloading
+  commentId: E:System.Runtime.Loader.AssemblyLoadContext.Unloading
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.unloading
+  name: Unloading
+  nameWithType: AssemblyLoadContext.Unloading
+  fullName: System.Runtime.Loader.AssemblyLoadContext.Unloading
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Runtime.Loader
+  commentId: N:System.Runtime.Loader
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.Loader
+  nameWithType: System.Runtime.Loader
+  fullName: System.Runtime.Loader
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Loader
+    name: Loader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Loader
+    name: Loader
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader
+- uid: Solstice.API.Scanning.CoreAssemblyScanning.#ctor*
+  commentId: Overload:Solstice.API.Scanning.CoreAssemblyScanning.#ctor
+  href: Solstice.API.Scanning.CoreAssemblyScanning.html#Solstice_API_Scanning_CoreAssemblyScanning__ctor
+  name: CoreAssemblyScanning
+  nameWithType: CoreAssemblyScanning.CoreAssemblyScanning
+  fullName: Solstice.API.Scanning.CoreAssemblyScanning.CoreAssemblyScanning
+  nameWithType.vb: CoreAssemblyScanning.New
+  fullName.vb: Solstice.API.Scanning.CoreAssemblyScanning.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Solstice.API.Scanning.CoreAssemblyScanning.ScanAndLoadAssemblies*
+  commentId: Overload:Solstice.API.Scanning.CoreAssemblyScanning.ScanAndLoadAssemblies
+  href: Solstice.API.Scanning.CoreAssemblyScanning.html#Solstice_API_Scanning_CoreAssemblyScanning_ScanAndLoadAssemblies
+  name: ScanAndLoadAssemblies
+  nameWithType: CoreAssemblyScanning.ScanAndLoadAssemblies
+  fullName: Solstice.API.Scanning.CoreAssemblyScanning.ScanAndLoadAssemblies
+- uid: System.Reflection.AssemblyName
+  commentId: T:System.Reflection.AssemblyName
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assemblyname
+  name: AssemblyName
+  nameWithType: AssemblyName
+  fullName: System.Reflection.AssemblyName
+- uid: System.Runtime.Loader.AssemblyLoadContext.Load(System.Reflection.AssemblyName)
+  commentId: M:System.Runtime.Loader.AssemblyLoadContext.Load(System.Reflection.AssemblyName)
+  parent: System.Runtime.Loader.AssemblyLoadContext
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.load
+  name: Load(AssemblyName)
+  nameWithType: AssemblyLoadContext.Load(AssemblyName)
+  fullName: System.Runtime.Loader.AssemblyLoadContext.Load(System.Reflection.AssemblyName)
+  spec.csharp:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.Load(System.Reflection.AssemblyName)
+    name: Load
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.load
+  - name: (
+  - uid: System.Reflection.AssemblyName
+    name: AssemblyName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assemblyname
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Loader.AssemblyLoadContext.Load(System.Reflection.AssemblyName)
+    name: Load
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.loader.assemblyloadcontext.load
+  - name: (
+  - uid: System.Reflection.AssemblyName
+    name: AssemblyName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection.assemblyname
+  - name: )
+- uid: Solstice.API.Scanning.CoreAssemblyScanning.Load*
+  commentId: Overload:Solstice.API.Scanning.CoreAssemblyScanning.Load
+  href: Solstice.API.Scanning.CoreAssemblyScanning.html#Solstice_API_Scanning_CoreAssemblyScanning_Load_System_Reflection_AssemblyName_
+  name: Load
+  nameWithType: CoreAssemblyScanning.Load
+  fullName: Solstice.API.Scanning.CoreAssemblyScanning.Load
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection

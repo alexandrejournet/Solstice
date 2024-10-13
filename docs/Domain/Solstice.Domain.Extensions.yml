@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Domain.Extensions
+  commentId: N:Solstice.Domain.Extensions
+  id: Solstice.Domain.Extensions
+  children:
+  - Solstice.Domain.Extensions.IEnumerableExtensions
+  - Solstice.Domain.Extensions.IQueryableExtensions
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Domain.Extensions
+  nameWithType: Solstice.Domain.Extensions
+  fullName: Solstice.Domain.Extensions
+  type: Namespace
+  assemblies:
+  - Solstice.Domain
+references:
+- uid: Solstice.Domain.Extensions.IEnumerableExtensions
+  commentId: T:Solstice.Domain.Extensions.IEnumerableExtensions
+  href: Solstice.Domain.Extensions.IEnumerableExtensions.html
+  name: IEnumerableExtensions
+  nameWithType: IEnumerableExtensions
+  fullName: Solstice.Domain.Extensions.IEnumerableExtensions
+- uid: Solstice.Domain.Extensions.IQueryableExtensions
+  commentId: T:Solstice.Domain.Extensions.IQueryableExtensions
+  href: Solstice.Domain.Extensions.IQueryableExtensions.html
+  name: IQueryableExtensions
+  nameWithType: IQueryableExtensions
+  fullName: Solstice.Domain.Extensions.IQueryableExtensions

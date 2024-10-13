@@ -1,0 +1,473 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Database.Conventions.Injections.ConventionsInjections
+  commentId: T:Solstice.Database.Conventions.Injections.ConventionsInjections
+  id: ConventionsInjections
+  parent: Solstice.Database.Conventions.Injections
+  children:
+  - Solstice.Database.Conventions.Injections.ConventionsInjections.ToLowerCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  - Solstice.Database.Conventions.Injections.ConventionsInjections.ToSnakeCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  - Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  - Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperSnakeCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  langs:
+  - csharp
+  - vb
+  name: ConventionsInjections
+  nameWithType: ConventionsInjections
+  fullName: Solstice.Database.Conventions.Injections.ConventionsInjections
+  type: Class
+  source:
+    id: ConventionsInjections
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Database.Conventions/Injections/ConventionsInjections.cs
+    startLine: 5
+  assemblies:
+  - Solstice.Database.Conventions
+  namespace: Solstice.Database.Conventions.Injections
+  syntax:
+    content: public class ConventionsInjections
+    content.vb: Public Class ConventionsInjections
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Solstice.Database.Conventions.Injections.ConventionsInjections.ToSnakeCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  commentId: M:Solstice.Database.Conventions.Injections.ConventionsInjections.ToSnakeCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  id: ToSnakeCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  parent: Solstice.Database.Conventions.Injections.ConventionsInjections
+  langs:
+  - csharp
+  - vb
+  name: ToSnakeCase(ModelConfigurationBuilder)
+  nameWithType: ConventionsInjections.ToSnakeCase(ModelConfigurationBuilder)
+  fullName: Solstice.Database.Conventions.Injections.ConventionsInjections.ToSnakeCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  type: Method
+  source:
+    id: ToSnakeCase
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Database.Conventions/Injections/ConventionsInjections.cs
+    startLine: 7
+  assemblies:
+  - Solstice.Database.Conventions
+  namespace: Solstice.Database.Conventions.Injections
+  syntax:
+    content: public static void ToSnakeCase(ModelConfigurationBuilder configurationBuilder)
+    parameters:
+    - id: configurationBuilder
+      type: Microsoft.EntityFrameworkCore.ModelConfigurationBuilder
+    content.vb: Public Shared Sub ToSnakeCase(configurationBuilder As ModelConfigurationBuilder)
+  overload: Solstice.Database.Conventions.Injections.ConventionsInjections.ToSnakeCase*
+- uid: Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  commentId: M:Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  id: ToUpperCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  parent: Solstice.Database.Conventions.Injections.ConventionsInjections
+  langs:
+  - csharp
+  - vb
+  name: ToUpperCase(ModelConfigurationBuilder)
+  nameWithType: ConventionsInjections.ToUpperCase(ModelConfigurationBuilder)
+  fullName: Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  type: Method
+  source:
+    id: ToUpperCase
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Database.Conventions/Injections/ConventionsInjections.cs
+    startLine: 12
+  assemblies:
+  - Solstice.Database.Conventions
+  namespace: Solstice.Database.Conventions.Injections
+  syntax:
+    content: public static void ToUpperCase(ModelConfigurationBuilder configurationBuilder)
+    parameters:
+    - id: configurationBuilder
+      type: Microsoft.EntityFrameworkCore.ModelConfigurationBuilder
+    content.vb: Public Shared Sub ToUpperCase(configurationBuilder As ModelConfigurationBuilder)
+  overload: Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperCase*
+- uid: Solstice.Database.Conventions.Injections.ConventionsInjections.ToLowerCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  commentId: M:Solstice.Database.Conventions.Injections.ConventionsInjections.ToLowerCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  id: ToLowerCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  parent: Solstice.Database.Conventions.Injections.ConventionsInjections
+  langs:
+  - csharp
+  - vb
+  name: ToLowerCase(ModelConfigurationBuilder)
+  nameWithType: ConventionsInjections.ToLowerCase(ModelConfigurationBuilder)
+  fullName: Solstice.Database.Conventions.Injections.ConventionsInjections.ToLowerCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  type: Method
+  source:
+    id: ToLowerCase
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Database.Conventions/Injections/ConventionsInjections.cs
+    startLine: 17
+  assemblies:
+  - Solstice.Database.Conventions
+  namespace: Solstice.Database.Conventions.Injections
+  syntax:
+    content: public static void ToLowerCase(ModelConfigurationBuilder configurationBuilder)
+    parameters:
+    - id: configurationBuilder
+      type: Microsoft.EntityFrameworkCore.ModelConfigurationBuilder
+    content.vb: Public Shared Sub ToLowerCase(configurationBuilder As ModelConfigurationBuilder)
+  overload: Solstice.Database.Conventions.Injections.ConventionsInjections.ToLowerCase*
+- uid: Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperSnakeCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  commentId: M:Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperSnakeCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  id: ToUpperSnakeCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  parent: Solstice.Database.Conventions.Injections.ConventionsInjections
+  langs:
+  - csharp
+  - vb
+  name: ToUpperSnakeCase(ModelConfigurationBuilder)
+  nameWithType: ConventionsInjections.ToUpperSnakeCase(ModelConfigurationBuilder)
+  fullName: Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperSnakeCase(Microsoft.EntityFrameworkCore.ModelConfigurationBuilder)
+  type: Method
+  source:
+    id: ToUpperSnakeCase
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Database.Conventions/Injections/ConventionsInjections.cs
+    startLine: 22
+  assemblies:
+  - Solstice.Database.Conventions
+  namespace: Solstice.Database.Conventions.Injections
+  syntax:
+    content: public static void ToUpperSnakeCase(ModelConfigurationBuilder configurationBuilder)
+    parameters:
+    - id: configurationBuilder
+      type: Microsoft.EntityFrameworkCore.ModelConfigurationBuilder
+    content.vb: Public Shared Sub ToUpperSnakeCase(configurationBuilder As ModelConfigurationBuilder)
+  overload: Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperSnakeCase*
+references:
+- uid: Solstice.Database.Conventions.Injections
+  commentId: N:Solstice.Database.Conventions.Injections
+  href: Solstice.html
+  name: Solstice.Database.Conventions.Injections
+  nameWithType: Solstice.Database.Conventions.Injections
+  fullName: Solstice.Database.Conventions.Injections
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Database
+    name: Database
+    href: Solstice.Database.html
+  - name: .
+  - uid: Solstice.Database.Conventions
+    name: Conventions
+    href: Solstice.Database.Conventions.html
+  - name: .
+  - uid: Solstice.Database.Conventions.Injections
+    name: Injections
+    href: Solstice.Database.Conventions.Injections.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Database
+    name: Database
+    href: Solstice.Database.html
+  - name: .
+  - uid: Solstice.Database.Conventions
+    name: Conventions
+    href: Solstice.Database.Conventions.html
+  - name: .
+  - uid: Solstice.Database.Conventions.Injections
+    name: Injections
+    href: Solstice.Database.Conventions.Injections.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Solstice.Database.Conventions.Injections.ConventionsInjections.ToSnakeCase*
+  commentId: Overload:Solstice.Database.Conventions.Injections.ConventionsInjections.ToSnakeCase
+  href: Solstice.Database.Conventions.Injections.ConventionsInjections.html#Solstice_Database_Conventions_Injections_ConventionsInjections_ToSnakeCase_Microsoft_EntityFrameworkCore_ModelConfigurationBuilder_
+  name: ToSnakeCase
+  nameWithType: ConventionsInjections.ToSnakeCase
+  fullName: Solstice.Database.Conventions.Injections.ConventionsInjections.ToSnakeCase
+- uid: Microsoft.EntityFrameworkCore.ModelConfigurationBuilder
+  commentId: T:Microsoft.EntityFrameworkCore.ModelConfigurationBuilder
+  parent: Microsoft.EntityFrameworkCore
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.modelconfigurationbuilder
+  name: ModelConfigurationBuilder
+  nameWithType: ModelConfigurationBuilder
+  fullName: Microsoft.EntityFrameworkCore.ModelConfigurationBuilder
+- uid: Microsoft.EntityFrameworkCore
+  commentId: N:Microsoft.EntityFrameworkCore
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.EntityFrameworkCore
+  nameWithType: Microsoft.EntityFrameworkCore
+  fullName: Microsoft.EntityFrameworkCore
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore
+    name: EntityFrameworkCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore
+    name: EntityFrameworkCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore
+- uid: Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperCase*
+  commentId: Overload:Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperCase
+  href: Solstice.Database.Conventions.Injections.ConventionsInjections.html#Solstice_Database_Conventions_Injections_ConventionsInjections_ToUpperCase_Microsoft_EntityFrameworkCore_ModelConfigurationBuilder_
+  name: ToUpperCase
+  nameWithType: ConventionsInjections.ToUpperCase
+  fullName: Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperCase
+- uid: Solstice.Database.Conventions.Injections.ConventionsInjections.ToLowerCase*
+  commentId: Overload:Solstice.Database.Conventions.Injections.ConventionsInjections.ToLowerCase
+  href: Solstice.Database.Conventions.Injections.ConventionsInjections.html#Solstice_Database_Conventions_Injections_ConventionsInjections_ToLowerCase_Microsoft_EntityFrameworkCore_ModelConfigurationBuilder_
+  name: ToLowerCase
+  nameWithType: ConventionsInjections.ToLowerCase
+  fullName: Solstice.Database.Conventions.Injections.ConventionsInjections.ToLowerCase
+- uid: Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperSnakeCase*
+  commentId: Overload:Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperSnakeCase
+  href: Solstice.Database.Conventions.Injections.ConventionsInjections.html#Solstice_Database_Conventions_Injections_ConventionsInjections_ToUpperSnakeCase_Microsoft_EntityFrameworkCore_ModelConfigurationBuilder_
+  name: ToUpperSnakeCase
+  nameWithType: ConventionsInjections.ToUpperSnakeCase
+  fullName: Solstice.Database.Conventions.Injections.ConventionsInjections.ToUpperSnakeCase

@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Repository.Attributes
+  commentId: N:Solstice.Repository.Attributes
+  id: Solstice.Repository.Attributes
+  children:
+  - Solstice.Repository.Attributes.QueryAttribute
+  - Solstice.Repository.Attributes.RepositoryAttribute
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Repository.Attributes
+  nameWithType: Solstice.Repository.Attributes
+  fullName: Solstice.Repository.Attributes
+  type: Namespace
+  assemblies:
+  - Solstice.Repository
+references:
+- uid: Solstice.Repository.Attributes.QueryAttribute
+  commentId: T:Solstice.Repository.Attributes.QueryAttribute
+  href: Solstice.Repository.Attributes.QueryAttribute.html
+  name: QueryAttribute
+  nameWithType: QueryAttribute
+  fullName: Solstice.Repository.Attributes.QueryAttribute
+- uid: Solstice.Repository.Attributes.RepositoryAttribute
+  commentId: T:Solstice.Repository.Attributes.RepositoryAttribute
+  href: Solstice.Repository.Attributes.RepositoryAttribute.html
+  name: RepositoryAttribute
+  nameWithType: RepositoryAttribute
+  fullName: Solstice.Repository.Attributes.RepositoryAttribute

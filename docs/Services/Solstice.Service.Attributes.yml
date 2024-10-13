@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Service.Attributes
+  commentId: N:Solstice.Service.Attributes
+  id: Solstice.Service.Attributes
+  children:
+  - Solstice.Service.Attributes.ServiceAttribute
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Service.Attributes
+  nameWithType: Solstice.Service.Attributes
+  fullName: Solstice.Service.Attributes
+  type: Namespace
+  assemblies:
+  - Solstice.Applications
+references:
+- uid: Solstice.Service.Attributes.ServiceAttribute
+  commentId: T:Solstice.Service.Attributes.ServiceAttribute
+  href: Solstice.Service.Attributes.ServiceAttribute.html
+  name: ServiceAttribute
+  nameWithType: ServiceAttribute
+  fullName: Solstice.Service.Attributes.ServiceAttribute

@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Database.Conventions.Helpers.ICaseHelper
+  commentId: T:Solstice.Database.Conventions.Helpers.ICaseHelper
+  id: ICaseHelper
+  parent: Solstice.Database.Conventions.Helpers
+  children:
+  - Solstice.Database.Conventions.Helpers.ICaseHelper.Convert(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ICaseHelper
+  nameWithType: ICaseHelper
+  fullName: Solstice.Database.Conventions.Helpers.ICaseHelper
+  type: Interface
+  source:
+    id: ICaseHelper
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Database.Conventions/Helpers/ICaseHelper.cs
+    startLine: 2
+  assemblies:
+  - Solstice.Database.Conventions
+  namespace: Solstice.Database.Conventions.Helpers
+  syntax:
+    content: public interface ICaseHelper
+    content.vb: Public Interface ICaseHelper
+- uid: Solstice.Database.Conventions.Helpers.ICaseHelper.Convert(System.String)
+  commentId: M:Solstice.Database.Conventions.Helpers.ICaseHelper.Convert(System.String)
+  id: Convert(System.String)
+  parent: Solstice.Database.Conventions.Helpers.ICaseHelper
+  langs:
+  - csharp
+  - vb
+  name: Convert(string)
+  nameWithType: ICaseHelper.Convert(string)
+  fullName: Solstice.Database.Conventions.Helpers.ICaseHelper.Convert(string)
+  type: Method
+  source:
+    id: Convert
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Database.Conventions/Helpers/ICaseHelper.cs
+    startLine: 4
+  assemblies:
+  - Solstice.Database.Conventions
+  namespace: Solstice.Database.Conventions.Helpers
+  syntax:
+    content: public static abstract string Convert(string input)
+    parameters:
+    - id: input
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared MustInherit Function Convert(input As String) As String
+  overload: Solstice.Database.Conventions.Helpers.ICaseHelper.Convert*
+  nameWithType.vb: ICaseHelper.Convert(String)
+  fullName.vb: Solstice.Database.Conventions.Helpers.ICaseHelper.Convert(String)
+  name.vb: Convert(String)
+references:
+- uid: Solstice.Database.Conventions.Helpers
+  commentId: N:Solstice.Database.Conventions.Helpers
+  href: Solstice.html
+  name: Solstice.Database.Conventions.Helpers
+  nameWithType: Solstice.Database.Conventions.Helpers
+  fullName: Solstice.Database.Conventions.Helpers
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Database
+    name: Database
+    href: Solstice.Database.html
+  - name: .
+  - uid: Solstice.Database.Conventions
+    name: Conventions
+    href: Solstice.Database.Conventions.html
+  - name: .
+  - uid: Solstice.Database.Conventions.Helpers
+    name: Helpers
+    href: Solstice.Database.Conventions.Helpers.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Database
+    name: Database
+    href: Solstice.Database.html
+  - name: .
+  - uid: Solstice.Database.Conventions
+    name: Conventions
+    href: Solstice.Database.Conventions.html
+  - name: .
+  - uid: Solstice.Database.Conventions.Helpers
+    name: Helpers
+    href: Solstice.Database.Conventions.Helpers.html
+- uid: Solstice.Database.Conventions.Helpers.ICaseHelper.Convert*
+  commentId: Overload:Solstice.Database.Conventions.Helpers.ICaseHelper.Convert
+  href: Solstice.Database.Conventions.Helpers.ICaseHelper.html#Solstice_Database_Conventions_Helpers_ICaseHelper_Convert_System_String_
+  name: Convert
+  nameWithType: ICaseHelper.Convert
+  fullName: Solstice.Database.Conventions.Helpers.ICaseHelper.Convert
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,1676 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Repository.Specifications.Specification`1
+  commentId: T:Solstice.Repository.Specifications.Specification`1
+  id: Specification`1
+  parent: Solstice.Repository.Specifications
+  children:
+  - Solstice.Repository.Specifications.Specification`1.#ctor
+  - Solstice.Repository.Specifications.Specification`1.#ctor(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  - Solstice.Repository.Specifications.Specification`1.ComplexIncludes
+  - Solstice.Repository.Specifications.Specification`1.Distinct
+  - Solstice.Repository.Specifications.Specification`1.Distincts
+  - Solstice.Repository.Specifications.Specification`1.FilterCondition
+  - Solstice.Repository.Specifications.Specification`1.GroupBy(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  - Solstice.Repository.Specifications.Specification`1.GroupBys
+  - Solstice.Repository.Specifications.Specification`1.Include(System.Func{System.Linq.IQueryable{`0},Microsoft.EntityFrameworkCore.Query.IIncludableQueryable{`0,System.Object}})
+  - Solstice.Repository.Specifications.Specification`1.Include(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  - Solstice.Repository.Specifications.Specification`1.OrderBy(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  - Solstice.Repository.Specifications.Specification`1.OrderByDescending(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  - Solstice.Repository.Specifications.Specification`1.OrderByDescendings
+  - Solstice.Repository.Specifications.Specification`1.OrderBys
+  - Solstice.Repository.Specifications.Specification`1.SetFilterCondition(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  - Solstice.Repository.Specifications.Specification`1.SimpleIncludes
+  langs:
+  - csharp
+  - vb
+  name: Specification<T>
+  nameWithType: Specification<T>
+  fullName: Solstice.Repository.Specifications.Specification<T>
+  type: Class
+  source:
+    id: Specification
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 24
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  summary: >-
+    The `coreSpecifications<T>` class implements the `IcoreSpecifications<T>` interface for providing generic ways to
+
+    define specifications for querying the database.
+  remarks: >-
+    Properties and methods in this class allow for including related data, ordering, filtering, and grouping the result of queries
+
+    against a DBSet of the specified type <code class="typeparamref">T</code>.
+
+    Note: The 'Include', 'OrderBy', 'OrderByDescending', 'FilterCondition', and 'GroupBy' are Expressions and something like LINQ queries.
+  example:
+  - >-
+    This sample shows how to create a new instance of `coreSpecifications<T>`.
+
+    <pre><code class="lang-csharp">var specs = new coreSpecifications&lt;MyModel&gt;();
+
+    specs.SetFilterCondition(x =&gt; x.Property &gt; 0);
+
+    specs.ApplyOrderBy(x =&gt; x.AnotherProperty);</code></pre>
+  syntax:
+    content: 'public class Specification<T> : ICoreSpecifications<T>'
+    typeParameters:
+    - id: T
+      description: The type of the object which specifications are applied to. Something like an EF Core model type.
+    content.vb: Public Class Specification(Of T) Implements ICoreSpecifications(Of T)
+  inheritance:
+  - System.Object
+  implements:
+  - Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  nameWithType.vb: Specification(Of T)
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T)
+  name.vb: Specification(Of T)
+- uid: Solstice.Repository.Specifications.Specification`1.#ctor
+  commentId: M:Solstice.Repository.Specifications.Specification`1.#ctor
+  id: '#ctor'
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: Specification()
+  nameWithType: Specification<T>.Specification()
+  fullName: Solstice.Repository.Specifications.Specification<T>.Specification()
+  type: Constructor
+  source:
+    id: .ctor
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 26
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  syntax:
+    content: public Specification()
+    content.vb: Public Sub New()
+  overload: Solstice.Repository.Specifications.Specification`1.#ctor*
+  nameWithType.vb: Specification(Of T).New()
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).New()
+  name.vb: New()
+- uid: Solstice.Repository.Specifications.Specification`1.#ctor(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  commentId: M:Solstice.Repository.Specifications.Specification`1.#ctor(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  id: '#ctor(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})'
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: Specification(Expression<Func<T, bool>>?)
+  nameWithType: Specification<T>.Specification(Expression<Func<T, bool>>?)
+  fullName: Solstice.Repository.Specifications.Specification<T>.Specification(System.Linq.Expressions.Expression<System.Func<T, bool>>?)
+  type: Constructor
+  source:
+    id: .ctor
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 29
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  syntax:
+    content: public Specification(Expression<Func<T, bool>>? filterCondition)
+    parameters:
+    - id: filterCondition
+      type: System.Linq.Expressions.Expression{System.Func{{T},System.Boolean}}
+    content.vb: Public Sub New(filterCondition As Expression(Of Func(Of T, Boolean)))
+  overload: Solstice.Repository.Specifications.Specification`1.#ctor*
+  nameWithType.vb: Specification(Of T).New(Expression(Of Func(Of T, Boolean)))
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).New(System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)))
+  name.vb: New(Expression(Of Func(Of T, Boolean)))
+- uid: Solstice.Repository.Specifications.Specification`1.FilterCondition
+  commentId: P:Solstice.Repository.Specifications.Specification`1.FilterCondition
+  id: FilterCondition
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: FilterCondition
+  nameWithType: Specification<T>.FilterCondition
+  fullName: Solstice.Repository.Specifications.Specification<T>.FilterCondition
+  type: Property
+  source:
+    id: FilterCondition
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 37
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  example: []
+  syntax:
+    content: public Expression<Func<T, bool>> FilterCondition { get; }
+    parameters: []
+    return:
+      type: System.Linq.Expressions.Expression{System.Func{{T},System.Boolean}}
+    content.vb: Public Property FilterCondition As Expression(Of Func(Of T, Boolean))
+  overload: Solstice.Repository.Specifications.Specification`1.FilterCondition*
+  implements:
+  - Solstice.Repository.Specifications.ICoreSpecifications{{T}}.FilterCondition
+  nameWithType.vb: Specification(Of T).FilterCondition
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).FilterCondition
+- uid: Solstice.Repository.Specifications.Specification`1.SimpleIncludes
+  commentId: P:Solstice.Repository.Specifications.Specification`1.SimpleIncludes
+  id: SimpleIncludes
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: SimpleIncludes
+  nameWithType: Specification<T>.SimpleIncludes
+  fullName: Solstice.Repository.Specifications.Specification<T>.SimpleIncludes
+  type: Property
+  source:
+    id: SimpleIncludes
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 38
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  example: []
+  syntax:
+    content: public Collection<Expression<Func<T, object>>> SimpleIncludes { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.Collection{System.Linq.Expressions.Expression{System.Func{{T},System.Object}}}
+    content.vb: Public ReadOnly Property SimpleIncludes As Collection(Of Expression(Of Func(Of T, Object)))
+  overload: Solstice.Repository.Specifications.Specification`1.SimpleIncludes*
+  implements:
+  - Solstice.Repository.Specifications.ICoreSpecifications{{T}}.SimpleIncludes
+  nameWithType.vb: Specification(Of T).SimpleIncludes
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).SimpleIncludes
+- uid: Solstice.Repository.Specifications.Specification`1.ComplexIncludes
+  commentId: P:Solstice.Repository.Specifications.Specification`1.ComplexIncludes
+  id: ComplexIncludes
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: ComplexIncludes
+  nameWithType: Specification<T>.ComplexIncludes
+  fullName: Solstice.Repository.Specifications.Specification<T>.ComplexIncludes
+  type: Property
+  source:
+    id: ComplexIncludes
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 39
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  example: []
+  syntax:
+    content: public Collection<Func<IQueryable<T>, IIncludableQueryable<T, object>>> ComplexIncludes { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.Collection{System.Func{System.Linq.IQueryable{{T}},Microsoft.EntityFrameworkCore.Query.IIncludableQueryable{{T},System.Object}}}
+    content.vb: Public ReadOnly Property ComplexIncludes As Collection(Of Func(Of IQueryable(Of T), IIncludableQueryable(Of T, Object)))
+  overload: Solstice.Repository.Specifications.Specification`1.ComplexIncludes*
+  implements:
+  - Solstice.Repository.Specifications.ICoreSpecifications{{T}}.ComplexIncludes
+  nameWithType.vb: Specification(Of T).ComplexIncludes
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).ComplexIncludes
+- uid: Solstice.Repository.Specifications.Specification`1.OrderBys
+  commentId: P:Solstice.Repository.Specifications.Specification`1.OrderBys
+  id: OrderBys
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: OrderBys
+  nameWithType: Specification<T>.OrderBys
+  fullName: Solstice.Repository.Specifications.Specification<T>.OrderBys
+  type: Property
+  source:
+    id: OrderBys
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 40
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  example: []
+  syntax:
+    content: public Collection<Expression<Func<T, object>>> OrderBys { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.Collection{System.Linq.Expressions.Expression{System.Func{{T},System.Object}}}
+    content.vb: Public ReadOnly Property OrderBys As Collection(Of Expression(Of Func(Of T, Object)))
+  overload: Solstice.Repository.Specifications.Specification`1.OrderBys*
+  implements:
+  - Solstice.Repository.Specifications.ICoreSpecifications{{T}}.OrderBys
+  nameWithType.vb: Specification(Of T).OrderBys
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).OrderBys
+- uid: Solstice.Repository.Specifications.Specification`1.OrderByDescendings
+  commentId: P:Solstice.Repository.Specifications.Specification`1.OrderByDescendings
+  id: OrderByDescendings
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: OrderByDescendings
+  nameWithType: Specification<T>.OrderByDescendings
+  fullName: Solstice.Repository.Specifications.Specification<T>.OrderByDescendings
+  type: Property
+  source:
+    id: OrderByDescendings
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 41
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  example: []
+  syntax:
+    content: public Collection<Expression<Func<T, object>>> OrderByDescendings { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.Collection{System.Linq.Expressions.Expression{System.Func{{T},System.Object}}}
+    content.vb: Public ReadOnly Property OrderByDescendings As Collection(Of Expression(Of Func(Of T, Object)))
+  overload: Solstice.Repository.Specifications.Specification`1.OrderByDescendings*
+  implements:
+  - Solstice.Repository.Specifications.ICoreSpecifications{{T}}.OrderByDescendings
+  nameWithType.vb: Specification(Of T).OrderByDescendings
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).OrderByDescendings
+- uid: Solstice.Repository.Specifications.Specification`1.GroupBys
+  commentId: P:Solstice.Repository.Specifications.Specification`1.GroupBys
+  id: GroupBys
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: GroupBys
+  nameWithType: Specification<T>.GroupBys
+  fullName: Solstice.Repository.Specifications.Specification<T>.GroupBys
+  type: Property
+  source:
+    id: GroupBys
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 42
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  example: []
+  syntax:
+    content: public Expression<Func<T, object>> GroupBys { get; }
+    parameters: []
+    return:
+      type: System.Linq.Expressions.Expression{System.Func{{T},System.Object}}
+    content.vb: Public Property GroupBys As Expression(Of Func(Of T, Object))
+  overload: Solstice.Repository.Specifications.Specification`1.GroupBys*
+  implements:
+  - Solstice.Repository.Specifications.ICoreSpecifications{{T}}.GroupBys
+  nameWithType.vb: Specification(Of T).GroupBys
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).GroupBys
+- uid: Solstice.Repository.Specifications.Specification`1.Distincts
+  commentId: P:Solstice.Repository.Specifications.Specification`1.Distincts
+  id: Distincts
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: Distincts
+  nameWithType: Specification<T>.Distincts
+  fullName: Solstice.Repository.Specifications.Specification<T>.Distincts
+  type: Property
+  source:
+    id: Distincts
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 43
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  example: []
+  syntax:
+    content: public bool Distincts { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Distincts As Boolean
+  overload: Solstice.Repository.Specifications.Specification`1.Distincts*
+  implements:
+  - Solstice.Repository.Specifications.ICoreSpecifications{{T}}.Distincts
+  nameWithType.vb: Specification(Of T).Distincts
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).Distincts
+- uid: Solstice.Repository.Specifications.Specification`1.SetFilterCondition(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  commentId: M:Solstice.Repository.Specifications.Specification`1.SetFilterCondition(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  id: SetFilterCondition(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: SetFilterCondition(Expression<Func<T, bool>>)
+  nameWithType: Specification<T>.SetFilterCondition(Expression<Func<T, bool>>)
+  fullName: Solstice.Repository.Specifications.Specification<T>.SetFilterCondition(System.Linq.Expressions.Expression<System.Func<T, bool>>)
+  type: Method
+  source:
+    id: SetFilterCondition
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 45
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  syntax:
+    content: public void SetFilterCondition(Expression<Func<T, bool>> filterExpression)
+    parameters:
+    - id: filterExpression
+      type: System.Linq.Expressions.Expression{System.Func{{T},System.Boolean}}
+    content.vb: Public Sub SetFilterCondition(filterExpression As Expression(Of Func(Of T, Boolean)))
+  overload: Solstice.Repository.Specifications.Specification`1.SetFilterCondition*
+  nameWithType.vb: Specification(Of T).SetFilterCondition(Expression(Of Func(Of T, Boolean)))
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).SetFilterCondition(System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)))
+  name.vb: SetFilterCondition(Expression(Of Func(Of T, Boolean)))
+- uid: Solstice.Repository.Specifications.Specification`1.Include(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  commentId: M:Solstice.Repository.Specifications.Specification`1.Include(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  id: Include(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: Include(Expression<Func<T, object>>)
+  nameWithType: Specification<T>.Include(Expression<Func<T, object>>)
+  fullName: Solstice.Repository.Specifications.Specification<T>.Include(System.Linq.Expressions.Expression<System.Func<T, object>>)
+  type: Method
+  source:
+    id: Include
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 56
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  summary: Permet d'effectuer un .Include sur une entité
+  remarks: 'Exemple: new Specification().Include(item =&gt; item.User)'
+  example: []
+  syntax:
+    content: public Specification<T> Include(Expression<Func<T, object>> includeExpression)
+    parameters:
+    - id: includeExpression
+      type: System.Linq.Expressions.Expression{System.Func{{T},System.Object}}
+      description: ''
+    return:
+      type: Solstice.Repository.Specifications.Specification`1
+      description: ''
+    content.vb: Public Function Include(includeExpression As Expression(Of Func(Of T, Object))) As Specification(Of T)
+  overload: Solstice.Repository.Specifications.Specification`1.Include*
+  nameWithType.vb: Specification(Of T).Include(Expression(Of Func(Of T, Object)))
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).Include(System.Linq.Expressions.Expression(Of System.Func(Of T, Object)))
+  name.vb: Include(Expression(Of Func(Of T, Object)))
+- uid: Solstice.Repository.Specifications.Specification`1.Include(System.Func{System.Linq.IQueryable{`0},Microsoft.EntityFrameworkCore.Query.IIncludableQueryable{`0,System.Object}})
+  commentId: M:Solstice.Repository.Specifications.Specification`1.Include(System.Func{System.Linq.IQueryable{`0},Microsoft.EntityFrameworkCore.Query.IIncludableQueryable{`0,System.Object}})
+  id: Include(System.Func{System.Linq.IQueryable{`0},Microsoft.EntityFrameworkCore.Query.IIncludableQueryable{`0,System.Object}})
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: Include(Func<IQueryable<T>, IIncludableQueryable<T, object>>)
+  nameWithType: Specification<T>.Include(Func<IQueryable<T>, IIncludableQueryable<T, object>>)
+  fullName: Solstice.Repository.Specifications.Specification<T>.Include(System.Func<System.Linq.IQueryable<T>, Microsoft.EntityFrameworkCore.Query.IIncludableQueryable<T, object>>)
+  type: Method
+  source:
+    id: Include
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 68
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  summary: Permet d'effectuer un .Include sur une entité
+  remarks: 'Exemple: new Specification().Include(item =&gt; item.Include(item =&gt; item.User).ThenInclude(item =&gt; item.Address))'
+  example: []
+  syntax:
+    content: public Specification<T> Include(Func<IQueryable<T>, IIncludableQueryable<T, object>> includeExpression)
+    parameters:
+    - id: includeExpression
+      type: System.Func{System.Linq.IQueryable{{T}},Microsoft.EntityFrameworkCore.Query.IIncludableQueryable{{T},System.Object}}
+      description: ''
+    return:
+      type: Solstice.Repository.Specifications.Specification`1
+      description: ''
+    content.vb: Public Function Include(includeExpression As Func(Of IQueryable(Of T), IIncludableQueryable(Of T, Object))) As Specification(Of T)
+  overload: Solstice.Repository.Specifications.Specification`1.Include*
+  nameWithType.vb: Specification(Of T).Include(Func(Of IQueryable(Of T), IIncludableQueryable(Of T, Object)))
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).Include(System.Func(Of System.Linq.IQueryable(Of T), Microsoft.EntityFrameworkCore.Query.IIncludableQueryable(Of T, Object)))
+  name.vb: Include(Func(Of IQueryable(Of T), IIncludableQueryable(Of T, Object)))
+- uid: Solstice.Repository.Specifications.Specification`1.OrderBy(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  commentId: M:Solstice.Repository.Specifications.Specification`1.OrderBy(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  id: OrderBy(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: OrderBy(Expression<Func<T, object>>)
+  nameWithType: Specification<T>.OrderBy(Expression<Func<T, object>>)
+  fullName: Solstice.Repository.Specifications.Specification<T>.OrderBy(System.Linq.Expressions.Expression<System.Func<T, object>>)
+  type: Method
+  source:
+    id: OrderBy
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 80
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  summary: >-
+    Permet d'ajouter un OrderBy à la requête<br />
+
+    Si on en ajoute plusieurs, ils seront exécutés dans l'ordre d'ajout (OrderBy, ThenBy, ThenBy, ...)
+  example: []
+  syntax:
+    content: public Specification<T> OrderBy(Expression<Func<T, object>> orderByExpression)
+    parameters:
+    - id: orderByExpression
+      type: System.Linq.Expressions.Expression{System.Func{{T},System.Object}}
+      description: ''
+    return:
+      type: Solstice.Repository.Specifications.Specification`1
+      description: ''
+    content.vb: Public Function OrderBy(orderByExpression As Expression(Of Func(Of T, Object))) As Specification(Of T)
+  overload: Solstice.Repository.Specifications.Specification`1.OrderBy*
+  nameWithType.vb: Specification(Of T).OrderBy(Expression(Of Func(Of T, Object)))
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).OrderBy(System.Linq.Expressions.Expression(Of System.Func(Of T, Object)))
+  name.vb: OrderBy(Expression(Of Func(Of T, Object)))
+- uid: Solstice.Repository.Specifications.Specification`1.OrderByDescending(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  commentId: M:Solstice.Repository.Specifications.Specification`1.OrderByDescending(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  id: OrderByDescending(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: OrderByDescending(Expression<Func<T, object>>)
+  nameWithType: Specification<T>.OrderByDescending(Expression<Func<T, object>>)
+  fullName: Solstice.Repository.Specifications.Specification<T>.OrderByDescending(System.Linq.Expressions.Expression<System.Func<T, object>>)
+  type: Method
+  source:
+    id: OrderByDescending
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 92
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  summary: >-
+    Permet d'ajouter un OrderByDescending à la requête<br />
+
+    Si on en ajoute plusieurs, ils seront exécutés dans l'ordre d'ajout (OrderByDescending, ThenByDescending, ThenByDescending, ...)
+  example: []
+  syntax:
+    content: public Specification<T> OrderByDescending(Expression<Func<T, object>> orderByDescendingExpression)
+    parameters:
+    - id: orderByDescendingExpression
+      type: System.Linq.Expressions.Expression{System.Func{{T},System.Object}}
+      description: ''
+    return:
+      type: Solstice.Repository.Specifications.Specification`1
+      description: ''
+    content.vb: Public Function OrderByDescending(orderByDescendingExpression As Expression(Of Func(Of T, Object))) As Specification(Of T)
+  overload: Solstice.Repository.Specifications.Specification`1.OrderByDescending*
+  nameWithType.vb: Specification(Of T).OrderByDescending(Expression(Of Func(Of T, Object)))
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).OrderByDescending(System.Linq.Expressions.Expression(Of System.Func(Of T, Object)))
+  name.vb: OrderByDescending(Expression(Of Func(Of T, Object)))
+- uid: Solstice.Repository.Specifications.Specification`1.GroupBy(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  commentId: M:Solstice.Repository.Specifications.Specification`1.GroupBy(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  id: GroupBy(System.Linq.Expressions.Expression{System.Func{`0,System.Object}})
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: GroupBy(Expression<Func<T, object>>)
+  nameWithType: Specification<T>.GroupBy(Expression<Func<T, object>>)
+  fullName: Solstice.Repository.Specifications.Specification<T>.GroupBy(System.Linq.Expressions.Expression<System.Func<T, object>>)
+  type: Method
+  source:
+    id: GroupBy
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 102
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  summary: Permet d'ajouter un GroupBy à la requête
+  example: []
+  syntax:
+    content: public Specification<T> GroupBy(Expression<Func<T, object>> groupByExpression)
+    parameters:
+    - id: groupByExpression
+      type: System.Linq.Expressions.Expression{System.Func{{T},System.Object}}
+      description: ''
+    return:
+      type: Solstice.Repository.Specifications.Specification`1
+    content.vb: Public Function GroupBy(groupByExpression As Expression(Of Func(Of T, Object))) As Specification(Of T)
+  overload: Solstice.Repository.Specifications.Specification`1.GroupBy*
+  nameWithType.vb: Specification(Of T).GroupBy(Expression(Of Func(Of T, Object)))
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).GroupBy(System.Linq.Expressions.Expression(Of System.Func(Of T, Object)))
+  name.vb: GroupBy(Expression(Of Func(Of T, Object)))
+- uid: Solstice.Repository.Specifications.Specification`1.Distinct
+  commentId: M:Solstice.Repository.Specifications.Specification`1.Distinct
+  id: Distinct
+  parent: Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: Distinct()
+  nameWithType: Specification<T>.Distinct()
+  fullName: Solstice.Repository.Specifications.Specification<T>.Distinct()
+  type: Method
+  source:
+    id: Distinct
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Specifications/Specification.cs
+    startLine: 111
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Specifications
+  summary: Permet d'ajouter un Distinct à la requête
+  example: []
+  syntax:
+    content: public Specification<T> Distinct()
+    return:
+      type: Solstice.Repository.Specifications.Specification`1
+    content.vb: Public Function Distinct() As Specification(Of T)
+  overload: Solstice.Repository.Specifications.Specification`1.Distinct*
+  nameWithType.vb: Specification(Of T).Distinct()
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).Distinct()
+references:
+- uid: Solstice.Repository.Specifications
+  commentId: N:Solstice.Repository.Specifications
+  href: Solstice.html
+  name: Solstice.Repository.Specifications
+  nameWithType: Solstice.Repository.Specifications
+  fullName: Solstice.Repository.Specifications
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Repository
+    name: Repository
+    href: Solstice.Repository.html
+  - name: .
+  - uid: Solstice.Repository.Specifications
+    name: Specifications
+    href: Solstice.Repository.Specifications.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Repository
+    name: Repository
+    href: Solstice.Repository.html
+  - name: .
+  - uid: Solstice.Repository.Specifications
+    name: Specifications
+    href: Solstice.Repository.Specifications.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+  commentId: T:Solstice.Repository.Specifications.ICoreSpecifications{`0}
+  parent: Solstice.Repository.Specifications
+  definition: Solstice.Repository.Specifications.ICoreSpecifications`1
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html
+  name: ICoreSpecifications<T>
+  nameWithType: ICoreSpecifications<T>
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>
+  nameWithType.vb: ICoreSpecifications(Of T)
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T)
+  name.vb: ICoreSpecifications(Of T)
+  spec.csharp:
+  - uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+    name: ICoreSpecifications
+    href: Solstice.Repository.Specifications.ICoreSpecifications-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+    name: ICoreSpecifications
+    href: Solstice.Repository.Specifications.ICoreSpecifications-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+  commentId: T:Solstice.Repository.Specifications.ICoreSpecifications`1
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html
+  name: ICoreSpecifications<T>
+  nameWithType: ICoreSpecifications<T>
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>
+  nameWithType.vb: ICoreSpecifications(Of T)
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T)
+  name.vb: ICoreSpecifications(Of T)
+  spec.csharp:
+  - uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+    name: ICoreSpecifications
+    href: Solstice.Repository.Specifications.ICoreSpecifications-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+    name: ICoreSpecifications
+    href: Solstice.Repository.Specifications.ICoreSpecifications-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Solstice.Repository.Specifications.Specification`1.#ctor*
+  commentId: Overload:Solstice.Repository.Specifications.Specification`1.#ctor
+  href: Solstice.Repository.Specifications.Specification-1.html#Solstice_Repository_Specifications_Specification_1__ctor
+  name: Specification
+  nameWithType: Specification<T>.Specification
+  fullName: Solstice.Repository.Specifications.Specification<T>.Specification
+  nameWithType.vb: Specification(Of T).New
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).New
+  name.vb: New
+- uid: System.Linq.Expressions.Expression{System.Func{{T},System.Boolean}}
+  commentId: T:System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}}
+  parent: System.Linq.Expressions
+  definition: System.Linq.Expressions.Expression`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: Expression<Func<T, bool>>
+  nameWithType: Expression<Func<T, bool>>
+  fullName: System.Linq.Expressions.Expression<System.Func<T, bool>>
+  nameWithType.vb: Expression(Of Func(Of T, Boolean))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean))
+  name.vb: Expression(Of Func(Of T, Boolean))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: System.Linq.Expressions.Expression`1
+  commentId: T:System.Linq.Expressions.Expression`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: Expression<TDelegate>
+  nameWithType: Expression<TDelegate>
+  fullName: System.Linq.Expressions.Expression<TDelegate>
+  nameWithType.vb: Expression(Of TDelegate)
+  fullName.vb: System.Linq.Expressions.Expression(Of TDelegate)
+  name.vb: Expression(Of TDelegate)
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - name: TDelegate
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDelegate
+  - name: )
+- uid: System.Linq.Expressions
+  commentId: N:System.Linq.Expressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Linq.Expressions
+  nameWithType: System.Linq.Expressions
+  fullName: System.Linq.Expressions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  - name: .
+  - uid: System.Linq.Expressions
+    name: Expressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  - name: .
+  - uid: System.Linq.Expressions
+    name: Expressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions
+- uid: Solstice.Repository.Specifications.Specification`1.FilterCondition*
+  commentId: Overload:Solstice.Repository.Specifications.Specification`1.FilterCondition
+  href: Solstice.Repository.Specifications.Specification-1.html#Solstice_Repository_Specifications_Specification_1_FilterCondition
+  name: FilterCondition
+  nameWithType: Specification<T>.FilterCondition
+  fullName: Solstice.Repository.Specifications.Specification<T>.FilterCondition
+  nameWithType.vb: Specification(Of T).FilterCondition
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).FilterCondition
+- uid: Solstice.Repository.Specifications.ICoreSpecifications{{T}}.FilterCondition
+  commentId: P:Solstice.Repository.Specifications.ICoreSpecifications{`0}.FilterCondition
+  parent: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+  definition: Solstice.Repository.Specifications.ICoreSpecifications`1.FilterCondition
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html#Solstice_Repository_Specifications_ICoreSpecifications_1_FilterCondition
+  name: FilterCondition
+  nameWithType: ICoreSpecifications<T>.FilterCondition
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>.FilterCondition
+  nameWithType.vb: ICoreSpecifications(Of T).FilterCondition
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T).FilterCondition
+- uid: Solstice.Repository.Specifications.ICoreSpecifications`1.FilterCondition
+  commentId: P:Solstice.Repository.Specifications.ICoreSpecifications`1.FilterCondition
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html#Solstice_Repository_Specifications_ICoreSpecifications_1_FilterCondition
+  name: FilterCondition
+  nameWithType: ICoreSpecifications<T>.FilterCondition
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>.FilterCondition
+  nameWithType.vb: ICoreSpecifications(Of T).FilterCondition
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T).FilterCondition
+- uid: Solstice.Repository.Specifications.Specification`1.SimpleIncludes*
+  commentId: Overload:Solstice.Repository.Specifications.Specification`1.SimpleIncludes
+  href: Solstice.Repository.Specifications.Specification-1.html#Solstice_Repository_Specifications_Specification_1_SimpleIncludes
+  name: SimpleIncludes
+  nameWithType: Specification<T>.SimpleIncludes
+  fullName: Solstice.Repository.Specifications.Specification<T>.SimpleIncludes
+  nameWithType.vb: Specification(Of T).SimpleIncludes
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).SimpleIncludes
+- uid: Solstice.Repository.Specifications.ICoreSpecifications{{T}}.SimpleIncludes
+  commentId: P:Solstice.Repository.Specifications.ICoreSpecifications{`0}.SimpleIncludes
+  parent: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+  definition: Solstice.Repository.Specifications.ICoreSpecifications`1.SimpleIncludes
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html#Solstice_Repository_Specifications_ICoreSpecifications_1_SimpleIncludes
+  name: SimpleIncludes
+  nameWithType: ICoreSpecifications<T>.SimpleIncludes
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>.SimpleIncludes
+  nameWithType.vb: ICoreSpecifications(Of T).SimpleIncludes
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T).SimpleIncludes
+- uid: System.Collections.ObjectModel.Collection{System.Linq.Expressions.Expression{System.Func{{T},System.Object}}}
+  commentId: T:System.Collections.ObjectModel.Collection{System.Linq.Expressions.Expression{System.Func{`0,System.Object}}}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.Collection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  name: Collection<Expression<Func<T, object>>>
+  nameWithType: Collection<Expression<Func<T, object>>>
+  fullName: System.Collections.ObjectModel.Collection<System.Linq.Expressions.Expression<System.Func<T, object>>>
+  nameWithType.vb: Collection(Of Expression(Of Func(Of T, Object)))
+  fullName.vb: System.Collections.ObjectModel.Collection(Of System.Linq.Expressions.Expression(Of System.Func(Of T, Object)))
+  name.vb: Collection(Of Expression(Of Func(Of T, Object)))
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  - name: <
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+  - name: )
+- uid: Solstice.Repository.Specifications.ICoreSpecifications`1.SimpleIncludes
+  commentId: P:Solstice.Repository.Specifications.ICoreSpecifications`1.SimpleIncludes
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html#Solstice_Repository_Specifications_ICoreSpecifications_1_SimpleIncludes
+  name: SimpleIncludes
+  nameWithType: ICoreSpecifications<T>.SimpleIncludes
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>.SimpleIncludes
+  nameWithType.vb: ICoreSpecifications(Of T).SimpleIncludes
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T).SimpleIncludes
+- uid: System.Collections.ObjectModel.Collection`1
+  commentId: T:System.Collections.ObjectModel.Collection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  name: Collection<T>
+  nameWithType: Collection<T>
+  fullName: System.Collections.ObjectModel.Collection<T>
+  nameWithType.vb: Collection(Of T)
+  fullName.vb: System.Collections.ObjectModel.Collection(Of T)
+  name.vb: Collection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: Solstice.Repository.Specifications.Specification`1.ComplexIncludes*
+  commentId: Overload:Solstice.Repository.Specifications.Specification`1.ComplexIncludes
+  href: Solstice.Repository.Specifications.Specification-1.html#Solstice_Repository_Specifications_Specification_1_ComplexIncludes
+  name: ComplexIncludes
+  nameWithType: Specification<T>.ComplexIncludes
+  fullName: Solstice.Repository.Specifications.Specification<T>.ComplexIncludes
+  nameWithType.vb: Specification(Of T).ComplexIncludes
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).ComplexIncludes
+- uid: Solstice.Repository.Specifications.ICoreSpecifications{{T}}.ComplexIncludes
+  commentId: P:Solstice.Repository.Specifications.ICoreSpecifications{`0}.ComplexIncludes
+  parent: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+  definition: Solstice.Repository.Specifications.ICoreSpecifications`1.ComplexIncludes
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html#Solstice_Repository_Specifications_ICoreSpecifications_1_ComplexIncludes
+  name: ComplexIncludes
+  nameWithType: ICoreSpecifications<T>.ComplexIncludes
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>.ComplexIncludes
+  nameWithType.vb: ICoreSpecifications(Of T).ComplexIncludes
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T).ComplexIncludes
+- uid: System.Collections.ObjectModel.Collection{System.Func{System.Linq.IQueryable{{T}},Microsoft.EntityFrameworkCore.Query.IIncludableQueryable{{T},System.Object}}}
+  commentId: T:System.Collections.ObjectModel.Collection{System.Func{System.Linq.IQueryable{`0},Microsoft.EntityFrameworkCore.Query.IIncludableQueryable{`0,System.Object}}}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.Collection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  name: Collection<Func<IQueryable<T>, IIncludableQueryable<T, object>>>
+  nameWithType: Collection<Func<IQueryable<T>, IIncludableQueryable<T, object>>>
+  fullName: System.Collections.ObjectModel.Collection<System.Func<System.Linq.IQueryable<T>, Microsoft.EntityFrameworkCore.Query.IIncludableQueryable<T, object>>>
+  nameWithType.vb: Collection(Of Func(Of IQueryable(Of T), IIncludableQueryable(Of T, Object)))
+  fullName.vb: System.Collections.ObjectModel.Collection(Of System.Func(Of System.Linq.IQueryable(Of T), Microsoft.EntityFrameworkCore.Query.IIncludableQueryable(Of T, Object)))
+  name.vb: Collection(Of Func(Of IQueryable(Of T), IIncludableQueryable(Of T, Object)))
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  - name: <
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: Microsoft.EntityFrameworkCore.Query.IIncludableQueryable`2
+    name: IIncludableQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.query.iincludablequeryable-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: Microsoft.EntityFrameworkCore.Query.IIncludableQueryable`2
+    name: IIncludableQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.query.iincludablequeryable-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+  - name: )
+- uid: Solstice.Repository.Specifications.ICoreSpecifications`1.ComplexIncludes
+  commentId: P:Solstice.Repository.Specifications.ICoreSpecifications`1.ComplexIncludes
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html#Solstice_Repository_Specifications_ICoreSpecifications_1_ComplexIncludes
+  name: ComplexIncludes
+  nameWithType: ICoreSpecifications<T>.ComplexIncludes
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>.ComplexIncludes
+  nameWithType.vb: ICoreSpecifications(Of T).ComplexIncludes
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T).ComplexIncludes
+- uid: Solstice.Repository.Specifications.Specification`1.OrderBys*
+  commentId: Overload:Solstice.Repository.Specifications.Specification`1.OrderBys
+  href: Solstice.Repository.Specifications.Specification-1.html#Solstice_Repository_Specifications_Specification_1_OrderBys
+  name: OrderBys
+  nameWithType: Specification<T>.OrderBys
+  fullName: Solstice.Repository.Specifications.Specification<T>.OrderBys
+  nameWithType.vb: Specification(Of T).OrderBys
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).OrderBys
+- uid: Solstice.Repository.Specifications.ICoreSpecifications{{T}}.OrderBys
+  commentId: P:Solstice.Repository.Specifications.ICoreSpecifications{`0}.OrderBys
+  parent: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+  definition: Solstice.Repository.Specifications.ICoreSpecifications`1.OrderBys
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html#Solstice_Repository_Specifications_ICoreSpecifications_1_OrderBys
+  name: OrderBys
+  nameWithType: ICoreSpecifications<T>.OrderBys
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>.OrderBys
+  nameWithType.vb: ICoreSpecifications(Of T).OrderBys
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T).OrderBys
+- uid: Solstice.Repository.Specifications.ICoreSpecifications`1.OrderBys
+  commentId: P:Solstice.Repository.Specifications.ICoreSpecifications`1.OrderBys
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html#Solstice_Repository_Specifications_ICoreSpecifications_1_OrderBys
+  name: OrderBys
+  nameWithType: ICoreSpecifications<T>.OrderBys
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>.OrderBys
+  nameWithType.vb: ICoreSpecifications(Of T).OrderBys
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T).OrderBys
+- uid: Solstice.Repository.Specifications.Specification`1.OrderByDescendings*
+  commentId: Overload:Solstice.Repository.Specifications.Specification`1.OrderByDescendings
+  href: Solstice.Repository.Specifications.Specification-1.html#Solstice_Repository_Specifications_Specification_1_OrderByDescendings
+  name: OrderByDescendings
+  nameWithType: Specification<T>.OrderByDescendings
+  fullName: Solstice.Repository.Specifications.Specification<T>.OrderByDescendings
+  nameWithType.vb: Specification(Of T).OrderByDescendings
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).OrderByDescendings
+- uid: Solstice.Repository.Specifications.ICoreSpecifications{{T}}.OrderByDescendings
+  commentId: P:Solstice.Repository.Specifications.ICoreSpecifications{`0}.OrderByDescendings
+  parent: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+  definition: Solstice.Repository.Specifications.ICoreSpecifications`1.OrderByDescendings
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html#Solstice_Repository_Specifications_ICoreSpecifications_1_OrderByDescendings
+  name: OrderByDescendings
+  nameWithType: ICoreSpecifications<T>.OrderByDescendings
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>.OrderByDescendings
+  nameWithType.vb: ICoreSpecifications(Of T).OrderByDescendings
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T).OrderByDescendings
+- uid: Solstice.Repository.Specifications.ICoreSpecifications`1.OrderByDescendings
+  commentId: P:Solstice.Repository.Specifications.ICoreSpecifications`1.OrderByDescendings
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html#Solstice_Repository_Specifications_ICoreSpecifications_1_OrderByDescendings
+  name: OrderByDescendings
+  nameWithType: ICoreSpecifications<T>.OrderByDescendings
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>.OrderByDescendings
+  nameWithType.vb: ICoreSpecifications(Of T).OrderByDescendings
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T).OrderByDescendings
+- uid: Solstice.Repository.Specifications.Specification`1.GroupBys*
+  commentId: Overload:Solstice.Repository.Specifications.Specification`1.GroupBys
+  href: Solstice.Repository.Specifications.Specification-1.html#Solstice_Repository_Specifications_Specification_1_GroupBys
+  name: GroupBys
+  nameWithType: Specification<T>.GroupBys
+  fullName: Solstice.Repository.Specifications.Specification<T>.GroupBys
+  nameWithType.vb: Specification(Of T).GroupBys
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).GroupBys
+- uid: Solstice.Repository.Specifications.ICoreSpecifications{{T}}.GroupBys
+  commentId: P:Solstice.Repository.Specifications.ICoreSpecifications{`0}.GroupBys
+  parent: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+  definition: Solstice.Repository.Specifications.ICoreSpecifications`1.GroupBys
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html#Solstice_Repository_Specifications_ICoreSpecifications_1_GroupBys
+  name: GroupBys
+  nameWithType: ICoreSpecifications<T>.GroupBys
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>.GroupBys
+  nameWithType.vb: ICoreSpecifications(Of T).GroupBys
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T).GroupBys
+- uid: System.Linq.Expressions.Expression{System.Func{{T},System.Object}}
+  commentId: T:System.Linq.Expressions.Expression{System.Func{`0,System.Object}}
+  parent: System.Linq.Expressions
+  definition: System.Linq.Expressions.Expression`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: Expression<Func<T, object>>
+  nameWithType: Expression<Func<T, object>>
+  fullName: System.Linq.Expressions.Expression<System.Func<T, object>>
+  nameWithType.vb: Expression(Of Func(Of T, Object))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of T, Object))
+  name.vb: Expression(Of Func(Of T, Object))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+- uid: Solstice.Repository.Specifications.ICoreSpecifications`1.GroupBys
+  commentId: P:Solstice.Repository.Specifications.ICoreSpecifications`1.GroupBys
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html#Solstice_Repository_Specifications_ICoreSpecifications_1_GroupBys
+  name: GroupBys
+  nameWithType: ICoreSpecifications<T>.GroupBys
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>.GroupBys
+  nameWithType.vb: ICoreSpecifications(Of T).GroupBys
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T).GroupBys
+- uid: Solstice.Repository.Specifications.Specification`1.Distincts*
+  commentId: Overload:Solstice.Repository.Specifications.Specification`1.Distincts
+  href: Solstice.Repository.Specifications.Specification-1.html#Solstice_Repository_Specifications_Specification_1_Distincts
+  name: Distincts
+  nameWithType: Specification<T>.Distincts
+  fullName: Solstice.Repository.Specifications.Specification<T>.Distincts
+  nameWithType.vb: Specification(Of T).Distincts
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).Distincts
+- uid: Solstice.Repository.Specifications.ICoreSpecifications{{T}}.Distincts
+  commentId: P:Solstice.Repository.Specifications.ICoreSpecifications{`0}.Distincts
+  parent: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+  definition: Solstice.Repository.Specifications.ICoreSpecifications`1.Distincts
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html#Solstice_Repository_Specifications_ICoreSpecifications_1_Distincts
+  name: Distincts
+  nameWithType: ICoreSpecifications<T>.Distincts
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>.Distincts
+  nameWithType.vb: ICoreSpecifications(Of T).Distincts
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T).Distincts
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Solstice.Repository.Specifications.ICoreSpecifications`1.Distincts
+  commentId: P:Solstice.Repository.Specifications.ICoreSpecifications`1.Distincts
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html#Solstice_Repository_Specifications_ICoreSpecifications_1_Distincts
+  name: Distincts
+  nameWithType: ICoreSpecifications<T>.Distincts
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>.Distincts
+  nameWithType.vb: ICoreSpecifications(Of T).Distincts
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T).Distincts
+- uid: Solstice.Repository.Specifications.Specification`1.SetFilterCondition*
+  commentId: Overload:Solstice.Repository.Specifications.Specification`1.SetFilterCondition
+  href: Solstice.Repository.Specifications.Specification-1.html#Solstice_Repository_Specifications_Specification_1_SetFilterCondition_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___
+  name: SetFilterCondition
+  nameWithType: Specification<T>.SetFilterCondition
+  fullName: Solstice.Repository.Specifications.Specification<T>.SetFilterCondition
+  nameWithType.vb: Specification(Of T).SetFilterCondition
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).SetFilterCondition
+- uid: Solstice.Repository.Specifications.Specification`1.Include*
+  commentId: Overload:Solstice.Repository.Specifications.Specification`1.Include
+  href: Solstice.Repository.Specifications.Specification-1.html#Solstice_Repository_Specifications_Specification_1_Include_System_Linq_Expressions_Expression_System_Func__0_System_Object___
+  name: Include
+  nameWithType: Specification<T>.Include
+  fullName: Solstice.Repository.Specifications.Specification<T>.Include
+  nameWithType.vb: Specification(Of T).Include
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).Include
+- uid: Solstice.Repository.Specifications.Specification`1
+  commentId: T:Solstice.Repository.Specifications.Specification`1
+  parent: Solstice.Repository.Specifications
+  href: Solstice.Repository.Specifications.Specification-1.html
+  name: Specification<T>
+  nameWithType: Specification<T>
+  fullName: Solstice.Repository.Specifications.Specification<T>
+  nameWithType.vb: Specification(Of T)
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T)
+  name.vb: Specification(Of T)
+  spec.csharp:
+  - uid: Solstice.Repository.Specifications.Specification`1
+    name: Specification
+    href: Solstice.Repository.Specifications.Specification-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Repository.Specifications.Specification`1
+    name: Specification
+    href: Solstice.Repository.Specifications.Specification-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Func{System.Linq.IQueryable{{T}},Microsoft.EntityFrameworkCore.Query.IIncludableQueryable{{T},System.Object}}
+  commentId: T:System.Func{System.Linq.IQueryable{`0},Microsoft.EntityFrameworkCore.Query.IIncludableQueryable{`0,System.Object}}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<IQueryable<T>, IIncludableQueryable<T, object>>
+  nameWithType: Func<IQueryable<T>, IIncludableQueryable<T, object>>
+  fullName: System.Func<System.Linq.IQueryable<T>, Microsoft.EntityFrameworkCore.Query.IIncludableQueryable<T, object>>
+  nameWithType.vb: Func(Of IQueryable(Of T), IIncludableQueryable(Of T, Object))
+  fullName.vb: System.Func(Of System.Linq.IQueryable(Of T), Microsoft.EntityFrameworkCore.Query.IIncludableQueryable(Of T, Object))
+  name.vb: Func(Of IQueryable(Of T), IIncludableQueryable(Of T, Object))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: Microsoft.EntityFrameworkCore.Query.IIncludableQueryable`2
+    name: IIncludableQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.query.iincludablequeryable-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: Microsoft.EntityFrameworkCore.Query.IIncludableQueryable`2
+    name: IIncludableQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.query.iincludablequeryable-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Solstice.Repository.Specifications.Specification`1.OrderBy*
+  commentId: Overload:Solstice.Repository.Specifications.Specification`1.OrderBy
+  href: Solstice.Repository.Specifications.Specification-1.html#Solstice_Repository_Specifications_Specification_1_OrderBy_System_Linq_Expressions_Expression_System_Func__0_System_Object___
+  name: OrderBy
+  nameWithType: Specification<T>.OrderBy
+  fullName: Solstice.Repository.Specifications.Specification<T>.OrderBy
+  nameWithType.vb: Specification(Of T).OrderBy
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).OrderBy
+- uid: Solstice.Repository.Specifications.Specification`1.OrderByDescending*
+  commentId: Overload:Solstice.Repository.Specifications.Specification`1.OrderByDescending
+  href: Solstice.Repository.Specifications.Specification-1.html#Solstice_Repository_Specifications_Specification_1_OrderByDescending_System_Linq_Expressions_Expression_System_Func__0_System_Object___
+  name: OrderByDescending
+  nameWithType: Specification<T>.OrderByDescending
+  fullName: Solstice.Repository.Specifications.Specification<T>.OrderByDescending
+  nameWithType.vb: Specification(Of T).OrderByDescending
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).OrderByDescending
+- uid: Solstice.Repository.Specifications.Specification`1.GroupBy*
+  commentId: Overload:Solstice.Repository.Specifications.Specification`1.GroupBy
+  href: Solstice.Repository.Specifications.Specification-1.html#Solstice_Repository_Specifications_Specification_1_GroupBy_System_Linq_Expressions_Expression_System_Func__0_System_Object___
+  name: GroupBy
+  nameWithType: Specification<T>.GroupBy
+  fullName: Solstice.Repository.Specifications.Specification<T>.GroupBy
+  nameWithType.vb: Specification(Of T).GroupBy
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).GroupBy
+- uid: Solstice.Repository.Specifications.Specification`1.Distinct*
+  commentId: Overload:Solstice.Repository.Specifications.Specification`1.Distinct
+  href: Solstice.Repository.Specifications.Specification-1.html#Solstice_Repository_Specifications_Specification_1_Distinct
+  name: Distinct
+  nameWithType: Specification<T>.Distinct
+  fullName: Solstice.Repository.Specifications.Specification<T>.Distinct
+  nameWithType.vb: Specification(Of T).Distinct
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T).Distinct

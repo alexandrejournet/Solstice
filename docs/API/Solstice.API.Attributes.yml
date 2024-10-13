@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.API.Attributes
+  commentId: N:Solstice.API.Attributes
+  id: Solstice.API.Attributes
+  children:
+  - Solstice.API.Attributes.DeleteAttribute
+  - Solstice.API.Attributes.GetAttribute
+  - Solstice.API.Attributes.HeadAttribute
+  - Solstice.API.Attributes.PatchAttribute
+  - Solstice.API.Attributes.PostAttribute
+  - Solstice.API.Attributes.PutAttribute
+  langs:
+  - csharp
+  - vb
+  name: Solstice.API.Attributes
+  nameWithType: Solstice.API.Attributes
+  fullName: Solstice.API.Attributes
+  type: Namespace
+  assemblies:
+  - Solstice.API
+references:
+- uid: Solstice.API.Attributes.DeleteAttribute
+  commentId: T:Solstice.API.Attributes.DeleteAttribute
+  href: Solstice.API.Attributes.DeleteAttribute.html
+  name: DeleteAttribute
+  nameWithType: DeleteAttribute
+  fullName: Solstice.API.Attributes.DeleteAttribute
+- uid: Solstice.API.Attributes.GetAttribute
+  commentId: T:Solstice.API.Attributes.GetAttribute
+  href: Solstice.API.Attributes.GetAttribute.html
+  name: GetAttribute
+  nameWithType: GetAttribute
+  fullName: Solstice.API.Attributes.GetAttribute
+- uid: Solstice.API.Attributes.HeadAttribute
+  commentId: T:Solstice.API.Attributes.HeadAttribute
+  href: Solstice.API.Attributes.HeadAttribute.html
+  name: HeadAttribute
+  nameWithType: HeadAttribute
+  fullName: Solstice.API.Attributes.HeadAttribute
+- uid: Solstice.API.Attributes.PatchAttribute
+  commentId: T:Solstice.API.Attributes.PatchAttribute
+  href: Solstice.API.Attributes.PatchAttribute.html
+  name: PatchAttribute
+  nameWithType: PatchAttribute
+  fullName: Solstice.API.Attributes.PatchAttribute
+- uid: Solstice.API.Attributes.PostAttribute
+  commentId: T:Solstice.API.Attributes.PostAttribute
+  href: Solstice.API.Attributes.PostAttribute.html
+  name: PostAttribute
+  nameWithType: PostAttribute
+  fullName: Solstice.API.Attributes.PostAttribute
+- uid: Solstice.API.Attributes.PutAttribute
+  commentId: T:Solstice.API.Attributes.PutAttribute
+  href: Solstice.API.Attributes.PutAttribute.html
+  name: PutAttribute
+  nameWithType: PutAttribute
+  fullName: Solstice.API.Attributes.PutAttribute

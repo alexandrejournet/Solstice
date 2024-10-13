@@ -1,0 +1,31 @@
+### YamlMime:TableOfContent
+items:
+- uid: Solstice.Scheduled.Core
+  name: Solstice.Scheduled.Core
+  items:
+  - uid: Solstice.Scheduled.Core.CoreBackgroundService
+    name: CoreBackgroundService
+- uid: Solstice.Scheduled.Injections
+  name: Solstice.Scheduled.Injections
+  items:
+  - uid: Solstice.Scheduled.Injections.ScheduledInjections
+    name: ScheduledInjections
+- uid: Solstice.Scheduled.Queue
+  name: Solstice.Scheduled.Queue
+  items:
+  - uid: Solstice.Scheduled.Queue.CoreQueuedBackgroundService
+    name: CoreQueuedBackgroundService
+  - uid: Solstice.Scheduled.Queue.DefaultBackgroundTaskQueue
+    name: DefaultBackgroundTaskQueue
+  - uid: Solstice.Scheduled.Queue.IBackgroundTaskQueue
+    name: IBackgroundTaskQueue
+  - uid: Solstice.Scheduled.Queue.QueueItem
+    name: QueueItem
+- uid: Solstice.Scheduled.Scheduled
+  name: Solstice.Scheduled.Scheduled
+  items:
+  - uid: Solstice.Scheduled.Scheduled.CoreScheduledProcessor`1
+    name: CoreScheduledProcessor<TDbContext>
+  - uid: Solstice.Scheduled.Scheduled.CoreScopedProcessor`1
+    name: CoreScopedProcessor<TDbContext>
+memberLayout: SamePage

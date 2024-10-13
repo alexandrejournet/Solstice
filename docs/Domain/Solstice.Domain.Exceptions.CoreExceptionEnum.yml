@@ -1,0 +1,422 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum
+  commentId: T:Solstice.Domain.Exceptions.CoreExceptionEnum
+  id: CoreExceptionEnum
+  parent: Solstice.Domain.Exceptions
+  children:
+  - Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_400
+  - Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_400_WITH_MESSAGE
+  - Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_401
+  - Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_401_WITH_MESSAGE
+  - Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_403
+  - Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_403_WITH_MESSAGE
+  - Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_404
+  - Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_404_WITH_MESSAGE
+  - Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_500
+  - Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_500_WITH_MESSAGE
+  - Solstice.Domain.Exceptions.CoreExceptionEnum.NO_QUERY_DTO
+  - Solstice.Domain.Exceptions.CoreExceptionEnum.NO_REPOSITORY
+  - Solstice.Domain.Exceptions.CoreExceptionEnum.NO_SERVICE
+  langs:
+  - csharp
+  - vb
+  name: CoreExceptionEnum
+  nameWithType: CoreExceptionEnum
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum
+  type: Enum
+  source:
+    id: CoreExceptionEnum
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreExceptionEnum.cs
+    startLine: 5
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  summary: Represents the possible exceptions that can be thrown by the Solstice.Domain classes.
+  example: []
+  syntax:
+    content: public enum CoreExceptionEnum
+    content.vb: Public Enum CoreExceptionEnum
+  extensionMethods:
+  - Solstice.Domain.Exceptions.CoreExceptionEnum.Solstice.Domain.Exceptions.CoreExceptionEnumExtension.Get
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum.NO_REPOSITORY
+  commentId: F:Solstice.Domain.Exceptions.CoreExceptionEnum.NO_REPOSITORY
+  id: NO_REPOSITORY
+  parent: Solstice.Domain.Exceptions.CoreExceptionEnum
+  langs:
+  - csharp
+  - vb
+  name: NO_REPOSITORY
+  nameWithType: CoreExceptionEnum.NO_REPOSITORY
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum.NO_REPOSITORY
+  type: Field
+  source:
+    id: NO_REPOSITORY
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreExceptionEnum.cs
+    startLine: 7
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: NO_REPOSITORY = 0
+    return:
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum.NO_SERVICE
+  commentId: F:Solstice.Domain.Exceptions.CoreExceptionEnum.NO_SERVICE
+  id: NO_SERVICE
+  parent: Solstice.Domain.Exceptions.CoreExceptionEnum
+  langs:
+  - csharp
+  - vb
+  name: NO_SERVICE
+  nameWithType: CoreExceptionEnum.NO_SERVICE
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum.NO_SERVICE
+  type: Field
+  source:
+    id: NO_SERVICE
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreExceptionEnum.cs
+    startLine: 8
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: NO_SERVICE = 1
+    return:
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum.NO_QUERY_DTO
+  commentId: F:Solstice.Domain.Exceptions.CoreExceptionEnum.NO_QUERY_DTO
+  id: NO_QUERY_DTO
+  parent: Solstice.Domain.Exceptions.CoreExceptionEnum
+  langs:
+  - csharp
+  - vb
+  name: NO_QUERY_DTO
+  nameWithType: CoreExceptionEnum.NO_QUERY_DTO
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum.NO_QUERY_DTO
+  type: Field
+  source:
+    id: NO_QUERY_DTO
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreExceptionEnum.cs
+    startLine: 9
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: NO_QUERY_DTO = 2
+    return:
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_400
+  commentId: F:Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_400
+  id: HTTP_400
+  parent: Solstice.Domain.Exceptions.CoreExceptionEnum
+  langs:
+  - csharp
+  - vb
+  name: HTTP_400
+  nameWithType: CoreExceptionEnum.HTTP_400
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_400
+  type: Field
+  source:
+    id: HTTP_400
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreExceptionEnum.cs
+    startLine: 10
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: HTTP_400 = 3
+    return:
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_400_WITH_MESSAGE
+  commentId: F:Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_400_WITH_MESSAGE
+  id: HTTP_400_WITH_MESSAGE
+  parent: Solstice.Domain.Exceptions.CoreExceptionEnum
+  langs:
+  - csharp
+  - vb
+  name: HTTP_400_WITH_MESSAGE
+  nameWithType: CoreExceptionEnum.HTTP_400_WITH_MESSAGE
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_400_WITH_MESSAGE
+  type: Field
+  source:
+    id: HTTP_400_WITH_MESSAGE
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreExceptionEnum.cs
+    startLine: 11
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: HTTP_400_WITH_MESSAGE = 4
+    return:
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_401
+  commentId: F:Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_401
+  id: HTTP_401
+  parent: Solstice.Domain.Exceptions.CoreExceptionEnum
+  langs:
+  - csharp
+  - vb
+  name: HTTP_401
+  nameWithType: CoreExceptionEnum.HTTP_401
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_401
+  type: Field
+  source:
+    id: HTTP_401
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreExceptionEnum.cs
+    startLine: 12
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: HTTP_401 = 5
+    return:
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_401_WITH_MESSAGE
+  commentId: F:Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_401_WITH_MESSAGE
+  id: HTTP_401_WITH_MESSAGE
+  parent: Solstice.Domain.Exceptions.CoreExceptionEnum
+  langs:
+  - csharp
+  - vb
+  name: HTTP_401_WITH_MESSAGE
+  nameWithType: CoreExceptionEnum.HTTP_401_WITH_MESSAGE
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_401_WITH_MESSAGE
+  type: Field
+  source:
+    id: HTTP_401_WITH_MESSAGE
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreExceptionEnum.cs
+    startLine: 13
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: HTTP_401_WITH_MESSAGE = 6
+    return:
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_403
+  commentId: F:Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_403
+  id: HTTP_403
+  parent: Solstice.Domain.Exceptions.CoreExceptionEnum
+  langs:
+  - csharp
+  - vb
+  name: HTTP_403
+  nameWithType: CoreExceptionEnum.HTTP_403
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_403
+  type: Field
+  source:
+    id: HTTP_403
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreExceptionEnum.cs
+    startLine: 14
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: HTTP_403 = 7
+    return:
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_403_WITH_MESSAGE
+  commentId: F:Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_403_WITH_MESSAGE
+  id: HTTP_403_WITH_MESSAGE
+  parent: Solstice.Domain.Exceptions.CoreExceptionEnum
+  langs:
+  - csharp
+  - vb
+  name: HTTP_403_WITH_MESSAGE
+  nameWithType: CoreExceptionEnum.HTTP_403_WITH_MESSAGE
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_403_WITH_MESSAGE
+  type: Field
+  source:
+    id: HTTP_403_WITH_MESSAGE
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreExceptionEnum.cs
+    startLine: 15
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: HTTP_403_WITH_MESSAGE = 8
+    return:
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_404
+  commentId: F:Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_404
+  id: HTTP_404
+  parent: Solstice.Domain.Exceptions.CoreExceptionEnum
+  langs:
+  - csharp
+  - vb
+  name: HTTP_404
+  nameWithType: CoreExceptionEnum.HTTP_404
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_404
+  type: Field
+  source:
+    id: HTTP_404
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreExceptionEnum.cs
+    startLine: 16
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: HTTP_404 = 9
+    return:
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_404_WITH_MESSAGE
+  commentId: F:Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_404_WITH_MESSAGE
+  id: HTTP_404_WITH_MESSAGE
+  parent: Solstice.Domain.Exceptions.CoreExceptionEnum
+  langs:
+  - csharp
+  - vb
+  name: HTTP_404_WITH_MESSAGE
+  nameWithType: CoreExceptionEnum.HTTP_404_WITH_MESSAGE
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_404_WITH_MESSAGE
+  type: Field
+  source:
+    id: HTTP_404_WITH_MESSAGE
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreExceptionEnum.cs
+    startLine: 17
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: HTTP_404_WITH_MESSAGE = 10
+    return:
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_500
+  commentId: F:Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_500
+  id: HTTP_500
+  parent: Solstice.Domain.Exceptions.CoreExceptionEnum
+  langs:
+  - csharp
+  - vb
+  name: HTTP_500
+  nameWithType: CoreExceptionEnum.HTTP_500
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_500
+  type: Field
+  source:
+    id: HTTP_500
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreExceptionEnum.cs
+    startLine: 18
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: HTTP_500 = 11
+    return:
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_500_WITH_MESSAGE
+  commentId: F:Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_500_WITH_MESSAGE
+  id: HTTP_500_WITH_MESSAGE
+  parent: Solstice.Domain.Exceptions.CoreExceptionEnum
+  langs:
+  - csharp
+  - vb
+  name: HTTP_500_WITH_MESSAGE
+  nameWithType: CoreExceptionEnum.HTTP_500_WITH_MESSAGE
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum.HTTP_500_WITH_MESSAGE
+  type: Field
+  source:
+    id: HTTP_500_WITH_MESSAGE
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreExceptionEnum.cs
+    startLine: 19
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: HTTP_500_WITH_MESSAGE = 12
+    return:
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+references:
+- uid: Solstice.Domain.Exceptions
+  commentId: N:Solstice.Domain.Exceptions
+  href: Solstice.html
+  name: Solstice.Domain.Exceptions
+  nameWithType: Solstice.Domain.Exceptions
+  fullName: Solstice.Domain.Exceptions
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Domain
+    name: Domain
+    href: Solstice.Domain.html
+  - name: .
+  - uid: Solstice.Domain.Exceptions
+    name: Exceptions
+    href: Solstice.Domain.Exceptions.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Domain
+    name: Domain
+    href: Solstice.Domain.html
+  - name: .
+  - uid: Solstice.Domain.Exceptions
+    name: Exceptions
+    href: Solstice.Domain.Exceptions.html
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum.Solstice.Domain.Exceptions.CoreExceptionEnumExtension.Get
+  commentId: M:Solstice.Domain.Exceptions.CoreExceptionEnumExtension.Get(Solstice.Domain.Exceptions.CoreExceptionEnum)
+  parent: Solstice.Domain.Exceptions.CoreExceptionEnumExtension
+  definition: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.Get(Solstice.Domain.Exceptions.CoreExceptionEnum)
+  href: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.html#Solstice_Domain_Exceptions_CoreExceptionEnumExtension_Get_Solstice_Domain_Exceptions_CoreExceptionEnum_
+  name: Get(CoreExceptionEnum)
+  nameWithType: CoreExceptionEnumExtension.Get(CoreExceptionEnum)
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.Get(Solstice.Domain.Exceptions.CoreExceptionEnum)
+  spec.csharp:
+  - uid: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.Get(Solstice.Domain.Exceptions.CoreExceptionEnum)
+    name: Get
+    href: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.html#Solstice_Domain_Exceptions_CoreExceptionEnumExtension_Get_Solstice_Domain_Exceptions_CoreExceptionEnum_
+  - name: (
+  - uid: Solstice.Domain.Exceptions.CoreExceptionEnum
+    name: CoreExceptionEnum
+    href: Solstice.Domain.Exceptions.CoreExceptionEnum.html
+  - name: )
+  spec.vb:
+  - uid: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.Get(Solstice.Domain.Exceptions.CoreExceptionEnum)
+    name: Get
+    href: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.html#Solstice_Domain_Exceptions_CoreExceptionEnumExtension_Get_Solstice_Domain_Exceptions_CoreExceptionEnum_
+  - name: (
+  - uid: Solstice.Domain.Exceptions.CoreExceptionEnum
+    name: CoreExceptionEnum
+    href: Solstice.Domain.Exceptions.CoreExceptionEnum.html
+  - name: )
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.Get(Solstice.Domain.Exceptions.CoreExceptionEnum)
+  commentId: M:Solstice.Domain.Exceptions.CoreExceptionEnumExtension.Get(Solstice.Domain.Exceptions.CoreExceptionEnum)
+  href: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.html#Solstice_Domain_Exceptions_CoreExceptionEnumExtension_Get_Solstice_Domain_Exceptions_CoreExceptionEnum_
+  name: Get(CoreExceptionEnum)
+  nameWithType: CoreExceptionEnumExtension.Get(CoreExceptionEnum)
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.Get(Solstice.Domain.Exceptions.CoreExceptionEnum)
+  spec.csharp:
+  - uid: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.Get(Solstice.Domain.Exceptions.CoreExceptionEnum)
+    name: Get
+    href: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.html#Solstice_Domain_Exceptions_CoreExceptionEnumExtension_Get_Solstice_Domain_Exceptions_CoreExceptionEnum_
+  - name: (
+  - uid: Solstice.Domain.Exceptions.CoreExceptionEnum
+    name: CoreExceptionEnum
+    href: Solstice.Domain.Exceptions.CoreExceptionEnum.html
+  - name: )
+  spec.vb:
+  - uid: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.Get(Solstice.Domain.Exceptions.CoreExceptionEnum)
+    name: Get
+    href: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.html#Solstice_Domain_Exceptions_CoreExceptionEnumExtension_Get_Solstice_Domain_Exceptions_CoreExceptionEnum_
+  - name: (
+  - uid: Solstice.Domain.Exceptions.CoreExceptionEnum
+    name: CoreExceptionEnum
+    href: Solstice.Domain.Exceptions.CoreExceptionEnum.html
+  - name: )
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnumExtension
+  commentId: T:Solstice.Domain.Exceptions.CoreExceptionEnumExtension
+  parent: Solstice.Domain.Exceptions
+  href: Solstice.Domain.Exceptions.CoreExceptionEnumExtension.html
+  name: CoreExceptionEnumExtension
+  nameWithType: CoreExceptionEnumExtension
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnumExtension
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum
+  commentId: T:Solstice.Domain.Exceptions.CoreExceptionEnum
+  parent: Solstice.Domain.Exceptions
+  href: Solstice.Domain.Exceptions.CoreExceptionEnum.html
+  name: CoreExceptionEnum
+  nameWithType: CoreExceptionEnum
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum

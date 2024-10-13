@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Service.Base
+  commentId: N:Solstice.Service.Base
+  id: Solstice.Service.Base
+  children:
+  - Solstice.Service.Base.CoreService`2
+  - Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Service.Base
+  nameWithType: Solstice.Service.Base
+  fullName: Solstice.Service.Base
+  type: Namespace
+  assemblies:
+  - Solstice.Applications
+references:
+- uid: Solstice.Service.Base.CoreService`2
+  commentId: T:Solstice.Service.Base.CoreService`2
+  href: Solstice.Service.Base.CoreService-2.html
+  name: CoreService<TRepository, T>
+  nameWithType: CoreService<TRepository, T>
+  fullName: Solstice.Service.Base.CoreService<TRepository, T>
+  nameWithType.vb: CoreService(Of TRepository, T)
+  fullName.vb: Solstice.Service.Base.CoreService(Of TRepository, T)
+  name.vb: CoreService(Of TRepository, T)
+  spec.csharp:
+  - uid: Solstice.Service.Base.CoreService`2
+    name: CoreService
+    href: Solstice.Service.Base.CoreService-2.html
+  - name: <
+  - name: TRepository
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Service.Base.CoreService`2
+    name: CoreService
+    href: Solstice.Service.Base.CoreService-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TRepository
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: Solstice.Service.Base.ICoreService`1
+  commentId: T:Solstice.Service.Base.ICoreService`1
+  href: Solstice.Service.Base.ICoreService-1.html
+  name: ICoreService<T>
+  nameWithType: ICoreService<T>
+  fullName: Solstice.Service.Base.ICoreService<T>
+  nameWithType.vb: ICoreService(Of T)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T)
+  name.vb: ICoreService(Of T)
+  spec.csharp:
+  - uid: Solstice.Service.Base.ICoreService`1
+    name: ICoreService
+    href: Solstice.Service.Base.ICoreService-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Service.Base.ICoreService`1
+    name: ICoreService
+    href: Solstice.Service.Base.ICoreService-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

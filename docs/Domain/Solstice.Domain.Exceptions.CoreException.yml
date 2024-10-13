@@ -1,0 +1,1067 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Domain.Exceptions.CoreException
+  commentId: T:Solstice.Domain.Exceptions.CoreException
+  id: CoreException
+  parent: Solstice.Domain.Exceptions
+  children:
+  - Solstice.Domain.Exceptions.CoreException.#ctor(System.Int32,System.String)
+  - Solstice.Domain.Exceptions.CoreException.#ctor(System.Int32,System.String,System.Exception)
+  - Solstice.Domain.Exceptions.CoreException.#ctor(System.String)
+  - Solstice.Domain.Exceptions.CoreException.#ctor(System.String,System.Exception)
+  - Solstice.Domain.Exceptions.CoreException.Error400(System.Object[])
+  - Solstice.Domain.Exceptions.CoreException.Error401(System.Object[])
+  - Solstice.Domain.Exceptions.CoreException.Error403(System.Object[])
+  - Solstice.Domain.Exceptions.CoreException.Error404(System.Object[])
+  - Solstice.Domain.Exceptions.CoreException.Error500(System.Object[])
+  - Solstice.Domain.Exceptions.CoreException.Format(Solstice.Domain.Exceptions.CoreExceptionEnum)
+  - Solstice.Domain.Exceptions.CoreException.Format(Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  - Solstice.Domain.Exceptions.CoreException.Format(System.Exception,Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  - Solstice.Domain.Exceptions.CoreException.Format(System.Exception,System.Int32,Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  - Solstice.Domain.Exceptions.CoreException.Format(System.Int32,Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  - Solstice.Domain.Exceptions.CoreException.StatusCode
+  langs:
+  - csharp
+  - vb
+  name: CoreException
+  nameWithType: CoreException
+  fullName: Solstice.Domain.Exceptions.CoreException
+  type: Class
+  source:
+    id: CoreException
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 7
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  summary: Represents an exception that is thrown when there is an error.
+  example: []
+  syntax:
+    content: 'public class CoreException : Exception, ISerializable'
+    content.vb: Public Class CoreException Inherits Exception Implements ISerializable
+  inheritance:
+  - System.Object
+  - System.Exception
+  implements:
+  - System.Runtime.Serialization.ISerializable
+  inheritedMembers:
+  - System.Exception.GetBaseException
+  - System.Exception.GetType
+  - System.Exception.ToString
+  - System.Exception.Data
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Message
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.SerializeObjectState
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Solstice.Domain.Exceptions.CoreException.StatusCode
+  commentId: P:Solstice.Domain.Exceptions.CoreException.StatusCode
+  id: StatusCode
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: StatusCode
+  nameWithType: CoreException.StatusCode
+  fullName: Solstice.Domain.Exceptions.CoreException.StatusCode
+  type: Property
+  source:
+    id: StatusCode
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 9
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: public int StatusCode { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property StatusCode As Integer
+  overload: Solstice.Domain.Exceptions.CoreException.StatusCode*
+- uid: Solstice.Domain.Exceptions.CoreException.#ctor(System.String)
+  commentId: M:Solstice.Domain.Exceptions.CoreException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: CoreException(string)
+  nameWithType: CoreException.CoreException(string)
+  fullName: Solstice.Domain.Exceptions.CoreException.CoreException(string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 11
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: public CoreException(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(message As String)
+  overload: Solstice.Domain.Exceptions.CoreException.#ctor*
+  nameWithType.vb: CoreException.New(String)
+  fullName.vb: Solstice.Domain.Exceptions.CoreException.New(String)
+  name.vb: New(String)
+- uid: Solstice.Domain.Exceptions.CoreException.#ctor(System.Int32,System.String)
+  commentId: M:Solstice.Domain.Exceptions.CoreException.#ctor(System.Int32,System.String)
+  id: '#ctor(System.Int32,System.String)'
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: CoreException(int, string)
+  nameWithType: CoreException.CoreException(int, string)
+  fullName: Solstice.Domain.Exceptions.CoreException.CoreException(int, string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 16
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: public CoreException(int statusCode, string message)
+    parameters:
+    - id: statusCode
+      type: System.Int32
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(statusCode As Integer, message As String)
+  overload: Solstice.Domain.Exceptions.CoreException.#ctor*
+  nameWithType.vb: CoreException.New(Integer, String)
+  fullName.vb: Solstice.Domain.Exceptions.CoreException.New(Integer, String)
+  name.vb: New(Integer, String)
+- uid: Solstice.Domain.Exceptions.CoreException.#ctor(System.Int32,System.String,System.Exception)
+  commentId: M:Solstice.Domain.Exceptions.CoreException.#ctor(System.Int32,System.String,System.Exception)
+  id: '#ctor(System.Int32,System.String,System.Exception)'
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: CoreException(int, string, Exception)
+  nameWithType: CoreException.CoreException(int, string, Exception)
+  fullName: Solstice.Domain.Exceptions.CoreException.CoreException(int, string, System.Exception)
+  type: Constructor
+  source:
+    id: .ctor
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 22
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: public CoreException(int statusCode, string message, Exception innerException)
+    parameters:
+    - id: statusCode
+      type: System.Int32
+    - id: message
+      type: System.String
+    - id: innerException
+      type: System.Exception
+    content.vb: Public Sub New(statusCode As Integer, message As String, innerException As Exception)
+  overload: Solstice.Domain.Exceptions.CoreException.#ctor*
+  nameWithType.vb: CoreException.New(Integer, String, Exception)
+  fullName.vb: Solstice.Domain.Exceptions.CoreException.New(Integer, String, System.Exception)
+  name.vb: New(Integer, String, Exception)
+- uid: Solstice.Domain.Exceptions.CoreException.#ctor(System.String,System.Exception)
+  commentId: M:Solstice.Domain.Exceptions.CoreException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: CoreException(string, Exception)
+  nameWithType: CoreException.CoreException(string, Exception)
+  fullName: Solstice.Domain.Exceptions.CoreException.CoreException(string, System.Exception)
+  type: Constructor
+  source:
+    id: .ctor
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 28
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: public CoreException(string message, Exception innerException)
+    parameters:
+    - id: message
+      type: System.String
+    - id: innerException
+      type: System.Exception
+    content.vb: Public Sub New(message As String, innerException As Exception)
+  overload: Solstice.Domain.Exceptions.CoreException.#ctor*
+  nameWithType.vb: CoreException.New(String, Exception)
+  fullName.vb: Solstice.Domain.Exceptions.CoreException.New(String, System.Exception)
+  name.vb: New(String, Exception)
+- uid: Solstice.Domain.Exceptions.CoreException.Format(Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  commentId: M:Solstice.Domain.Exceptions.CoreException.Format(Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  id: Format(Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: Format(CoreExceptionEnum, params object[])
+  nameWithType: CoreException.Format(CoreExceptionEnum, params object[])
+  fullName: Solstice.Domain.Exceptions.CoreException.Format(Solstice.Domain.Exceptions.CoreExceptionEnum, params object[])
+  type: Method
+  source:
+    id: Format
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 33
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: public static CoreException Format(CoreExceptionEnum coreExceptionEnum, params object[] values)
+    parameters:
+    - id: coreExceptionEnum
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+    - id: values
+      type: System.Object[]
+    return:
+      type: Solstice.Domain.Exceptions.CoreException
+    content.vb: Public Shared Function Format(coreExceptionEnum As CoreExceptionEnum, ParamArray values As Object()) As CoreException
+  overload: Solstice.Domain.Exceptions.CoreException.Format*
+  nameWithType.vb: CoreException.Format(CoreExceptionEnum, ParamArray Object())
+  fullName.vb: Solstice.Domain.Exceptions.CoreException.Format(Solstice.Domain.Exceptions.CoreExceptionEnum, ParamArray Object())
+  name.vb: Format(CoreExceptionEnum, ParamArray Object())
+- uid: Solstice.Domain.Exceptions.CoreException.Format(System.Int32,Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  commentId: M:Solstice.Domain.Exceptions.CoreException.Format(System.Int32,Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  id: Format(System.Int32,Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: Format(int, CoreExceptionEnum, params object[])
+  nameWithType: CoreException.Format(int, CoreExceptionEnum, params object[])
+  fullName: Solstice.Domain.Exceptions.CoreException.Format(int, Solstice.Domain.Exceptions.CoreExceptionEnum, params object[])
+  type: Method
+  source:
+    id: Format
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 38
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: public static CoreException Format(int statusCode, CoreExceptionEnum coreExceptionEnum, params object[] values)
+    parameters:
+    - id: statusCode
+      type: System.Int32
+    - id: coreExceptionEnum
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+    - id: values
+      type: System.Object[]
+    return:
+      type: Solstice.Domain.Exceptions.CoreException
+    content.vb: Public Shared Function Format(statusCode As Integer, coreExceptionEnum As CoreExceptionEnum, ParamArray values As Object()) As CoreException
+  overload: Solstice.Domain.Exceptions.CoreException.Format*
+  nameWithType.vb: CoreException.Format(Integer, CoreExceptionEnum, ParamArray Object())
+  fullName.vb: Solstice.Domain.Exceptions.CoreException.Format(Integer, Solstice.Domain.Exceptions.CoreExceptionEnum, ParamArray Object())
+  name.vb: Format(Integer, CoreExceptionEnum, ParamArray Object())
+- uid: Solstice.Domain.Exceptions.CoreException.Format(System.Exception,Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  commentId: M:Solstice.Domain.Exceptions.CoreException.Format(System.Exception,Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  id: Format(System.Exception,Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: Format(Exception, CoreExceptionEnum, params object[])
+  nameWithType: CoreException.Format(Exception, CoreExceptionEnum, params object[])
+  fullName: Solstice.Domain.Exceptions.CoreException.Format(System.Exception, Solstice.Domain.Exceptions.CoreExceptionEnum, params object[])
+  type: Method
+  source:
+    id: Format
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 43
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: public static CoreException Format(Exception ex, CoreExceptionEnum coreExceptionEnum, params object[] values)
+    parameters:
+    - id: ex
+      type: System.Exception
+    - id: coreExceptionEnum
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+    - id: values
+      type: System.Object[]
+    return:
+      type: Solstice.Domain.Exceptions.CoreException
+    content.vb: Public Shared Function Format(ex As Exception, coreExceptionEnum As CoreExceptionEnum, ParamArray values As Object()) As CoreException
+  overload: Solstice.Domain.Exceptions.CoreException.Format*
+  nameWithType.vb: CoreException.Format(Exception, CoreExceptionEnum, ParamArray Object())
+  fullName.vb: Solstice.Domain.Exceptions.CoreException.Format(System.Exception, Solstice.Domain.Exceptions.CoreExceptionEnum, ParamArray Object())
+  name.vb: Format(Exception, CoreExceptionEnum, ParamArray Object())
+- uid: Solstice.Domain.Exceptions.CoreException.Format(System.Exception,System.Int32,Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  commentId: M:Solstice.Domain.Exceptions.CoreException.Format(System.Exception,System.Int32,Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  id: Format(System.Exception,System.Int32,Solstice.Domain.Exceptions.CoreExceptionEnum,System.Object[])
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: Format(Exception, int, CoreExceptionEnum, params object[])
+  nameWithType: CoreException.Format(Exception, int, CoreExceptionEnum, params object[])
+  fullName: Solstice.Domain.Exceptions.CoreException.Format(System.Exception, int, Solstice.Domain.Exceptions.CoreExceptionEnum, params object[])
+  type: Method
+  source:
+    id: Format
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 48
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  syntax:
+    content: public static CoreException Format(Exception ex, int statusCode, CoreExceptionEnum coreExceptionEnum, params object[] values)
+    parameters:
+    - id: ex
+      type: System.Exception
+    - id: statusCode
+      type: System.Int32
+    - id: coreExceptionEnum
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+    - id: values
+      type: System.Object[]
+    return:
+      type: Solstice.Domain.Exceptions.CoreException
+    content.vb: Public Shared Function Format(ex As Exception, statusCode As Integer, coreExceptionEnum As CoreExceptionEnum, ParamArray values As Object()) As CoreException
+  overload: Solstice.Domain.Exceptions.CoreException.Format*
+  nameWithType.vb: CoreException.Format(Exception, Integer, CoreExceptionEnum, ParamArray Object())
+  fullName.vb: Solstice.Domain.Exceptions.CoreException.Format(System.Exception, Integer, Solstice.Domain.Exceptions.CoreExceptionEnum, ParamArray Object())
+  name.vb: Format(Exception, Integer, CoreExceptionEnum, ParamArray Object())
+- uid: Solstice.Domain.Exceptions.CoreException.Format(Solstice.Domain.Exceptions.CoreExceptionEnum)
+  commentId: M:Solstice.Domain.Exceptions.CoreException.Format(Solstice.Domain.Exceptions.CoreExceptionEnum)
+  id: Format(Solstice.Domain.Exceptions.CoreExceptionEnum)
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: Format(CoreExceptionEnum)
+  nameWithType: CoreException.Format(CoreExceptionEnum)
+  fullName: Solstice.Domain.Exceptions.CoreException.Format(Solstice.Domain.Exceptions.CoreExceptionEnum)
+  type: Method
+  source:
+    id: Format
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 59
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  summary: Used to generate exception message based on the provided <xref href="Solstice.Domain.Exceptions.CoreExceptionEnum" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static CoreException Format(CoreExceptionEnum coreExceptionEnum)
+    parameters:
+    - id: coreExceptionEnum
+      type: Solstice.Domain.Exceptions.CoreExceptionEnum
+      description: ''
+    return:
+      type: Solstice.Domain.Exceptions.CoreException
+      description: ''
+    content.vb: Public Shared Function Format(coreExceptionEnum As CoreExceptionEnum) As CoreException
+  overload: Solstice.Domain.Exceptions.CoreException.Format*
+- uid: Solstice.Domain.Exceptions.CoreException.Error400(System.Object[])
+  commentId: M:Solstice.Domain.Exceptions.CoreException.Error400(System.Object[])
+  id: Error400(System.Object[])
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: Error400(params object[])
+  nameWithType: CoreException.Error400(params object[])
+  fullName: Solstice.Domain.Exceptions.CoreException.Error400(params object[])
+  type: Method
+  source:
+    id: Error400
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 69
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  summary: Generate a 400 error with or without a message.
+  example: []
+  syntax:
+    content: public static CoreException Error400(params object[] values)
+    parameters:
+    - id: values
+      type: System.Object[]
+      description: ''
+    return:
+      type: Solstice.Domain.Exceptions.CoreException
+      description: ''
+    content.vb: Public Shared Function Error400(ParamArray values As Object()) As CoreException
+  overload: Solstice.Domain.Exceptions.CoreException.Error400*
+  nameWithType.vb: CoreException.Error400(ParamArray Object())
+  fullName.vb: Solstice.Domain.Exceptions.CoreException.Error400(ParamArray Object())
+  name.vb: Error400(ParamArray Object())
+- uid: Solstice.Domain.Exceptions.CoreException.Error401(System.Object[])
+  commentId: M:Solstice.Domain.Exceptions.CoreException.Error401(System.Object[])
+  id: Error401(System.Object[])
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: Error401(params object[])
+  nameWithType: CoreException.Error401(params object[])
+  fullName: Solstice.Domain.Exceptions.CoreException.Error401(params object[])
+  type: Method
+  source:
+    id: Error401
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 82
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  summary: Generate a 401 error with or without a message.
+  example: []
+  syntax:
+    content: public static CoreException Error401(params object[] values)
+    parameters:
+    - id: values
+      type: System.Object[]
+      description: ''
+    return:
+      type: Solstice.Domain.Exceptions.CoreException
+      description: ''
+    content.vb: Public Shared Function Error401(ParamArray values As Object()) As CoreException
+  overload: Solstice.Domain.Exceptions.CoreException.Error401*
+  nameWithType.vb: CoreException.Error401(ParamArray Object())
+  fullName.vb: Solstice.Domain.Exceptions.CoreException.Error401(ParamArray Object())
+  name.vb: Error401(ParamArray Object())
+- uid: Solstice.Domain.Exceptions.CoreException.Error403(System.Object[])
+  commentId: M:Solstice.Domain.Exceptions.CoreException.Error403(System.Object[])
+  id: Error403(System.Object[])
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: Error403(params object[])
+  nameWithType: CoreException.Error403(params object[])
+  fullName: Solstice.Domain.Exceptions.CoreException.Error403(params object[])
+  type: Method
+  source:
+    id: Error403
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 95
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  summary: Generate a 403 error with or without a message.
+  example: []
+  syntax:
+    content: public static CoreException Error403(params object[] values)
+    parameters:
+    - id: values
+      type: System.Object[]
+      description: ''
+    return:
+      type: Solstice.Domain.Exceptions.CoreException
+      description: ''
+    content.vb: Public Shared Function Error403(ParamArray values As Object()) As CoreException
+  overload: Solstice.Domain.Exceptions.CoreException.Error403*
+  nameWithType.vb: CoreException.Error403(ParamArray Object())
+  fullName.vb: Solstice.Domain.Exceptions.CoreException.Error403(ParamArray Object())
+  name.vb: Error403(ParamArray Object())
+- uid: Solstice.Domain.Exceptions.CoreException.Error404(System.Object[])
+  commentId: M:Solstice.Domain.Exceptions.CoreException.Error404(System.Object[])
+  id: Error404(System.Object[])
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: Error404(params object[])
+  nameWithType: CoreException.Error404(params object[])
+  fullName: Solstice.Domain.Exceptions.CoreException.Error404(params object[])
+  type: Method
+  source:
+    id: Error404
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 108
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  summary: Generate a 404 error with or without a message.
+  example: []
+  syntax:
+    content: public static CoreException Error404(params object[] values)
+    parameters:
+    - id: values
+      type: System.Object[]
+      description: ''
+    return:
+      type: Solstice.Domain.Exceptions.CoreException
+      description: ''
+    content.vb: Public Shared Function Error404(ParamArray values As Object()) As CoreException
+  overload: Solstice.Domain.Exceptions.CoreException.Error404*
+  nameWithType.vb: CoreException.Error404(ParamArray Object())
+  fullName.vb: Solstice.Domain.Exceptions.CoreException.Error404(ParamArray Object())
+  name.vb: Error404(ParamArray Object())
+- uid: Solstice.Domain.Exceptions.CoreException.Error500(System.Object[])
+  commentId: M:Solstice.Domain.Exceptions.CoreException.Error500(System.Object[])
+  id: Error500(System.Object[])
+  parent: Solstice.Domain.Exceptions.CoreException
+  langs:
+  - csharp
+  - vb
+  name: Error500(params object[])
+  nameWithType: CoreException.Error500(params object[])
+  fullName: Solstice.Domain.Exceptions.CoreException.Error500(params object[])
+  type: Method
+  source:
+    id: Error500
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Domain/Exceptions/CoreException.cs
+    startLine: 121
+  assemblies:
+  - Solstice.Domain
+  namespace: Solstice.Domain.Exceptions
+  summary: Generate a 500 error with or without a message.
+  example: []
+  syntax:
+    content: public static CoreException Error500(params object[] values)
+    parameters:
+    - id: values
+      type: System.Object[]
+      description: ''
+    return:
+      type: Solstice.Domain.Exceptions.CoreException
+      description: ''
+    content.vb: Public Shared Function Error500(ParamArray values As Object()) As CoreException
+  overload: Solstice.Domain.Exceptions.CoreException.Error500*
+  nameWithType.vb: CoreException.Error500(ParamArray Object())
+  fullName.vb: Solstice.Domain.Exceptions.CoreException.Error500(ParamArray Object())
+  name.vb: Error500(ParamArray Object())
+references:
+- uid: Solstice.Domain.Exceptions
+  commentId: N:Solstice.Domain.Exceptions
+  href: Solstice.html
+  name: Solstice.Domain.Exceptions
+  nameWithType: Solstice.Domain.Exceptions
+  fullName: Solstice.Domain.Exceptions
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Domain
+    name: Domain
+    href: Solstice.Domain.html
+  - name: .
+  - uid: Solstice.Domain.Exceptions
+    name: Exceptions
+    href: Solstice.Domain.Exceptions.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Domain
+    name: Domain
+    href: Solstice.Domain.html
+  - name: .
+  - uid: Solstice.Domain.Exceptions
+    name: Exceptions
+    href: Solstice.Domain.Exceptions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Runtime.Serialization.ISerializable
+  commentId: T:System.Runtime.Serialization.ISerializable
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: System.Runtime.Serialization.ISerializable
+- uid: System.Exception.GetBaseException
+  commentId: M:System.Exception.GetBaseException
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception
+  name: GetBaseException()
+  nameWithType: Exception.GetBaseException()
+  fullName: System.Exception.GetBaseException()
+  spec.csharp:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.getbaseexception
+  - name: (
+  - name: )
+- uid: System.Exception.GetType
+  commentId: M:System.Exception.GetType
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.gettype
+  name: GetType()
+  nameWithType: Exception.GetType()
+  fullName: System.Exception.GetType()
+  spec.csharp:
+  - uid: System.Exception.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Exception.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.gettype
+  - name: (
+  - name: )
+- uid: System.Exception.ToString
+  commentId: M:System.Exception.ToString
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.tostring
+  name: ToString()
+  nameWithType: Exception.ToString()
+  fullName: System.Exception.ToString()
+  spec.csharp:
+  - uid: System.Exception.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Exception.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.exception.tostring
+  - name: (
+  - name: )
+- uid: System.Exception.Data
+  commentId: P:System.Exception.Data
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.data
+  name: Data
+  nameWithType: Exception.Data
+  fullName: System.Exception.Data
+- uid: System.Exception.HelpLink
+  commentId: P:System.Exception.HelpLink
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.helplink
+  name: HelpLink
+  nameWithType: Exception.HelpLink
+  fullName: System.Exception.HelpLink
+- uid: System.Exception.HResult
+  commentId: P:System.Exception.HResult
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.hresult
+  name: HResult
+  nameWithType: Exception.HResult
+  fullName: System.Exception.HResult
+- uid: System.Exception.InnerException
+  commentId: P:System.Exception.InnerException
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.innerexception
+  name: InnerException
+  nameWithType: Exception.InnerException
+  fullName: System.Exception.InnerException
+- uid: System.Exception.Message
+  commentId: P:System.Exception.Message
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.message
+  name: Message
+  nameWithType: Exception.Message
+  fullName: System.Exception.Message
+- uid: System.Exception.Source
+  commentId: P:System.Exception.Source
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.source
+  name: Source
+  nameWithType: Exception.Source
+  fullName: System.Exception.Source
+- uid: System.Exception.StackTrace
+  commentId: P:System.Exception.StackTrace
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.stacktrace
+  name: StackTrace
+  nameWithType: Exception.StackTrace
+  fullName: System.Exception.StackTrace
+- uid: System.Exception.TargetSite
+  commentId: P:System.Exception.TargetSite
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.targetsite
+  name: TargetSite
+  nameWithType: Exception.TargetSite
+  fullName: System.Exception.TargetSite
+- uid: System.Exception.SerializeObjectState
+  commentId: E:System.Exception.SerializeObjectState
+  parent: System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception.serializeobjectstate
+  name: SerializeObjectState
+  nameWithType: Exception.SerializeObjectState
+  fullName: System.Exception.SerializeObjectState
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Runtime.Serialization
+  commentId: N:System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.Serialization
+  nameWithType: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
+- uid: Solstice.Domain.Exceptions.CoreException.StatusCode*
+  commentId: Overload:Solstice.Domain.Exceptions.CoreException.StatusCode
+  href: Solstice.Domain.Exceptions.CoreException.html#Solstice_Domain_Exceptions_CoreException_StatusCode
+  name: StatusCode
+  nameWithType: CoreException.StatusCode
+  fullName: Solstice.Domain.Exceptions.CoreException.StatusCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Solstice.Domain.Exceptions.CoreException.#ctor*
+  commentId: Overload:Solstice.Domain.Exceptions.CoreException.#ctor
+  href: Solstice.Domain.Exceptions.CoreException.html#Solstice_Domain_Exceptions_CoreException__ctor_System_String_
+  name: CoreException
+  nameWithType: CoreException.CoreException
+  fullName: Solstice.Domain.Exceptions.CoreException.CoreException
+  nameWithType.vb: CoreException.New
+  fullName.vb: Solstice.Domain.Exceptions.CoreException.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Solstice.Domain.Exceptions.CoreException.Format*
+  commentId: Overload:Solstice.Domain.Exceptions.CoreException.Format
+  href: Solstice.Domain.Exceptions.CoreException.html#Solstice_Domain_Exceptions_CoreException_Format_Solstice_Domain_Exceptions_CoreExceptionEnum_System_Object___
+  name: Format
+  nameWithType: CoreException.Format
+  fullName: Solstice.Domain.Exceptions.CoreException.Format
+- uid: Solstice.Domain.Exceptions.CoreExceptionEnum
+  commentId: T:Solstice.Domain.Exceptions.CoreExceptionEnum
+  parent: Solstice.Domain.Exceptions
+  href: Solstice.Domain.Exceptions.CoreExceptionEnum.html
+  name: CoreExceptionEnum
+  nameWithType: CoreExceptionEnum
+  fullName: Solstice.Domain.Exceptions.CoreExceptionEnum
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: Solstice.Domain.Exceptions.CoreException
+  commentId: T:Solstice.Domain.Exceptions.CoreException
+  parent: Solstice.Domain.Exceptions
+  href: Solstice.Domain.Exceptions.CoreException.html
+  name: CoreException
+  nameWithType: CoreException
+  fullName: Solstice.Domain.Exceptions.CoreException
+- uid: Solstice.Domain.Exceptions.CoreException.Error400*
+  commentId: Overload:Solstice.Domain.Exceptions.CoreException.Error400
+  href: Solstice.Domain.Exceptions.CoreException.html#Solstice_Domain_Exceptions_CoreException_Error400_System_Object___
+  name: Error400
+  nameWithType: CoreException.Error400
+  fullName: Solstice.Domain.Exceptions.CoreException.Error400
+- uid: Solstice.Domain.Exceptions.CoreException.Error401*
+  commentId: Overload:Solstice.Domain.Exceptions.CoreException.Error401
+  href: Solstice.Domain.Exceptions.CoreException.html#Solstice_Domain_Exceptions_CoreException_Error401_System_Object___
+  name: Error401
+  nameWithType: CoreException.Error401
+  fullName: Solstice.Domain.Exceptions.CoreException.Error401
+- uid: Solstice.Domain.Exceptions.CoreException.Error403*
+  commentId: Overload:Solstice.Domain.Exceptions.CoreException.Error403
+  href: Solstice.Domain.Exceptions.CoreException.html#Solstice_Domain_Exceptions_CoreException_Error403_System_Object___
+  name: Error403
+  nameWithType: CoreException.Error403
+  fullName: Solstice.Domain.Exceptions.CoreException.Error403
+- uid: Solstice.Domain.Exceptions.CoreException.Error404*
+  commentId: Overload:Solstice.Domain.Exceptions.CoreException.Error404
+  href: Solstice.Domain.Exceptions.CoreException.html#Solstice_Domain_Exceptions_CoreException_Error404_System_Object___
+  name: Error404
+  nameWithType: CoreException.Error404
+  fullName: Solstice.Domain.Exceptions.CoreException.Error404
+- uid: Solstice.Domain.Exceptions.CoreException.Error500*
+  commentId: Overload:Solstice.Domain.Exceptions.CoreException.Error500
+  href: Solstice.Domain.Exceptions.CoreException.html#Solstice_Domain_Exceptions_CoreException_Error500_System_Object___
+  name: Error500
+  nameWithType: CoreException.Error500
+  fullName: Solstice.Domain.Exceptions.CoreException.Error500

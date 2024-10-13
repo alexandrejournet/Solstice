@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.API.Controllers
+  commentId: N:Solstice.API.Controllers
+  id: Solstice.API.Controllers
+  children:
+  - Solstice.API.Controllers.CoreController
+  langs:
+  - csharp
+  - vb
+  name: Solstice.API.Controllers
+  nameWithType: Solstice.API.Controllers
+  fullName: Solstice.API.Controllers
+  type: Namespace
+  assemblies:
+  - Solstice.API
+references:
+- uid: Solstice.API.Controllers.CoreController
+  commentId: T:Solstice.API.Controllers.CoreController
+  href: Solstice.API.Controllers.CoreController.html
+  name: CoreController
+  nameWithType: CoreController
+  fullName: Solstice.API.Controllers.CoreController

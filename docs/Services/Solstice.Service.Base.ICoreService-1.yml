@@ -1,0 +1,3490 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Service.Base.ICoreService`1
+  commentId: T:Solstice.Service.Base.ICoreService`1
+  id: ICoreService`1
+  parent: Solstice.Service.Base
+  children:
+  - Solstice.Service.Base.ICoreService`1.AddAndSaveAsync(`0)
+  - Solstice.Service.Base.ICoreService`1.AddAndSaveAsync``1(``0)
+  - Solstice.Service.Base.ICoreService`1.AddAsync(`0)
+  - Solstice.Service.Base.ICoreService`1.AddAsync``1(``0)
+  - Solstice.Service.Base.ICoreService`1.AddRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})
+  - Solstice.Service.Base.ICoreService`1.AddRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})
+  - Solstice.Service.Base.ICoreService`1.AddRangeAsync(System.Collections.Generic.ICollection{`0})
+  - Solstice.Service.Base.ICoreService`1.AddRangeAsync``1(System.Collections.Generic.ICollection{``0})
+  - Solstice.Service.Base.ICoreService`1.AnyAsyncBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  - Solstice.Service.Base.ICoreService`1.AnyAsyncBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  - Solstice.Service.Base.ICoreService`1.AnyAsyncBy``1(System.Linq.IQueryable{``0})
+  - Solstice.Service.Base.ICoreService`1.BeginTransactionAsync
+  - Solstice.Service.Base.ICoreService`1.CountAllAsync
+  - Solstice.Service.Base.ICoreService`1.CountAllAsyncBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  - Solstice.Service.Base.ICoreService`1.CountAllAsyncBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  - Solstice.Service.Base.ICoreService`1.FindAsync(System.Int32)
+  - Solstice.Service.Base.ICoreService`1.FindAsync``1(System.Int32)
+  - Solstice.Service.Base.ICoreService`1.GetAllAsync(Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  - Solstice.Service.Base.ICoreService`1.GetAllAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  - Solstice.Service.Base.ICoreService`1.GetAllAsync(System.String,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  - Solstice.Service.Base.ICoreService`1.GetAllAsync(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  - Solstice.Service.Base.ICoreService`1.GetAllAsync``1(Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  - Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  - Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.String)
+  - Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.String,Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  - Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})
+  - Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  - Solstice.Service.Base.ICoreService`1.GetAllByQueryable``1(System.Linq.IQueryable{``0})
+  - Solstice.Service.Base.ICoreService`1.GetAllQueryable
+  - Solstice.Service.Base.ICoreService`1.GetAllQueryable(Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  - Solstice.Service.Base.ICoreService`1.GetAllQueryable(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  - Solstice.Service.Base.ICoreService`1.GetAllQueryable(System.String,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  - Solstice.Service.Base.ICoreService`1.GetAllQueryable(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  - Solstice.Service.Base.ICoreService`1.GetBy(Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  - Solstice.Service.Base.ICoreService`1.GetBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  - Solstice.Service.Base.ICoreService`1.GetBy``1(Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  - Solstice.Service.Base.ICoreService`1.GetBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  - Solstice.Service.Base.ICoreService`1.GetBy``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  - Solstice.Service.Base.ICoreService`1.GetPagedResult(Solstice.Domain.Models.Page)
+  - Solstice.Service.Base.ICoreService`1.GetPagedResult(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  - Solstice.Service.Base.ICoreService`1.GetPagedResult(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})
+  - Solstice.Service.Base.ICoreService`1.GetPagedResult(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  - Solstice.Service.Base.ICoreService`1.GetPagedResult``1(Solstice.Domain.Models.Page)
+  - Solstice.Service.Base.ICoreService`1.GetPagedResult``1(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  - Solstice.Service.Base.ICoreService`1.GetPagedResult``1(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})
+  - Solstice.Service.Base.ICoreService`1.GetPagedResult``1(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  - Solstice.Service.Base.ICoreService`1.PageAllAsync(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  - Solstice.Service.Base.ICoreService`1.PageAllQueryable(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  - Solstice.Service.Base.ICoreService`1.Remove(`0)
+  - Solstice.Service.Base.ICoreService`1.RemoveAndSaveAsync(`0)
+  - Solstice.Service.Base.ICoreService`1.RemoveAndSaveAsync``1(``0)
+  - Solstice.Service.Base.ICoreService`1.RemoveRange(System.Collections.Generic.ICollection{`0})
+  - Solstice.Service.Base.ICoreService`1.RemoveRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})
+  - Solstice.Service.Base.ICoreService`1.RemoveRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})
+  - Solstice.Service.Base.ICoreService`1.RemoveRange``1(System.Collections.Generic.ICollection{``0})
+  - Solstice.Service.Base.ICoreService`1.Remove``1(``0)
+  - Solstice.Service.Base.ICoreService`1.SaveAsync
+  - Solstice.Service.Base.ICoreService`1.Update(`0)
+  - Solstice.Service.Base.ICoreService`1.UpdateAndSaveAsync(`0)
+  - Solstice.Service.Base.ICoreService`1.UpdateAndSaveAsync``1(``0)
+  - Solstice.Service.Base.ICoreService`1.UpdateRange(System.Collections.Generic.ICollection{`0})
+  - Solstice.Service.Base.ICoreService`1.UpdateRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})
+  - Solstice.Service.Base.ICoreService`1.UpdateRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})
+  - Solstice.Service.Base.ICoreService`1.UpdateRange``1(System.Collections.Generic.ICollection{``0})
+  - Solstice.Service.Base.ICoreService`1.Update``1(``0)
+  langs:
+  - csharp
+  - vb
+  name: ICoreService<T>
+  nameWithType: ICoreService<T>
+  fullName: Solstice.Service.Base.ICoreService<T>
+  type: Interface
+  source:
+    id: ICoreService
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 14
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: >-
+    This interface describes an abstraction for a data manipulation service on a given type of RadiantModel.
+
+    It includes methods for CRUD operations, queries for specific entities,
+
+    counting entities, starting transactions, and more.
+  example: []
+  syntax:
+    content: 'public interface ICoreService<T> where T : class'
+    typeParameters:
+    - id: T
+      description: The type of the class to be processed by the service.
+    content.vb: Public Interface ICoreService(Of T As Class)
+  nameWithType.vb: ICoreService(Of T)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T)
+  name.vb: ICoreService(Of T)
+- uid: Solstice.Service.Base.ICoreService`1.AddAsync(`0)
+  commentId: M:Solstice.Service.Base.ICoreService`1.AddAsync(`0)
+  id: AddAsync(`0)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: AddAsync(T)
+  nameWithType: ICoreService<T>.AddAsync(T)
+  fullName: Solstice.Service.Base.ICoreService<T>.AddAsync(T)
+  type: Method
+  source:
+    id: AddAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 23
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Add entity to repository
+  example: []
+  syntax:
+    content: Task AddAsync(T entity)
+    parameters:
+    - id: entity
+      type: '{T}'
+      description: The entity object
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function AddAsync(entity As T) As Task
+  overload: Solstice.Service.Base.ICoreService`1.AddAsync*
+  nameWithType.vb: ICoreService(Of T).AddAsync(T)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AddAsync(T)
+- uid: Solstice.Service.Base.ICoreService`1.AddAsync``1(``0)
+  commentId: M:Solstice.Service.Base.ICoreService`1.AddAsync``1(``0)
+  id: AddAsync``1(``0)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: AddAsync<TEntity>(TEntity)
+  nameWithType: ICoreService<T>.AddAsync<TEntity>(TEntity)
+  fullName: Solstice.Service.Base.ICoreService<T>.AddAsync<TEntity>(TEntity)
+  type: Method
+  source:
+    id: AddAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 24
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task AddAsync<TEntity>(TEntity entity) where TEntity : class'
+    parameters:
+    - id: entity
+      type: '{TEntity}'
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddAsync(Of TEntity As Class)(entity As TEntity) As Task
+  overload: Solstice.Service.Base.ICoreService`1.AddAsync*
+  nameWithType.vb: ICoreService(Of T).AddAsync(Of TEntity)(TEntity)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AddAsync(Of TEntity)(TEntity)
+  name.vb: AddAsync(Of TEntity)(TEntity)
+- uid: Solstice.Service.Base.ICoreService`1.AddAndSaveAsync(`0)
+  commentId: M:Solstice.Service.Base.ICoreService`1.AddAndSaveAsync(`0)
+  id: AddAndSaveAsync(`0)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: AddAndSaveAsync(T)
+  nameWithType: ICoreService<T>.AddAndSaveAsync(T)
+  fullName: Solstice.Service.Base.ICoreService<T>.AddAndSaveAsync(T)
+  type: Method
+  source:
+    id: AddAndSaveAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 25
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: Task AddAndSaveAsync(T entity)
+    parameters:
+    - id: entity
+      type: '{T}'
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddAndSaveAsync(entity As T) As Task
+  overload: Solstice.Service.Base.ICoreService`1.AddAndSaveAsync*
+  nameWithType.vb: ICoreService(Of T).AddAndSaveAsync(T)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AddAndSaveAsync(T)
+- uid: Solstice.Service.Base.ICoreService`1.AddAndSaveAsync``1(``0)
+  commentId: M:Solstice.Service.Base.ICoreService`1.AddAndSaveAsync``1(``0)
+  id: AddAndSaveAsync``1(``0)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: AddAndSaveAsync<TEntity>(TEntity)
+  nameWithType: ICoreService<T>.AddAndSaveAsync<TEntity>(TEntity)
+  fullName: Solstice.Service.Base.ICoreService<T>.AddAndSaveAsync<TEntity>(TEntity)
+  type: Method
+  source:
+    id: AddAndSaveAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 26
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task AddAndSaveAsync<TEntity>(TEntity entity) where TEntity : class'
+    parameters:
+    - id: entity
+      type: '{TEntity}'
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddAndSaveAsync(Of TEntity As Class)(entity As TEntity) As Task
+  overload: Solstice.Service.Base.ICoreService`1.AddAndSaveAsync*
+  nameWithType.vb: ICoreService(Of T).AddAndSaveAsync(Of TEntity)(TEntity)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AddAndSaveAsync(Of TEntity)(TEntity)
+  name.vb: AddAndSaveAsync(Of TEntity)(TEntity)
+- uid: Solstice.Service.Base.ICoreService`1.AddRangeAsync(System.Collections.Generic.ICollection{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.AddRangeAsync(System.Collections.Generic.ICollection{`0})
+  id: AddRangeAsync(System.Collections.Generic.ICollection{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: AddRangeAsync(ICollection<T>)
+  nameWithType: ICoreService<T>.AddRangeAsync(ICollection<T>)
+  fullName: Solstice.Service.Base.ICoreService<T>.AddRangeAsync(System.Collections.Generic.ICollection<T>)
+  type: Method
+  source:
+    id: AddRangeAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 33
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Add range of entities to repository
+  example: []
+  syntax:
+    content: Task AddRangeAsync(ICollection<T> entities)
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{T}}
+      description: The entities list
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function AddRangeAsync(entities As ICollection(Of T)) As Task
+  overload: Solstice.Service.Base.ICoreService`1.AddRangeAsync*
+  nameWithType.vb: ICoreService(Of T).AddRangeAsync(ICollection(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AddRangeAsync(System.Collections.Generic.ICollection(Of T))
+  name.vb: AddRangeAsync(ICollection(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.AddRangeAsync``1(System.Collections.Generic.ICollection{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.AddRangeAsync``1(System.Collections.Generic.ICollection{``0})
+  id: AddRangeAsync``1(System.Collections.Generic.ICollection{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: AddRangeAsync<TEntity>(ICollection<TEntity>)
+  nameWithType: ICoreService<T>.AddRangeAsync<TEntity>(ICollection<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.AddRangeAsync<TEntity>(System.Collections.Generic.ICollection<TEntity>)
+  type: Method
+  source:
+    id: AddRangeAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 34
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task AddRangeAsync<TEntity>(ICollection<TEntity> entities) where TEntity : class'
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddRangeAsync(Of TEntity As Class)(entities As ICollection(Of TEntity)) As Task
+  overload: Solstice.Service.Base.ICoreService`1.AddRangeAsync*
+  nameWithType.vb: ICoreService(Of T).AddRangeAsync(Of TEntity)(ICollection(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AddRangeAsync(Of TEntity)(System.Collections.Generic.ICollection(Of TEntity))
+  name.vb: AddRangeAsync(Of TEntity)(ICollection(Of TEntity))
+- uid: Solstice.Service.Base.ICoreService`1.AddRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.AddRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})
+  id: AddRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: AddRangeAndSaveAsync(ICollection<T>)
+  nameWithType: ICoreService<T>.AddRangeAndSaveAsync(ICollection<T>)
+  fullName: Solstice.Service.Base.ICoreService<T>.AddRangeAndSaveAsync(System.Collections.Generic.ICollection<T>)
+  type: Method
+  source:
+    id: AddRangeAndSaveAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 35
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: Task AddRangeAndSaveAsync(ICollection<T> entities)
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{T}}
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddRangeAndSaveAsync(entities As ICollection(Of T)) As Task
+  overload: Solstice.Service.Base.ICoreService`1.AddRangeAndSaveAsync*
+  nameWithType.vb: ICoreService(Of T).AddRangeAndSaveAsync(ICollection(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AddRangeAndSaveAsync(System.Collections.Generic.ICollection(Of T))
+  name.vb: AddRangeAndSaveAsync(ICollection(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.AddRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.AddRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})
+  id: AddRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: AddRangeAndSaveAsync<TEntity>(ICollection<TEntity>)
+  nameWithType: ICoreService<T>.AddRangeAndSaveAsync<TEntity>(ICollection<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.AddRangeAndSaveAsync<TEntity>(System.Collections.Generic.ICollection<TEntity>)
+  type: Method
+  source:
+    id: AddRangeAndSaveAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 36
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task AddRangeAndSaveAsync<TEntity>(ICollection<TEntity> entities) where TEntity : class'
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function AddRangeAndSaveAsync(Of TEntity As Class)(entities As ICollection(Of TEntity)) As Task
+  overload: Solstice.Service.Base.ICoreService`1.AddRangeAndSaveAsync*
+  nameWithType.vb: ICoreService(Of T).AddRangeAndSaveAsync(Of TEntity)(ICollection(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AddRangeAndSaveAsync(Of TEntity)(System.Collections.Generic.ICollection(Of TEntity))
+  name.vb: AddRangeAndSaveAsync(Of TEntity)(ICollection(Of TEntity))
+- uid: Solstice.Service.Base.ICoreService`1.Remove(`0)
+  commentId: M:Solstice.Service.Base.ICoreService`1.Remove(`0)
+  id: Remove(`0)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: Remove(T)
+  nameWithType: ICoreService<T>.Remove(T)
+  fullName: Solstice.Service.Base.ICoreService<T>.Remove(T)
+  type: Method
+  source:
+    id: Remove
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 43
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Remove entity from repository
+  example: []
+  syntax:
+    content: void Remove(T entity)
+    parameters:
+    - id: entity
+      type: '{T}'
+      description: The entity object
+    content.vb: Sub Remove(entity As T)
+  overload: Solstice.Service.Base.ICoreService`1.Remove*
+  nameWithType.vb: ICoreService(Of T).Remove(T)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).Remove(T)
+- uid: Solstice.Service.Base.ICoreService`1.Remove``1(``0)
+  commentId: M:Solstice.Service.Base.ICoreService`1.Remove``1(``0)
+  id: Remove``1(``0)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: Remove<TEntity>(TEntity)
+  nameWithType: ICoreService<T>.Remove<TEntity>(TEntity)
+  fullName: Solstice.Service.Base.ICoreService<T>.Remove<TEntity>(TEntity)
+  type: Method
+  source:
+    id: Remove
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 44
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'void Remove<TEntity>(TEntity entity) where TEntity : class'
+    parameters:
+    - id: entity
+      type: '{TEntity}'
+    typeParameters:
+    - id: TEntity
+    content.vb: Sub Remove(Of TEntity As Class)(entity As TEntity)
+  overload: Solstice.Service.Base.ICoreService`1.Remove*
+  nameWithType.vb: ICoreService(Of T).Remove(Of TEntity)(TEntity)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).Remove(Of TEntity)(TEntity)
+  name.vb: Remove(Of TEntity)(TEntity)
+- uid: Solstice.Service.Base.ICoreService`1.RemoveAndSaveAsync(`0)
+  commentId: M:Solstice.Service.Base.ICoreService`1.RemoveAndSaveAsync(`0)
+  id: RemoveAndSaveAsync(`0)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: RemoveAndSaveAsync(T)
+  nameWithType: ICoreService<T>.RemoveAndSaveAsync(T)
+  fullName: Solstice.Service.Base.ICoreService<T>.RemoveAndSaveAsync(T)
+  type: Method
+  source:
+    id: RemoveAndSaveAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 45
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: Task RemoveAndSaveAsync(T entity)
+    parameters:
+    - id: entity
+      type: '{T}'
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveAndSaveAsync(entity As T) As Task
+  overload: Solstice.Service.Base.ICoreService`1.RemoveAndSaveAsync*
+  nameWithType.vb: ICoreService(Of T).RemoveAndSaveAsync(T)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).RemoveAndSaveAsync(T)
+- uid: Solstice.Service.Base.ICoreService`1.RemoveAndSaveAsync``1(``0)
+  commentId: M:Solstice.Service.Base.ICoreService`1.RemoveAndSaveAsync``1(``0)
+  id: RemoveAndSaveAsync``1(``0)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: RemoveAndSaveAsync<TEntity>(TEntity)
+  nameWithType: ICoreService<T>.RemoveAndSaveAsync<TEntity>(TEntity)
+  fullName: Solstice.Service.Base.ICoreService<T>.RemoveAndSaveAsync<TEntity>(TEntity)
+  type: Method
+  source:
+    id: RemoveAndSaveAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 46
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task RemoveAndSaveAsync<TEntity>(TEntity entity) where TEntity : class'
+    parameters:
+    - id: entity
+      type: '{TEntity}'
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveAndSaveAsync(Of TEntity As Class)(entity As TEntity) As Task
+  overload: Solstice.Service.Base.ICoreService`1.RemoveAndSaveAsync*
+  nameWithType.vb: ICoreService(Of T).RemoveAndSaveAsync(Of TEntity)(TEntity)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).RemoveAndSaveAsync(Of TEntity)(TEntity)
+  name.vb: RemoveAndSaveAsync(Of TEntity)(TEntity)
+- uid: Solstice.Service.Base.ICoreService`1.RemoveRange(System.Collections.Generic.ICollection{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.RemoveRange(System.Collections.Generic.ICollection{`0})
+  id: RemoveRange(System.Collections.Generic.ICollection{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: RemoveRange(ICollection<T>)
+  nameWithType: ICoreService<T>.RemoveRange(ICollection<T>)
+  fullName: Solstice.Service.Base.ICoreService<T>.RemoveRange(System.Collections.Generic.ICollection<T>)
+  type: Method
+  source:
+    id: RemoveRange
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 52
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Remove range of entities from repository
+  example: []
+  syntax:
+    content: void RemoveRange(ICollection<T> entities)
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{T}}
+      description: The entities list
+    content.vb: Sub RemoveRange(entities As ICollection(Of T))
+  overload: Solstice.Service.Base.ICoreService`1.RemoveRange*
+  nameWithType.vb: ICoreService(Of T).RemoveRange(ICollection(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).RemoveRange(System.Collections.Generic.ICollection(Of T))
+  name.vb: RemoveRange(ICollection(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.RemoveRange``1(System.Collections.Generic.ICollection{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.RemoveRange``1(System.Collections.Generic.ICollection{``0})
+  id: RemoveRange``1(System.Collections.Generic.ICollection{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: RemoveRange<TEntity>(ICollection<TEntity>)
+  nameWithType: ICoreService<T>.RemoveRange<TEntity>(ICollection<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.RemoveRange<TEntity>(System.Collections.Generic.ICollection<TEntity>)
+  type: Method
+  source:
+    id: RemoveRange
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 53
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'void RemoveRange<TEntity>(ICollection<TEntity> entities) where TEntity : class'
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    content.vb: Sub RemoveRange(Of TEntity As Class)(entities As ICollection(Of TEntity))
+  overload: Solstice.Service.Base.ICoreService`1.RemoveRange*
+  nameWithType.vb: ICoreService(Of T).RemoveRange(Of TEntity)(ICollection(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).RemoveRange(Of TEntity)(System.Collections.Generic.ICollection(Of TEntity))
+  name.vb: RemoveRange(Of TEntity)(ICollection(Of TEntity))
+- uid: Solstice.Service.Base.ICoreService`1.RemoveRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.RemoveRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})
+  id: RemoveRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: RemoveRangeAndSaveAsync(ICollection<T>)
+  nameWithType: ICoreService<T>.RemoveRangeAndSaveAsync(ICollection<T>)
+  fullName: Solstice.Service.Base.ICoreService<T>.RemoveRangeAndSaveAsync(System.Collections.Generic.ICollection<T>)
+  type: Method
+  source:
+    id: RemoveRangeAndSaveAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 54
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: Task RemoveRangeAndSaveAsync(ICollection<T> entities)
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{T}}
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveRangeAndSaveAsync(entities As ICollection(Of T)) As Task
+  overload: Solstice.Service.Base.ICoreService`1.RemoveRangeAndSaveAsync*
+  nameWithType.vb: ICoreService(Of T).RemoveRangeAndSaveAsync(ICollection(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).RemoveRangeAndSaveAsync(System.Collections.Generic.ICollection(Of T))
+  name.vb: RemoveRangeAndSaveAsync(ICollection(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.RemoveRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.RemoveRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})
+  id: RemoveRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: RemoveRangeAndSaveAsync<TEntity>(ICollection<TEntity>)
+  nameWithType: ICoreService<T>.RemoveRangeAndSaveAsync<TEntity>(ICollection<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.RemoveRangeAndSaveAsync<TEntity>(System.Collections.Generic.ICollection<TEntity>)
+  type: Method
+  source:
+    id: RemoveRangeAndSaveAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 55
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task RemoveRangeAndSaveAsync<TEntity>(ICollection<TEntity> entities) where TEntity : class'
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function RemoveRangeAndSaveAsync(Of TEntity As Class)(entities As ICollection(Of TEntity)) As Task
+  overload: Solstice.Service.Base.ICoreService`1.RemoveRangeAndSaveAsync*
+  nameWithType.vb: ICoreService(Of T).RemoveRangeAndSaveAsync(Of TEntity)(ICollection(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).RemoveRangeAndSaveAsync(Of TEntity)(System.Collections.Generic.ICollection(Of TEntity))
+  name.vb: RemoveRangeAndSaveAsync(Of TEntity)(ICollection(Of TEntity))
+- uid: Solstice.Service.Base.ICoreService`1.SaveAsync
+  commentId: M:Solstice.Service.Base.ICoreService`1.SaveAsync
+  id: SaveAsync
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: SaveAsync()
+  nameWithType: ICoreService<T>.SaveAsync()
+  fullName: Solstice.Service.Base.ICoreService<T>.SaveAsync()
+  type: Method
+  source:
+    id: SaveAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 60
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Save changes in repository
+  example: []
+  syntax:
+    content: Task SaveAsync()
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function SaveAsync() As Task
+  overload: Solstice.Service.Base.ICoreService`1.SaveAsync*
+  nameWithType.vb: ICoreService(Of T).SaveAsync()
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).SaveAsync()
+- uid: Solstice.Service.Base.ICoreService`1.Update(`0)
+  commentId: M:Solstice.Service.Base.ICoreService`1.Update(`0)
+  id: Update(`0)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: Update(T)
+  nameWithType: ICoreService<T>.Update(T)
+  fullName: Solstice.Service.Base.ICoreService<T>.Update(T)
+  type: Method
+  source:
+    id: Update
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 66
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Update entity in repository
+  example: []
+  syntax:
+    content: void Update(T entity)
+    parameters:
+    - id: entity
+      type: '{T}'
+      description: The entity object
+    content.vb: Sub Update(entity As T)
+  overload: Solstice.Service.Base.ICoreService`1.Update*
+  nameWithType.vb: ICoreService(Of T).Update(T)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).Update(T)
+- uid: Solstice.Service.Base.ICoreService`1.Update``1(``0)
+  commentId: M:Solstice.Service.Base.ICoreService`1.Update``1(``0)
+  id: Update``1(``0)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: Update<TEntity>(TEntity)
+  nameWithType: ICoreService<T>.Update<TEntity>(TEntity)
+  fullName: Solstice.Service.Base.ICoreService<T>.Update<TEntity>(TEntity)
+  type: Method
+  source:
+    id: Update
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 67
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'void Update<TEntity>(TEntity entity) where TEntity : class'
+    parameters:
+    - id: entity
+      type: '{TEntity}'
+    typeParameters:
+    - id: TEntity
+    content.vb: Sub Update(Of TEntity As Class)(entity As TEntity)
+  overload: Solstice.Service.Base.ICoreService`1.Update*
+  nameWithType.vb: ICoreService(Of T).Update(Of TEntity)(TEntity)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).Update(Of TEntity)(TEntity)
+  name.vb: Update(Of TEntity)(TEntity)
+- uid: Solstice.Service.Base.ICoreService`1.UpdateAndSaveAsync(`0)
+  commentId: M:Solstice.Service.Base.ICoreService`1.UpdateAndSaveAsync(`0)
+  id: UpdateAndSaveAsync(`0)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: UpdateAndSaveAsync(T)
+  nameWithType: ICoreService<T>.UpdateAndSaveAsync(T)
+  fullName: Solstice.Service.Base.ICoreService<T>.UpdateAndSaveAsync(T)
+  type: Method
+  source:
+    id: UpdateAndSaveAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 68
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: Task UpdateAndSaveAsync(T entity)
+    parameters:
+    - id: entity
+      type: '{T}'
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function UpdateAndSaveAsync(entity As T) As Task
+  overload: Solstice.Service.Base.ICoreService`1.UpdateAndSaveAsync*
+  nameWithType.vb: ICoreService(Of T).UpdateAndSaveAsync(T)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).UpdateAndSaveAsync(T)
+- uid: Solstice.Service.Base.ICoreService`1.UpdateAndSaveAsync``1(``0)
+  commentId: M:Solstice.Service.Base.ICoreService`1.UpdateAndSaveAsync``1(``0)
+  id: UpdateAndSaveAsync``1(``0)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: UpdateAndSaveAsync<TEntity>(TEntity)
+  nameWithType: ICoreService<T>.UpdateAndSaveAsync<TEntity>(TEntity)
+  fullName: Solstice.Service.Base.ICoreService<T>.UpdateAndSaveAsync<TEntity>(TEntity)
+  type: Method
+  source:
+    id: UpdateAndSaveAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 69
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task UpdateAndSaveAsync<TEntity>(TEntity entity) where TEntity : class'
+    parameters:
+    - id: entity
+      type: '{TEntity}'
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function UpdateAndSaveAsync(Of TEntity As Class)(entity As TEntity) As Task
+  overload: Solstice.Service.Base.ICoreService`1.UpdateAndSaveAsync*
+  nameWithType.vb: ICoreService(Of T).UpdateAndSaveAsync(Of TEntity)(TEntity)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).UpdateAndSaveAsync(Of TEntity)(TEntity)
+  name.vb: UpdateAndSaveAsync(Of TEntity)(TEntity)
+- uid: Solstice.Service.Base.ICoreService`1.UpdateRange(System.Collections.Generic.ICollection{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.UpdateRange(System.Collections.Generic.ICollection{`0})
+  id: UpdateRange(System.Collections.Generic.ICollection{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: UpdateRange(ICollection<T>)
+  nameWithType: ICoreService<T>.UpdateRange(ICollection<T>)
+  fullName: Solstice.Service.Base.ICoreService<T>.UpdateRange(System.Collections.Generic.ICollection<T>)
+  type: Method
+  source:
+    id: UpdateRange
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 76
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Update range of entities in repository
+  example: []
+  syntax:
+    content: void UpdateRange(ICollection<T> entities)
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{T}}
+      description: The entities list
+    content.vb: Sub UpdateRange(entities As ICollection(Of T))
+  overload: Solstice.Service.Base.ICoreService`1.UpdateRange*
+  nameWithType.vb: ICoreService(Of T).UpdateRange(ICollection(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).UpdateRange(System.Collections.Generic.ICollection(Of T))
+  name.vb: UpdateRange(ICollection(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.UpdateRange``1(System.Collections.Generic.ICollection{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.UpdateRange``1(System.Collections.Generic.ICollection{``0})
+  id: UpdateRange``1(System.Collections.Generic.ICollection{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: UpdateRange<TEntity>(ICollection<TEntity>)
+  nameWithType: ICoreService<T>.UpdateRange<TEntity>(ICollection<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.UpdateRange<TEntity>(System.Collections.Generic.ICollection<TEntity>)
+  type: Method
+  source:
+    id: UpdateRange
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 77
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'void UpdateRange<TEntity>(ICollection<TEntity> entities) where TEntity : class'
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    content.vb: Sub UpdateRange(Of TEntity As Class)(entities As ICollection(Of TEntity))
+  overload: Solstice.Service.Base.ICoreService`1.UpdateRange*
+  nameWithType.vb: ICoreService(Of T).UpdateRange(Of TEntity)(ICollection(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).UpdateRange(Of TEntity)(System.Collections.Generic.ICollection(Of TEntity))
+  name.vb: UpdateRange(Of TEntity)(ICollection(Of TEntity))
+- uid: Solstice.Service.Base.ICoreService`1.UpdateRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.UpdateRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})
+  id: UpdateRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: UpdateRangeAndSaveAsync(ICollection<T>)
+  nameWithType: ICoreService<T>.UpdateRangeAndSaveAsync(ICollection<T>)
+  fullName: Solstice.Service.Base.ICoreService<T>.UpdateRangeAndSaveAsync(System.Collections.Generic.ICollection<T>)
+  type: Method
+  source:
+    id: UpdateRangeAndSaveAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 78
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: Task UpdateRangeAndSaveAsync(ICollection<T> entities)
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{T}}
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function UpdateRangeAndSaveAsync(entities As ICollection(Of T)) As Task
+  overload: Solstice.Service.Base.ICoreService`1.UpdateRangeAndSaveAsync*
+  nameWithType.vb: ICoreService(Of T).UpdateRangeAndSaveAsync(ICollection(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).UpdateRangeAndSaveAsync(System.Collections.Generic.ICollection(Of T))
+  name.vb: UpdateRangeAndSaveAsync(ICollection(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.UpdateRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.UpdateRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})
+  id: UpdateRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: UpdateRangeAndSaveAsync<TEntity>(ICollection<TEntity>)
+  nameWithType: ICoreService<T>.UpdateRangeAndSaveAsync<TEntity>(ICollection<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.UpdateRangeAndSaveAsync<TEntity>(System.Collections.Generic.ICollection<TEntity>)
+  type: Method
+  source:
+    id: UpdateRangeAndSaveAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 79
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task UpdateRangeAndSaveAsync<TEntity>(ICollection<TEntity> entities) where TEntity : class'
+    parameters:
+    - id: entities
+      type: System.Collections.Generic.ICollection{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function UpdateRangeAndSaveAsync(Of TEntity As Class)(entities As ICollection(Of TEntity)) As Task
+  overload: Solstice.Service.Base.ICoreService`1.UpdateRangeAndSaveAsync*
+  nameWithType.vb: ICoreService(Of T).UpdateRangeAndSaveAsync(Of TEntity)(ICollection(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).UpdateRangeAndSaveAsync(Of TEntity)(System.Collections.Generic.ICollection(Of TEntity))
+  name.vb: UpdateRangeAndSaveAsync(Of TEntity)(ICollection(Of TEntity))
+- uid: Solstice.Service.Base.ICoreService`1.AnyAsyncBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  commentId: M:Solstice.Service.Base.ICoreService`1.AnyAsyncBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  id: AnyAsyncBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: AnyAsyncBy(Expression<Func<T, bool>>)
+  nameWithType: ICoreService<T>.AnyAsyncBy(Expression<Func<T, bool>>)
+  fullName: Solstice.Service.Base.ICoreService<T>.AnyAsyncBy(System.Linq.Expressions.Expression<System.Func<T, bool>>)
+  type: Method
+  source:
+    id: AnyAsyncBy
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 90
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Checks if any entity in the repository matches the provided expression
+  example: []
+  syntax:
+    content: Task<bool> AnyAsyncBy(Expression<Func<T, bool>> where)
+    parameters:
+    - id: where
+      type: System.Linq.Expressions.Expression{System.Func{{T},System.Boolean}}
+      description: The expression that describes the condition to match
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: True if any entity matches the condition, False otherwise
+    content.vb: Function AnyAsyncBy(where As Expression(Of Func(Of T, Boolean))) As Task(Of Boolean)
+  overload: Solstice.Service.Base.ICoreService`1.AnyAsyncBy*
+  nameWithType.vb: ICoreService(Of T).AnyAsyncBy(Expression(Of Func(Of T, Boolean)))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AnyAsyncBy(System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)))
+  name.vb: AnyAsyncBy(Expression(Of Func(Of T, Boolean)))
+- uid: Solstice.Service.Base.ICoreService`1.AnyAsyncBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  commentId: M:Solstice.Service.Base.ICoreService`1.AnyAsyncBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  id: AnyAsyncBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: AnyAsyncBy<TEntity>(Expression<Func<TEntity, bool>>)
+  nameWithType: ICoreService<T>.AnyAsyncBy<TEntity>(Expression<Func<TEntity, bool>>)
+  fullName: Solstice.Service.Base.ICoreService<T>.AnyAsyncBy<TEntity>(System.Linq.Expressions.Expression<System.Func<TEntity, bool>>)
+  type: Method
+  source:
+    id: AnyAsyncBy
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 91
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<bool> AnyAsyncBy<TEntity>(Expression<Func<TEntity, bool>> where) where TEntity : class'
+    parameters:
+    - id: where
+      type: System.Linq.Expressions.Expression{System.Func{{TEntity},System.Boolean}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function AnyAsyncBy(Of TEntity As Class)(where As Expression(Of Func(Of TEntity, Boolean))) As Task(Of Boolean)
+  overload: Solstice.Service.Base.ICoreService`1.AnyAsyncBy*
+  nameWithType.vb: ICoreService(Of T).AnyAsyncBy(Of TEntity)(Expression(Of Func(Of TEntity, Boolean)))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AnyAsyncBy(Of TEntity)(System.Linq.Expressions.Expression(Of System.Func(Of TEntity, Boolean)))
+  name.vb: AnyAsyncBy(Of TEntity)(Expression(Of Func(Of TEntity, Boolean)))
+- uid: Solstice.Service.Base.ICoreService`1.AnyAsyncBy``1(System.Linq.IQueryable{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.AnyAsyncBy``1(System.Linq.IQueryable{``0})
+  id: AnyAsyncBy``1(System.Linq.IQueryable{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: AnyAsyncBy<TEntity>(IQueryable<TEntity>)
+  nameWithType: ICoreService<T>.AnyAsyncBy<TEntity>(IQueryable<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.AnyAsyncBy<TEntity>(System.Linq.IQueryable<TEntity>)
+  type: Method
+  source:
+    id: AnyAsyncBy
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 92
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<bool> AnyAsyncBy<TEntity>(IQueryable<TEntity> queryable) where TEntity : class'
+    parameters:
+    - id: queryable
+      type: System.Linq.IQueryable{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Function AnyAsyncBy(Of TEntity As Class)(queryable As IQueryable(Of TEntity)) As Task(Of Boolean)
+  overload: Solstice.Service.Base.ICoreService`1.AnyAsyncBy*
+  nameWithType.vb: ICoreService(Of T).AnyAsyncBy(Of TEntity)(IQueryable(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AnyAsyncBy(Of TEntity)(System.Linq.IQueryable(Of TEntity))
+  name.vb: AnyAsyncBy(Of TEntity)(IQueryable(Of TEntity))
+- uid: Solstice.Service.Base.ICoreService`1.CountAllAsync
+  commentId: M:Solstice.Service.Base.ICoreService`1.CountAllAsync
+  id: CountAllAsync
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: CountAllAsync()
+  nameWithType: ICoreService<T>.CountAllAsync()
+  fullName: Solstice.Service.Base.ICoreService<T>.CountAllAsync()
+  type: Method
+  source:
+    id: CountAllAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 97
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Counts all entities in repository
+  example: []
+  syntax:
+    content: Task<decimal> CountAllAsync()
+    return:
+      type: System.Threading.Tasks.Task{System.Decimal}
+      description: Total count of all entities
+    content.vb: Function CountAllAsync() As Task(Of Decimal)
+  overload: Solstice.Service.Base.ICoreService`1.CountAllAsync*
+  nameWithType.vb: ICoreService(Of T).CountAllAsync()
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).CountAllAsync()
+- uid: Solstice.Service.Base.ICoreService`1.CountAllAsyncBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  commentId: M:Solstice.Service.Base.ICoreService`1.CountAllAsyncBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  id: CountAllAsyncBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: CountAllAsyncBy(Expression<Func<T, bool>>)
+  nameWithType: ICoreService<T>.CountAllAsyncBy(Expression<Func<T, bool>>)
+  fullName: Solstice.Service.Base.ICoreService<T>.CountAllAsyncBy(System.Linq.Expressions.Expression<System.Func<T, bool>>)
+  type: Method
+  source:
+    id: CountAllAsyncBy
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 104
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Counts the total entities that match the provided expression
+  example: []
+  syntax:
+    content: Task<decimal> CountAllAsyncBy(Expression<Func<T, bool>> where)
+    parameters:
+    - id: where
+      type: System.Linq.Expressions.Expression{System.Func{{T},System.Boolean}}
+      description: The expression that describes the condition to match
+    return:
+      type: System.Threading.Tasks.Task{System.Decimal}
+      description: Total matched entities count
+    content.vb: Function CountAllAsyncBy(where As Expression(Of Func(Of T, Boolean))) As Task(Of Decimal)
+  overload: Solstice.Service.Base.ICoreService`1.CountAllAsyncBy*
+  nameWithType.vb: ICoreService(Of T).CountAllAsyncBy(Expression(Of Func(Of T, Boolean)))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).CountAllAsyncBy(System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)))
+  name.vb: CountAllAsyncBy(Expression(Of Func(Of T, Boolean)))
+- uid: Solstice.Service.Base.ICoreService`1.CountAllAsyncBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  commentId: M:Solstice.Service.Base.ICoreService`1.CountAllAsyncBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  id: CountAllAsyncBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: CountAllAsyncBy<TEntity>(Expression<Func<TEntity, bool>>)
+  nameWithType: ICoreService<T>.CountAllAsyncBy<TEntity>(Expression<Func<TEntity, bool>>)
+  fullName: Solstice.Service.Base.ICoreService<T>.CountAllAsyncBy<TEntity>(System.Linq.Expressions.Expression<System.Func<TEntity, bool>>)
+  type: Method
+  source:
+    id: CountAllAsyncBy
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 105
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<decimal> CountAllAsyncBy<TEntity>(Expression<Func<TEntity, bool>> where) where TEntity : class'
+    parameters:
+    - id: where
+      type: System.Linq.Expressions.Expression{System.Func{{TEntity},System.Boolean}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{System.Decimal}
+    content.vb: Function CountAllAsyncBy(Of TEntity As Class)(where As Expression(Of Func(Of TEntity, Boolean))) As Task(Of Decimal)
+  overload: Solstice.Service.Base.ICoreService`1.CountAllAsyncBy*
+  nameWithType.vb: ICoreService(Of T).CountAllAsyncBy(Of TEntity)(Expression(Of Func(Of TEntity, Boolean)))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).CountAllAsyncBy(Of TEntity)(System.Linq.Expressions.Expression(Of System.Func(Of TEntity, Boolean)))
+  name.vb: CountAllAsyncBy(Of TEntity)(Expression(Of Func(Of TEntity, Boolean)))
+- uid: Solstice.Service.Base.ICoreService`1.FindAsync(System.Int32)
+  commentId: M:Solstice.Service.Base.ICoreService`1.FindAsync(System.Int32)
+  id: FindAsync(System.Int32)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: FindAsync(int)
+  nameWithType: ICoreService<T>.FindAsync(int)
+  fullName: Solstice.Service.Base.ICoreService<T>.FindAsync(int)
+  type: Method
+  source:
+    id: FindAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 106
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: Task<T> FindAsync(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+    content.vb: Function FindAsync(id As Integer) As Task(Of T)
+  overload: Solstice.Service.Base.ICoreService`1.FindAsync*
+  nameWithType.vb: ICoreService(Of T).FindAsync(Integer)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).FindAsync(Integer)
+  name.vb: FindAsync(Integer)
+- uid: Solstice.Service.Base.ICoreService`1.FindAsync``1(System.Int32)
+  commentId: M:Solstice.Service.Base.ICoreService`1.FindAsync``1(System.Int32)
+  id: FindAsync``1(System.Int32)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: FindAsync<TEntity>(int)
+  nameWithType: ICoreService<T>.FindAsync<TEntity>(int)
+  fullName: Solstice.Service.Base.ICoreService<T>.FindAsync<TEntity>(int)
+  type: Method
+  source:
+    id: FindAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 107
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<TEntity> FindAsync<TEntity>(int id) where TEntity : class'
+    parameters:
+    - id: id
+      type: System.Int32
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{{TEntity}}
+    content.vb: Function FindAsync(Of TEntity As Class)(id As Integer) As Task(Of TEntity)
+  overload: Solstice.Service.Base.ICoreService`1.FindAsync*
+  nameWithType.vb: ICoreService(Of T).FindAsync(Of TEntity)(Integer)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).FindAsync(Of TEntity)(Integer)
+  name.vb: FindAsync(Of TEntity)(Integer)
+- uid: Solstice.Service.Base.ICoreService`1.GetBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  id: GetBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetBy(Expression<Func<T, bool>>)
+  nameWithType: ICoreService<T>.GetBy(Expression<Func<T, bool>>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetBy(System.Linq.Expressions.Expression<System.Func<T, bool>>)
+  type: Method
+  source:
+    id: GetBy
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 118
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves an entity that matches the specified condition from the repository.
+  example: []
+  syntax:
+    content: Task<T?> GetBy(Expression<Func<T, bool>> where)
+    parameters:
+    - id: where
+      type: System.Linq.Expressions.Expression{System.Func{{T},System.Boolean}}
+      description: An expression representing a condition to be matched by entities in the repository.
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+      description: A task that represents the asynchronous operation. The task result contains the first matching entity or null if no entity matches the condition.
+    content.vb: Function GetBy(where As Expression(Of Func(Of T, Boolean))) As Task(Of T)
+  overload: Solstice.Service.Base.ICoreService`1.GetBy*
+  nameWithType.vb: ICoreService(Of T).GetBy(Expression(Of Func(Of T, Boolean)))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetBy(System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)))
+  name.vb: GetBy(Expression(Of Func(Of T, Boolean)))
+- uid: Solstice.Service.Base.ICoreService`1.GetBy(Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetBy(Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  id: GetBy(Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetBy(ICoreSpecifications<T>)
+  nameWithType: ICoreService<T>.GetBy(ICoreSpecifications<T>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetBy(Solstice.Repository.Specifications.ICoreSpecifications<T>)
+  type: Method
+  source:
+    id: GetBy
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 128
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves an entity from the repository that meets the criteria specified by the given Radiant specification.
+  example: []
+  syntax:
+    content: Task<T?> GetBy(ICoreSpecifications<T> coreSpecifications)
+    parameters:
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+      description: The specifications that an entity must meet to be retrieved from the repository.
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+      description: >-
+        A task that represents the asynchronous operation. The task result is the first entity that satisfies the specified
+
+        Radiant specifications. If no entity satisfies the specifications, the task result is null.
+    content.vb: Function GetBy(coreSpecifications As ICoreSpecifications(Of T)) As Task(Of T)
+  overload: Solstice.Service.Base.ICoreService`1.GetBy*
+  nameWithType.vb: ICoreService(Of T).GetBy(ICoreSpecifications(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetBy(Solstice.Repository.Specifications.ICoreSpecifications(Of T))
+  name.vb: GetBy(ICoreSpecifications(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.GetBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  id: GetBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetBy<TEntity>(Expression<Func<TEntity, bool>>)
+  nameWithType: ICoreService<T>.GetBy<TEntity>(Expression<Func<TEntity, bool>>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetBy<TEntity>(System.Linq.Expressions.Expression<System.Func<TEntity, bool>>)
+  type: Method
+  source:
+    id: GetBy
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 130
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<TEntity?> GetBy<TEntity>(Expression<Func<TEntity, bool>> where) where TEntity : class'
+    parameters:
+    - id: where
+      type: System.Linq.Expressions.Expression{System.Func{{TEntity},System.Boolean}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{{TEntity}}
+    content.vb: Function GetBy(Of TEntity As Class)(where As Expression(Of Func(Of TEntity, Boolean))) As Task(Of TEntity)
+  overload: Solstice.Service.Base.ICoreService`1.GetBy*
+  nameWithType.vb: ICoreService(Of T).GetBy(Of TEntity)(Expression(Of Func(Of TEntity, Boolean)))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetBy(Of TEntity)(System.Linq.Expressions.Expression(Of System.Func(Of TEntity, Boolean)))
+  name.vb: GetBy(Of TEntity)(Expression(Of Func(Of TEntity, Boolean)))
+- uid: Solstice.Service.Base.ICoreService`1.GetBy``1(Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetBy``1(Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  id: GetBy``1(Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetBy<TEntity>(ICoreSpecifications<TEntity>)
+  nameWithType: ICoreService<T>.GetBy<TEntity>(ICoreSpecifications<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetBy<TEntity>(Solstice.Repository.Specifications.ICoreSpecifications<TEntity>)
+  type: Method
+  source:
+    id: GetBy
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 131
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<TEntity?> GetBy<TEntity>(ICoreSpecifications<TEntity> coreSpecifications) where TEntity : class'
+    parameters:
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{{TEntity}}
+    content.vb: Function GetBy(Of TEntity As Class)(coreSpecifications As ICoreSpecifications(Of TEntity)) As Task(Of TEntity)
+  overload: Solstice.Service.Base.ICoreService`1.GetBy*
+  nameWithType.vb: ICoreService(Of T).GetBy(Of TEntity)(ICoreSpecifications(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetBy(Of TEntity)(Solstice.Repository.Specifications.ICoreSpecifications(Of TEntity))
+  name.vb: GetBy(Of TEntity)(ICoreSpecifications(Of TEntity))
+- uid: Solstice.Service.Base.ICoreService`1.GetBy``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetBy``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  id: GetBy``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetBy<TEntity>(string, ICollection<DbParameter>, ICoreSpecifications<TEntity>)
+  nameWithType: ICoreService<T>.GetBy<TEntity>(string, ICollection<DbParameter>, ICoreSpecifications<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetBy<TEntity>(string, System.Collections.Generic.ICollection<System.Data.Common.DbParameter>, Solstice.Repository.Specifications.ICoreSpecifications<TEntity>)
+  type: Method
+  source:
+    id: GetBy
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 132
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<TEntity?> GetBy<TEntity>(string query, ICollection<DbParameter> parameters, ICoreSpecifications<TEntity> coreSpecifications) where TEntity : class'
+    parameters:
+    - id: query
+      type: System.String
+    - id: parameters
+      type: System.Collections.Generic.ICollection{System.Data.Common.DbParameter}
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{{TEntity}}
+    content.vb: Function GetBy(Of TEntity As Class)(query As String, parameters As ICollection(Of DbParameter), coreSpecifications As ICoreSpecifications(Of TEntity)) As Task(Of TEntity)
+  overload: Solstice.Service.Base.ICoreService`1.GetBy*
+  nameWithType.vb: ICoreService(Of T).GetBy(Of TEntity)(String, ICollection(Of DbParameter), ICoreSpecifications(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetBy(Of TEntity)(String, System.Collections.Generic.ICollection(Of System.Data.Common.DbParameter), Solstice.Repository.Specifications.ICoreSpecifications(Of TEntity))
+  name.vb: GetBy(Of TEntity)(String, ICollection(Of DbParameter), ICoreSpecifications(Of TEntity))
+- uid: Solstice.Service.Base.ICoreService`1.GetAllAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  id: GetAllAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync(Expression<Func<T, bool>>)
+  nameWithType: ICoreService<T>.GetAllAsync(Expression<Func<T, bool>>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllAsync(System.Linq.Expressions.Expression<System.Func<T, bool>>)
+  type: Method
+  source:
+    id: GetAllAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 144
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves a collection of entities from the repository that satisfy the specified condition asynchronously.
+  example: []
+  syntax:
+    content: Task<ICollection<T>> GetAllAsync(Expression<Func<T, bool>> where)
+    parameters:
+    - id: where
+      type: System.Linq.Expressions.Expression{System.Func{{T},System.Boolean}}
+      description: An expression representing a condition to be matched by entities in the repository.
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{T}}}
+      description: >-
+        A task that represents the asynchronous operation. The task result contains a collection of entities satisfying the condition
+            or an empty collection if there are no matches.
+    content.vb: Function GetAllAsync(where As Expression(Of Func(Of T, Boolean))) As Task(Of ICollection(Of T))
+  overload: Solstice.Service.Base.ICoreService`1.GetAllAsync*
+  nameWithType.vb: ICoreService(Of T).GetAllAsync(Expression(Of Func(Of T, Boolean)))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllAsync(System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)))
+  name.vb: GetAllAsync(Expression(Of Func(Of T, Boolean)))
+- uid: Solstice.Service.Base.ICoreService`1.GetAllAsync(Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllAsync(Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  id: GetAllAsync(Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync(ICoreSpecifications<T>?)
+  nameWithType: ICoreService<T>.GetAllAsync(ICoreSpecifications<T>?)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllAsync(Solstice.Repository.Specifications.ICoreSpecifications<T>?)
+  type: Method
+  source:
+    id: GetAllAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 151
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves a collection of all entities from the repository asynchronously.
+  example: []
+  syntax:
+    content: Task<ICollection<T>> GetAllAsync(ICoreSpecifications<T>? coreSpecifications)
+    parameters:
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+      description: The specifications that entities must meet to be retrieved from the repository.
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{T}}}
+      description: A task that represents the asynchronous operation. The task result contains a collection of entities satisfying The core specifications or an empty collection if no matches.
+    content.vb: Function GetAllAsync(coreSpecifications As ICoreSpecifications(Of T)) As Task(Of ICollection(Of T))
+  overload: Solstice.Service.Base.ICoreService`1.GetAllAsync*
+  nameWithType.vb: ICoreService(Of T).GetAllAsync(ICoreSpecifications(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllAsync(Solstice.Repository.Specifications.ICoreSpecifications(Of T))
+  name.vb: GetAllAsync(ICoreSpecifications(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.GetAllAsync(System.String,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllAsync(System.String,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  id: GetAllAsync(System.String,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync(string, ICoreSpecifications<T>?)
+  nameWithType: ICoreService<T>.GetAllAsync(string, ICoreSpecifications<T>?)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllAsync(string, Solstice.Repository.Specifications.ICoreSpecifications<T>?)
+  type: Method
+  source:
+    id: GetAllAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 159
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves a collection of all entities from the repository asyncronously based on a provided SQL-like query and specifications.
+  example: []
+  syntax:
+    content: Task<ICollection<T>> GetAllAsync(string query, ICoreSpecifications<T>? coreSpecifications)
+    parameters:
+    - id: query
+      type: System.String
+      description: A SQL-like query that retrieves entities from the repository.
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+      description: The specifications that entities must meet to be retrieved from the repository.
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{T}}}
+      description: A task that represents the asynchronous operation. The task results contains a collection od entities satisfying the query and The core specifications or an empty collection if no matches.
+    content.vb: Function GetAllAsync(query As String, coreSpecifications As ICoreSpecifications(Of T)) As Task(Of ICollection(Of T))
+  overload: Solstice.Service.Base.ICoreService`1.GetAllAsync*
+  nameWithType.vb: ICoreService(Of T).GetAllAsync(String, ICoreSpecifications(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllAsync(String, Solstice.Repository.Specifications.ICoreSpecifications(Of T))
+  name.vb: GetAllAsync(String, ICoreSpecifications(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.GetAllAsync(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllAsync(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  id: GetAllAsync(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync(string, ICollection<DbParameter>, ICoreSpecifications<T>?)
+  nameWithType: ICoreService<T>.GetAllAsync(string, ICollection<DbParameter>, ICoreSpecifications<T>?)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllAsync(string, System.Collections.Generic.ICollection<System.Data.Common.DbParameter>, Solstice.Repository.Specifications.ICoreSpecifications<T>?)
+  type: Method
+  source:
+    id: GetAllAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 168
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves a collection of all entities from the repository asyncronously based on a provided SQL-like query, parameters and specifications.
+  example: []
+  syntax:
+    content: Task<ICollection<T>> GetAllAsync(string query, ICollection<DbParameter> parameters, ICoreSpecifications<T>? coreSpecifications)
+    parameters:
+    - id: query
+      type: System.String
+      description: A SQL-like query that retrieves entities from the repository.
+    - id: parameters
+      type: System.Collections.Generic.ICollection{System.Data.Common.DbParameter}
+      description: A collection of database parameters used in the query
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+      description: The specifications that entities must meet to be retrieved from the repository.
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{T}}}
+      description: A task that represents the asynchronous operation. The task results contains a collection od entities satisfying the query, parameters and The core specifications or an empty collection if no matches.
+    content.vb: Function GetAllAsync(query As String, parameters As ICollection(Of DbParameter), coreSpecifications As ICoreSpecifications(Of T)) As Task(Of ICollection(Of T))
+  overload: Solstice.Service.Base.ICoreService`1.GetAllAsync*
+  nameWithType.vb: ICoreService(Of T).GetAllAsync(String, ICollection(Of DbParameter), ICoreSpecifications(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllAsync(String, System.Collections.Generic.ICollection(Of System.Data.Common.DbParameter), Solstice.Repository.Specifications.ICoreSpecifications(Of T))
+  name.vb: GetAllAsync(String, ICollection(Of DbParameter), ICoreSpecifications(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.GetAllAsync``1(Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllAsync``1(Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  id: GetAllAsync``1(Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync<TEntity>(ICoreSpecifications<TEntity>)
+  nameWithType: ICoreService<T>.GetAllAsync<TEntity>(ICoreSpecifications<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllAsync<TEntity>(Solstice.Repository.Specifications.ICoreSpecifications<TEntity>)
+  type: Method
+  source:
+    id: GetAllAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 171
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<ICollection<TEntity>> GetAllAsync<TEntity>(ICoreSpecifications<TEntity> coreSpecifications) where TEntity : class'
+    parameters:
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{TEntity}}}
+    content.vb: Function GetAllAsync(Of TEntity As Class)(coreSpecifications As ICoreSpecifications(Of TEntity)) As Task(Of ICollection(Of TEntity))
+  overload: Solstice.Service.Base.ICoreService`1.GetAllAsync*
+  nameWithType.vb: ICoreService(Of T).GetAllAsync(Of TEntity)(ICoreSpecifications(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllAsync(Of TEntity)(Solstice.Repository.Specifications.ICoreSpecifications(Of TEntity))
+  name.vb: GetAllAsync(Of TEntity)(ICoreSpecifications(Of TEntity))
+- uid: Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  id: GetAllAsync``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync<TEntity>(Expression<Func<TEntity, bool>>)
+  nameWithType: ICoreService<T>.GetAllAsync<TEntity>(Expression<Func<TEntity, bool>>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllAsync<TEntity>(System.Linq.Expressions.Expression<System.Func<TEntity, bool>>)
+  type: Method
+  source:
+    id: GetAllAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 172
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<ICollection<TEntity>> GetAllAsync<TEntity>(Expression<Func<TEntity, bool>> where) where TEntity : class'
+    parameters:
+    - id: where
+      type: System.Linq.Expressions.Expression{System.Func{{TEntity},System.Boolean}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{TEntity}}}
+    content.vb: Function GetAllAsync(Of TEntity As Class)(where As Expression(Of Func(Of TEntity, Boolean))) As Task(Of ICollection(Of TEntity))
+  overload: Solstice.Service.Base.ICoreService`1.GetAllAsync*
+  nameWithType.vb: ICoreService(Of T).GetAllAsync(Of TEntity)(Expression(Of Func(Of TEntity, Boolean)))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllAsync(Of TEntity)(System.Linq.Expressions.Expression(Of System.Func(Of TEntity, Boolean)))
+  name.vb: GetAllAsync(Of TEntity)(Expression(Of Func(Of TEntity, Boolean)))
+- uid: Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.String)
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.String)
+  id: GetAllAsync``1(System.String)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync<TEntity>(string)
+  nameWithType: ICoreService<T>.GetAllAsync<TEntity>(string)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllAsync<TEntity>(string)
+  type: Method
+  source:
+    id: GetAllAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 173
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<ICollection<TEntity>> GetAllAsync<TEntity>(string query) where TEntity : class'
+    parameters:
+    - id: query
+      type: System.String
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{TEntity}}}
+    content.vb: Function GetAllAsync(Of TEntity As Class)(query As String) As Task(Of ICollection(Of TEntity))
+  overload: Solstice.Service.Base.ICoreService`1.GetAllAsync*
+  nameWithType.vb: ICoreService(Of T).GetAllAsync(Of TEntity)(String)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllAsync(Of TEntity)(String)
+  name.vb: GetAllAsync(Of TEntity)(String)
+- uid: Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.String,Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.String,Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  id: GetAllAsync``1(System.String,Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync<TEntity>(string, ICoreSpecifications<TEntity>)
+  nameWithType: ICoreService<T>.GetAllAsync<TEntity>(string, ICoreSpecifications<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllAsync<TEntity>(string, Solstice.Repository.Specifications.ICoreSpecifications<TEntity>)
+  type: Method
+  source:
+    id: GetAllAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 174
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<ICollection<TEntity>> GetAllAsync<TEntity>(string query, ICoreSpecifications<TEntity> coreSpecifications) where TEntity : class'
+    parameters:
+    - id: query
+      type: System.String
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{TEntity}}}
+    content.vb: Function GetAllAsync(Of TEntity As Class)(query As String, coreSpecifications As ICoreSpecifications(Of TEntity)) As Task(Of ICollection(Of TEntity))
+  overload: Solstice.Service.Base.ICoreService`1.GetAllAsync*
+  nameWithType.vb: ICoreService(Of T).GetAllAsync(Of TEntity)(String, ICoreSpecifications(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllAsync(Of TEntity)(String, Solstice.Repository.Specifications.ICoreSpecifications(Of TEntity))
+  name.vb: GetAllAsync(Of TEntity)(String, ICoreSpecifications(Of TEntity))
+- uid: Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})
+  id: GetAllAsync``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync<TEntity>(string, ICollection<DbParameter>)
+  nameWithType: ICoreService<T>.GetAllAsync<TEntity>(string, ICollection<DbParameter>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllAsync<TEntity>(string, System.Collections.Generic.ICollection<System.Data.Common.DbParameter>)
+  type: Method
+  source:
+    id: GetAllAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 175
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<ICollection<TEntity>> GetAllAsync<TEntity>(string query, ICollection<DbParameter> parameters) where TEntity : class'
+    parameters:
+    - id: query
+      type: System.String
+    - id: parameters
+      type: System.Collections.Generic.ICollection{System.Data.Common.DbParameter}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{TEntity}}}
+    content.vb: Function GetAllAsync(Of TEntity As Class)(query As String, parameters As ICollection(Of DbParameter)) As Task(Of ICollection(Of TEntity))
+  overload: Solstice.Service.Base.ICoreService`1.GetAllAsync*
+  nameWithType.vb: ICoreService(Of T).GetAllAsync(Of TEntity)(String, ICollection(Of DbParameter))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllAsync(Of TEntity)(String, System.Collections.Generic.ICollection(Of System.Data.Common.DbParameter))
+  name.vb: GetAllAsync(Of TEntity)(String, ICollection(Of DbParameter))
+- uid: Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllAsync``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  id: GetAllAsync``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllAsync<TEntity>(string, ICollection<DbParameter>, ICoreSpecifications<TEntity>)
+  nameWithType: ICoreService<T>.GetAllAsync<TEntity>(string, ICollection<DbParameter>, ICoreSpecifications<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllAsync<TEntity>(string, System.Collections.Generic.ICollection<System.Data.Common.DbParameter>, Solstice.Repository.Specifications.ICoreSpecifications<TEntity>)
+  type: Method
+  source:
+    id: GetAllAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 176
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<ICollection<TEntity>> GetAllAsync<TEntity>(string query, ICollection<DbParameter> parameters, ICoreSpecifications<TEntity> coreSpecifications) where TEntity : class'
+    parameters:
+    - id: query
+      type: System.String
+    - id: parameters
+      type: System.Collections.Generic.ICollection{System.Data.Common.DbParameter}
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{TEntity}}}
+    content.vb: Function GetAllAsync(Of TEntity As Class)(query As String, parameters As ICollection(Of DbParameter), coreSpecifications As ICoreSpecifications(Of TEntity)) As Task(Of ICollection(Of TEntity))
+  overload: Solstice.Service.Base.ICoreService`1.GetAllAsync*
+  nameWithType.vb: ICoreService(Of T).GetAllAsync(Of TEntity)(String, ICollection(Of DbParameter), ICoreSpecifications(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllAsync(Of TEntity)(String, System.Collections.Generic.ICollection(Of System.Data.Common.DbParameter), Solstice.Repository.Specifications.ICoreSpecifications(Of TEntity))
+  name.vb: GetAllAsync(Of TEntity)(String, ICollection(Of DbParameter), ICoreSpecifications(Of TEntity))
+- uid: Solstice.Service.Base.ICoreService`1.GetAllQueryable
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllQueryable
+  id: GetAllQueryable
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllQueryable()
+  nameWithType: ICoreService<T>.GetAllQueryable()
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllQueryable()
+  type: Method
+  source:
+    id: GetAllQueryable
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 186
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves all entities from the repository asynchronously.
+  example: []
+  syntax:
+    content: IQueryable<T> GetAllQueryable()
+    return:
+      type: System.Linq.IQueryable{{T}}
+      description: A queryable collection of all entities in the repository.
+    content.vb: Function GetAllQueryable() As IQueryable(Of T)
+  overload: Solstice.Service.Base.ICoreService`1.GetAllQueryable*
+  nameWithType.vb: ICoreService(Of T).GetAllQueryable()
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllQueryable()
+- uid: Solstice.Service.Base.ICoreService`1.GetAllQueryable(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllQueryable(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  id: GetAllQueryable(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllQueryable(Expression<Func<T, bool>>)
+  nameWithType: ICoreService<T>.GetAllQueryable(Expression<Func<T, bool>>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllQueryable(System.Linq.Expressions.Expression<System.Func<T, bool>>)
+  type: Method
+  source:
+    id: GetAllQueryable
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 193
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves entities that match the specified condition from the repository asynchronously.
+  example: []
+  syntax:
+    content: IQueryable<T> GetAllQueryable(Expression<Func<T, bool>> where)
+    parameters:
+    - id: where
+      type: System.Linq.Expressions.Expression{System.Func{{T},System.Boolean}}
+      description: An expression representing a condition to be matched by entities in the repository.
+    return:
+      type: System.Linq.IQueryable{{T}}
+      description: A queryable collection of entities matching the condition.
+    content.vb: Function GetAllQueryable(where As Expression(Of Func(Of T, Boolean))) As IQueryable(Of T)
+  overload: Solstice.Service.Base.ICoreService`1.GetAllQueryable*
+  nameWithType.vb: ICoreService(Of T).GetAllQueryable(Expression(Of Func(Of T, Boolean)))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllQueryable(System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean)))
+  name.vb: GetAllQueryable(Expression(Of Func(Of T, Boolean)))
+- uid: Solstice.Service.Base.ICoreService`1.GetAllQueryable(Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllQueryable(Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  id: GetAllQueryable(Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllQueryable(ICoreSpecifications<T>?)
+  nameWithType: ICoreService<T>.GetAllQueryable(ICoreSpecifications<T>?)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllQueryable(Solstice.Repository.Specifications.ICoreSpecifications<T>?)
+  type: Method
+  source:
+    id: GetAllQueryable
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 200
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves entities that match the specified Radiant specifications from the repository asynchronously.
+  example: []
+  syntax:
+    content: IQueryable<T> GetAllQueryable(ICoreSpecifications<T>? coreSpecifications)
+    parameters:
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+      description: The specifications that entities must meet to be retrieved from the repository.
+    return:
+      type: System.Linq.IQueryable{{T}}
+      description: A queryable collection of entities that satisfy The core specifications.
+    content.vb: Function GetAllQueryable(coreSpecifications As ICoreSpecifications(Of T)) As IQueryable(Of T)
+  overload: Solstice.Service.Base.ICoreService`1.GetAllQueryable*
+  nameWithType.vb: ICoreService(Of T).GetAllQueryable(ICoreSpecifications(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllQueryable(Solstice.Repository.Specifications.ICoreSpecifications(Of T))
+  name.vb: GetAllQueryable(ICoreSpecifications(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.GetAllQueryable(System.String,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllQueryable(System.String,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  id: GetAllQueryable(System.String,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllQueryable(string, ICoreSpecifications<T>?)
+  nameWithType: ICoreService<T>.GetAllQueryable(string, ICoreSpecifications<T>?)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllQueryable(string, Solstice.Repository.Specifications.ICoreSpecifications<T>?)
+  type: Method
+  source:
+    id: GetAllQueryable
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 208
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves entities from the repository based on a provided SQL-like query and specifications asynchronously.
+  example: []
+  syntax:
+    content: IQueryable<T> GetAllQueryable(string query, ICoreSpecifications<T>? coreSpecifications)
+    parameters:
+    - id: query
+      type: System.String
+      description: A SQL-like query that retrieves entities from the repository.
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+      description: The specifications that entities must meet to be retrieved from the repository.
+    return:
+      type: System.Linq.IQueryable{{T}}
+      description: A queryable collection of entities satisfying the query and The core specifications.
+    content.vb: Function GetAllQueryable(query As String, coreSpecifications As ICoreSpecifications(Of T)) As IQueryable(Of T)
+  overload: Solstice.Service.Base.ICoreService`1.GetAllQueryable*
+  nameWithType.vb: ICoreService(Of T).GetAllQueryable(String, ICoreSpecifications(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllQueryable(String, Solstice.Repository.Specifications.ICoreSpecifications(Of T))
+  name.vb: GetAllQueryable(String, ICoreSpecifications(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.GetAllQueryable(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllQueryable(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  id: GetAllQueryable(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllQueryable(string, ICollection<DbParameter>, ICoreSpecifications<T>?)
+  nameWithType: ICoreService<T>.GetAllQueryable(string, ICollection<DbParameter>, ICoreSpecifications<T>?)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllQueryable(string, System.Collections.Generic.ICollection<System.Data.Common.DbParameter>, Solstice.Repository.Specifications.ICoreSpecifications<T>?)
+  type: Method
+  source:
+    id: GetAllQueryable
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 217
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves entities from the repository based on a provided SQL-like query, parameters and specifications asynchronously.
+  example: []
+  syntax:
+    content: IQueryable<T> GetAllQueryable(string query, ICollection<DbParameter> parameters, ICoreSpecifications<T>? coreSpecifications)
+    parameters:
+    - id: query
+      type: System.String
+      description: A SQL-like query that retrieves entities from the repository.
+    - id: parameters
+      type: System.Collections.Generic.ICollection{System.Data.Common.DbParameter}
+      description: A collection of database parameters used in the query
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+      description: The specifications that entities must meet to be retrieved from the repository.
+    return:
+      type: System.Linq.IQueryable{{T}}
+      description: A queryable collection of entities satisfying the query, parameters and The core specifications.
+    content.vb: Function GetAllQueryable(query As String, parameters As ICollection(Of DbParameter), coreSpecifications As ICoreSpecifications(Of T)) As IQueryable(Of T)
+  overload: Solstice.Service.Base.ICoreService`1.GetAllQueryable*
+  nameWithType.vb: ICoreService(Of T).GetAllQueryable(String, ICollection(Of DbParameter), ICoreSpecifications(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllQueryable(String, System.Collections.Generic.ICollection(Of System.Data.Common.DbParameter), Solstice.Repository.Specifications.ICoreSpecifications(Of T))
+  name.vb: GetAllQueryable(String, ICollection(Of DbParameter), ICoreSpecifications(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.GetPagedResult(Solstice.Domain.Models.Page)
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetPagedResult(Solstice.Domain.Models.Page)
+  id: GetPagedResult(Solstice.Domain.Models.Page)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetPagedResult(Page)
+  nameWithType: ICoreService<T>.GetPagedResult(Page)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetPagedResult(Solstice.Domain.Models.Page)
+  type: Method
+  source:
+    id: GetPagedResult
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 233
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves a paginated list of entities from the repository that conforms to the specified Radiant page.
+  example: []
+  syntax:
+    content: Task<Paged<T>> GetPagedResult(Page page)
+    parameters:
+    - id: page
+      type: Solstice.Domain.Models.Page
+      description: The page number and size of the entities to be retrieved from the repository.
+    return:
+      type: System.Threading.Tasks.Task{Solstice.Domain.Models.Paged{{T}}}
+      description: >-
+        A task that represents the asynchronous operation. The task result is a collection of entities that meet The core specifications,
+
+        paginated based on the given Radiant page object. If no entities meet the specifications, the task result is an empty collection.
+    content.vb: Function GetPagedResult(page As Page) As Task(Of Paged(Of T))
+  overload: Solstice.Service.Base.ICoreService`1.GetPagedResult*
+  nameWithType.vb: ICoreService(Of T).GetPagedResult(Page)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetPagedResult(Solstice.Domain.Models.Page)
+- uid: Solstice.Service.Base.ICoreService`1.GetPagedResult(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetPagedResult(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  id: GetPagedResult(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetPagedResult(Page, ICoreSpecifications<T>)
+  nameWithType: ICoreService<T>.GetPagedResult(Page, ICoreSpecifications<T>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetPagedResult(Solstice.Domain.Models.Page, Solstice.Repository.Specifications.ICoreSpecifications<T>)
+  type: Method
+  source:
+    id: GetPagedResult
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 234
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: Task<Paged<T>> GetPagedResult(Page page, ICoreSpecifications<T> coreSpecifications)
+    parameters:
+    - id: page
+      type: Solstice.Domain.Models.Page
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+    return:
+      type: System.Threading.Tasks.Task{Solstice.Domain.Models.Paged{{T}}}
+    content.vb: Function GetPagedResult(page As Page, coreSpecifications As ICoreSpecifications(Of T)) As Task(Of Paged(Of T))
+  overload: Solstice.Service.Base.ICoreService`1.GetPagedResult*
+  nameWithType.vb: ICoreService(Of T).GetPagedResult(Page, ICoreSpecifications(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetPagedResult(Solstice.Domain.Models.Page, Solstice.Repository.Specifications.ICoreSpecifications(Of T))
+  name.vb: GetPagedResult(Page, ICoreSpecifications(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.GetPagedResult(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetPagedResult(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})
+  id: GetPagedResult(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetPagedResult(Page, string, ICollection<DbParameter>)
+  nameWithType: ICoreService<T>.GetPagedResult(Page, string, ICollection<DbParameter>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetPagedResult(Solstice.Domain.Models.Page, string, System.Collections.Generic.ICollection<System.Data.Common.DbParameter>)
+  type: Method
+  source:
+    id: GetPagedResult
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 235
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: Task<Paged<T>> GetPagedResult(Page page, string query, ICollection<DbParameter> parameters)
+    parameters:
+    - id: page
+      type: Solstice.Domain.Models.Page
+    - id: query
+      type: System.String
+    - id: parameters
+      type: System.Collections.Generic.ICollection{System.Data.Common.DbParameter}
+    return:
+      type: System.Threading.Tasks.Task{Solstice.Domain.Models.Paged{{T}}}
+    content.vb: Function GetPagedResult(page As Page, query As String, parameters As ICollection(Of DbParameter)) As Task(Of Paged(Of T))
+  overload: Solstice.Service.Base.ICoreService`1.GetPagedResult*
+  nameWithType.vb: ICoreService(Of T).GetPagedResult(Page, String, ICollection(Of DbParameter))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetPagedResult(Solstice.Domain.Models.Page, String, System.Collections.Generic.ICollection(Of System.Data.Common.DbParameter))
+  name.vb: GetPagedResult(Page, String, ICollection(Of DbParameter))
+- uid: Solstice.Service.Base.ICoreService`1.GetPagedResult(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetPagedResult(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  id: GetPagedResult(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetPagedResult(Page, string, ICollection<DbParameter>, ICoreSpecifications<T>)
+  nameWithType: ICoreService<T>.GetPagedResult(Page, string, ICollection<DbParameter>, ICoreSpecifications<T>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetPagedResult(Solstice.Domain.Models.Page, string, System.Collections.Generic.ICollection<System.Data.Common.DbParameter>, Solstice.Repository.Specifications.ICoreSpecifications<T>)
+  type: Method
+  source:
+    id: GetPagedResult
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 236
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: Task<Paged<T>> GetPagedResult(Page page, string query, ICollection<DbParameter> parameters, ICoreSpecifications<T> coreSpecifications)
+    parameters:
+    - id: page
+      type: Solstice.Domain.Models.Page
+    - id: query
+      type: System.String
+    - id: parameters
+      type: System.Collections.Generic.ICollection{System.Data.Common.DbParameter}
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+    return:
+      type: System.Threading.Tasks.Task{Solstice.Domain.Models.Paged{{T}}}
+    content.vb: Function GetPagedResult(page As Page, query As String, parameters As ICollection(Of DbParameter), coreSpecifications As ICoreSpecifications(Of T)) As Task(Of Paged(Of T))
+  overload: Solstice.Service.Base.ICoreService`1.GetPagedResult*
+  nameWithType.vb: ICoreService(Of T).GetPagedResult(Page, String, ICollection(Of DbParameter), ICoreSpecifications(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetPagedResult(Solstice.Domain.Models.Page, String, System.Collections.Generic.ICollection(Of System.Data.Common.DbParameter), Solstice.Repository.Specifications.ICoreSpecifications(Of T))
+  name.vb: GetPagedResult(Page, String, ICollection(Of DbParameter), ICoreSpecifications(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.GetPagedResult``1(Solstice.Domain.Models.Page)
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetPagedResult``1(Solstice.Domain.Models.Page)
+  id: GetPagedResult``1(Solstice.Domain.Models.Page)
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetPagedResult<TEntity>(Page)
+  nameWithType: ICoreService<T>.GetPagedResult<TEntity>(Page)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetPagedResult<TEntity>(Solstice.Domain.Models.Page)
+  type: Method
+  source:
+    id: GetPagedResult
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 237
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<Paged<TEntity>> GetPagedResult<TEntity>(Page page) where TEntity : class'
+    parameters:
+    - id: page
+      type: Solstice.Domain.Models.Page
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{Solstice.Domain.Models.Paged{{TEntity}}}
+    content.vb: Function GetPagedResult(Of TEntity As Class)(page As Page) As Task(Of Paged(Of TEntity))
+  overload: Solstice.Service.Base.ICoreService`1.GetPagedResult*
+  nameWithType.vb: ICoreService(Of T).GetPagedResult(Of TEntity)(Page)
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetPagedResult(Of TEntity)(Solstice.Domain.Models.Page)
+  name.vb: GetPagedResult(Of TEntity)(Page)
+- uid: Solstice.Service.Base.ICoreService`1.GetPagedResult``1(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetPagedResult``1(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  id: GetPagedResult``1(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetPagedResult<TEntity>(Page, ICoreSpecifications<TEntity>)
+  nameWithType: ICoreService<T>.GetPagedResult<TEntity>(Page, ICoreSpecifications<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetPagedResult<TEntity>(Solstice.Domain.Models.Page, Solstice.Repository.Specifications.ICoreSpecifications<TEntity>)
+  type: Method
+  source:
+    id: GetPagedResult
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 238
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<Paged<TEntity>> GetPagedResult<TEntity>(Page page, ICoreSpecifications<TEntity> coreSpecifications) where TEntity : class'
+    parameters:
+    - id: page
+      type: Solstice.Domain.Models.Page
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{Solstice.Domain.Models.Paged{{TEntity}}}
+    content.vb: Function GetPagedResult(Of TEntity As Class)(page As Page, coreSpecifications As ICoreSpecifications(Of TEntity)) As Task(Of Paged(Of TEntity))
+  overload: Solstice.Service.Base.ICoreService`1.GetPagedResult*
+  nameWithType.vb: ICoreService(Of T).GetPagedResult(Of TEntity)(Page, ICoreSpecifications(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetPagedResult(Of TEntity)(Solstice.Domain.Models.Page, Solstice.Repository.Specifications.ICoreSpecifications(Of TEntity))
+  name.vb: GetPagedResult(Of TEntity)(Page, ICoreSpecifications(Of TEntity))
+- uid: Solstice.Service.Base.ICoreService`1.GetPagedResult``1(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetPagedResult``1(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})
+  id: GetPagedResult``1(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetPagedResult<TEntity>(Page, string, ICollection<DbParameter>)
+  nameWithType: ICoreService<T>.GetPagedResult<TEntity>(Page, string, ICollection<DbParameter>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetPagedResult<TEntity>(Solstice.Domain.Models.Page, string, System.Collections.Generic.ICollection<System.Data.Common.DbParameter>)
+  type: Method
+  source:
+    id: GetPagedResult
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 239
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<Paged<TEntity>> GetPagedResult<TEntity>(Page page, string query, ICollection<DbParameter> parameters) where TEntity : class'
+    parameters:
+    - id: page
+      type: Solstice.Domain.Models.Page
+    - id: query
+      type: System.String
+    - id: parameters
+      type: System.Collections.Generic.ICollection{System.Data.Common.DbParameter}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{Solstice.Domain.Models.Paged{{TEntity}}}
+    content.vb: Function GetPagedResult(Of TEntity As Class)(page As Page, query As String, parameters As ICollection(Of DbParameter)) As Task(Of Paged(Of TEntity))
+  overload: Solstice.Service.Base.ICoreService`1.GetPagedResult*
+  nameWithType.vb: ICoreService(Of T).GetPagedResult(Of TEntity)(Page, String, ICollection(Of DbParameter))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetPagedResult(Of TEntity)(Solstice.Domain.Models.Page, String, System.Collections.Generic.ICollection(Of System.Data.Common.DbParameter))
+  name.vb: GetPagedResult(Of TEntity)(Page, String, ICollection(Of DbParameter))
+- uid: Solstice.Service.Base.ICoreService`1.GetPagedResult``1(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetPagedResult``1(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  id: GetPagedResult``1(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetPagedResult<TEntity>(Page, string, ICollection<DbParameter>, ICoreSpecifications<TEntity>)
+  nameWithType: ICoreService<T>.GetPagedResult<TEntity>(Page, string, ICollection<DbParameter>, ICoreSpecifications<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetPagedResult<TEntity>(Solstice.Domain.Models.Page, string, System.Collections.Generic.ICollection<System.Data.Common.DbParameter>, Solstice.Repository.Specifications.ICoreSpecifications<TEntity>)
+  type: Method
+  source:
+    id: GetPagedResult
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 240
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  syntax:
+    content: 'Task<Paged<TEntity>> GetPagedResult<TEntity>(Page page, string query, ICollection<DbParameter> parameters, ICoreSpecifications<TEntity> coreSpecifications) where TEntity : class'
+    parameters:
+    - id: page
+      type: Solstice.Domain.Models.Page
+    - id: query
+      type: System.String
+    - id: parameters
+      type: System.Collections.Generic.ICollection{System.Data.Common.DbParameter}
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{TEntity}}
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{Solstice.Domain.Models.Paged{{TEntity}}}
+    content.vb: Function GetPagedResult(Of TEntity As Class)(page As Page, query As String, parameters As ICollection(Of DbParameter), coreSpecifications As ICoreSpecifications(Of TEntity)) As Task(Of Paged(Of TEntity))
+  overload: Solstice.Service.Base.ICoreService`1.GetPagedResult*
+  nameWithType.vb: ICoreService(Of T).GetPagedResult(Of TEntity)(Page, String, ICollection(Of DbParameter), ICoreSpecifications(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetPagedResult(Of TEntity)(Solstice.Domain.Models.Page, String, System.Collections.Generic.ICollection(Of System.Data.Common.DbParameter), Solstice.Repository.Specifications.ICoreSpecifications(Of TEntity))
+  name.vb: GetPagedResult(Of TEntity)(Page, String, ICollection(Of DbParameter), ICoreSpecifications(Of TEntity))
+- uid: Solstice.Service.Base.ICoreService`1.PageAllAsync(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.PageAllAsync(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  id: PageAllAsync(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: PageAllAsync(Page, ICoreSpecifications<T>?)
+  nameWithType: ICoreService<T>.PageAllAsync(Page, ICoreSpecifications<T>?)
+  fullName: Solstice.Service.Base.ICoreService<T>.PageAllAsync(Solstice.Domain.Models.Page, Solstice.Repository.Specifications.ICoreSpecifications<T>?)
+  type: Method
+  source:
+    id: PageAllAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 248
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves a collection of entities from the repository that satisfy the specified condition asyncronously, and do paging on them.
+  example: []
+  syntax:
+    content: Task<ICollection<T>> PageAllAsync(Page page, ICoreSpecifications<T>? coreSpecifications)
+    parameters:
+    - id: page
+      type: Solstice.Domain.Models.Page
+      description: The page number and size of the entities to be retrieved from the repository.
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+      description: The specifications that entities must meet to be retrieved from the repository.
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{T}}}
+      description: >-
+        A task that represents the asynchronous operation. The task result contains a collection of entities satisfying the condition.
+            or an empty collection if no matches, paged by the given information in RadiantPage object.
+    content.vb: Function PageAllAsync(page As Page, coreSpecifications As ICoreSpecifications(Of T)) As Task(Of ICollection(Of T))
+  overload: Solstice.Service.Base.ICoreService`1.PageAllAsync*
+  nameWithType.vb: ICoreService(Of T).PageAllAsync(Page, ICoreSpecifications(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).PageAllAsync(Solstice.Domain.Models.Page, Solstice.Repository.Specifications.ICoreSpecifications(Of T))
+  name.vb: PageAllAsync(Page, ICoreSpecifications(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.PageAllQueryable(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.PageAllQueryable(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  id: PageAllQueryable(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: PageAllQueryable(Page, ICoreSpecifications<T>?)
+  nameWithType: ICoreService<T>.PageAllQueryable(Page, ICoreSpecifications<T>?)
+  fullName: Solstice.Service.Base.ICoreService<T>.PageAllQueryable(Solstice.Domain.Models.Page, Solstice.Repository.Specifications.ICoreSpecifications<T>?)
+  type: Method
+  source:
+    id: PageAllQueryable
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 256
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves a queryable collection of entities from the repository that satisfy the specified condition asyncronously, and do paging on them.
+  example: []
+  syntax:
+    content: IQueryable<T> PageAllQueryable(Page page, ICoreSpecifications<T>? coreSpecifications)
+    parameters:
+    - id: page
+      type: Solstice.Domain.Models.Page
+      description: The page number and size of the entities to be retrieved from the repository.
+    - id: coreSpecifications
+      type: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+      description: The specifications that entities must meet to be retrieved from the repository.
+    return:
+      type: System.Linq.IQueryable{{T}}
+      description: A queryable collection of all entities in the repository that fulfill the condition, paged by the given information in RadiantPage object.
+    content.vb: Function PageAllQueryable(page As Page, coreSpecifications As ICoreSpecifications(Of T)) As IQueryable(Of T)
+  overload: Solstice.Service.Base.ICoreService`1.PageAllQueryable*
+  nameWithType.vb: ICoreService(Of T).PageAllQueryable(Page, ICoreSpecifications(Of T))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).PageAllQueryable(Solstice.Domain.Models.Page, Solstice.Repository.Specifications.ICoreSpecifications(Of T))
+  name.vb: PageAllQueryable(Page, ICoreSpecifications(Of T))
+- uid: Solstice.Service.Base.ICoreService`1.BeginTransactionAsync
+  commentId: M:Solstice.Service.Base.ICoreService`1.BeginTransactionAsync
+  id: BeginTransactionAsync
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: BeginTransactionAsync()
+  nameWithType: ICoreService<T>.BeginTransactionAsync()
+  fullName: Solstice.Service.Base.ICoreService<T>.BeginTransactionAsync()
+  type: Method
+  source:
+    id: BeginTransactionAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 269
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Begins a new transaction asynchronously.
+  example: []
+  syntax:
+    content: Task<IDbContextTransaction> BeginTransactionAsync()
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction}
+      description: >-
+        A task that represents the asynchronous operation. The task result is an IDbContextTransaction object
+
+        which encapsulates all information about the transaction.
+    content.vb: Function BeginTransactionAsync() As Task(Of IDbContextTransaction)
+  overload: Solstice.Service.Base.ICoreService`1.BeginTransactionAsync*
+  nameWithType.vb: ICoreService(Of T).BeginTransactionAsync()
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).BeginTransactionAsync()
+- uid: Solstice.Service.Base.ICoreService`1.GetAllByQueryable``1(System.Linq.IQueryable{``0})
+  commentId: M:Solstice.Service.Base.ICoreService`1.GetAllByQueryable``1(System.Linq.IQueryable{``0})
+  id: GetAllByQueryable``1(System.Linq.IQueryable{``0})
+  parent: Solstice.Service.Base.ICoreService`1
+  langs:
+  - csharp
+  - vb
+  name: GetAllByQueryable<TEntity>(IQueryable<TEntity>)
+  nameWithType: ICoreService<T>.GetAllByQueryable<TEntity>(IQueryable<TEntity>)
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllByQueryable<TEntity>(System.Linq.IQueryable<TEntity>)
+  type: Method
+  source:
+    id: GetAllByQueryable
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Applications/Core/ICoreService.cs
+    startLine: 280
+  assemblies:
+  - Solstice.Applications
+  namespace: Solstice.Service.Base
+  summary: Retrieves a collection of entities from a specified IQueryable.
+  example: []
+  syntax:
+    content: Task<ICollection<TEntity>> GetAllByQueryable<TEntity>(IQueryable<TEntity> query)
+    parameters:
+    - id: query
+      type: System.Linq.IQueryable{{TEntity}}
+      description: An IQueryable that retrieves entities from the repository.
+    typeParameters:
+    - id: TEntity
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{TEntity}}}
+      description: A task that represents the asynchronous operation. The task result contains a collection of entities that satisfy the query or an empty collection if no matches.
+    content.vb: Function GetAllByQueryable(Of TEntity)(query As IQueryable(Of TEntity)) As Task(Of ICollection(Of TEntity))
+  overload: Solstice.Service.Base.ICoreService`1.GetAllByQueryable*
+  nameWithType.vb: ICoreService(Of T).GetAllByQueryable(Of TEntity)(IQueryable(Of TEntity))
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllByQueryable(Of TEntity)(System.Linq.IQueryable(Of TEntity))
+  name.vb: GetAllByQueryable(Of TEntity)(IQueryable(Of TEntity))
+references:
+- uid: Solstice.Service.Base
+  commentId: N:Solstice.Service.Base
+  href: Solstice.html
+  name: Solstice.Service.Base
+  nameWithType: Solstice.Service.Base
+  fullName: Solstice.Service.Base
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Service
+    name: Service
+    href: Solstice.Service.html
+  - name: .
+  - uid: Solstice.Service.Base
+    name: Base
+    href: Solstice.Service.Base.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Service
+    name: Service
+    href: Solstice.Service.html
+  - name: .
+  - uid: Solstice.Service.Base
+    name: Base
+    href: Solstice.Service.Base.html
+- uid: Solstice.Service.Base.ICoreService`1.AddAsync*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.AddAsync
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_AddAsync__0_
+  name: AddAsync
+  nameWithType: ICoreService<T>.AddAsync
+  fullName: Solstice.Service.Base.ICoreService<T>.AddAsync
+  nameWithType.vb: ICoreService(Of T).AddAsync
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AddAsync
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: '{TEntity}'
+  commentId: '!:TEntity'
+  definition: TEntity
+  name: TEntity
+  nameWithType: TEntity
+  fullName: TEntity
+- uid: TEntity
+  name: TEntity
+  nameWithType: TEntity
+  fullName: TEntity
+- uid: Solstice.Service.Base.ICoreService`1.AddAndSaveAsync*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.AddAndSaveAsync
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_AddAndSaveAsync__0_
+  name: AddAndSaveAsync
+  nameWithType: ICoreService<T>.AddAndSaveAsync
+  fullName: Solstice.Service.Base.ICoreService<T>.AddAndSaveAsync
+  nameWithType.vb: ICoreService(Of T).AddAndSaveAsync
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AddAndSaveAsync
+- uid: Solstice.Service.Base.ICoreService`1.AddRangeAsync*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.AddRangeAsync
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_AddRangeAsync_System_Collections_Generic_ICollection__0__
+  name: AddRangeAsync
+  nameWithType: ICoreService<T>.AddRangeAsync
+  fullName: Solstice.Service.Base.ICoreService<T>.AddRangeAsync
+  nameWithType.vb: ICoreService(Of T).AddRangeAsync
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AddRangeAsync
+- uid: System.Collections.Generic.ICollection{{T}}
+  commentId: T:System.Collections.Generic.ICollection{`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.ICollection{{TEntity}}
+  commentId: T:System.Collections.Generic.ICollection{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<TEntity>
+  nameWithType: ICollection<TEntity>
+  fullName: System.Collections.Generic.ICollection<TEntity>
+  nameWithType.vb: ICollection(Of TEntity)
+  fullName.vb: System.Collections.Generic.ICollection(Of TEntity)
+  name.vb: ICollection(Of TEntity)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Solstice.Service.Base.ICoreService`1.AddRangeAndSaveAsync*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.AddRangeAndSaveAsync
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_AddRangeAndSaveAsync_System_Collections_Generic_ICollection__0__
+  name: AddRangeAndSaveAsync
+  nameWithType: ICoreService<T>.AddRangeAndSaveAsync
+  fullName: Solstice.Service.Base.ICoreService<T>.AddRangeAndSaveAsync
+  nameWithType.vb: ICoreService(Of T).AddRangeAndSaveAsync
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AddRangeAndSaveAsync
+- uid: Solstice.Service.Base.ICoreService`1.Remove*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.Remove
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_Remove__0_
+  name: Remove
+  nameWithType: ICoreService<T>.Remove
+  fullName: Solstice.Service.Base.ICoreService<T>.Remove
+  nameWithType.vb: ICoreService(Of T).Remove
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).Remove
+- uid: Solstice.Service.Base.ICoreService`1.RemoveAndSaveAsync*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.RemoveAndSaveAsync
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_RemoveAndSaveAsync__0_
+  name: RemoveAndSaveAsync
+  nameWithType: ICoreService<T>.RemoveAndSaveAsync
+  fullName: Solstice.Service.Base.ICoreService<T>.RemoveAndSaveAsync
+  nameWithType.vb: ICoreService(Of T).RemoveAndSaveAsync
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).RemoveAndSaveAsync
+- uid: Solstice.Service.Base.ICoreService`1.RemoveRange*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.RemoveRange
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_RemoveRange_System_Collections_Generic_ICollection__0__
+  name: RemoveRange
+  nameWithType: ICoreService<T>.RemoveRange
+  fullName: Solstice.Service.Base.ICoreService<T>.RemoveRange
+  nameWithType.vb: ICoreService(Of T).RemoveRange
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).RemoveRange
+- uid: Solstice.Service.Base.ICoreService`1.RemoveRangeAndSaveAsync*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.RemoveRangeAndSaveAsync
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_RemoveRangeAndSaveAsync_System_Collections_Generic_ICollection__0__
+  name: RemoveRangeAndSaveAsync
+  nameWithType: ICoreService<T>.RemoveRangeAndSaveAsync
+  fullName: Solstice.Service.Base.ICoreService<T>.RemoveRangeAndSaveAsync
+  nameWithType.vb: ICoreService(Of T).RemoveRangeAndSaveAsync
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).RemoveRangeAndSaveAsync
+- uid: Solstice.Service.Base.ICoreService`1.SaveAsync*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.SaveAsync
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_SaveAsync
+  name: SaveAsync
+  nameWithType: ICoreService<T>.SaveAsync
+  fullName: Solstice.Service.Base.ICoreService<T>.SaveAsync
+  nameWithType.vb: ICoreService(Of T).SaveAsync
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).SaveAsync
+- uid: Solstice.Service.Base.ICoreService`1.Update*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.Update
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_Update__0_
+  name: Update
+  nameWithType: ICoreService<T>.Update
+  fullName: Solstice.Service.Base.ICoreService<T>.Update
+  nameWithType.vb: ICoreService(Of T).Update
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).Update
+- uid: Solstice.Service.Base.ICoreService`1.UpdateAndSaveAsync*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.UpdateAndSaveAsync
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_UpdateAndSaveAsync__0_
+  name: UpdateAndSaveAsync
+  nameWithType: ICoreService<T>.UpdateAndSaveAsync
+  fullName: Solstice.Service.Base.ICoreService<T>.UpdateAndSaveAsync
+  nameWithType.vb: ICoreService(Of T).UpdateAndSaveAsync
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).UpdateAndSaveAsync
+- uid: Solstice.Service.Base.ICoreService`1.UpdateRange*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.UpdateRange
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_UpdateRange_System_Collections_Generic_ICollection__0__
+  name: UpdateRange
+  nameWithType: ICoreService<T>.UpdateRange
+  fullName: Solstice.Service.Base.ICoreService<T>.UpdateRange
+  nameWithType.vb: ICoreService(Of T).UpdateRange
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).UpdateRange
+- uid: Solstice.Service.Base.ICoreService`1.UpdateRangeAndSaveAsync*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.UpdateRangeAndSaveAsync
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_UpdateRangeAndSaveAsync_System_Collections_Generic_ICollection__0__
+  name: UpdateRangeAndSaveAsync
+  nameWithType: ICoreService<T>.UpdateRangeAndSaveAsync
+  fullName: Solstice.Service.Base.ICoreService<T>.UpdateRangeAndSaveAsync
+  nameWithType.vb: ICoreService(Of T).UpdateRangeAndSaveAsync
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).UpdateRangeAndSaveAsync
+- uid: Solstice.Service.Base.ICoreService`1.AnyAsyncBy*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.AnyAsyncBy
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_AnyAsyncBy_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___
+  name: AnyAsyncBy
+  nameWithType: ICoreService<T>.AnyAsyncBy
+  fullName: Solstice.Service.Base.ICoreService<T>.AnyAsyncBy
+  nameWithType.vb: ICoreService(Of T).AnyAsyncBy
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).AnyAsyncBy
+- uid: System.Linq.Expressions.Expression{System.Func{{T},System.Boolean}}
+  commentId: T:System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}}
+  parent: System.Linq.Expressions
+  definition: System.Linq.Expressions.Expression`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: Expression<Func<T, bool>>
+  nameWithType: Expression<Func<T, bool>>
+  fullName: System.Linq.Expressions.Expression<System.Func<T, bool>>
+  nameWithType.vb: Expression(Of Func(Of T, Boolean))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of T, Boolean))
+  name.vb: Expression(Of Func(Of T, Boolean))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Linq.Expressions.Expression`1
+  commentId: T:System.Linq.Expressions.Expression`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: Expression<TDelegate>
+  nameWithType: Expression<TDelegate>
+  fullName: System.Linq.Expressions.Expression<TDelegate>
+  nameWithType.vb: Expression(Of TDelegate)
+  fullName.vb: System.Linq.Expressions.Expression(Of TDelegate)
+  name.vb: Expression(Of TDelegate)
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - name: TDelegate
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDelegate
+  - name: )
+- uid: System.Linq.Expressions
+  commentId: N:System.Linq.Expressions
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Linq.Expressions
+  nameWithType: System.Linq.Expressions
+  fullName: System.Linq.Expressions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  - name: .
+  - uid: System.Linq.Expressions
+    name: Expressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  - name: .
+  - uid: System.Linq.Expressions
+    name: Expressions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Linq.Expressions.Expression{System.Func{{TEntity},System.Boolean}}
+  commentId: T:System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}}
+  parent: System.Linq.Expressions
+  definition: System.Linq.Expressions.Expression`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  name: Expression<Func<TEntity, bool>>
+  nameWithType: Expression<Func<TEntity, bool>>
+  fullName: System.Linq.Expressions.Expression<System.Func<TEntity, bool>>
+  nameWithType.vb: Expression(Of Func(Of TEntity, Boolean))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of TEntity, Boolean))
+  name.vb: Expression(Of Func(Of TEntity, Boolean))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  - name: )
+- uid: System.Linq.IQueryable{{TEntity}}
+  commentId: T:System.Linq.IQueryable{``0}
+  parent: System.Linq
+  definition: System.Linq.IQueryable`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  name: IQueryable<TEntity>
+  nameWithType: IQueryable<TEntity>
+  fullName: System.Linq.IQueryable<TEntity>
+  nameWithType.vb: IQueryable(Of TEntity)
+  fullName.vb: System.Linq.IQueryable(Of TEntity)
+  name.vb: IQueryable(Of TEntity)
+  spec.csharp:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: System.Linq.IQueryable`1
+  commentId: T:System.Linq.IQueryable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  name: IQueryable<T>
+  nameWithType: IQueryable<T>
+  fullName: System.Linq.IQueryable<T>
+  nameWithType.vb: IQueryable(Of T)
+  fullName.vb: System.Linq.IQueryable(Of T)
+  name.vb: IQueryable(Of T)
+  spec.csharp:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Linq
+  commentId: N:System.Linq
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Linq
+  nameWithType: System.Linq
+  fullName: System.Linq
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+- uid: Solstice.Service.Base.ICoreService`1.CountAllAsync*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.CountAllAsync
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_CountAllAsync
+  name: CountAllAsync
+  nameWithType: ICoreService<T>.CountAllAsync
+  fullName: Solstice.Service.Base.ICoreService<T>.CountAllAsync
+  nameWithType.vb: ICoreService(Of T).CountAllAsync
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).CountAllAsync
+- uid: System.Threading.Tasks.Task{System.Decimal}
+  commentId: T:System.Threading.Tasks.Task{System.Decimal}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<decimal>
+  nameWithType: Task<decimal>
+  fullName: System.Threading.Tasks.Task<decimal>
+  nameWithType.vb: Task(Of Decimal)
+  fullName.vb: System.Threading.Tasks.Task(Of Decimal)
+  name.vb: Task(Of Decimal)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Decimal
+    name: decimal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.decimal
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Decimal
+    name: Decimal
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.decimal
+  - name: )
+- uid: Solstice.Service.Base.ICoreService`1.CountAllAsyncBy*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.CountAllAsyncBy
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_CountAllAsyncBy_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___
+  name: CountAllAsyncBy
+  nameWithType: ICoreService<T>.CountAllAsyncBy
+  fullName: Solstice.Service.Base.ICoreService<T>.CountAllAsyncBy
+  nameWithType.vb: ICoreService(Of T).CountAllAsyncBy
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).CountAllAsyncBy
+- uid: Solstice.Service.Base.ICoreService`1.FindAsync*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.FindAsync
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_FindAsync_System_Int32_
+  name: FindAsync
+  nameWithType: ICoreService<T>.FindAsync
+  fullName: Solstice.Service.Base.ICoreService<T>.FindAsync
+  nameWithType.vb: ICoreService(Of T).FindAsync
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).FindAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: T:System.Threading.Tasks.Task{`1}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task{{TEntity}}
+  commentId: T:System.Threading.Tasks.Task{``0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TEntity>
+  nameWithType: Task<TEntity>
+  fullName: System.Threading.Tasks.Task<TEntity>
+  nameWithType.vb: Task(Of TEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of TEntity)
+  name.vb: Task(Of TEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Solstice.Service.Base.ICoreService`1.GetBy*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.GetBy
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_GetBy_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___
+  name: GetBy
+  nameWithType: ICoreService<T>.GetBy
+  fullName: Solstice.Service.Base.ICoreService<T>.GetBy
+  nameWithType.vb: ICoreService(Of T).GetBy
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetBy
+- uid: Solstice.Repository.Specifications.ICoreSpecifications{{T}}
+  commentId: T:Solstice.Repository.Specifications.ICoreSpecifications{`1}
+  parent: Solstice.Repository.Specifications
+  definition: Solstice.Repository.Specifications.ICoreSpecifications`1
+  name: ICoreSpecifications<T>
+  nameWithType: ICoreSpecifications<T>
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>
+  nameWithType.vb: ICoreSpecifications(Of T)
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T)
+  name.vb: ICoreSpecifications(Of T)
+  spec.csharp:
+  - uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+    name: ICoreSpecifications
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+    name: ICoreSpecifications
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+  commentId: T:Solstice.Repository.Specifications.ICoreSpecifications`1
+  name: ICoreSpecifications<T>
+  nameWithType: ICoreSpecifications<T>
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>
+  nameWithType.vb: ICoreSpecifications(Of T)
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T)
+  name.vb: ICoreSpecifications(Of T)
+  spec.csharp:
+  - uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+    name: ICoreSpecifications
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+    name: ICoreSpecifications
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Solstice.Repository.Specifications
+  commentId: N:Solstice.Repository.Specifications
+  name: Solstice.Repository.Specifications
+  nameWithType: Solstice.Repository.Specifications
+  fullName: Solstice.Repository.Specifications
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+  - name: .
+  - uid: Solstice.Repository
+    name: Repository
+  - name: .
+  - uid: Solstice.Repository.Specifications
+    name: Specifications
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+  - name: .
+  - uid: Solstice.Repository
+    name: Repository
+  - name: .
+  - uid: Solstice.Repository.Specifications
+    name: Specifications
+- uid: Solstice.Repository.Specifications.ICoreSpecifications{{TEntity}}
+  commentId: T:Solstice.Repository.Specifications.ICoreSpecifications{``0}
+  parent: Solstice.Repository.Specifications
+  definition: Solstice.Repository.Specifications.ICoreSpecifications`1
+  name: ICoreSpecifications<TEntity>
+  nameWithType: ICoreSpecifications<TEntity>
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<TEntity>
+  nameWithType.vb: ICoreSpecifications(Of TEntity)
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of TEntity)
+  name.vb: ICoreSpecifications(Of TEntity)
+  spec.csharp:
+  - uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+    name: ICoreSpecifications
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+    name: ICoreSpecifications
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.ICollection{System.Data.Common.DbParameter}
+  commentId: T:System.Collections.Generic.ICollection{System.Data.Common.DbParameter}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  name: ICollection<DbParameter>
+  nameWithType: ICollection<DbParameter>
+  fullName: System.Collections.Generic.ICollection<System.Data.Common.DbParameter>
+  nameWithType.vb: ICollection(Of DbParameter)
+  fullName.vb: System.Collections.Generic.ICollection(Of System.Data.Common.DbParameter)
+  name.vb: ICollection(Of DbParameter)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - uid: System.Data.Common.DbParameter
+    name: DbParameter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbparameter
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Data.Common.DbParameter
+    name: DbParameter
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.common.dbparameter
+  - name: )
+- uid: Solstice.Service.Base.ICoreService`1.GetAllAsync*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.GetAllAsync
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_GetAllAsync_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___
+  name: GetAllAsync
+  nameWithType: ICoreService<T>.GetAllAsync
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllAsync
+  nameWithType.vb: ICoreService(Of T).GetAllAsync
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{T}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.ICollection{`1}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ICollection<T>>
+  nameWithType: Task<ICollection<T>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.ICollection<T>>
+  nameWithType.vb: Task(Of ICollection(Of T))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.ICollection(Of T))
+  name.vb: Task(Of ICollection(Of T))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.ICollection{{TEntity}}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.ICollection{``0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ICollection<TEntity>>
+  nameWithType: Task<ICollection<TEntity>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.ICollection<TEntity>>
+  nameWithType.vb: Task(Of ICollection(Of TEntity))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.ICollection(Of TEntity))
+  name.vb: Task(Of ICollection(Of TEntity))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: )
+- uid: Solstice.Service.Base.ICoreService`1.GetAllQueryable*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.GetAllQueryable
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_GetAllQueryable
+  name: GetAllQueryable
+  nameWithType: ICoreService<T>.GetAllQueryable
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllQueryable
+  nameWithType.vb: ICoreService(Of T).GetAllQueryable
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllQueryable
+- uid: System.Linq.IQueryable{{T}}
+  commentId: T:System.Linq.IQueryable{`1}
+  parent: System.Linq
+  definition: System.Linq.IQueryable`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  name: IQueryable<T>
+  nameWithType: IQueryable<T>
+  fullName: System.Linq.IQueryable<T>
+  nameWithType.vb: IQueryable(Of T)
+  fullName.vb: System.Linq.IQueryable(Of T)
+  name.vb: IQueryable(Of T)
+  spec.csharp:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Solstice.Service.Base.ICoreService`1.GetPagedResult*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.GetPagedResult
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_GetPagedResult_Solstice_Domain_Models_Page_
+  name: GetPagedResult
+  nameWithType: ICoreService<T>.GetPagedResult
+  fullName: Solstice.Service.Base.ICoreService<T>.GetPagedResult
+  nameWithType.vb: ICoreService(Of T).GetPagedResult
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetPagedResult
+- uid: Solstice.Domain.Models.Page
+  commentId: T:Solstice.Domain.Models.Page
+  parent: Solstice.Domain.Models
+  name: Page
+  nameWithType: Page
+  fullName: Solstice.Domain.Models.Page
+- uid: System.Threading.Tasks.Task{Solstice.Domain.Models.Paged{{T}}}
+  commentId: T:System.Threading.Tasks.Task{Solstice.Domain.Models.Paged{`1}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Paged<T>>
+  nameWithType: Task<Paged<T>>
+  fullName: System.Threading.Tasks.Task<Solstice.Domain.Models.Paged<T>>
+  nameWithType.vb: Task(Of Paged(Of T))
+  fullName.vb: System.Threading.Tasks.Task(Of Solstice.Domain.Models.Paged(Of T))
+  name.vb: Task(Of Paged(Of T))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Solstice.Domain.Models.Paged`1
+    name: Paged
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Solstice.Domain.Models.Paged`1
+    name: Paged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: Solstice.Domain.Models
+  commentId: N:Solstice.Domain.Models
+  name: Solstice.Domain.Models
+  nameWithType: Solstice.Domain.Models
+  fullName: Solstice.Domain.Models
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+  - name: .
+  - uid: Solstice.Domain
+    name: Domain
+  - name: .
+  - uid: Solstice.Domain.Models
+    name: Models
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+  - name: .
+  - uid: Solstice.Domain
+    name: Domain
+  - name: .
+  - uid: Solstice.Domain.Models
+    name: Models
+- uid: System.Threading.Tasks.Task{Solstice.Domain.Models.Paged{{TEntity}}}
+  commentId: T:System.Threading.Tasks.Task{Solstice.Domain.Models.Paged{``0}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Paged<TEntity>>
+  nameWithType: Task<Paged<TEntity>>
+  fullName: System.Threading.Tasks.Task<Solstice.Domain.Models.Paged<TEntity>>
+  nameWithType.vb: Task(Of Paged(Of TEntity))
+  fullName.vb: System.Threading.Tasks.Task(Of Solstice.Domain.Models.Paged(Of TEntity))
+  name.vb: Task(Of Paged(Of TEntity))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Solstice.Domain.Models.Paged`1
+    name: Paged
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Solstice.Domain.Models.Paged`1
+    name: Paged
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: )
+- uid: Solstice.Service.Base.ICoreService`1.PageAllAsync*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.PageAllAsync
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_PageAllAsync_Solstice_Domain_Models_Page_Solstice_Repository_Specifications_ICoreSpecifications__0__
+  name: PageAllAsync
+  nameWithType: ICoreService<T>.PageAllAsync
+  fullName: Solstice.Service.Base.ICoreService<T>.PageAllAsync
+  nameWithType.vb: ICoreService(Of T).PageAllAsync
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).PageAllAsync
+- uid: Solstice.Service.Base.ICoreService`1.PageAllQueryable*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.PageAllQueryable
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_PageAllQueryable_Solstice_Domain_Models_Page_Solstice_Repository_Specifications_ICoreSpecifications__0__
+  name: PageAllQueryable
+  nameWithType: ICoreService<T>.PageAllQueryable
+  fullName: Solstice.Service.Base.ICoreService<T>.PageAllQueryable
+  nameWithType.vb: ICoreService(Of T).PageAllQueryable
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).PageAllQueryable
+- uid: Solstice.Service.Base.ICoreService`1.BeginTransactionAsync*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.BeginTransactionAsync
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_BeginTransactionAsync
+  name: BeginTransactionAsync
+  nameWithType: ICoreService<T>.BeginTransactionAsync
+  fullName: Solstice.Service.Base.ICoreService<T>.BeginTransactionAsync
+  nameWithType.vb: ICoreService(Of T).BeginTransactionAsync
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).BeginTransactionAsync
+- uid: System.Threading.Tasks.Task{Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IDbContextTransaction>
+  nameWithType: Task<IDbContextTransaction>
+  fullName: System.Threading.Tasks.Task<Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction>
+  nameWithType.vb: Task(Of IDbContextTransaction)
+  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction)
+  name.vb: Task(Of IDbContextTransaction)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    name: IDbContextTransaction
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.storage.idbcontexttransaction
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Microsoft.EntityFrameworkCore.Storage.IDbContextTransaction
+    name: IDbContextTransaction
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.storage.idbcontexttransaction
+  - name: )
+- uid: Solstice.Service.Base.ICoreService`1.GetAllByQueryable*
+  commentId: Overload:Solstice.Service.Base.ICoreService`1.GetAllByQueryable
+  href: Solstice.Service.Base.ICoreService-1.html#Solstice_Service_Base_ICoreService_1_GetAllByQueryable__1_System_Linq_IQueryable___0__
+  name: GetAllByQueryable
+  nameWithType: ICoreService<T>.GetAllByQueryable
+  fullName: Solstice.Service.Base.ICoreService<T>.GetAllByQueryable
+  nameWithType.vb: ICoreService(Of T).GetAllByQueryable
+  fullName.vb: Solstice.Service.Base.ICoreService(Of T).GetAllByQueryable

@@ -1,0 +1,300 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Scheduled.Queue.IBackgroundTaskQueue
+  commentId: T:Solstice.Scheduled.Queue.IBackgroundTaskQueue
+  id: IBackgroundTaskQueue
+  parent: Solstice.Scheduled.Queue
+  children:
+  - Solstice.Scheduled.Queue.IBackgroundTaskQueue.ClearChannel
+  - Solstice.Scheduled.Queue.IBackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)
+  - Solstice.Scheduled.Queue.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(Solstice.Scheduled.Queue.QueueItem)
+  langs:
+  - csharp
+  - vb
+  name: IBackgroundTaskQueue
+  nameWithType: IBackgroundTaskQueue
+  fullName: Solstice.Scheduled.Queue.IBackgroundTaskQueue
+  type: Interface
+  source:
+    id: IBackgroundTaskQueue
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Scheduled/Queue/IBackgroundTaskQueue.cs
+    startLine: 2
+  assemblies:
+  - Solstice.Scheduled
+  namespace: Solstice.Scheduled.Queue
+  syntax:
+    content: public interface IBackgroundTaskQueue
+    content.vb: Public Interface IBackgroundTaskQueue
+- uid: Solstice.Scheduled.Queue.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(Solstice.Scheduled.Queue.QueueItem)
+  commentId: M:Solstice.Scheduled.Queue.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(Solstice.Scheduled.Queue.QueueItem)
+  id: QueueBackgroundWorkItemAsync(Solstice.Scheduled.Queue.QueueItem)
+  parent: Solstice.Scheduled.Queue.IBackgroundTaskQueue
+  langs:
+  - csharp
+  - vb
+  name: QueueBackgroundWorkItemAsync(QueueItem)
+  nameWithType: IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(QueueItem)
+  fullName: Solstice.Scheduled.Queue.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(Solstice.Scheduled.Queue.QueueItem)
+  type: Method
+  source:
+    id: QueueBackgroundWorkItemAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Scheduled/Queue/IBackgroundTaskQueue.cs
+    startLine: 4
+  assemblies:
+  - Solstice.Scheduled
+  namespace: Solstice.Scheduled.Queue
+  syntax:
+    content: ValueTask QueueBackgroundWorkItemAsync(QueueItem workItem)
+    parameters:
+    - id: workItem
+      type: Solstice.Scheduled.Queue.QueueItem
+    return:
+      type: System.Threading.Tasks.ValueTask
+    content.vb: Function QueueBackgroundWorkItemAsync(workItem As QueueItem) As ValueTask
+  overload: Solstice.Scheduled.Queue.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync*
+- uid: Solstice.Scheduled.Queue.IBackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)
+  commentId: M:Solstice.Scheduled.Queue.IBackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)
+  id: DequeueAsync(System.Threading.CancellationToken)
+  parent: Solstice.Scheduled.Queue.IBackgroundTaskQueue
+  langs:
+  - csharp
+  - vb
+  name: DequeueAsync(CancellationToken)
+  nameWithType: IBackgroundTaskQueue.DequeueAsync(CancellationToken)
+  fullName: Solstice.Scheduled.Queue.IBackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    id: DequeueAsync
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Scheduled/Queue/IBackgroundTaskQueue.cs
+    startLine: 7
+  assemblies:
+  - Solstice.Scheduled
+  namespace: Solstice.Scheduled.Queue
+  syntax:
+    content: ValueTask<QueueItem> DequeueAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.ValueTask{Solstice.Scheduled.Queue.QueueItem}
+    content.vb: Function DequeueAsync(cancellationToken As CancellationToken) As ValueTask(Of QueueItem)
+  overload: Solstice.Scheduled.Queue.IBackgroundTaskQueue.DequeueAsync*
+- uid: Solstice.Scheduled.Queue.IBackgroundTaskQueue.ClearChannel
+  commentId: M:Solstice.Scheduled.Queue.IBackgroundTaskQueue.ClearChannel
+  id: ClearChannel
+  parent: Solstice.Scheduled.Queue.IBackgroundTaskQueue
+  langs:
+  - csharp
+  - vb
+  name: ClearChannel()
+  nameWithType: IBackgroundTaskQueue.ClearChannel()
+  fullName: Solstice.Scheduled.Queue.IBackgroundTaskQueue.ClearChannel()
+  type: Method
+  source:
+    id: ClearChannel
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Scheduled/Queue/IBackgroundTaskQueue.cs
+    startLine: 10
+  assemblies:
+  - Solstice.Scheduled
+  namespace: Solstice.Scheduled.Queue
+  syntax:
+    content: void ClearChannel()
+    content.vb: Sub ClearChannel()
+  overload: Solstice.Scheduled.Queue.IBackgroundTaskQueue.ClearChannel*
+references:
+- uid: Solstice.Scheduled.Queue
+  commentId: N:Solstice.Scheduled.Queue
+  href: Solstice.html
+  name: Solstice.Scheduled.Queue
+  nameWithType: Solstice.Scheduled.Queue
+  fullName: Solstice.Scheduled.Queue
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Scheduled
+    name: Scheduled
+    href: Solstice.Scheduled.html
+  - name: .
+  - uid: Solstice.Scheduled.Queue
+    name: Queue
+    href: Solstice.Scheduled.Queue.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Scheduled
+    name: Scheduled
+    href: Solstice.Scheduled.html
+  - name: .
+  - uid: Solstice.Scheduled.Queue
+    name: Queue
+    href: Solstice.Scheduled.Queue.html
+- uid: Solstice.Scheduled.Queue.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync*
+  commentId: Overload:Solstice.Scheduled.Queue.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync
+  href: Solstice.Scheduled.Queue.IBackgroundTaskQueue.html#Solstice_Scheduled_Queue_IBackgroundTaskQueue_QueueBackgroundWorkItemAsync_Solstice_Scheduled_Queue_QueueItem_
+  name: QueueBackgroundWorkItemAsync
+  nameWithType: IBackgroundTaskQueue.QueueBackgroundWorkItemAsync
+  fullName: Solstice.Scheduled.Queue.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync
+- uid: Solstice.Scheduled.Queue.QueueItem
+  commentId: T:Solstice.Scheduled.Queue.QueueItem
+  parent: Solstice.Scheduled.Queue
+  href: Solstice.Scheduled.Queue.QueueItem.html
+  name: QueueItem
+  nameWithType: QueueItem
+  fullName: Solstice.Scheduled.Queue.QueueItem
+- uid: System.Threading.Tasks.ValueTask
+  commentId: T:System.Threading.Tasks.ValueTask
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask
+  name: ValueTask
+  nameWithType: ValueTask
+  fullName: System.Threading.Tasks.ValueTask
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: Solstice.Scheduled.Queue.IBackgroundTaskQueue.DequeueAsync*
+  commentId: Overload:Solstice.Scheduled.Queue.IBackgroundTaskQueue.DequeueAsync
+  href: Solstice.Scheduled.Queue.IBackgroundTaskQueue.html#Solstice_Scheduled_Queue_IBackgroundTaskQueue_DequeueAsync_System_Threading_CancellationToken_
+  name: DequeueAsync
+  nameWithType: IBackgroundTaskQueue.DequeueAsync
+  fullName: Solstice.Scheduled.Queue.IBackgroundTaskQueue.DequeueAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.ValueTask{Solstice.Scheduled.Queue.QueueItem}
+  commentId: T:System.Threading.Tasks.ValueTask{Solstice.Scheduled.Queue.QueueItem}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.ValueTask`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  name: ValueTask<QueueItem>
+  nameWithType: ValueTask<QueueItem>
+  fullName: System.Threading.Tasks.ValueTask<Solstice.Scheduled.Queue.QueueItem>
+  nameWithType.vb: ValueTask(Of QueueItem)
+  fullName.vb: System.Threading.Tasks.ValueTask(Of Solstice.Scheduled.Queue.QueueItem)
+  name.vb: ValueTask(Of QueueItem)
+  spec.csharp:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: <
+  - uid: Solstice.Scheduled.Queue.QueueItem
+    name: QueueItem
+    href: Solstice.Scheduled.Queue.QueueItem.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Solstice.Scheduled.Queue.QueueItem
+    name: QueueItem
+    href: Solstice.Scheduled.Queue.QueueItem.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.ValueTask`1
+  commentId: T:System.Threading.Tasks.ValueTask`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  name: ValueTask<TResult>
+  nameWithType: ValueTask<TResult>
+  fullName: System.Threading.Tasks.ValueTask<TResult>
+  nameWithType.vb: ValueTask(Of TResult)
+  fullName.vb: System.Threading.Tasks.ValueTask(Of TResult)
+  name.vb: ValueTask(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.ValueTask`1
+    name: ValueTask
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Solstice.Scheduled.Queue.IBackgroundTaskQueue.ClearChannel*
+  commentId: Overload:Solstice.Scheduled.Queue.IBackgroundTaskQueue.ClearChannel
+  href: Solstice.Scheduled.Queue.IBackgroundTaskQueue.html#Solstice_Scheduled_Queue_IBackgroundTaskQueue_ClearChannel
+  name: ClearChannel
+  nameWithType: IBackgroundTaskQueue.ClearChannel
+  fullName: Solstice.Scheduled.Queue.IBackgroundTaskQueue.ClearChannel

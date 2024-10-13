@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Repository.Specifications
+  commentId: N:Solstice.Repository.Specifications
+  id: Solstice.Repository.Specifications
+  children:
+  - Solstice.Repository.Specifications.CoreSpecificationEvaluator`1
+  - Solstice.Repository.Specifications.ICoreSpecifications`1
+  - Solstice.Repository.Specifications.Specification`1
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Repository.Specifications
+  nameWithType: Solstice.Repository.Specifications
+  fullName: Solstice.Repository.Specifications
+  type: Namespace
+  assemblies:
+  - Solstice.Repository
+references:
+- uid: Solstice.Repository.Specifications.CoreSpecificationEvaluator`1
+  commentId: T:Solstice.Repository.Specifications.CoreSpecificationEvaluator`1
+  href: Solstice.Repository.Specifications.CoreSpecificationEvaluator-1.html
+  name: CoreSpecificationEvaluator<T>
+  nameWithType: CoreSpecificationEvaluator<T>
+  fullName: Solstice.Repository.Specifications.CoreSpecificationEvaluator<T>
+  nameWithType.vb: CoreSpecificationEvaluator(Of T)
+  fullName.vb: Solstice.Repository.Specifications.CoreSpecificationEvaluator(Of T)
+  name.vb: CoreSpecificationEvaluator(Of T)
+  spec.csharp:
+  - uid: Solstice.Repository.Specifications.CoreSpecificationEvaluator`1
+    name: CoreSpecificationEvaluator
+    href: Solstice.Repository.Specifications.CoreSpecificationEvaluator-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Repository.Specifications.CoreSpecificationEvaluator`1
+    name: CoreSpecificationEvaluator
+    href: Solstice.Repository.Specifications.CoreSpecificationEvaluator-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+  commentId: T:Solstice.Repository.Specifications.ICoreSpecifications`1
+  href: Solstice.Repository.Specifications.ICoreSpecifications-1.html
+  name: ICoreSpecifications<T>
+  nameWithType: ICoreSpecifications<T>
+  fullName: Solstice.Repository.Specifications.ICoreSpecifications<T>
+  nameWithType.vb: ICoreSpecifications(Of T)
+  fullName.vb: Solstice.Repository.Specifications.ICoreSpecifications(Of T)
+  name.vb: ICoreSpecifications(Of T)
+  spec.csharp:
+  - uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+    name: ICoreSpecifications
+    href: Solstice.Repository.Specifications.ICoreSpecifications-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+    name: ICoreSpecifications
+    href: Solstice.Repository.Specifications.ICoreSpecifications-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Solstice.Repository.Specifications.Specification`1
+  commentId: T:Solstice.Repository.Specifications.Specification`1
+  parent: Solstice.Repository.Specifications
+  href: Solstice.Repository.Specifications.Specification-1.html
+  name: Specification<T>
+  nameWithType: Specification<T>
+  fullName: Solstice.Repository.Specifications.Specification<T>
+  nameWithType.vb: Specification(Of T)
+  fullName.vb: Solstice.Repository.Specifications.Specification(Of T)
+  name.vb: Specification(Of T)
+  spec.csharp:
+  - uid: Solstice.Repository.Specifications.Specification`1
+    name: Specification
+    href: Solstice.Repository.Specifications.Specification-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Repository.Specifications.Specification`1
+    name: Specification
+    href: Solstice.Repository.Specifications.Specification-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Solstice.Repository.Specifications
+  commentId: N:Solstice.Repository.Specifications
+  href: Solstice.html
+  name: Solstice.Repository.Specifications
+  nameWithType: Solstice.Repository.Specifications
+  fullName: Solstice.Repository.Specifications
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Repository
+    name: Repository
+    href: Solstice.Repository.html
+  - name: .
+  - uid: Solstice.Repository.Specifications
+    name: Specifications
+    href: Solstice.Repository.Specifications.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Repository
+    name: Repository
+    href: Solstice.Repository.html
+  - name: .
+  - uid: Solstice.Repository.Specifications
+    name: Specifications
+    href: Solstice.Repository.Specifications.html

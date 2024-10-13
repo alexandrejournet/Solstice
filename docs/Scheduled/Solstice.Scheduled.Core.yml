@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Scheduled.Core
+  commentId: N:Solstice.Scheduled.Core
+  id: Solstice.Scheduled.Core
+  children:
+  - Solstice.Scheduled.Core.CoreBackgroundService
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Scheduled.Core
+  nameWithType: Solstice.Scheduled.Core
+  fullName: Solstice.Scheduled.Core
+  type: Namespace
+  assemblies:
+  - Solstice.Scheduled
+references:
+- uid: Solstice.Scheduled.Core.CoreBackgroundService
+  commentId: T:Solstice.Scheduled.Core.CoreBackgroundService
+  parent: Solstice.Scheduled.Core
+  href: Solstice.Scheduled.Core.CoreBackgroundService.html
+  name: CoreBackgroundService
+  nameWithType: CoreBackgroundService
+  fullName: Solstice.Scheduled.Core.CoreBackgroundService
+- uid: Solstice.Scheduled.Core
+  commentId: N:Solstice.Scheduled.Core
+  href: Solstice.html
+  name: Solstice.Scheduled.Core
+  nameWithType: Solstice.Scheduled.Core
+  fullName: Solstice.Scheduled.Core
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Scheduled
+    name: Scheduled
+    href: Solstice.Scheduled.html
+  - name: .
+  - uid: Solstice.Scheduled.Core
+    name: Core
+    href: Solstice.Scheduled.Core.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Scheduled
+    name: Scheduled
+    href: Solstice.Scheduled.html
+  - name: .
+  - uid: Solstice.Scheduled.Core
+    name: Core
+    href: Solstice.Scheduled.Core.html

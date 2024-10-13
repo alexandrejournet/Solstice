@@ -1,0 +1,401 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Database.Conventions.Helpers.SnakeCaseHelper
+  commentId: T:Solstice.Database.Conventions.Helpers.SnakeCaseHelper
+  id: SnakeCaseHelper
+  parent: Solstice.Database.Conventions.Helpers
+  children:
+  - Solstice.Database.Conventions.Helpers.SnakeCaseHelper.Convert(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SnakeCaseHelper
+  nameWithType: SnakeCaseHelper
+  fullName: Solstice.Database.Conventions.Helpers.SnakeCaseHelper
+  type: Class
+  source:
+    id: SnakeCaseHelper
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Database.Conventions/Helpers/SnakeCaseHelper.cs
+    startLine: 4
+  assemblies:
+  - Solstice.Database.Conventions
+  namespace: Solstice.Database.Conventions.Helpers
+  syntax:
+    content: 'public class SnakeCaseHelper : ICaseHelper'
+    content.vb: Public Class SnakeCaseHelper Implements ICaseHelper
+  inheritance:
+  - System.Object
+  implements:
+  - Solstice.Database.Conventions.Helpers.ICaseHelper
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Solstice.Database.Conventions.Helpers.SnakeCaseHelper.Convert(System.String)
+  commentId: M:Solstice.Database.Conventions.Helpers.SnakeCaseHelper.Convert(System.String)
+  id: Convert(System.String)
+  parent: Solstice.Database.Conventions.Helpers.SnakeCaseHelper
+  langs:
+  - csharp
+  - vb
+  name: Convert(string)
+  nameWithType: SnakeCaseHelper.Convert(string)
+  fullName: Solstice.Database.Conventions.Helpers.SnakeCaseHelper.Convert(string)
+  type: Method
+  source:
+    id: Convert
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Database.Conventions/Helpers/SnakeCaseHelper.cs
+    startLine: 6
+  assemblies:
+  - Solstice.Database.Conventions
+  namespace: Solstice.Database.Conventions.Helpers
+  example: []
+  syntax:
+    content: public static string Convert(string input)
+    parameters:
+    - id: input
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function Convert(input As String) As String
+  overload: Solstice.Database.Conventions.Helpers.SnakeCaseHelper.Convert*
+  implements:
+  - Solstice.Database.Conventions.Helpers.ICaseHelper.Convert(System.String)
+  nameWithType.vb: SnakeCaseHelper.Convert(String)
+  fullName.vb: Solstice.Database.Conventions.Helpers.SnakeCaseHelper.Convert(String)
+  name.vb: Convert(String)
+references:
+- uid: Solstice.Database.Conventions.Helpers
+  commentId: N:Solstice.Database.Conventions.Helpers
+  href: Solstice.html
+  name: Solstice.Database.Conventions.Helpers
+  nameWithType: Solstice.Database.Conventions.Helpers
+  fullName: Solstice.Database.Conventions.Helpers
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Database
+    name: Database
+    href: Solstice.Database.html
+  - name: .
+  - uid: Solstice.Database.Conventions
+    name: Conventions
+    href: Solstice.Database.Conventions.html
+  - name: .
+  - uid: Solstice.Database.Conventions.Helpers
+    name: Helpers
+    href: Solstice.Database.Conventions.Helpers.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Database
+    name: Database
+    href: Solstice.Database.html
+  - name: .
+  - uid: Solstice.Database.Conventions
+    name: Conventions
+    href: Solstice.Database.Conventions.html
+  - name: .
+  - uid: Solstice.Database.Conventions.Helpers
+    name: Helpers
+    href: Solstice.Database.Conventions.Helpers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Solstice.Database.Conventions.Helpers.ICaseHelper
+  commentId: T:Solstice.Database.Conventions.Helpers.ICaseHelper
+  parent: Solstice.Database.Conventions.Helpers
+  href: Solstice.Database.Conventions.Helpers.ICaseHelper.html
+  name: ICaseHelper
+  nameWithType: ICaseHelper
+  fullName: Solstice.Database.Conventions.Helpers.ICaseHelper
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Solstice.Database.Conventions.Helpers.SnakeCaseHelper.Convert*
+  commentId: Overload:Solstice.Database.Conventions.Helpers.SnakeCaseHelper.Convert
+  href: Solstice.Database.Conventions.Helpers.SnakeCaseHelper.html#Solstice_Database_Conventions_Helpers_SnakeCaseHelper_Convert_System_String_
+  name: Convert
+  nameWithType: SnakeCaseHelper.Convert
+  fullName: Solstice.Database.Conventions.Helpers.SnakeCaseHelper.Convert
+- uid: Solstice.Database.Conventions.Helpers.ICaseHelper.Convert(System.String)
+  commentId: M:Solstice.Database.Conventions.Helpers.ICaseHelper.Convert(System.String)
+  parent: Solstice.Database.Conventions.Helpers.ICaseHelper
+  isExternal: true
+  href: Solstice.Database.Conventions.Helpers.ICaseHelper.html#Solstice_Database_Conventions_Helpers_ICaseHelper_Convert_System_String_
+  name: Convert(string)
+  nameWithType: ICaseHelper.Convert(string)
+  fullName: Solstice.Database.Conventions.Helpers.ICaseHelper.Convert(string)
+  nameWithType.vb: ICaseHelper.Convert(String)
+  fullName.vb: Solstice.Database.Conventions.Helpers.ICaseHelper.Convert(String)
+  name.vb: Convert(String)
+  spec.csharp:
+  - uid: Solstice.Database.Conventions.Helpers.ICaseHelper.Convert(System.String)
+    name: Convert
+    href: Solstice.Database.Conventions.Helpers.ICaseHelper.html#Solstice_Database_Conventions_Helpers_ICaseHelper_Convert_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Solstice.Database.Conventions.Helpers.ICaseHelper.Convert(System.String)
+    name: Convert
+    href: Solstice.Database.Conventions.Helpers.ICaseHelper.html#Solstice_Database_Conventions_Helpers_ICaseHelper_Convert_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

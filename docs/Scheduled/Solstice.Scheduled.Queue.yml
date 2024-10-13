@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Scheduled.Queue
+  commentId: N:Solstice.Scheduled.Queue
+  id: Solstice.Scheduled.Queue
+  children:
+  - Solstice.Scheduled.Queue.CoreQueuedBackgroundService
+  - Solstice.Scheduled.Queue.DefaultBackgroundTaskQueue
+  - Solstice.Scheduled.Queue.IBackgroundTaskQueue
+  - Solstice.Scheduled.Queue.QueueItem
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Scheduled.Queue
+  nameWithType: Solstice.Scheduled.Queue
+  fullName: Solstice.Scheduled.Queue
+  type: Namespace
+  assemblies:
+  - Solstice.Scheduled
+references:
+- uid: Solstice.Scheduled.Queue.CoreQueuedBackgroundService
+  commentId: T:Solstice.Scheduled.Queue.CoreQueuedBackgroundService
+  href: Solstice.Scheduled.Queue.CoreQueuedBackgroundService.html
+  name: CoreQueuedBackgroundService
+  nameWithType: CoreQueuedBackgroundService
+  fullName: Solstice.Scheduled.Queue.CoreQueuedBackgroundService
+- uid: Solstice.Scheduled.Queue.DefaultBackgroundTaskQueue
+  commentId: T:Solstice.Scheduled.Queue.DefaultBackgroundTaskQueue
+  href: Solstice.Scheduled.Queue.DefaultBackgroundTaskQueue.html
+  name: DefaultBackgroundTaskQueue
+  nameWithType: DefaultBackgroundTaskQueue
+  fullName: Solstice.Scheduled.Queue.DefaultBackgroundTaskQueue
+- uid: Solstice.Scheduled.Queue.IBackgroundTaskQueue
+  commentId: T:Solstice.Scheduled.Queue.IBackgroundTaskQueue
+  parent: Solstice.Scheduled.Queue
+  href: Solstice.Scheduled.Queue.IBackgroundTaskQueue.html
+  name: IBackgroundTaskQueue
+  nameWithType: IBackgroundTaskQueue
+  fullName: Solstice.Scheduled.Queue.IBackgroundTaskQueue
+- uid: Solstice.Scheduled.Queue.QueueItem
+  commentId: T:Solstice.Scheduled.Queue.QueueItem
+  parent: Solstice.Scheduled.Queue
+  href: Solstice.Scheduled.Queue.QueueItem.html
+  name: QueueItem
+  nameWithType: QueueItem
+  fullName: Solstice.Scheduled.Queue.QueueItem
+- uid: Solstice.Scheduled.Queue
+  commentId: N:Solstice.Scheduled.Queue
+  href: Solstice.html
+  name: Solstice.Scheduled.Queue
+  nameWithType: Solstice.Scheduled.Queue
+  fullName: Solstice.Scheduled.Queue
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Scheduled
+    name: Scheduled
+    href: Solstice.Scheduled.html
+  - name: .
+  - uid: Solstice.Scheduled.Queue
+    name: Queue
+    href: Solstice.Scheduled.Queue.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Scheduled
+    name: Scheduled
+    href: Solstice.Scheduled.html
+  - name: .
+  - uid: Solstice.Scheduled.Queue
+    name: Queue
+    href: Solstice.Scheduled.Queue.html

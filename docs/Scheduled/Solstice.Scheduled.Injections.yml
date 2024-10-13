@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Scheduled.Injections
+  commentId: N:Solstice.Scheduled.Injections
+  id: Solstice.Scheduled.Injections
+  children:
+  - Solstice.Scheduled.Injections.ScheduledInjections
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Scheduled.Injections
+  nameWithType: Solstice.Scheduled.Injections
+  fullName: Solstice.Scheduled.Injections
+  type: Namespace
+  assemblies:
+  - Solstice.Scheduled
+references:
+- uid: Solstice.Scheduled.Injections.ScheduledInjections
+  commentId: T:Solstice.Scheduled.Injections.ScheduledInjections
+  href: Solstice.Scheduled.Injections.ScheduledInjections.html
+  name: ScheduledInjections
+  nameWithType: ScheduledInjections
+  fullName: Solstice.Scheduled.Injections.ScheduledInjections

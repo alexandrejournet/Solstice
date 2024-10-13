@@ -1,0 +1,33 @@
+### YamlMime:TableOfContent
+items:
+- uid: Solstice.API.Attributes
+  name: Solstice.API.Attributes
+  items:
+  - uid: Solstice.API.Attributes.DeleteAttribute
+    name: DeleteAttribute
+  - uid: Solstice.API.Attributes.GetAttribute
+    name: GetAttribute
+  - uid: Solstice.API.Attributes.HeadAttribute
+    name: HeadAttribute
+  - uid: Solstice.API.Attributes.PatchAttribute
+    name: PatchAttribute
+  - uid: Solstice.API.Attributes.PostAttribute
+    name: PostAttribute
+  - uid: Solstice.API.Attributes.PutAttribute
+    name: PutAttribute
+- uid: Solstice.API.Controllers
+  name: Solstice.API.Controllers
+  items:
+  - uid: Solstice.API.Controllers.CoreController
+    name: CoreController
+- uid: Solstice.API.Injections
+  name: Solstice.API.Injections
+  items:
+  - uid: Solstice.API.Injections.CoreInjections
+    name: CoreInjections
+- uid: Solstice.API.Scanning
+  name: Solstice.API.Scanning
+  items:
+  - uid: Solstice.API.Scanning.CoreAssemblyScanning
+    name: CoreAssemblyScanning
+memberLayout: SamePage

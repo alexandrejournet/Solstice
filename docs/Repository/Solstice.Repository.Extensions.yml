@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Repository.Extensions
+  commentId: N:Solstice.Repository.Extensions
+  id: Solstice.Repository.Extensions
+  children:
+  - Solstice.Repository.Extensions.CoreQueryableExtension
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Repository.Extensions
+  nameWithType: Solstice.Repository.Extensions
+  fullName: Solstice.Repository.Extensions
+  type: Namespace
+  assemblies:
+  - Solstice.Repository
+references:
+- uid: Solstice.Repository.Extensions.CoreQueryableExtension
+  commentId: T:Solstice.Repository.Extensions.CoreQueryableExtension
+  href: Solstice.Repository.Extensions.CoreQueryableExtension.html
+  name: CoreQueryableExtension
+  nameWithType: CoreQueryableExtension
+  fullName: Solstice.Repository.Extensions.CoreQueryableExtension

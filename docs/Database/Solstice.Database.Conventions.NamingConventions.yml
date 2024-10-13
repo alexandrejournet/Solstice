@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Database.Conventions.NamingConventions
+  commentId: N:Solstice.Database.Conventions.NamingConventions
+  id: Solstice.Database.Conventions.NamingConventions
+  children:
+  - Solstice.Database.Conventions.NamingConventions.LowerCaseNamingConvention
+  - Solstice.Database.Conventions.NamingConventions.SnakeCaseNamingConvention
+  - Solstice.Database.Conventions.NamingConventions.UpperCaseNamingConvention
+  - Solstice.Database.Conventions.NamingConventions.UpperSnakeCaseNamingConvention
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Database.Conventions.NamingConventions
+  nameWithType: Solstice.Database.Conventions.NamingConventions
+  fullName: Solstice.Database.Conventions.NamingConventions
+  type: Namespace
+  assemblies:
+  - Solstice.Database.Conventions
+references:
+- uid: Solstice.Database.Conventions.NamingConventions.LowerCaseNamingConvention
+  commentId: T:Solstice.Database.Conventions.NamingConventions.LowerCaseNamingConvention
+  href: Solstice.Database.Conventions.NamingConventions.LowerCaseNamingConvention.html
+  name: LowerCaseNamingConvention
+  nameWithType: LowerCaseNamingConvention
+  fullName: Solstice.Database.Conventions.NamingConventions.LowerCaseNamingConvention
+- uid: Solstice.Database.Conventions.NamingConventions.SnakeCaseNamingConvention
+  commentId: T:Solstice.Database.Conventions.NamingConventions.SnakeCaseNamingConvention
+  href: Solstice.Database.Conventions.NamingConventions.SnakeCaseNamingConvention.html
+  name: SnakeCaseNamingConvention
+  nameWithType: SnakeCaseNamingConvention
+  fullName: Solstice.Database.Conventions.NamingConventions.SnakeCaseNamingConvention
+- uid: Solstice.Database.Conventions.NamingConventions.UpperCaseNamingConvention
+  commentId: T:Solstice.Database.Conventions.NamingConventions.UpperCaseNamingConvention
+  href: Solstice.Database.Conventions.NamingConventions.UpperCaseNamingConvention.html
+  name: UpperCaseNamingConvention
+  nameWithType: UpperCaseNamingConvention
+  fullName: Solstice.Database.Conventions.NamingConventions.UpperCaseNamingConvention
+- uid: Solstice.Database.Conventions.NamingConventions.UpperSnakeCaseNamingConvention
+  commentId: T:Solstice.Database.Conventions.NamingConventions.UpperSnakeCaseNamingConvention
+  href: Solstice.Database.Conventions.NamingConventions.UpperSnakeCaseNamingConvention.html
+  name: UpperSnakeCaseNamingConvention
+  nameWithType: UpperSnakeCaseNamingConvention
+  fullName: Solstice.Database.Conventions.NamingConventions.UpperSnakeCaseNamingConvention

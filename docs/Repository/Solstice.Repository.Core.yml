@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Repository.Core
+  commentId: N:Solstice.Repository.Core
+  id: Solstice.Repository.Core
+  children:
+  - Solstice.Repository.Core.CoreRepositoryExtension
+  - Solstice.Repository.Core.CoreRepository`2
+  - Solstice.Repository.Core.ICoreRepository`1
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Repository.Core
+  nameWithType: Solstice.Repository.Core
+  fullName: Solstice.Repository.Core
+  type: Namespace
+  assemblies:
+  - Solstice.Repository
+references:
+- uid: Solstice.Repository.Core.CoreRepository`2
+  commentId: T:Solstice.Repository.Core.CoreRepository`2
+  href: Solstice.Repository.Core.CoreRepository-2.html
+  name: CoreRepository<T, TContext>
+  nameWithType: CoreRepository<T, TContext>
+  fullName: Solstice.Repository.Core.CoreRepository<T, TContext>
+  nameWithType.vb: CoreRepository(Of T, TContext)
+  fullName.vb: Solstice.Repository.Core.CoreRepository(Of T, TContext)
+  name.vb: CoreRepository(Of T, TContext)
+  spec.csharp:
+  - uid: Solstice.Repository.Core.CoreRepository`2
+    name: CoreRepository
+    href: Solstice.Repository.Core.CoreRepository-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TContext
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Repository.Core.CoreRepository`2
+    name: CoreRepository
+    href: Solstice.Repository.Core.CoreRepository-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TContext
+  - name: )
+- uid: Solstice.Repository.Core.CoreRepositoryExtension
+  commentId: T:Solstice.Repository.Core.CoreRepositoryExtension
+  href: Solstice.Repository.Core.CoreRepositoryExtension.html
+  name: CoreRepositoryExtension
+  nameWithType: CoreRepositoryExtension
+  fullName: Solstice.Repository.Core.CoreRepositoryExtension
+- uid: Solstice.Repository.Core.ICoreRepository`1
+  commentId: T:Solstice.Repository.Core.ICoreRepository`1
+  href: Solstice.Repository.Core.ICoreRepository-1.html
+  name: ICoreRepository<T>
+  nameWithType: ICoreRepository<T>
+  fullName: Solstice.Repository.Core.ICoreRepository<T>
+  nameWithType.vb: ICoreRepository(Of T)
+  fullName.vb: Solstice.Repository.Core.ICoreRepository(Of T)
+  name.vb: ICoreRepository(Of T)
+  spec.csharp:
+  - uid: Solstice.Repository.Core.ICoreRepository`1
+    name: ICoreRepository
+    href: Solstice.Repository.Core.ICoreRepository-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Repository.Core.ICoreRepository`1
+    name: ICoreRepository
+    href: Solstice.Repository.Core.ICoreRepository-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

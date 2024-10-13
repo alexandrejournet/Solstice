@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Database.Conventions.Injections
+  commentId: N:Solstice.Database.Conventions.Injections
+  id: Solstice.Database.Conventions.Injections
+  children:
+  - Solstice.Database.Conventions.Injections.ConventionsInjections
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Database.Conventions.Injections
+  nameWithType: Solstice.Database.Conventions.Injections
+  fullName: Solstice.Database.Conventions.Injections
+  type: Namespace
+  assemblies:
+  - Solstice.Database.Conventions
+references:
+- uid: Solstice.Database.Conventions.Injections.ConventionsInjections
+  commentId: T:Solstice.Database.Conventions.Injections.ConventionsInjections
+  href: Solstice.Database.Conventions.Injections.ConventionsInjections.html
+  name: ConventionsInjections
+  nameWithType: ConventionsInjections
+  fullName: Solstice.Database.Conventions.Injections.ConventionsInjections

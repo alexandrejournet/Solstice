@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.API.Injections
+  commentId: N:Solstice.API.Injections
+  id: Solstice.API.Injections
+  children:
+  - Solstice.API.Injections.CoreInjections
+  langs:
+  - csharp
+  - vb
+  name: Solstice.API.Injections
+  nameWithType: Solstice.API.Injections
+  fullName: Solstice.API.Injections
+  type: Namespace
+  assemblies:
+  - Solstice.API
+references:
+- uid: Solstice.API.Injections.CoreInjections
+  commentId: T:Solstice.API.Injections.CoreInjections
+  href: Solstice.API.Injections.CoreInjections.html
+  name: CoreInjections
+  nameWithType: CoreInjections
+  fullName: Solstice.API.Injections.CoreInjections

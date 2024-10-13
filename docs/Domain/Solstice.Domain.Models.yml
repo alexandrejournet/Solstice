@@ -1,0 +1,95 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Domain.Models
+  commentId: N:Solstice.Domain.Models
+  id: Solstice.Domain.Models
+  children:
+  - Solstice.Domain.Models.CoreModel
+  - Solstice.Domain.Models.Page
+  - Solstice.Domain.Models.PageExtension
+  - Solstice.Domain.Models.Paged`1
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Domain.Models
+  nameWithType: Solstice.Domain.Models
+  fullName: Solstice.Domain.Models
+  type: Namespace
+  assemblies:
+  - Solstice.Domain
+references:
+- uid: Solstice.Domain.Models.CoreModel
+  commentId: T:Solstice.Domain.Models.CoreModel
+  href: Solstice.Domain.Models.CoreModel.html
+  name: CoreModel
+  nameWithType: CoreModel
+  fullName: Solstice.Domain.Models.CoreModel
+- uid: Solstice.Domain.Models.Page
+  commentId: T:Solstice.Domain.Models.Page
+  parent: Solstice.Domain.Models
+  href: Solstice.Domain.Models.Page.html
+  name: Page
+  nameWithType: Page
+  fullName: Solstice.Domain.Models.Page
+- uid: Solstice.Domain.Models.PageExtension
+  commentId: T:Solstice.Domain.Models.PageExtension
+  parent: Solstice.Domain.Models
+  href: Solstice.Domain.Models.PageExtension.html
+  name: PageExtension
+  nameWithType: PageExtension
+  fullName: Solstice.Domain.Models.PageExtension
+- uid: Solstice.Domain.Models.Paged`1
+  commentId: T:Solstice.Domain.Models.Paged`1
+  href: Solstice.Domain.Models.Paged-1.html
+  name: Paged<T>
+  nameWithType: Paged<T>
+  fullName: Solstice.Domain.Models.Paged<T>
+  nameWithType.vb: Paged(Of T)
+  fullName.vb: Solstice.Domain.Models.Paged(Of T)
+  name.vb: Paged(Of T)
+  spec.csharp:
+  - uid: Solstice.Domain.Models.Paged`1
+    name: Paged
+    href: Solstice.Domain.Models.Paged-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Domain.Models.Paged`1
+    name: Paged
+    href: Solstice.Domain.Models.Paged-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Solstice.Domain.Models
+  commentId: N:Solstice.Domain.Models
+  href: Solstice.html
+  name: Solstice.Domain.Models
+  nameWithType: Solstice.Domain.Models
+  fullName: Solstice.Domain.Models
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Domain
+    name: Domain
+    href: Solstice.Domain.html
+  - name: .
+  - uid: Solstice.Domain.Models
+    name: Models
+    href: Solstice.Domain.Models.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Domain
+    name: Domain
+    href: Solstice.Domain.html
+  - name: .
+  - uid: Solstice.Domain.Models
+    name: Models
+    href: Solstice.Domain.Models.html

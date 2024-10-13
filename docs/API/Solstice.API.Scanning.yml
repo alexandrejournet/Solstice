@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.API.Scanning
+  commentId: N:Solstice.API.Scanning
+  id: Solstice.API.Scanning
+  children:
+  - Solstice.API.Scanning.CoreAssemblyScanning
+  langs:
+  - csharp
+  - vb
+  name: Solstice.API.Scanning
+  nameWithType: Solstice.API.Scanning
+  fullName: Solstice.API.Scanning
+  type: Namespace
+  assemblies:
+  - Solstice.API
+references:
+- uid: Solstice.API.Scanning.CoreAssemblyScanning
+  commentId: T:Solstice.API.Scanning.CoreAssemblyScanning
+  href: Solstice.API.Scanning.CoreAssemblyScanning.html
+  name: CoreAssemblyScanning
+  nameWithType: CoreAssemblyScanning
+  fullName: Solstice.API.Scanning.CoreAssemblyScanning

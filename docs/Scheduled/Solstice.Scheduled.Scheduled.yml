@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Scheduled.Scheduled
+  commentId: N:Solstice.Scheduled.Scheduled
+  id: Solstice.Scheduled.Scheduled
+  children:
+  - Solstice.Scheduled.Scheduled.CoreScheduledProcessor`1
+  - Solstice.Scheduled.Scheduled.CoreScopedProcessor`1
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Scheduled.Scheduled
+  nameWithType: Solstice.Scheduled.Scheduled
+  fullName: Solstice.Scheduled.Scheduled
+  type: Namespace
+  assemblies:
+  - Solstice.Scheduled
+references:
+- uid: Solstice.Scheduled.Scheduled.CoreScheduledProcessor`1
+  commentId: T:Solstice.Scheduled.Scheduled.CoreScheduledProcessor`1
+  href: Solstice.Scheduled.Scheduled.CoreScheduledProcessor-1.html
+  name: CoreScheduledProcessor<TDbContext>
+  nameWithType: CoreScheduledProcessor<TDbContext>
+  fullName: Solstice.Scheduled.Scheduled.CoreScheduledProcessor<TDbContext>
+  nameWithType.vb: CoreScheduledProcessor(Of TDbContext)
+  fullName.vb: Solstice.Scheduled.Scheduled.CoreScheduledProcessor(Of TDbContext)
+  name.vb: CoreScheduledProcessor(Of TDbContext)
+  spec.csharp:
+  - uid: Solstice.Scheduled.Scheduled.CoreScheduledProcessor`1
+    name: CoreScheduledProcessor
+    href: Solstice.Scheduled.Scheduled.CoreScheduledProcessor-1.html
+  - name: <
+  - name: TDbContext
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Scheduled.Scheduled.CoreScheduledProcessor`1
+    name: CoreScheduledProcessor
+    href: Solstice.Scheduled.Scheduled.CoreScheduledProcessor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDbContext
+  - name: )
+- uid: Solstice.Scheduled.Scheduled.CoreScopedProcessor`1
+  commentId: T:Solstice.Scheduled.Scheduled.CoreScopedProcessor`1
+  href: Solstice.Scheduled.Scheduled.CoreScopedProcessor-1.html
+  name: CoreScopedProcessor<TDbContext>
+  nameWithType: CoreScopedProcessor<TDbContext>
+  fullName: Solstice.Scheduled.Scheduled.CoreScopedProcessor<TDbContext>
+  nameWithType.vb: CoreScopedProcessor(Of TDbContext)
+  fullName.vb: Solstice.Scheduled.Scheduled.CoreScopedProcessor(Of TDbContext)
+  name.vb: CoreScopedProcessor(Of TDbContext)
+  spec.csharp:
+  - uid: Solstice.Scheduled.Scheduled.CoreScopedProcessor`1
+    name: CoreScopedProcessor
+    href: Solstice.Scheduled.Scheduled.CoreScopedProcessor-1.html
+  - name: <
+  - name: TDbContext
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Scheduled.Scheduled.CoreScopedProcessor`1
+    name: CoreScopedProcessor
+    href: Solstice.Scheduled.Scheduled.CoreScopedProcessor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDbContext
+  - name: )

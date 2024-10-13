@@ -1,0 +1,45 @@
+### YamlMime:TableOfContent
+items:
+- uid: Solstice.Repository
+  name: Solstice.Repository
+  items:
+  - uid: Solstice.Repository.IUnitOfWork
+    name: IUnitOfWork
+  - uid: Solstice.Repository.UnitOfWork`1
+    name: UnitOfWork<TDbContext>
+- uid: Solstice.Repository.Attributes
+  name: Solstice.Repository.Attributes
+  items:
+  - uid: Solstice.Repository.Attributes.QueryAttribute
+    name: QueryAttribute
+  - uid: Solstice.Repository.Attributes.RepositoryAttribute
+    name: RepositoryAttribute
+- uid: Solstice.Repository.Core
+  name: Solstice.Repository.Core
+  items:
+  - uid: Solstice.Repository.Core.CoreRepositoryExtension
+    name: CoreRepositoryExtension
+  - uid: Solstice.Repository.Core.CoreRepository`2
+    name: CoreRepository<T, TContext>
+  - uid: Solstice.Repository.Core.ICoreRepository`1
+    name: ICoreRepository<T>
+- uid: Solstice.Repository.Extensions
+  name: Solstice.Repository.Extensions
+  items:
+  - uid: Solstice.Repository.Extensions.CoreQueryableExtension
+    name: CoreQueryableExtension
+- uid: Solstice.Repository.Injections
+  name: Solstice.Repository.Injections
+  items:
+  - uid: Solstice.Repository.Injections.RepositoryInjections
+    name: RepositoryInjections
+- uid: Solstice.Repository.Specifications
+  name: Solstice.Repository.Specifications
+  items:
+  - uid: Solstice.Repository.Specifications.CoreSpecificationEvaluator`1
+    name: CoreSpecificationEvaluator<T>
+  - uid: Solstice.Repository.Specifications.ICoreSpecifications`1
+    name: ICoreSpecifications<T>
+  - uid: Solstice.Repository.Specifications.Specification`1
+    name: Specification<T>
+memberLayout: SamePage

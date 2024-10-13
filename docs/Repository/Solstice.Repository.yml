@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Repository
+  commentId: N:Solstice.Repository
+  id: Solstice.Repository
+  children:
+  - Solstice.Repository.IUnitOfWork
+  - Solstice.Repository.UnitOfWork`1
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Repository
+  nameWithType: Solstice.Repository
+  fullName: Solstice.Repository
+  type: Namespace
+  assemblies:
+  - Solstice.Repository
+references:
+- uid: Solstice.Repository.IUnitOfWork
+  commentId: T:Solstice.Repository.IUnitOfWork
+  parent: Solstice.Repository
+  href: Solstice.Repository.IUnitOfWork.html
+  name: IUnitOfWork
+  nameWithType: IUnitOfWork
+  fullName: Solstice.Repository.IUnitOfWork
+- uid: Solstice.Repository.UnitOfWork`1
+  commentId: T:Solstice.Repository.UnitOfWork`1
+  href: Solstice.Repository.UnitOfWork-1.html
+  name: UnitOfWork<TDbContext>
+  nameWithType: UnitOfWork<TDbContext>
+  fullName: Solstice.Repository.UnitOfWork<TDbContext>
+  nameWithType.vb: UnitOfWork(Of TDbContext)
+  fullName.vb: Solstice.Repository.UnitOfWork(Of TDbContext)
+  name.vb: UnitOfWork(Of TDbContext)
+  spec.csharp:
+  - uid: Solstice.Repository.UnitOfWork`1
+    name: UnitOfWork
+    href: Solstice.Repository.UnitOfWork-1.html
+  - name: <
+  - name: TDbContext
+  - name: '>'
+  spec.vb:
+  - uid: Solstice.Repository.UnitOfWork`1
+    name: UnitOfWork
+    href: Solstice.Repository.UnitOfWork-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDbContext
+  - name: )
+- uid: Solstice.Repository
+  commentId: N:Solstice.Repository
+  href: Solstice.html
+  name: Solstice.Repository
+  nameWithType: Solstice.Repository
+  fullName: Solstice.Repository
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Repository
+    name: Repository
+    href: Solstice.Repository.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Repository
+    name: Repository
+    href: Solstice.Repository.html

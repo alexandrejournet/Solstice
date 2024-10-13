@@ -1,0 +1,792 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Repository.Injections.RepositoryInjections
+  commentId: T:Solstice.Repository.Injections.RepositoryInjections
+  id: RepositoryInjections
+  parent: Solstice.Repository.Injections
+  children:
+  - Solstice.Repository.Injections.RepositoryInjections.AddQueryDtoToDbContext(Microsoft.EntityFrameworkCore.ModelBuilder)
+  - Solstice.Repository.Injections.RepositoryInjections.AddRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - Solstice.Repository.Injections.RepositoryInjections.AddRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)
+  - Solstice.Repository.Injections.RepositoryInjections.AddUnitOfWork``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - Solstice.Repository.Injections.RepositoryInjections.ApplyDbConfigurations(Microsoft.EntityFrameworkCore.ModelBuilder,System.Reflection.Assembly)
+  - Solstice.Repository.Injections.RepositoryInjections.ApplyDbConfigurations(Microsoft.EntityFrameworkCore.ModelBuilder,System.String)
+  - Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly)
+  - Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)
+  langs:
+  - csharp
+  - vb
+  name: RepositoryInjections
+  nameWithType: RepositoryInjections
+  fullName: Solstice.Repository.Injections.RepositoryInjections
+  type: Class
+  source:
+    id: RepositoryInjections
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Injections/RepositoryInjections.cs
+    startLine: 12
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Injections
+  summary: >-
+    The RepositoryInjections static class contains extension methods for ModelBuilder and IServiceCollection instances.
+
+    These extension methods add convenient functionality for database and service-related configurations.
+  example: []
+  syntax:
+    content: public static class RepositoryInjections
+    content.vb: Public Module RepositoryInjections
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Solstice.Repository.Injections.RepositoryInjections.AddQueryDtoToDbContext(Microsoft.EntityFrameworkCore.ModelBuilder)
+  commentId: M:Solstice.Repository.Injections.RepositoryInjections.AddQueryDtoToDbContext(Microsoft.EntityFrameworkCore.ModelBuilder)
+  id: AddQueryDtoToDbContext(Microsoft.EntityFrameworkCore.ModelBuilder)
+  isExtensionMethod: true
+  parent: Solstice.Repository.Injections.RepositoryInjections
+  langs:
+  - csharp
+  - vb
+  name: AddQueryDtoToDbContext(ModelBuilder)
+  nameWithType: RepositoryInjections.AddQueryDtoToDbContext(ModelBuilder)
+  fullName: Solstice.Repository.Injections.RepositoryInjections.AddQueryDtoToDbContext(Microsoft.EntityFrameworkCore.ModelBuilder)
+  type: Method
+  source:
+    id: AddQueryDtoToDbContext
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Injections/RepositoryInjections.cs
+    startLine: 20
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Injections
+  summary: >-
+    This extension method for the ModelBuilder class scans all assemblies in the current domain for types marked with the QueryAttribute.
+
+    Each located type is then added to the ModelBuilder as an entity, with no key, and set to be excluded from migrations.
+  example: []
+  syntax:
+    content: public static void AddQueryDtoToDbContext(this ModelBuilder modelBuilder)
+    parameters:
+    - id: modelBuilder
+      type: Microsoft.EntityFrameworkCore.ModelBuilder
+      description: The ModelBuilder instance to which the types are added.
+    content.vb: Public Shared Sub AddQueryDtoToDbContext(modelBuilder As ModelBuilder)
+  overload: Solstice.Repository.Injections.RepositoryInjections.AddQueryDtoToDbContext*
+  exceptions:
+  - type: Solstice.Domain.Exceptions.CoreException
+    commentId: T:Solstice.Domain.Exceptions.CoreException
+    description: Thrown when no types with the QueryAttribute are found.
+- uid: Solstice.Repository.Injections.RepositoryInjections.ApplyDbConfigurations(Microsoft.EntityFrameworkCore.ModelBuilder,System.Reflection.Assembly)
+  commentId: M:Solstice.Repository.Injections.RepositoryInjections.ApplyDbConfigurations(Microsoft.EntityFrameworkCore.ModelBuilder,System.Reflection.Assembly)
+  id: ApplyDbConfigurations(Microsoft.EntityFrameworkCore.ModelBuilder,System.Reflection.Assembly)
+  isExtensionMethod: true
+  parent: Solstice.Repository.Injections.RepositoryInjections
+  langs:
+  - csharp
+  - vb
+  name: ApplyDbConfigurations(ModelBuilder, Assembly)
+  nameWithType: RepositoryInjections.ApplyDbConfigurations(ModelBuilder, Assembly)
+  fullName: Solstice.Repository.Injections.RepositoryInjections.ApplyDbConfigurations(Microsoft.EntityFrameworkCore.ModelBuilder, System.Reflection.Assembly)
+  type: Method
+  source:
+    id: ApplyDbConfigurations
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Injections/RepositoryInjections.cs
+    startLine: 48
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Injections
+  summary: This extension method to the ModelBuilder class allows the application to apply database configurations from a specified assembly.
+  remarks: The method loads the specified assembly and applies its configurations to the dbContext via the ModelBuilder ApplyConfigurationsFromAssembly method.
+  example: []
+  syntax:
+    content: public static void ApplyDbConfigurations(this ModelBuilder modelBuilder, Assembly assembly)
+    parameters:
+    - id: modelBuilder
+      type: Microsoft.EntityFrameworkCore.ModelBuilder
+      description: The ModelBuilder instance on which to apply the assembly configurations.
+    - id: assembly
+      type: System.Reflection.Assembly
+      description: The assembly from which configurations should be applied.
+    content.vb: Public Shared Sub ApplyDbConfigurations(modelBuilder As ModelBuilder, assembly As Assembly)
+  overload: Solstice.Repository.Injections.RepositoryInjections.ApplyDbConfigurations*
+- uid: Solstice.Repository.Injections.RepositoryInjections.ApplyDbConfigurations(Microsoft.EntityFrameworkCore.ModelBuilder,System.String)
+  commentId: M:Solstice.Repository.Injections.RepositoryInjections.ApplyDbConfigurations(Microsoft.EntityFrameworkCore.ModelBuilder,System.String)
+  id: ApplyDbConfigurations(Microsoft.EntityFrameworkCore.ModelBuilder,System.String)
+  isExtensionMethod: true
+  parent: Solstice.Repository.Injections.RepositoryInjections
+  langs:
+  - csharp
+  - vb
+  name: ApplyDbConfigurations(ModelBuilder, string)
+  nameWithType: RepositoryInjections.ApplyDbConfigurations(ModelBuilder, string)
+  fullName: Solstice.Repository.Injections.RepositoryInjections.ApplyDbConfigurations(Microsoft.EntityFrameworkCore.ModelBuilder, string)
+  type: Method
+  source:
+    id: ApplyDbConfigurations
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Injections/RepositoryInjections.cs
+    startLine: 62
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Injections
+  summary: This extension method to the ModelBuilder class allows the application to apply database configurations from a specified assembly.
+  remarks: The method loads the specified assembly and applies its configurations to the dbContext via the ModelBuilder ApplyConfigurationsFromAssembly method.
+  example: []
+  syntax:
+    content: public static void ApplyDbConfigurations(this ModelBuilder modelBuilder, string assemblyName)
+    parameters:
+    - id: modelBuilder
+      type: Microsoft.EntityFrameworkCore.ModelBuilder
+      description: The ModelBuilder instance on which to apply the assembly configurations.
+    - id: assemblyName
+      type: System.String
+      description: The name of the assembly from which configurations should be applied.
+    content.vb: Public Shared Sub ApplyDbConfigurations(modelBuilder As ModelBuilder, assemblyName As String)
+  overload: Solstice.Repository.Injections.RepositoryInjections.ApplyDbConfigurations*
+  nameWithType.vb: RepositoryInjections.ApplyDbConfigurations(ModelBuilder, String)
+  fullName.vb: Solstice.Repository.Injections.RepositoryInjections.ApplyDbConfigurations(Microsoft.EntityFrameworkCore.ModelBuilder, String)
+  name.vb: ApplyDbConfigurations(ModelBuilder, String)
+- uid: Solstice.Repository.Injections.RepositoryInjections.AddRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)
+  commentId: M:Solstice.Repository.Injections.RepositoryInjections.AddRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)
+  id: AddRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)
+  isExtensionMethod: true
+  parent: Solstice.Repository.Injections.RepositoryInjections
+  langs:
+  - csharp
+  - vb
+  name: AddRepositories<TDbContext>(IServiceCollection, string)
+  nameWithType: RepositoryInjections.AddRepositories<TDbContext>(IServiceCollection, string)
+  fullName: Solstice.Repository.Injections.RepositoryInjections.AddRepositories<TDbContext>(Microsoft.Extensions.DependencyInjection.IServiceCollection, string)
+  type: Method
+  source:
+    id: AddRepositories
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Injections/RepositoryInjections.cs
+    startLine: 69
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Injections
+  syntax:
+    content: >-
+      [Obsolete("AddRepositories with namespace is deprecated, please use AddRepositories with Repository Attribute instead.")]
+
+      public static void AddRepositories<TDbContext>(this IServiceCollection services, string assemblyName) where TDbContext : DbContext
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+    - id: assemblyName
+      type: System.String
+    typeParameters:
+    - id: TDbContext
+    content.vb: >-
+      <Obsolete("AddRepositories with namespace is deprecated, please use AddRepositories with Repository Attribute instead.")>
+
+      Public Shared Sub AddRepositories(Of TDbContext As DbContext)(services As IServiceCollection, assemblyName As String)
+  overload: Solstice.Repository.Injections.RepositoryInjections.AddRepositories*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: AddRepositories with namespace is deprecated, please use AddRepositories with Repository Attribute instead.
+  nameWithType.vb: RepositoryInjections.AddRepositories(Of TDbContext)(IServiceCollection, String)
+  fullName.vb: Solstice.Repository.Injections.RepositoryInjections.AddRepositories(Of TDbContext)(Microsoft.Extensions.DependencyInjection.IServiceCollection, String)
+  name.vb: AddRepositories(Of TDbContext)(IServiceCollection, String)
+- uid: Solstice.Repository.Injections.RepositoryInjections.AddRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Solstice.Repository.Injections.RepositoryInjections.AddRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: Solstice.Repository.Injections.RepositoryInjections
+  langs:
+  - csharp
+  - vb
+  name: AddRepositories<TDbContext>(IServiceCollection)
+  nameWithType: RepositoryInjections.AddRepositories<TDbContext>(IServiceCollection)
+  fullName: Solstice.Repository.Injections.RepositoryInjections.AddRepositories<TDbContext>(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddRepositories
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Injections/RepositoryInjections.cs
+    startLine: 94
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Injections
+  summary: The AddRepositories extension method for the IServiceCollection, which scans all assemblies in the current domain for types marked with the RepositoryAttribute.
+  remarks: >-
+    The located type(s) that have the RepositoryAttribute are added to the IServiceCollection as a Scope.
+
+    If no such types are found, it throws a CoreInjectionsException.
+  example: []
+  syntax:
+    content: 'public static void AddRepositories<TDbContext>(this IServiceCollection services) where TDbContext : DbContext'
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: The IServiceCollection instance to which the types are added.
+    typeParameters:
+    - id: TDbContext
+    content.vb: Public Shared Sub AddRepositories(Of TDbContext As DbContext)(services As IServiceCollection)
+  overload: Solstice.Repository.Injections.RepositoryInjections.AddRepositories*
+  exceptions:
+  - type: Solstice.Domain.Exceptions.CoreException
+    commentId: T:Solstice.Domain.Exceptions.CoreException
+    description: Thrown when no types with the RepositoryAttribute are found.
+  nameWithType.vb: RepositoryInjections.AddRepositories(Of TDbContext)(IServiceCollection)
+  fullName.vb: Solstice.Repository.Injections.RepositoryInjections.AddRepositories(Of TDbContext)(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: AddRepositories(Of TDbContext)(IServiceCollection)
+- uid: Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly)
+  commentId: M:Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly)
+  id: ScanRepositoriesIn``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly)
+  isExtensionMethod: true
+  parent: Solstice.Repository.Injections.RepositoryInjections
+  langs:
+  - csharp
+  - vb
+  name: ScanRepositoriesIn<TDbContext>(IServiceCollection, Assembly)
+  nameWithType: RepositoryInjections.ScanRepositoriesIn<TDbContext>(IServiceCollection, Assembly)
+  fullName: Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn<TDbContext>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Reflection.Assembly)
+  type: Method
+  source:
+    id: ScanRepositoriesIn
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Injections/RepositoryInjections.cs
+    startLine: 129
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Injections
+  summary: The AddRepositories extension method for the IServiceCollection, which scans all assemblies in the current domain for types marked with the RepositoryAttribute.
+  remarks: >-
+    The located type(s) that have the RepositoryAttribute are added to the IServiceCollection as a Scope.
+
+    If no such types are found, it throws a CoreInjectionsException.
+  example: []
+  syntax:
+    content: 'public static void ScanRepositoriesIn<TDbContext>(this IServiceCollection services, Assembly assembly) where TDbContext : DbContext'
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: The IServiceCollection instance to which the types are added.
+    - id: assembly
+      type: System.Reflection.Assembly
+      description: The assembly to scan
+    typeParameters:
+    - id: TDbContext
+    content.vb: Public Shared Sub ScanRepositoriesIn(Of TDbContext As DbContext)(services As IServiceCollection, assembly As Assembly)
+  overload: Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn*
+  exceptions:
+  - type: Solstice.Domain.Exceptions.CoreException
+    commentId: T:Solstice.Domain.Exceptions.CoreException
+    description: Thrown when no types with the RepositoryAttribute are found.
+  nameWithType.vb: RepositoryInjections.ScanRepositoriesIn(Of TDbContext)(IServiceCollection, Assembly)
+  fullName.vb: Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn(Of TDbContext)(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Reflection.Assembly)
+  name.vb: ScanRepositoriesIn(Of TDbContext)(IServiceCollection, Assembly)
+- uid: Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)
+  commentId: M:Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)
+  id: ScanRepositoriesIn``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)
+  isExtensionMethod: true
+  parent: Solstice.Repository.Injections.RepositoryInjections
+  langs:
+  - csharp
+  - vb
+  name: ScanRepositoriesIn<TDbContext>(IServiceCollection, string)
+  nameWithType: RepositoryInjections.ScanRepositoriesIn<TDbContext>(IServiceCollection, string)
+  fullName: Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn<TDbContext>(Microsoft.Extensions.DependencyInjection.IServiceCollection, string)
+  type: Method
+  source:
+    id: ScanRepositoriesIn
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Injections/RepositoryInjections.cs
+    startLine: 162
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Injections
+  summary: The AddRepositories extension method for the IServiceCollection, which scans all assemblies in the current domain for types marked with the RepositoryAttribute.
+  remarks: >-
+    The located type(s) that have the RepositoryAttribute are added to the IServiceCollection as a Scope.
+
+    If no such types are found, it throws a CoreInjectionsException.
+  example: []
+  syntax:
+    content: 'public static void ScanRepositoriesIn<TDbContext>(this IServiceCollection services, string assemblyName) where TDbContext : DbContext'
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: The IServiceCollection instance to which the types are added.
+    - id: assemblyName
+      type: System.String
+      description: The name of the assembly to scan
+    typeParameters:
+    - id: TDbContext
+    content.vb: Public Shared Sub ScanRepositoriesIn(Of TDbContext As DbContext)(services As IServiceCollection, assemblyName As String)
+  overload: Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn*
+  exceptions:
+  - type: Solstice.Domain.Exceptions.CoreException
+    commentId: T:Solstice.Domain.Exceptions.CoreException
+    description: Thrown when no types with the RepositoryAttribute are found.
+  nameWithType.vb: RepositoryInjections.ScanRepositoriesIn(Of TDbContext)(IServiceCollection, String)
+  fullName.vb: Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn(Of TDbContext)(Microsoft.Extensions.DependencyInjection.IServiceCollection, String)
+  name.vb: ScanRepositoriesIn(Of TDbContext)(IServiceCollection, String)
+- uid: Solstice.Repository.Injections.RepositoryInjections.AddUnitOfWork``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  commentId: M:Solstice.Repository.Injections.RepositoryInjections.AddUnitOfWork``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  id: AddUnitOfWork``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  isExtensionMethod: true
+  parent: Solstice.Repository.Injections.RepositoryInjections
+  langs:
+  - csharp
+  - vb
+  name: AddUnitOfWork<TDbContext>(IServiceCollection)
+  nameWithType: RepositoryInjections.AddUnitOfWork<TDbContext>(IServiceCollection)
+  fullName: Solstice.Repository.Injections.RepositoryInjections.AddUnitOfWork<TDbContext>(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  type: Method
+  source:
+    id: AddUnitOfWork
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Injections/RepositoryInjections.cs
+    startLine: 191
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Injections
+  summary: The AddUnitOfWork extension method for the IServiceCollection, which adds the UnitOfWork as a Scoped service.
+  example: []
+  syntax:
+    content: 'public static void AddUnitOfWork<TDbContext>(this IServiceCollection services) where TDbContext : DbContext'
+    parameters:
+    - id: services
+      type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      description: ''
+    typeParameters:
+    - id: TDbContext
+    content.vb: Public Shared Sub AddUnitOfWork(Of TDbContext As DbContext)(services As IServiceCollection)
+  overload: Solstice.Repository.Injections.RepositoryInjections.AddUnitOfWork*
+  nameWithType.vb: RepositoryInjections.AddUnitOfWork(Of TDbContext)(IServiceCollection)
+  fullName.vb: Solstice.Repository.Injections.RepositoryInjections.AddUnitOfWork(Of TDbContext)(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: AddUnitOfWork(Of TDbContext)(IServiceCollection)
+references:
+- uid: Solstice.Repository.Injections
+  commentId: N:Solstice.Repository.Injections
+  href: Solstice.html
+  name: Solstice.Repository.Injections
+  nameWithType: Solstice.Repository.Injections
+  fullName: Solstice.Repository.Injections
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Repository
+    name: Repository
+    href: Solstice.Repository.html
+  - name: .
+  - uid: Solstice.Repository.Injections
+    name: Injections
+    href: Solstice.Repository.Injections.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Repository
+    name: Repository
+    href: Solstice.Repository.html
+  - name: .
+  - uid: Solstice.Repository.Injections
+    name: Injections
+    href: Solstice.Repository.Injections.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Solstice.Domain.Exceptions.CoreException
+  commentId: T:Solstice.Domain.Exceptions.CoreException
+  name: CoreException
+  nameWithType: CoreException
+  fullName: Solstice.Domain.Exceptions.CoreException
+- uid: Solstice.Repository.Injections.RepositoryInjections.AddQueryDtoToDbContext*
+  commentId: Overload:Solstice.Repository.Injections.RepositoryInjections.AddQueryDtoToDbContext
+  href: Solstice.Repository.Injections.RepositoryInjections.html#Solstice_Repository_Injections_RepositoryInjections_AddQueryDtoToDbContext_Microsoft_EntityFrameworkCore_ModelBuilder_
+  name: AddQueryDtoToDbContext
+  nameWithType: RepositoryInjections.AddQueryDtoToDbContext
+  fullName: Solstice.Repository.Injections.RepositoryInjections.AddQueryDtoToDbContext
+- uid: Microsoft.EntityFrameworkCore.ModelBuilder
+  commentId: T:Microsoft.EntityFrameworkCore.ModelBuilder
+  parent: Microsoft.EntityFrameworkCore
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.modelbuilder
+  name: ModelBuilder
+  nameWithType: ModelBuilder
+  fullName: Microsoft.EntityFrameworkCore.ModelBuilder
+- uid: Microsoft.EntityFrameworkCore
+  commentId: N:Microsoft.EntityFrameworkCore
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.EntityFrameworkCore
+  nameWithType: Microsoft.EntityFrameworkCore
+  fullName: Microsoft.EntityFrameworkCore
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore
+    name: EntityFrameworkCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore
+    name: EntityFrameworkCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore
+- uid: Solstice.Repository.Injections.RepositoryInjections.ApplyDbConfigurations*
+  commentId: Overload:Solstice.Repository.Injections.RepositoryInjections.ApplyDbConfigurations
+  href: Solstice.Repository.Injections.RepositoryInjections.html#Solstice_Repository_Injections_RepositoryInjections_ApplyDbConfigurations_Microsoft_EntityFrameworkCore_ModelBuilder_System_Reflection_Assembly_
+  name: ApplyDbConfigurations
+  nameWithType: RepositoryInjections.ApplyDbConfigurations
+  fullName: Solstice.Repository.Injections.RepositoryInjections.ApplyDbConfigurations
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.reflection
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Solstice.Repository.Injections.RepositoryInjections.AddRepositories*
+  commentId: Overload:Solstice.Repository.Injections.RepositoryInjections.AddRepositories
+  href: Solstice.Repository.Injections.RepositoryInjections.html#Solstice_Repository_Injections_RepositoryInjections_AddRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_String_
+  name: AddRepositories
+  nameWithType: RepositoryInjections.AddRepositories
+  fullName: Solstice.Repository.Injections.RepositoryInjections.AddRepositories
+- uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  parent: Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection
+  name: IServiceCollection
+  nameWithType: IServiceCollection
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection
+- uid: Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn*
+  commentId: Overload:Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn
+  href: Solstice.Repository.Injections.RepositoryInjections.html#Solstice_Repository_Injections_RepositoryInjections_ScanRepositoriesIn__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Reflection_Assembly_
+  name: ScanRepositoriesIn
+  nameWithType: RepositoryInjections.ScanRepositoriesIn
+  fullName: Solstice.Repository.Injections.RepositoryInjections.ScanRepositoriesIn
+- uid: Solstice.Repository.Injections.RepositoryInjections.AddUnitOfWork*
+  commentId: Overload:Solstice.Repository.Injections.RepositoryInjections.AddUnitOfWork
+  href: Solstice.Repository.Injections.RepositoryInjections.html#Solstice_Repository_Injections_RepositoryInjections_AddUnitOfWork__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  name: AddUnitOfWork
+  nameWithType: RepositoryInjections.AddUnitOfWork
+  fullName: Solstice.Repository.Injections.RepositoryInjections.AddUnitOfWork

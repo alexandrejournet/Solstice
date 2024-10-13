@@ -1,0 +1,466 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Repository.Extensions.CoreQueryableExtension
+  commentId: T:Solstice.Repository.Extensions.CoreQueryableExtension
+  id: CoreQueryableExtension
+  parent: Solstice.Repository.Extensions
+  children:
+  - Solstice.Repository.Extensions.CoreQueryableExtension.Pageable``1(System.Linq.IQueryable{``0},Solstice.Domain.Models.Page)
+  langs:
+  - csharp
+  - vb
+  name: CoreQueryableExtension
+  nameWithType: CoreQueryableExtension
+  fullName: Solstice.Repository.Extensions.CoreQueryableExtension
+  type: Class
+  source:
+    id: CoreQueryableExtension
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Extensions/CoreQueryableExtension.cs
+    startLine: 10
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Extensions
+  summary: Represents a utility class that provides extension methods to IQueryable interface objects.
+  remarks: CoreQueryableExtension offers pagination for queries.
+  example: []
+  syntax:
+    content: public static class CoreQueryableExtension
+    content.vb: Public Module CoreQueryableExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Solstice.Repository.Extensions.CoreQueryableExtension.Pageable``1(System.Linq.IQueryable{``0},Solstice.Domain.Models.Page)
+  commentId: M:Solstice.Repository.Extensions.CoreQueryableExtension.Pageable``1(System.Linq.IQueryable{``0},Solstice.Domain.Models.Page)
+  id: Pageable``1(System.Linq.IQueryable{``0},Solstice.Domain.Models.Page)
+  isExtensionMethod: true
+  parent: Solstice.Repository.Extensions.CoreQueryableExtension
+  langs:
+  - csharp
+  - vb
+  name: Pageable<TSource>(IQueryable<TSource>, Page)
+  nameWithType: CoreQueryableExtension.Pageable<TSource>(IQueryable<TSource>, Page)
+  fullName: Solstice.Repository.Extensions.CoreQueryableExtension.Pageable<TSource>(System.Linq.IQueryable<TSource>, Solstice.Domain.Models.Page)
+  type: Method
+  source:
+    id: Pageable
+    path: /Users/alexandrejournet/Documents/Dev/Solstice/Solstice.Repository/Extensions/CoreQueryableExtension.cs
+    startLine: 19
+  assemblies:
+  - Solstice.Repository
+  namespace: Solstice.Repository.Extensions
+  summary: Returns a paged source from the provided IQueryable object using the given CorePage object parameters.
+  example: []
+  syntax:
+    content: public static IQueryable<TSource> Pageable<TSource>(this IQueryable<TSource> queryable, Page page)
+    parameters:
+    - id: queryable
+      type: System.Linq.IQueryable{{TSource}}
+      description: The System.Linq.IQueryable{T} to create a paged source from.
+    - id: page
+      type: Solstice.Domain.Models.Page
+      description: CorePage object that determines the number of elements to bypass and the size of the page.
+    typeParameters:
+    - id: TSource
+      description: The type of the elements of source.
+    return:
+      type: System.Linq.IQueryable{{TSource}}
+      description: An System.Linq.IQueryable{T} that contains elements from the input sequence that occur after the specified index and has the specified page size.
+    content.vb: Public Shared Function Pageable(Of TSource)(queryable As IQueryable(Of TSource), page As Page) As IQueryable(Of TSource)
+  overload: Solstice.Repository.Extensions.CoreQueryableExtension.Pageable*
+  nameWithType.vb: CoreQueryableExtension.Pageable(Of TSource)(IQueryable(Of TSource), Page)
+  fullName.vb: Solstice.Repository.Extensions.CoreQueryableExtension.Pageable(Of TSource)(System.Linq.IQueryable(Of TSource), Solstice.Domain.Models.Page)
+  name.vb: Pageable(Of TSource)(IQueryable(Of TSource), Page)
+references:
+- uid: Solstice.Repository.Extensions
+  commentId: N:Solstice.Repository.Extensions
+  href: Solstice.html
+  name: Solstice.Repository.Extensions
+  nameWithType: Solstice.Repository.Extensions
+  fullName: Solstice.Repository.Extensions
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Repository
+    name: Repository
+    href: Solstice.Repository.html
+  - name: .
+  - uid: Solstice.Repository.Extensions
+    name: Extensions
+    href: Solstice.Repository.Extensions.html
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+    href: Solstice.html
+  - name: .
+  - uid: Solstice.Repository
+    name: Repository
+    href: Solstice.Repository.html
+  - name: .
+  - uid: Solstice.Repository.Extensions
+    name: Extensions
+    href: Solstice.Repository.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Solstice.Repository.Extensions.CoreQueryableExtension.Pageable*
+  commentId: Overload:Solstice.Repository.Extensions.CoreQueryableExtension.Pageable
+  href: Solstice.Repository.Extensions.CoreQueryableExtension.html#Solstice_Repository_Extensions_CoreQueryableExtension_Pageable__1_System_Linq_IQueryable___0__Solstice_Domain_Models_Page_
+  name: Pageable
+  nameWithType: CoreQueryableExtension.Pageable
+  fullName: Solstice.Repository.Extensions.CoreQueryableExtension.Pageable
+- uid: System.Linq.IQueryable{{TSource}}
+  commentId: T:System.Linq.IQueryable{``0}
+  parent: System.Linq
+  definition: System.Linq.IQueryable`1
+  href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  name: IQueryable<TSource>
+  nameWithType: IQueryable<TSource>
+  fullName: System.Linq.IQueryable<TSource>
+  nameWithType.vb: IQueryable(Of TSource)
+  fullName.vb: System.Linq.IQueryable(Of TSource)
+  name.vb: IQueryable(Of TSource)
+  spec.csharp:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  - name: <
+  - name: TSource
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSource
+  - name: )
+- uid: Solstice.Domain.Models.Page
+  commentId: T:Solstice.Domain.Models.Page
+  parent: Solstice.Domain.Models
+  name: Page
+  nameWithType: Page
+  fullName: Solstice.Domain.Models.Page
+- uid: System.Linq.IQueryable`1
+  commentId: T:System.Linq.IQueryable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  name: IQueryable<T>
+  nameWithType: IQueryable<T>
+  fullName: System.Linq.IQueryable<T>
+  nameWithType.vb: IQueryable(Of T)
+  fullName.vb: System.Linq.IQueryable(Of T)
+  name.vb: IQueryable(Of T)
+  spec.csharp:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.IQueryable`1
+    name: IQueryable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Linq
+  commentId: N:System.Linq
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Linq
+  nameWithType: System.Linq
+  fullName: System.Linq
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq
+- uid: Solstice.Domain.Models
+  commentId: N:Solstice.Domain.Models
+  name: Solstice.Domain.Models
+  nameWithType: Solstice.Domain.Models
+  fullName: Solstice.Domain.Models
+  spec.csharp:
+  - uid: Solstice
+    name: Solstice
+  - name: .
+  - uid: Solstice.Domain
+    name: Domain
+  - name: .
+  - uid: Solstice.Domain.Models
+    name: Models
+  spec.vb:
+  - uid: Solstice
+    name: Solstice
+  - name: .
+  - uid: Solstice.Domain
+    name: Domain
+  - name: .
+  - uid: Solstice.Domain.Models
+    name: Models

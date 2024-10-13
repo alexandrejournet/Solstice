@@ -1,0 +1,30 @@
+### YamlMime:TableOfContent
+items:
+- uid: Solstice.Domain.Exceptions
+  name: Solstice.Domain.Exceptions
+  items:
+  - uid: Solstice.Domain.Exceptions.CoreException
+    name: CoreException
+  - uid: Solstice.Domain.Exceptions.CoreExceptionEnum
+    name: CoreExceptionEnum
+  - uid: Solstice.Domain.Exceptions.CoreExceptionEnumExtension
+    name: CoreExceptionEnumExtension
+- uid: Solstice.Domain.Extensions
+  name: Solstice.Domain.Extensions
+  items:
+  - uid: Solstice.Domain.Extensions.IEnumerableExtensions
+    name: IEnumerableExtensions
+  - uid: Solstice.Domain.Extensions.IQueryableExtensions
+    name: IQueryableExtensions
+- uid: Solstice.Domain.Models
+  name: Solstice.Domain.Models
+  items:
+  - uid: Solstice.Domain.Models.CoreModel
+    name: CoreModel
+  - uid: Solstice.Domain.Models.Page
+    name: Page
+  - uid: Solstice.Domain.Models.PageExtension
+    name: PageExtension
+  - uid: Solstice.Domain.Models.Paged`1
+    name: Paged<T>
+memberLayout: SamePage

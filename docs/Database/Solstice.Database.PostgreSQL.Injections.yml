@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Database.PostgreSQL.Injections
+  commentId: N:Solstice.Database.PostgreSQL.Injections
+  id: Solstice.Database.PostgreSQL.Injections
+  children:
+  - Solstice.Database.PostgreSQL.Injections.PostgreSqlInjections
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Database.PostgreSQL.Injections
+  nameWithType: Solstice.Database.PostgreSQL.Injections
+  fullName: Solstice.Database.PostgreSQL.Injections
+  type: Namespace
+  assemblies:
+  - Solstice.Database.PostgreSQL
+references:
+- uid: Solstice.Database.PostgreSQL.Injections.PostgreSqlInjections
+  commentId: T:Solstice.Database.PostgreSQL.Injections.PostgreSqlInjections
+  href: Solstice.Database.PostgreSQL.Injections.PostgreSqlInjections.html
+  name: PostgreSqlInjections
+  nameWithType: PostgreSqlInjections
+  fullName: Solstice.Database.PostgreSQL.Injections.PostgreSqlInjections

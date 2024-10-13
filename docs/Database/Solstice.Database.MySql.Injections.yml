@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Solstice.Database.MySql.Injections
+  commentId: N:Solstice.Database.MySql.Injections
+  id: Solstice.Database.MySql.Injections
+  children:
+  - Solstice.Database.MySql.Injections.MySqlInjections
+  langs:
+  - csharp
+  - vb
+  name: Solstice.Database.MySql.Injections
+  nameWithType: Solstice.Database.MySql.Injections
+  fullName: Solstice.Database.MySql.Injections
+  type: Namespace
+  assemblies:
+  - Solstice.Database.MySql
+references:
+- uid: Solstice.Database.MySql.Injections.MySqlInjections
+  commentId: T:Solstice.Database.MySql.Injections.MySqlInjections
+  href: Solstice.Database.MySql.Injections.MySqlInjections.html
+  name: MySqlInjections
+  nameWithType: MySqlInjections
+  fullName: Solstice.Database.MySql.Injections.MySqlInjections

@@ -1,0 +1,20 @@
+### YamlMime:TableOfContent
+items:
+- uid: Solstice.Service.Attributes
+  name: Solstice.Service.Attributes
+  items:
+  - uid: Solstice.Service.Attributes.ServiceAttribute
+    name: ServiceAttribute
+- uid: Solstice.Service.Base
+  name: Solstice.Service.Base
+  items:
+  - uid: Solstice.Service.Base.CoreService`2
+    name: CoreService<TRepository, T>
+  - uid: Solstice.Service.Base.ICoreService`1
+    name: ICoreService<T>
+- uid: Solstice.Service.Injections
+  name: Solstice.Service.Injections
+  items:
+  - uid: Solstice.Service.Injections.ServiceInjections
+    name: ServiceInjections
+memberLayout: SamePage
