@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: dotnet restore
           
-      - uses: nunit/docfx-action@v2.4.0
+      - uses: nunit/docfx-action@v3.4.2
         name: Build Documentation
         with:
           args: docs/docfx.json
