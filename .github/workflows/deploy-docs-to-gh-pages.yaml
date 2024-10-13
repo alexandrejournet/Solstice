@@ -13,6 +13,14 @@ jobs:
           submodules: recursive
           token: ${{ secrets.PAT_TOKEN }}
           
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install dependencies
+        run: dotnet restore
+          
       - uses: nunit/docfx-action@v2.4.0
         name: Build Documentation
         with:
