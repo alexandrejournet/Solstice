@@ -13,9 +13,9 @@
 [submodule "Solstice.Database.PostgreSQL"]
 	path = Solstice.Database.PostgreSQL
 	url = git@github.com:alexandrejournet/Solstice.Database.PostgreSQL.git
-[submodule "Solstice.Repository"]
-	path = Solstice.Repository
-	url = git@github.com:alexandrejournet/Solstice.Repository.git
+[submodule "Solstice.Infrastructure"]
+	path = Solstice.Infrastructure
+	url = git@github.com:alexandrejournet/Solstice.Infrastructure.git
 [submodule "Solstice.Domain"]
 	path = Solstice.Domain
 	url = git@github.com:alexandrejournet/Solstice.Domain.git

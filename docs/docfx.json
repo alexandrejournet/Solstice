@@ -36,9 +36,9 @@
     {
       "src": [
         {
-          "src": "../Solstice.Repository",
+          "src": "../Solstice.Infrastructure",
           "files": [
-            "Solstice.Repository.csproj"
+            "Solstice.Infrastructure.csproj"
           ]
         }
       ],

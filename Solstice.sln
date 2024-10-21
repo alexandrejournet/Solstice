@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ã‰lÃ©ments de solution", "Ã‰lÃ©ments de solution", "{39F0A503-4163-4A4A-8928-AC52EE2A0AEF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elements de solution", "Elements de solution", "{39F0A503-4163-4A4A-8928-AC52EE2A0AEF}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		.github\workflows\build.yaml = .github\workflows\build.yaml
@@ -22,7 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ã‰lÃ©ments de solution
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solstice.Domain", "Solstice.Domain\Solstice.Domain.csproj", "{EF4703F2-12A9-46A8-BDF5-5B479E64557C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solstice.Repository", "Solstice.Repository\Solstice.Repository.csproj", "{29BA1A0B-5696-4913-B5DC-032B8E7E7B7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solstice.Infrastructure", "Solstice.Infrastructure\Solstice.Infrastructure.csproj", "{29BA1A0B-5696-4913-B5DC-032B8E7E7B7D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solstice.Applications", "Solstice.Applications\Solstice.Applications.csproj", "{46728B8C-BFB6-4A4F-87EB-C1A99B6A9912}"
 EndProject

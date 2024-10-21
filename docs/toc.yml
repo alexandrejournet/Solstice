@@ -1,5 +1,3 @@
-- name: Home
-  href: /
 - name: Layers
   items: 
   - name: API
