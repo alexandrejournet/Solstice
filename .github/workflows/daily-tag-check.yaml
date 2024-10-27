@@ -1,0 +1,58 @@
+name: Daily Tag Check
+
+# Run daily at midnight UTC
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  tag-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get last tag
+        id: last-tag
+        run: |
+          # Fetch all tags
+          git fetch --tags
+
+          # Get the latest tag and output it
+          LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          echo "last_tag=$LAST_TAG" >> $GITHUB_ENV
+
+      - name: Check for new commits since last tag
+        id: new-commits
+        run: |
+          # Check for new commits since the last tag
+          if [ -z "$LAST_TAG" ]; then
+            echo "No previous tags found. New tag will be created."
+            echo "new_commits=true" >> $GITHUB_ENV
+          else
+            NEW_COMMITS=$(git rev-list $LAST_TAG..HEAD --count)
+            if [ "$NEW_COMMITS" -gt 0 ]; then
+              echo "New commits detected since last tag."
+              echo "new_commits=true" >> $GITHUB_ENV
+            else
+              echo "No new commits since last tag."
+              echo "new_commits=false" >> $GITHUB_ENV
+            fi
+          fi
+
+      - name: Create new tag
+        if: env.new_commits == 'true'
+        run: |
+          # Generate a new tag based on the last tag
+          if [ -z "$LAST_TAG" ]; then
+            NEW_TAG="v1.0.0"
+          else
+            # Bump the patch version
+            NEW_TAG=$(echo $LAST_TAG | awk -F. '{$NF += 1;} 1' | sed 's/ /./g')
+          fi
+          echo "Creating new tag $NEW_TAG"
+
+          # Create and push the new tag
+          git tag "$NEW_TAG"
+          git push origin "$NEW_TAG"
