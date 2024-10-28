@@ -22,9 +22,9 @@ jobs:
             git fetch --tags
 
             # Get the latest tag and output it
-            LAST_TAG=$(git describe --tags --abbrev=0 || echo "")
-            echo $(git describe --tags --abbrev=0 || echo "")
-            echo "last_tag=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
+            LAST_TAG=$(git describe --tags --abbrev=0 --always || echo "")
+            echo $(git describe --tags --abbrev=0 --always || echo "")
+            echo "last_tag=$(git describe --tags --abbrev=0 --always)" >> $GITHUB_ENV
 
       - name: Check for new commits since last tag
         id: new-commits
