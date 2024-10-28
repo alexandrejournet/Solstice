@@ -20,7 +20,7 @@ jobs:
             git fetch --tags
 
             # Get the latest tag and output it
-            LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+            LAST_TAG=$(git describe --tags --abbrev=0 || echo "")
             echo "last_tag=$LAST_TAG" >> $GITHUB_ENV
             echo "Last tag: $LAST_TAG"
 
