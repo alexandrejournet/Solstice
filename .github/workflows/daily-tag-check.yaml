@@ -35,7 +35,7 @@ jobs:
                 echo "No previous tags found. New tag will be created."
                 echo "new_commits=true" >> $GITHUB_ENV
             else
-                NEW_COMMITS=$(git rev-list $LAST_TAG..HEAD --count)
+                NEW_COMMITS=$(git rev-list ${{ env.last_tag }}..HEAD --count)
                 if [ "$NEW_COMMITS" -gt 0 ]; then
                     echo "New commits detected since last tag."
                     echo "new_commits=true" >> $GITHUB_ENV
