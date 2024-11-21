@@ -1,0 +1,1200 @@
+{
+  "source_base_path": "/home/runner/work/Solstice/Solstice/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Attributes.DeleteAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Attributes.DeleteAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Attributes.GetAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Attributes.GetAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Attributes.HeadAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Attributes.HeadAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Attributes.PatchAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Attributes.PatchAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Attributes.PostAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Attributes.PostAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Attributes.PutAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Attributes.PutAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Attributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Controllers.CoreController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Controllers.CoreController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Injections.CoreInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Injections.CoreInjections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Injections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Scanning.CoreAssemblyScanning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Scanning.CoreAssemblyScanning.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Scanning.CoreAssemblyScanningExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Scanning.CoreAssemblyScanningExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Scanning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Scanning.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "API/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "API/toc.json"
+        },
+        ".html": {
+          "relative_path": "API/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Helpers.ICaseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Helpers.ICaseHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Helpers.LowerCaseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Helpers.LowerCaseHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Helpers.SnakeCaseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Helpers.SnakeCaseHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Helpers.UpperCaseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Helpers.UpperCaseHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Helpers.UpperSnakeCaseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Helpers.UpperSnakeCaseHelper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Injections.ConventionsInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Injections.ConventionsInjections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Injections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.NamingConventions.LowerCaseNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.NamingConventions.LowerCaseNamingConvention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.NamingConventions.SnakeCaseNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.NamingConventions.SnakeCaseNamingConvention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.NamingConventions.UpperCaseNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.NamingConventions.UpperCaseNamingConvention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.NamingConventions.UpperSnakeCaseNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.NamingConventions.UpperSnakeCaseNamingConvention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.NamingConventions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.NamingConventions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.MySql.Injections.MySqlInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.MySql.Injections.MySqlInjections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.MySql.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.MySql.Injections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.PostgreSQL.Injections.PostgreSqlInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.PostgreSQL.Injections.PostgreSqlInjections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.PostgreSQL.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.PostgreSQL.Injections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Database/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "Database/toc.json"
+        },
+        ".html": {
+          "relative_path": "Database/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Exceptions.CoreException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Exceptions.CoreException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Exceptions.CoreExceptionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Exceptions.CoreExceptionEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Exceptions.CoreExceptionEnumExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Exceptions.CoreExceptionEnumExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Exceptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Extensions.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Extensions.EnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Extensions.IEnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Extensions.IEnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Extensions.IQueryableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Extensions.IQueryableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Extensions.QueryableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Extensions.QueryableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Models.CoreModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Models.CoreModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Models.Page.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Models.Page.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Models.PageExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Models.PageExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Models.Paged-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Models.Paged-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Domain/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "Domain/toc.json"
+        },
+        ".html": {
+          "relative_path": "Domain/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Attributes.QueryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Attributes.QueryAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Attributes.RepositoryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Attributes.RepositoryAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Attributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Core.CoreRepository-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Core.CoreRepository-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Core.CoreRepositoryExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Core.CoreRepositoryExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Core.ICoreRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Core.ICoreRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Extensions.CoreQueryableExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Extensions.CoreQueryableExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Injections.RepositoryInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Injections.RepositoryInjections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Injections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Specifications.CoreSpecificationEvaluator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Specifications.CoreSpecificationEvaluator-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Specifications.ICoreSpecifications-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Specifications.ICoreSpecifications-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Specifications.Specification-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Specifications.Specification-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Specifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Specifications.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.UnitOfWorks.IUnitOfWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.UnitOfWorks.IUnitOfWork.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.UnitOfWorks.UnitOfWork-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.UnitOfWorks.UnitOfWork-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.UnitOfWorks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.UnitOfWorks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Attributes.QueryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Attributes.QueryAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Attributes.RepositoryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Attributes.RepositoryAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Attributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Core.CoreRepository-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Core.CoreRepository-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Core.CoreRepositoryExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Core.CoreRepositoryExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Core.ICoreRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Core.ICoreRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Extensions.CoreQueryableExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Extensions.CoreQueryableExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.IUnitOfWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.IUnitOfWork.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Injections.RepositoryInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Injections.RepositoryInjections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Injections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Specifications.CoreSpecificationEvaluator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Specifications.CoreSpecificationEvaluator-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Specifications.ICoreSpecifications-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Specifications.ICoreSpecifications-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Specifications.Specification-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Specifications.Specification-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Specifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Specifications.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.UnitOfWork-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.UnitOfWork-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Repository/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "Repository/toc.json"
+        },
+        ".html": {
+          "relative_path": "Repository/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Core.CoreBackgroundService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Core.CoreBackgroundService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Injections.ScheduledInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Injections.ScheduledInjections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Injections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Queue.CoreQueuedBackgroundService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Queue.CoreQueuedBackgroundService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Queue.DefaultBackgroundTaskQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Queue.DefaultBackgroundTaskQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Queue.IBackgroundTaskQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Queue.IBackgroundTaskQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Queue.QueueItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Queue.QueueItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Queue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Queue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Scheduled.CoreScheduledProcessor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Scheduled.CoreScheduledProcessor-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Scheduled.CoreScopedProcessor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Scheduled.CoreScopedProcessor-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Scheduled.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Scheduled.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Scheduled/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "Scheduled/toc.json"
+        },
+        ".html": {
+          "relative_path": "Scheduled/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Attributes.ServiceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Attributes.ServiceAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Attributes.ServiceInterfaceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Attributes.ServiceInterfaceAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Attributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Core.CoreService-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Core.CoreService-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Core.ICoreService-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Core.ICoreService-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Injections.ServiceInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Injections.ServiceInjections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Injections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Service.Attributes.ServiceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Service.Attributes.ServiceAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Service.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Service.Attributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Service.Base.CoreService-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Service.Base.CoreService-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Service.Base.ICoreService-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Service.Base.ICoreService-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Service.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Service.Base.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Service.Injections.ServiceInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Service.Injections.ServiceInjections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Service.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Service.Injections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Services/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "Services/toc.json"
+        },
+        ".html": {
+          "relative_path": "Services/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

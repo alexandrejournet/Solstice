@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RepositoryInjections | Solstice </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RepositoryInjections | Solstice ">
+      
+      <meta name="description" content="The RepositoryInjections static class contains extension methods for ModelBuilder and IServiceCollection instances. These extension methods add convenient functionality for database and service-related configurations.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/alexandrejournet/Solstice.Infrastructure/new/main/apiSpec/new?filename=Solstice_Infrastructure_Injections_RepositoryInjections.md&amp;value=---%0Auid%3A%20Solstice.Infrastructure.Injections.RepositoryInjections%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Solstice">
+            Solstice
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Solstice.Infrastructure.Injections.RepositoryInjections">
+
+
+
+  <h1 id="Solstice_Infrastructure_Injections_RepositoryInjections" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections" class="text-break">
+Class RepositoryInjections  <a class="header-action link-secondary" title="View source" href="https://github.com/alexandrejournet/Solstice.Infrastructure/blob/main/Injections/RepositoryInjections.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Solstice.html">Solstice</a>.<a class="xref" href="Solstice.Infrastructure.html">Infrastructure</a>.<a class="xref" href="Solstice.Infrastructure.Injections.html">Injections</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Solstice.Infrastructure.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The RepositoryInjections static class contains extension methods for ModelBuilder and IServiceCollection instances.
+These extension methods add convenient functionality for database and service-related configurations.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class RepositoryInjections</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RepositoryInjections</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Solstice_Infrastructure_Injections_RepositoryInjections_AddQueryDtoToDbContext_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.AddQueryDtoToDbContext*"></a>
+
+  <h3 id="Solstice_Infrastructure_Injections_RepositoryInjections_AddQueryDtoToDbContext_Microsoft_EntityFrameworkCore_ModelBuilder_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.AddQueryDtoToDbContext(Microsoft.EntityFrameworkCore.ModelBuilder)">
+  AddQueryDtoToDbContext(ModelBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alexandrejournet/Solstice.Infrastructure/blob/main/Injections/RepositoryInjections.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>This extension method for the ModelBuilder class scans all assemblies in the current domain for types marked with the QueryAttribute.
+Each located type is then added to the ModelBuilder as an entity, with no key, and set to be excluded from migrations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddQueryDtoToDbContext(this ModelBuilder modelBuilder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>modelBuilder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.modelbuilder">ModelBuilder</a></dt>
+    <dd><p>The ModelBuilder instance to which the types are added.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="../Domain/Solstice.Domain.Exceptions.CoreException.html">CoreException</a></dt>
+    <dd><p>Thrown when no types with the QueryAttribute are found.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Solstice_Infrastructure_Injections_RepositoryInjections_AddRepositories_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.AddRepositories*"></a>
+
+  <h3 id="Solstice_Infrastructure_Injections_RepositoryInjections_AddRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.AddRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+  AddRepositories&lt;TDbContext&gt;(IServiceCollection)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alexandrejournet/Solstice.Infrastructure/blob/main/Injections/RepositoryInjections.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The AddRepositories extension method for the IServiceCollection, which scans all assemblies in the current domain for types marked with the RepositoryAttribute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddRepositories&lt;TDbContext&gt;(this IServiceCollection services) where TDbContext : DbContext</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
+    <dd><p>The IServiceCollection instance to which the types are added.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TDbContext</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="Solstice_Infrastructure_Injections_RepositoryInjections_AddRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The located type(s) that have the RepositoryAttribute are added to the IServiceCollection as a Scope.
+If no such types are found, it throws a CoreInjectionsException.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="../Domain/Solstice.Domain.Exceptions.CoreException.html">CoreException</a></dt>
+    <dd><p>Thrown when no types with the RepositoryAttribute are found.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Solstice_Infrastructure_Injections_RepositoryInjections_AddRepositories_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.AddRepositories*"></a>
+
+  <h3 id="Solstice_Infrastructure_Injections_RepositoryInjections_AddRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_String_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.AddRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
+  AddRepositories&lt;TDbContext&gt;(IServiceCollection, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alexandrejournet/Solstice.Infrastructure/blob/main/Injections/RepositoryInjections.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;AddRepositories with namespace is deprecated, please use AddRepositories with Repository Attribute instead.&quot;)]
+public static void AddRepositories&lt;TDbContext&gt;(this IServiceCollection services, string assemblyName) where TDbContext : DbContext</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
+    <dd></dd>
+    <dt><code>assemblyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TDbContext</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Infrastructure_Injections_RepositoryInjections_AddUnitOfWork_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.AddUnitOfWork*"></a>
+
+  <h3 id="Solstice_Infrastructure_Injections_RepositoryInjections_AddUnitOfWork__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.AddUnitOfWork``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+  AddUnitOfWork&lt;TDbContext&gt;(IServiceCollection)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alexandrejournet/Solstice.Infrastructure/blob/main/Injections/RepositoryInjections.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The AddUnitOfWork extension method for the IServiceCollection, which adds the UnitOfWork as a Scoped service.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddUnitOfWork&lt;TDbContext&gt;(this IServiceCollection services) where TDbContext : DbContext</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TDbContext</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Infrastructure_Injections_RepositoryInjections_ApplyDbConfigurations_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.ApplyDbConfigurations*"></a>
+
+  <h3 id="Solstice_Infrastructure_Injections_RepositoryInjections_ApplyDbConfigurations_Microsoft_EntityFrameworkCore_ModelBuilder_System_Reflection_Assembly_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.ApplyDbConfigurations(Microsoft.EntityFrameworkCore.ModelBuilder,System.Reflection.Assembly)">
+  ApplyDbConfigurations(ModelBuilder, Assembly)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alexandrejournet/Solstice.Infrastructure/blob/main/Injections/RepositoryInjections.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>This extension method to the ModelBuilder class allows the application to apply database configurations from a specified assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ApplyDbConfigurations(this ModelBuilder modelBuilder, Assembly assembly)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>modelBuilder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.modelbuilder">ModelBuilder</a></dt>
+    <dd><p>The ModelBuilder instance on which to apply the assembly configurations.</p>
+</dd>
+    <dt><code>assembly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd><p>The assembly from which configurations should be applied.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="Solstice_Infrastructure_Injections_RepositoryInjections_ApplyDbConfigurations_Microsoft_EntityFrameworkCore_ModelBuilder_System_Reflection_Assembly__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method loads the specified assembly and applies its configurations to the dbContext via the ModelBuilder ApplyConfigurationsFromAssembly method.</p>
+</div>
+
+
+
+
+  <a id="Solstice_Infrastructure_Injections_RepositoryInjections_ApplyDbConfigurations_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.ApplyDbConfigurations*"></a>
+
+  <h3 id="Solstice_Infrastructure_Injections_RepositoryInjections_ApplyDbConfigurations_Microsoft_EntityFrameworkCore_ModelBuilder_System_String_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.ApplyDbConfigurations(Microsoft.EntityFrameworkCore.ModelBuilder,System.String)">
+  ApplyDbConfigurations(ModelBuilder, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alexandrejournet/Solstice.Infrastructure/blob/main/Injections/RepositoryInjections.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>This extension method to the ModelBuilder class allows the application to apply database configurations from a specified assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ApplyDbConfigurations(this ModelBuilder modelBuilder, string assemblyName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>modelBuilder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.modelbuilder">ModelBuilder</a></dt>
+    <dd><p>The ModelBuilder instance on which to apply the assembly configurations.</p>
+</dd>
+    <dt><code>assemblyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the assembly from which configurations should be applied.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="Solstice_Infrastructure_Injections_RepositoryInjections_ApplyDbConfigurations_Microsoft_EntityFrameworkCore_ModelBuilder_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method loads the specified assembly and applies its configurations to the dbContext via the ModelBuilder ApplyConfigurationsFromAssembly method.</p>
+</div>
+
+
+
+
+  <a id="Solstice_Infrastructure_Injections_RepositoryInjections_ScanRepositoriesIn_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.ScanRepositoriesIn*"></a>
+
+  <h3 id="Solstice_Infrastructure_Injections_RepositoryInjections_ScanRepositoriesIn__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Reflection_Assembly_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.ScanRepositoriesIn``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly)">
+  ScanRepositoriesIn&lt;TDbContext&gt;(IServiceCollection, Assembly)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alexandrejournet/Solstice.Infrastructure/blob/main/Injections/RepositoryInjections.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The AddRepositories extension method for the IServiceCollection, which scans all assemblies in the current domain for types marked with the RepositoryAttribute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ScanRepositoriesIn&lt;TDbContext&gt;(this IServiceCollection services, Assembly assembly) where TDbContext : DbContext</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
+    <dd><p>The IServiceCollection instance to which the types are added.</p>
+</dd>
+    <dt><code>assembly</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.assembly">Assembly</a></dt>
+    <dd><p>The assembly to scan</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TDbContext</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="Solstice_Infrastructure_Injections_RepositoryInjections_ScanRepositoriesIn__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Reflection_Assembly__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The located type(s) that have the RepositoryAttribute are added to the IServiceCollection as a Scope.
+If no such types are found, it throws a CoreInjectionsException.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="../Domain/Solstice.Domain.Exceptions.CoreException.html">CoreException</a></dt>
+    <dd><p>Thrown when no types with the RepositoryAttribute are found.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="Solstice_Infrastructure_Injections_RepositoryInjections_ScanRepositoriesIn_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.ScanRepositoriesIn*"></a>
+
+  <h3 id="Solstice_Infrastructure_Injections_RepositoryInjections_ScanRepositoriesIn__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_String_" data-uid="Solstice.Infrastructure.Injections.RepositoryInjections.ScanRepositoriesIn``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
+  ScanRepositoriesIn&lt;TDbContext&gt;(IServiceCollection, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/alexandrejournet/Solstice.Infrastructure/blob/main/Injections/RepositoryInjections.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The AddRepositories extension method for the IServiceCollection, which scans all assemblies in the current domain for types marked with the RepositoryAttribute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ScanRepositoriesIn&lt;TDbContext&gt;(this IServiceCollection services, string assemblyName) where TDbContext : DbContext</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection">IServiceCollection</a></dt>
+    <dd><p>The IServiceCollection instance to which the types are added.</p>
+</dd>
+    <dt><code>assemblyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the assembly to scan</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TDbContext</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="Solstice_Infrastructure_Injections_RepositoryInjections_ScanRepositoriesIn__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The located type(s) that have the RepositoryAttribute are added to the IServiceCollection as a Scope.
+If no such types are found, it throws a CoreInjectionsException.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="../Domain/Solstice.Domain.Exceptions.CoreException.html">CoreException</a></dt>
+    <dd><p>Thrown when no types with the RepositoryAttribute are found.</p>
+</dd>
+  </dl>
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/alexandrejournet/Solstice.Infrastructure/blob/main/Injections/RepositoryInjections.cs/#L14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
