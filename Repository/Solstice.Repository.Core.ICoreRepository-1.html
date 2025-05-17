@@ -1,0 +1,3063 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface ICoreRepository&lt;T&gt; | Solstice </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface ICoreRepository&lt;T&gt; | Solstice ">
+      
+      <meta name="description" content="The ICoreRepository interface provides methods for performing CRUD operations, querying, counting, paging, transactions, and other tasks on an underlying data repository in an asynchronous manner. The repository holds objects of a type. The methods in this interface produce or consume tasks that represent ongoing work and are used for structuring asynchronous code.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Solstice">
+            Solstice
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Solstice.Repository.Core.ICoreRepository`1">
+
+
+
+  <h1 id="Solstice_Repository_Core_ICoreRepository_1" data-uid="Solstice.Repository.Core.ICoreRepository`1" class="text-break">
+Interface ICoreRepository&lt;T&gt;  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Solstice.html">Solstice</a>.<a class="xref" href="Solstice.Repository.html">Repository</a>.<a class="xref" href="Solstice.Repository.Core.html">Core</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Solstice.Repository.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The ICoreRepository interface provides methods for performing CRUD operations, querying, counting, paging,
+transactions, and other tasks on an underlying data repository in an asynchronous manner. The repository
+holds objects of a type. The methods in this interface produce
+or consume tasks that represent ongoing work and are used for structuring asynchronous code.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ICoreRepository&lt;T&gt; where T : class</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>A type parameter. This type parameter is used to
+define the type of objects managed by the repository.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 id="Solstice_Repository_Core_ICoreRepository_1_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><ul>
+<li>The methods grouped in the 'Create, Update, Delete' region are for managing entities within the repository.</li>
+<li>The 'Actions' region contains methods for counting entities in the repository or check its status (AnyAsyncBy).</li>
+<li>The 'Get By' region provides methods to retrieve an entity by a specific criteria.</li>
+<li>The 'Get all' region offers APIs to get collections of entities based on different criteria/patterns.</li>
+<li>In 'Queryable' area, you find methods for searching within the repository, but the operations are not executed
+right away and more criteria can be added later in the operation chain.</li>
+<li>'Pageable' region offers the option to receive the data in chunks, good for large data sets to retrieve and
+process in smaller parts.</li>
+<li>'Transactions' region provides a mechanism for batch of operations to be executed together and in an atomic manner.</li>
+<li>'Others' region provides methods that handle various other tasks not covered by the previously described
+groupings.</li>
+</ul>
+</div>
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_AddAndSaveAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddAndSaveAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_AddAndSaveAsync__0_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddAndSaveAsync(`0)">
+  AddAndSaveAsync(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddAndSaveAsync(T entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_AddAndSaveAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddAndSaveAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_AddAndSaveAsync__1___0_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddAndSaveAsync``1(``0)">
+  AddAndSaveAsync&lt;TEntity&gt;(TEntity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddAndSaveAsync&lt;TEntity&gt;(TEntity entity) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">TEntity</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_AddAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_AddAsync__0_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddAsync(`0)">
+  AddAsync(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add entity to repository</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddAsync(T entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">T</span></dt>
+    <dd><p>The entity object</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_AddAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_AddAsync__1___0_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddAsync``1(``0)">
+  AddAsync&lt;TEntity&gt;(TEntity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddAsync&lt;TEntity&gt;(TEntity entity) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">TEntity</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_AddRangeAndSaveAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddRangeAndSaveAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_AddRangeAndSaveAsync_System_Collections_Generic_ICollection__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})">
+  AddRangeAndSaveAsync(ICollection&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddRangeAndSaveAsync(ICollection&lt;T&gt; entities)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_AddRangeAndSaveAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddRangeAndSaveAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_AddRangeAndSaveAsync__1_System_Collections_Generic_ICollection___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})">
+  AddRangeAndSaveAsync&lt;TEntity&gt;(ICollection&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddRangeAndSaveAsync&lt;TEntity&gt;(ICollection&lt;TEntity&gt; entities) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_AddRangeAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddRangeAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_AddRangeAsync_System_Collections_Generic_ICollection__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddRangeAsync(System.Collections.Generic.ICollection{`0})">
+  AddRangeAsync(ICollection&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add range of entities to repository</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddRangeAsync(ICollection&lt;T&gt; entities)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;</dt>
+    <dd><p>The entities list</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_AddRangeAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddRangeAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_AddRangeAsync__1_System_Collections_Generic_ICollection___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.AddRangeAsync``1(System.Collections.Generic.ICollection{``0})">
+  AddRangeAsync&lt;TEntity&gt;(ICollection&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddRangeAsync&lt;TEntity&gt;(ICollection&lt;TEntity&gt; entities) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_AnyAsyncBy_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AnyAsyncBy*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_AnyAsyncBy_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___" data-uid="Solstice.Repository.Core.ICoreRepository`1.AnyAsyncBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+  AnyAsyncBy(Expression&lt;Func&lt;T, bool&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if any entity in the repository matches the provided expression</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; AnyAsyncBy(Expression&lt;Func&lt;T, bool&gt;&gt; where)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd><p>The expression that describes the condition to match</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>True if any entity matches the condition, False otherwise</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_AnyAsyncBy_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AnyAsyncBy*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_AnyAsyncBy__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___" data-uid="Solstice.Repository.Core.ICoreRepository`1.AnyAsyncBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+  AnyAsyncBy&lt;TEntity&gt;(Expression&lt;Func&lt;TEntity, bool&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; AnyAsyncBy&lt;TEntity&gt;(Expression&lt;Func&lt;TEntity, bool&gt;&gt; where) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TEntity, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_AnyAsyncBy_" data-uid="Solstice.Repository.Core.ICoreRepository`1.AnyAsyncBy*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_AnyAsyncBy__1_System_Linq_IQueryable___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.AnyAsyncBy``1(System.Linq.IQueryable{``0})">
+  AnyAsyncBy&lt;TEntity&gt;(IQueryable&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;bool&gt; AnyAsyncBy&lt;TEntity&gt;(IQueryable&lt;TEntity&gt; queryable) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>queryable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_BeginTransactionAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.BeginTransactionAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_BeginTransactionAsync" data-uid="Solstice.Repository.Core.ICoreRepository`1.BeginTransactionAsync">
+  BeginTransactionAsync()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Begins a new transaction asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IDbContextTransaction&gt; BeginTransactionAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.storage.idbcontexttransaction">IDbContextTransaction</a>&gt;</dt>
+    <dd><p>A task that represents the asynchronous operation. The task result is an IDbContextTransaction object
+which encapsulates all information about the transaction.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_CountAllAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.CountAllAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_CountAllAsync" data-uid="Solstice.Repository.Core.ICoreRepository`1.CountAllAsync">
+  CountAllAsync()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Counts all entities in repository</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;decimal&gt; CountAllAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>&gt;</dt>
+    <dd><p>Total count of all entities</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_CountAllAsyncBy_" data-uid="Solstice.Repository.Core.ICoreRepository`1.CountAllAsyncBy*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_CountAllAsyncBy_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___" data-uid="Solstice.Repository.Core.ICoreRepository`1.CountAllAsyncBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+  CountAllAsyncBy(Expression&lt;Func&lt;T, bool&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Counts the total entities that match the provided expression</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;decimal&gt; CountAllAsyncBy(Expression&lt;Func&lt;T, bool&gt;&gt; where)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd><p>The expression that describes the condition to match</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>&gt;</dt>
+    <dd><p>Total matched entities count</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_CountAllAsyncBy_" data-uid="Solstice.Repository.Core.ICoreRepository`1.CountAllAsyncBy*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_CountAllAsyncBy__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___" data-uid="Solstice.Repository.Core.ICoreRepository`1.CountAllAsyncBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+  CountAllAsyncBy&lt;TEntity&gt;(Expression&lt;Func&lt;TEntity, bool&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;decimal&gt; CountAllAsyncBy&lt;TEntity&gt;(Expression&lt;Func&lt;TEntity, bool&gt;&gt; where) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TEntity, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_ExecuteQuery_" data-uid="Solstice.Repository.Core.ICoreRepository`1.ExecuteQuery*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_ExecuteQuery_System_String_System_Collections_Generic_ICollection_System_Data_Common_DbParameter__" data-uid="Solstice.Repository.Core.ICoreRepository`1.ExecuteQuery(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})">
+  ExecuteQuery(string, ICollection&lt;DbParameter&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ExecuteQuery(string query, ICollection&lt;DbParameter&gt;? dbParameters)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>dbParameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.common.dbparameter">DbParameter</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_FindAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.FindAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_FindAsync_System_Int32_" data-uid="Solstice.Repository.Core.ICoreRepository`1.FindAsync(System.Int32)">
+  FindAsync(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;T&gt; FindAsync(int id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_FindAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.FindAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_FindAsync__1_System_Int32_" data-uid="Solstice.Repository.Core.ICoreRepository`1.FindAsync``1(System.Int32)">
+  FindAsync&lt;TEntity&gt;(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;TEntity&gt; FindAsync&lt;TEntity&gt;(int id) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync">
+  GetAllAsync()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ICollection&lt;T&gt;&gt; GetAllAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_Solstice_Repository_Specifications_ICoreSpecifications__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync(Solstice.Repository.Specifications.ICoreSpecifications{`0})">
+  GetAllAsync(ICoreSpecifications&lt;T&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a collection of all entities from the repository asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ICollection&lt;T&gt;&gt; GetAllAsync(ICoreSpecifications&lt;T&gt;? coreSpecifications)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;T&gt;</dt>
+    <dd><p>The specifications that entities must meet to be retrieved from the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;&gt;</dt>
+    <dd><p>A task that represents the asynchronous operation. The task result contains a collection of entities satisfying The core specifications or an empty collection if no matches.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+  GetAllAsync(Expression&lt;Func&lt;T, bool&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a collection of entities from the repository that satisfy the specified condition asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ICollection&lt;T&gt;&gt; GetAllAsync(Expression&lt;Func&lt;T, bool&gt;&gt; where)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd><p>An expression representing a condition to be matched by entities in the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;&gt;</dt>
+    <dd><p>A task that represents the asynchronous operation. The task result contains a collection of entities satisfying the condition
+or an empty collection if there are no matches.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_System_String_Solstice_Repository_Specifications_ICoreSpecifications__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync(System.String,Solstice.Repository.Specifications.ICoreSpecifications{`0})">
+  GetAllAsync(string, ICoreSpecifications&lt;T&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a collection of all entities from the repository asyncronously based on a provided SQL-like query and specifications.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ICollection&lt;T&gt;&gt; GetAllAsync(string query, ICoreSpecifications&lt;T&gt;? coreSpecifications)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A SQL-like query that retrieves entities from the repository.</p>
+</dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;T&gt;</dt>
+    <dd><p>The specifications that entities must meet to be retrieved from the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;&gt;</dt>
+    <dd><p>A task that represents the asynchronous operation. The task results contains a collection od entities satisfying the query and The core specifications or an empty collection if no matches.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_System_String_System_Collections_Generic_ICollection_System_Data_Common_DbParameter__Solstice_Repository_Specifications_ICoreSpecifications__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})">
+  GetAllAsync(string, ICollection&lt;DbParameter&gt;, ICoreSpecifications&lt;T&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a collection of all entities from the repository asyncronously based on a provided SQL-like query, parameters and specifications.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ICollection&lt;T&gt;&gt; GetAllAsync(string query, ICollection&lt;DbParameter&gt; parameters, ICoreSpecifications&lt;T&gt;? coreSpecifications)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A SQL-like query that retrieves entities from the repository.</p>
+</dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.common.dbparameter">DbParameter</a>&gt;</dt>
+    <dd><p>A collection of database parameters used in the query</p>
+</dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;T&gt;</dt>
+    <dd><p>The specifications that entities must meet to be retrieved from the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;&gt;</dt>
+    <dd><p>A task that represents the asynchronous operation. The task results contains a collection od entities satisfying the query, parameters and The core specifications or an empty collection if no matches.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync__1" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync``1">
+  GetAllAsync&lt;TEntity&gt;()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ICollection&lt;TEntity&gt;&gt; GetAllAsync&lt;TEntity&gt;() where TEntity : class</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync__1_Solstice_Repository_Specifications_ICoreSpecifications___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync``1(Solstice.Repository.Specifications.ICoreSpecifications{``0})">
+  GetAllAsync&lt;TEntity&gt;(ICoreSpecifications&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ICollection&lt;TEntity&gt;&gt; GetAllAsync&lt;TEntity&gt;(ICoreSpecifications&lt;TEntity&gt; coreSpecifications) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+  GetAllAsync&lt;TEntity&gt;(Expression&lt;Func&lt;TEntity, bool&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ICollection&lt;TEntity&gt;&gt; GetAllAsync&lt;TEntity&gt;(Expression&lt;Func&lt;TEntity, bool&gt;&gt; where) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TEntity, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync__1_System_String_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync``1(System.String)">
+  GetAllAsync&lt;TEntity&gt;(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ICollection&lt;TEntity&gt;&gt; GetAllAsync&lt;TEntity&gt;(string query) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync__1_System_String_Solstice_Repository_Specifications_ICoreSpecifications___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync``1(System.String,Solstice.Repository.Specifications.ICoreSpecifications{``0})">
+  GetAllAsync&lt;TEntity&gt;(string, ICoreSpecifications&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ICollection&lt;TEntity&gt;&gt; GetAllAsync&lt;TEntity&gt;(string query, ICoreSpecifications&lt;TEntity&gt; coreSpecifications) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync__1_System_String_System_Collections_Generic_ICollection_System_Data_Common_DbParameter__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})">
+  GetAllAsync&lt;TEntity&gt;(string, ICollection&lt;DbParameter&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ICollection&lt;TEntity&gt;&gt; GetAllAsync&lt;TEntity&gt;(string query, ICollection&lt;DbParameter&gt; parameters) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.common.dbparameter">DbParameter</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllAsync__1_System_String_System_Collections_Generic_ICollection_System_Data_Common_DbParameter__Solstice_Repository_Specifications_ICoreSpecifications___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllAsync``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})">
+  GetAllAsync&lt;TEntity&gt;(string, ICollection&lt;DbParameter&gt;, ICoreSpecifications&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ICollection&lt;TEntity&gt;&gt; GetAllAsync&lt;TEntity&gt;(string query, ICollection&lt;DbParameter&gt; parameters, ICoreSpecifications&lt;TEntity&gt; coreSpecifications) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.common.dbparameter">DbParameter</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllByQueryable_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllByQueryable*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllByQueryable__1_System_Linq_IQueryable___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllByQueryable``1(System.Linq.IQueryable{``0})">
+  GetAllByQueryable&lt;TEntity&gt;(IQueryable&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a collection of entities from a specified IQueryable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ICollection&lt;TEntity&gt;&gt; GetAllByQueryable&lt;TEntity&gt;(IQueryable&lt;TEntity&gt; query)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;TEntity&gt;</dt>
+    <dd><p>An IQueryable that retrieves entities from the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;&gt;</dt>
+    <dd><p>A task that represents the asynchronous operation. The task result contains a collection of entities that satisfy the query or an empty collection if no matches.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable">
+  GetAllQueryable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves all entities from the repository asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;T&gt; GetAllQueryable()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;T&gt;</dt>
+    <dd><p>A queryable collection of all entities in the repository.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable_Solstice_Repository_Specifications_ICoreSpecifications__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable(Solstice.Repository.Specifications.ICoreSpecifications{`0})">
+  GetAllQueryable(ICoreSpecifications&lt;T&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves entities that match the specified Radiant specifications from the repository asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;T&gt; GetAllQueryable(ICoreSpecifications&lt;T&gt;? coreSpecifications)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;T&gt;</dt>
+    <dd><p>The specifications that entities must meet to be retrieved from the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;T&gt;</dt>
+    <dd><p>A queryable collection of entities that satisfy The core specifications.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+  GetAllQueryable(Expression&lt;Func&lt;T, bool&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves entities that match the specified condition from the repository asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;T&gt; GetAllQueryable(Expression&lt;Func&lt;T, bool&gt;&gt; where)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd><p>An expression representing a condition to be matched by entities in the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;T&gt;</dt>
+    <dd><p>A queryable collection of entities matching the condition.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable_System_String_Solstice_Repository_Specifications_ICoreSpecifications__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable(System.String,Solstice.Repository.Specifications.ICoreSpecifications{`0})">
+  GetAllQueryable(string, ICoreSpecifications&lt;T&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves entities from the repository based on a provided SQL-like query and specifications asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;T&gt; GetAllQueryable(string query, ICoreSpecifications&lt;T&gt;? coreSpecifications)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A SQL-like query that retrieves entities from the repository.</p>
+</dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;T&gt;</dt>
+    <dd><p>The specifications that entities must meet to be retrieved from the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;T&gt;</dt>
+    <dd><p>A queryable collection of entities satisfying the query and The core specifications.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable_System_String_System_Collections_Generic_ICollection_System_Data_Common_DbParameter__Solstice_Repository_Specifications_ICoreSpecifications__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})">
+  GetAllQueryable(string, ICollection&lt;DbParameter&gt;, ICoreSpecifications&lt;T&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves entities from the repository based on a provided SQL-like query, parameters and specifications asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;T&gt; GetAllQueryable(string query, ICollection&lt;DbParameter&gt; parameters, ICoreSpecifications&lt;T&gt;? coreSpecifications)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A SQL-like query that retrieves entities from the repository.</p>
+</dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.common.dbparameter">DbParameter</a>&gt;</dt>
+    <dd><p>A collection of database parameters used in the query</p>
+</dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;T&gt;</dt>
+    <dd><p>The specifications that entities must meet to be retrieved from the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;T&gt;</dt>
+    <dd><p>A queryable collection of entities satisfying the query, parameters and The core specifications.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable__1" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable``1">
+  GetAllQueryable&lt;TEntity&gt;()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves all entities from the repository asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;TEntity&gt; GetAllQueryable&lt;TEntity&gt;() where TEntity : class</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;TEntity&gt;</dt>
+    <dd><p>A queryable collection of all entities in the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable__1_Solstice_Repository_Specifications_ICoreSpecifications___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable``1(Solstice.Repository.Specifications.ICoreSpecifications{``0})">
+  GetAllQueryable&lt;TEntity&gt;(ICoreSpecifications&lt;TEntity&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves entities that match the specified Radiant specifications from the repository asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;TEntity&gt; GetAllQueryable&lt;TEntity&gt;(ICoreSpecifications&lt;TEntity&gt;? coreSpecifications) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;TEntity&gt;</dt>
+    <dd><p>The specifications that entities must meet to be retrieved from the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;TEntity&gt;</dt>
+    <dd><p>A queryable collection of entities that satisfy The core specifications.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+  GetAllQueryable&lt;TEntity&gt;(Expression&lt;Func&lt;TEntity, bool&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves entities that match the specified condition from the repository asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;TEntity&gt; GetAllQueryable&lt;TEntity&gt;(Expression&lt;Func&lt;TEntity, bool&gt;&gt; where) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TEntity, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd><p>An expression representing a condition to be matched by entities in the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;TEntity&gt;</dt>
+    <dd><p>A queryable collection of entities matching the condition.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable__1_System_String_Solstice_Repository_Specifications_ICoreSpecifications___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable``1(System.String,Solstice.Repository.Specifications.ICoreSpecifications{``0})">
+  GetAllQueryable&lt;TEntity&gt;(string, ICoreSpecifications&lt;TEntity&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves entities from the repository based on a provided SQL-like query and specifications asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;TEntity&gt; GetAllQueryable&lt;TEntity&gt;(string query, ICoreSpecifications&lt;TEntity&gt;? coreSpecifications) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A SQL-like query that retrieves entities from the repository.</p>
+</dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;TEntity&gt;</dt>
+    <dd><p>The specifications that entities must meet to be retrieved from the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;TEntity&gt;</dt>
+    <dd><p>A queryable collection of entities satisfying the query and The core specifications.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetAllQueryable__1_System_String_System_Collections_Generic_ICollection_System_Data_Common_DbParameter__Solstice_Repository_Specifications_ICoreSpecifications___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetAllQueryable``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})">
+  GetAllQueryable&lt;TEntity&gt;(string, ICollection&lt;DbParameter&gt;, ICoreSpecifications&lt;TEntity&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves entities from the repository based on a provided SQL-like query, parameters and specifications asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;TEntity&gt; GetAllQueryable&lt;TEntity&gt;(string query, ICollection&lt;DbParameter&gt; parameters, ICoreSpecifications&lt;TEntity&gt;? coreSpecifications) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A SQL-like query that retrieves entities from the repository.</p>
+</dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.common.dbparameter">DbParameter</a>&gt;</dt>
+    <dd><p>A collection of database parameters used in the query</p>
+</dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;TEntity&gt;</dt>
+    <dd><p>The specifications that entities must meet to be retrieved from the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;TEntity&gt;</dt>
+    <dd><p>A queryable collection of entities satisfying the query, parameters and The core specifications.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetBy_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetBy*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetBy_Solstice_Repository_Specifications_ICoreSpecifications__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetBy(Solstice.Repository.Specifications.ICoreSpecifications{`0})">
+  GetBy(ICoreSpecifications&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves an entity from the repository that meets the criteria specified by the given Radiant specification.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;T?&gt; GetBy(ICoreSpecifications&lt;T&gt; coreSpecifications)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;T&gt;</dt>
+    <dd><p>The specifications that an entity must meet to be retrieved from the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dd><p>A task that represents the asynchronous operation. The task result is the first entity that satisfies the specified
+Radiant specifications. If no entity satisfies the specifications, the task result is null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetBy_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetBy*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetBy_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetBy(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+  GetBy(Expression&lt;Func&lt;T, bool&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves an entity that matches the specified condition from the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;T?&gt; GetBy(Expression&lt;Func&lt;T, bool&gt;&gt; where)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd><p>An expression representing a condition to be matched by entities in the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;</dt>
+    <dd><p>A task that represents the asynchronous operation. The task result contains the first matching entity or null if no entity matches the condition.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetBy_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetBy*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetBy__1_Solstice_Repository_Specifications_ICoreSpecifications___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetBy``1(Solstice.Repository.Specifications.ICoreSpecifications{``0})">
+  GetBy&lt;TEntity&gt;(ICoreSpecifications&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;TEntity?&gt; GetBy&lt;TEntity&gt;(ICoreSpecifications&lt;TEntity&gt; coreSpecifications) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetBy_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetBy*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetBy__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetBy``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+  GetBy&lt;TEntity&gt;(Expression&lt;Func&lt;TEntity, bool&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;TEntity?&gt; GetBy&lt;TEntity&gt;(Expression&lt;Func&lt;TEntity, bool&gt;&gt; where) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TEntity, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetBy_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetBy*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetBy__1_System_String_System_Collections_Generic_ICollection_System_Data_Common_DbParameter__Solstice_Repository_Specifications_ICoreSpecifications___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetBy``1(System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})">
+  GetBy&lt;TEntity&gt;(string, ICollection&lt;DbParameter&gt;, ICoreSpecifications&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;TEntity?&gt; GetBy&lt;TEntity&gt;(string query, ICollection&lt;DbParameter&gt; parameters, ICoreSpecifications&lt;TEntity&gt; coreSpecifications) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.common.dbparameter">DbParameter</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult_Solstice_Domain_Models_Page_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult(Solstice.Domain.Models.Page)">
+  GetPagedResult(Page)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a paginated list of entities from the repository that conforms to the specified Radiant page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Paged&lt;T&gt;&gt; GetPagedResult(Page page)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="../Domain/Solstice.Domain.Models.Page.html">Page</a></dt>
+    <dd><p>The page number and size of the entities to be retrieved from the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="../Domain/Solstice.Domain.Models.Paged-1.html">Paged</a>&lt;T&gt;&gt;</dt>
+    <dd><p>A task that represents the asynchronous operation. The task result is a collection of entities that meet The core specifications,
+paginated based on the given Radiant page object. If no entities meet the specifications, the task result is an empty collection.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult_Solstice_Domain_Models_Page_Solstice_Repository_Specifications_ICoreSpecifications__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})">
+  GetPagedResult(Page, ICoreSpecifications&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Paged&lt;T&gt;&gt; GetPagedResult(Page page, ICoreSpecifications&lt;T&gt; coreSpecifications)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="../Domain/Solstice.Domain.Models.Page.html">Page</a></dt>
+    <dd></dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="../Domain/Solstice.Domain.Models.Paged-1.html">Paged</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult_Solstice_Domain_Models_Page_System_String_System_Collections_Generic_ICollection_System_Data_Common_DbParameter__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})">
+  GetPagedResult(Page, string, ICollection&lt;DbParameter&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Paged&lt;T&gt;&gt; GetPagedResult(Page page, string query, ICollection&lt;DbParameter&gt; parameters)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="../Domain/Solstice.Domain.Models.Page.html">Page</a></dt>
+    <dd></dd>
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.common.dbparameter">DbParameter</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="../Domain/Solstice.Domain.Models.Paged-1.html">Paged</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult_Solstice_Domain_Models_Page_System_String_System_Collections_Generic_ICollection_System_Data_Common_DbParameter__Solstice_Repository_Specifications_ICoreSpecifications__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{`0})">
+  GetPagedResult(Page, string, ICollection&lt;DbParameter&gt;, ICoreSpecifications&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Paged&lt;T&gt;&gt; GetPagedResult(Page page, string query, ICollection&lt;DbParameter&gt; parameters, ICoreSpecifications&lt;T&gt; coreSpecifications)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="../Domain/Solstice.Domain.Models.Page.html">Page</a></dt>
+    <dd></dd>
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.common.dbparameter">DbParameter</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="../Domain/Solstice.Domain.Models.Paged-1.html">Paged</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult__1_Solstice_Domain_Models_Page_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult``1(Solstice.Domain.Models.Page)">
+  GetPagedResult&lt;TEntity&gt;(Page)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Paged&lt;TEntity&gt;&gt; GetPagedResult&lt;TEntity&gt;(Page page) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="../Domain/Solstice.Domain.Models.Page.html">Page</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="../Domain/Solstice.Domain.Models.Paged-1.html">Paged</a>&lt;TEntity&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult__1_Solstice_Domain_Models_Page_Solstice_Repository_Specifications_ICoreSpecifications___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult``1(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{``0})">
+  GetPagedResult&lt;TEntity&gt;(Page, ICoreSpecifications&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Paged&lt;TEntity&gt;&gt; GetPagedResult&lt;TEntity&gt;(Page page, ICoreSpecifications&lt;TEntity&gt; coreSpecifications) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="../Domain/Solstice.Domain.Models.Page.html">Page</a></dt>
+    <dd></dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="../Domain/Solstice.Domain.Models.Paged-1.html">Paged</a>&lt;TEntity&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult__1_Solstice_Domain_Models_Page_System_String_System_Collections_Generic_ICollection_System_Data_Common_DbParameter__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult``1(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter})">
+  GetPagedResult&lt;TEntity&gt;(Page, string, ICollection&lt;DbParameter&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Paged&lt;TEntity&gt;&gt; GetPagedResult&lt;TEntity&gt;(Page page, string query, ICollection&lt;DbParameter&gt; parameters) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="../Domain/Solstice.Domain.Models.Page.html">Page</a></dt>
+    <dd></dd>
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.common.dbparameter">DbParameter</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="../Domain/Solstice.Domain.Models.Paged-1.html">Paged</a>&lt;TEntity&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult_" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_GetPagedResult__1_Solstice_Domain_Models_Page_System_String_System_Collections_Generic_ICollection_System_Data_Common_DbParameter__Solstice_Repository_Specifications_ICoreSpecifications___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.GetPagedResult``1(Solstice.Domain.Models.Page,System.String,System.Collections.Generic.ICollection{System.Data.Common.DbParameter},Solstice.Repository.Specifications.ICoreSpecifications{``0})">
+  GetPagedResult&lt;TEntity&gt;(Page, string, ICollection&lt;DbParameter&gt;, ICoreSpecifications&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;Paged&lt;TEntity&gt;&gt; GetPagedResult&lt;TEntity&gt;(Page page, string query, ICollection&lt;DbParameter&gt; parameters, ICoreSpecifications&lt;TEntity&gt; coreSpecifications) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="../Domain/Solstice.Domain.Models.Page.html">Page</a></dt>
+    <dd></dd>
+    <dt><code>query</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.common.dbparameter">DbParameter</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="../Domain/Solstice.Domain.Models.Paged-1.html">Paged</a>&lt;TEntity&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_PageAllAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.PageAllAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_PageAllAsync_Solstice_Domain_Models_Page_Solstice_Repository_Specifications_ICoreSpecifications__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.PageAllAsync(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})">
+  PageAllAsync(Page, ICoreSpecifications&lt;T&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a collection of entities from the repository that satisfy the specified condition asyncronously, and do paging on them.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ICollection&lt;T&gt;&gt; PageAllAsync(Page page, ICoreSpecifications&lt;T&gt;? coreSpecifications)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="../Domain/Solstice.Domain.Models.Page.html">Page</a></dt>
+    <dd><p>The page number and size of the entities to be retrieved from the repository.</p>
+</dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;T&gt;</dt>
+    <dd><p>The specifications that entities must meet to be retrieved from the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;&gt;</dt>
+    <dd><p>A task that represents the asynchronous operation. The task result contains a collection of entities satisfying the condition.
+or an empty collection if no matches, paged by the given information in RadiantPage object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_PageAllQueryable_" data-uid="Solstice.Repository.Core.ICoreRepository`1.PageAllQueryable*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_PageAllQueryable_Solstice_Domain_Models_Page_Solstice_Repository_Specifications_ICoreSpecifications__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.PageAllQueryable(Solstice.Domain.Models.Page,Solstice.Repository.Specifications.ICoreSpecifications{`0})">
+  PageAllQueryable(Page, ICoreSpecifications&lt;T&gt;?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a queryable collection of entities from the repository that satisfy the specified condition asyncronously, and do paging on them.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;T&gt; PageAllQueryable(Page page, ICoreSpecifications&lt;T&gt;? coreSpecifications)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="../Domain/Solstice.Domain.Models.Page.html">Page</a></dt>
+    <dd><p>The page number and size of the entities to be retrieved from the repository.</p>
+</dd>
+    <dt><code>coreSpecifications</code> <a class="xref" href="Solstice.Repository.Specifications.ICoreSpecifications-1.html">ICoreSpecifications</a>&lt;T&gt;</dt>
+    <dd><p>The specifications that entities must meet to be retrieved from the repository.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;T&gt;</dt>
+    <dd><p>A queryable collection of all entities in the repository that fulfill the condition, paged by the given information in RadiantPage object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_Remove_" data-uid="Solstice.Repository.Core.ICoreRepository`1.Remove*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_Remove__0_" data-uid="Solstice.Repository.Core.ICoreRepository`1.Remove(`0)">
+  Remove(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove entity from repository</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Remove(T entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">T</span></dt>
+    <dd><p>The entity object</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_RemoveAndSaveAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.RemoveAndSaveAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_RemoveAndSaveAsync__0_" data-uid="Solstice.Repository.Core.ICoreRepository`1.RemoveAndSaveAsync(`0)">
+  RemoveAndSaveAsync(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveAndSaveAsync(T entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_RemoveAndSaveAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.RemoveAndSaveAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_RemoveAndSaveAsync__1___0_" data-uid="Solstice.Repository.Core.ICoreRepository`1.RemoveAndSaveAsync``1(``0)">
+  RemoveAndSaveAsync&lt;TEntity&gt;(TEntity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveAndSaveAsync&lt;TEntity&gt;(TEntity entity) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">TEntity</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_RemoveRange_" data-uid="Solstice.Repository.Core.ICoreRepository`1.RemoveRange*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_RemoveRange_System_Collections_Generic_ICollection__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.RemoveRange(System.Collections.Generic.ICollection{`0})">
+  RemoveRange(ICollection&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove range of entities from repository</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveRange(ICollection&lt;T&gt; entities)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;</dt>
+    <dd><p>The entities list</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_RemoveRangeAndSaveAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.RemoveRangeAndSaveAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_RemoveRangeAndSaveAsync_System_Collections_Generic_ICollection__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.RemoveRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})">
+  RemoveRangeAndSaveAsync(ICollection&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveRangeAndSaveAsync(ICollection&lt;T&gt; entities)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_RemoveRangeAndSaveAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.RemoveRangeAndSaveAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_RemoveRangeAndSaveAsync__1_System_Collections_Generic_ICollection___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.RemoveRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})">
+  RemoveRangeAndSaveAsync&lt;TEntity&gt;(ICollection&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveRangeAndSaveAsync&lt;TEntity&gt;(ICollection&lt;TEntity&gt; entities) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_RemoveRange_" data-uid="Solstice.Repository.Core.ICoreRepository`1.RemoveRange*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_RemoveRange__1_System_Collections_Generic_ICollection___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.RemoveRange``1(System.Collections.Generic.ICollection{``0})">
+  RemoveRange&lt;TEntity&gt;(ICollection&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveRange&lt;TEntity&gt;(ICollection&lt;TEntity&gt; entities) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_Remove_" data-uid="Solstice.Repository.Core.ICoreRepository`1.Remove*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_Remove__1___0_" data-uid="Solstice.Repository.Core.ICoreRepository`1.Remove``1(``0)">
+  Remove&lt;TEntity&gt;(TEntity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Remove&lt;TEntity&gt;(TEntity entity) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">TEntity</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_SaveAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.SaveAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_SaveAsync" data-uid="Solstice.Repository.Core.ICoreRepository`1.SaveAsync">
+  SaveAsync()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Save changes in repository</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task SaveAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_Update_" data-uid="Solstice.Repository.Core.ICoreRepository`1.Update*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_Update__0_" data-uid="Solstice.Repository.Core.ICoreRepository`1.Update(`0)">
+  Update(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update entity in repository</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Update(T entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">T</span></dt>
+    <dd><p>The entity object</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_UpdateAndSaveAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.UpdateAndSaveAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_UpdateAndSaveAsync__0_" data-uid="Solstice.Repository.Core.ICoreRepository`1.UpdateAndSaveAsync(`0)">
+  UpdateAndSaveAsync(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task UpdateAndSaveAsync(T entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_UpdateAndSaveAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.UpdateAndSaveAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_UpdateAndSaveAsync__1___0_" data-uid="Solstice.Repository.Core.ICoreRepository`1.UpdateAndSaveAsync``1(``0)">
+  UpdateAndSaveAsync&lt;TEntity&gt;(TEntity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task UpdateAndSaveAsync&lt;TEntity&gt;(TEntity entity) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">TEntity</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_UpdateRange_" data-uid="Solstice.Repository.Core.ICoreRepository`1.UpdateRange*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_UpdateRange_System_Collections_Generic_ICollection__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.UpdateRange(System.Collections.Generic.ICollection{`0})">
+  UpdateRange(ICollection&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update range of entities in repository</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateRange(ICollection&lt;T&gt; entities)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;</dt>
+    <dd><p>The entities list</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_UpdateRangeAndSaveAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.UpdateRangeAndSaveAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_UpdateRangeAndSaveAsync_System_Collections_Generic_ICollection__0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.UpdateRangeAndSaveAsync(System.Collections.Generic.ICollection{`0})">
+  UpdateRangeAndSaveAsync(ICollection&lt;T&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task UpdateRangeAndSaveAsync(ICollection&lt;T&gt; entities)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_UpdateRangeAndSaveAsync_" data-uid="Solstice.Repository.Core.ICoreRepository`1.UpdateRangeAndSaveAsync*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_UpdateRangeAndSaveAsync__1_System_Collections_Generic_ICollection___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.UpdateRangeAndSaveAsync``1(System.Collections.Generic.ICollection{``0})">
+  UpdateRangeAndSaveAsync&lt;TEntity&gt;(ICollection&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task UpdateRangeAndSaveAsync&lt;TEntity&gt;(ICollection&lt;TEntity&gt; entities) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_UpdateRange_" data-uid="Solstice.Repository.Core.ICoreRepository`1.UpdateRange*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_UpdateRange__1_System_Collections_Generic_ICollection___0__" data-uid="Solstice.Repository.Core.ICoreRepository`1.UpdateRange``1(System.Collections.Generic.ICollection{``0})">
+  UpdateRange&lt;TEntity&gt;(ICollection&lt;TEntity&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateRange&lt;TEntity&gt;(ICollection&lt;TEntity&gt; entities) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entities</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1">ICollection</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Solstice_Repository_Core_ICoreRepository_1_Update_" data-uid="Solstice.Repository.Core.ICoreRepository`1.Update*"></a>
+
+  <h3 id="Solstice_Repository_Core_ICoreRepository_1_Update__1___0_" data-uid="Solstice.Repository.Core.ICoreRepository`1.Update``1(``0)">
+  Update&lt;TEntity&gt;(TEntity)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Update&lt;TEntity&gt;(TEntity entity) where TEntity : class</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">TEntity</span></dt>
+    <dd></dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

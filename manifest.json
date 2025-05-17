@@ -1,0 +1,1730 @@
+{
+  "source_base_path": "/home/runner/work/Solstice/Solstice/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Attributes.DeleteAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Attributes.DeleteAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Attributes.DeleteAttribute",
+      "Summary": "<p sourcefile=\"API/Solstice.API.Attributes.DeleteAttribute.yml\" sourcestartlinenumber=\"1\">DeleteAttribute is a class that extends the HttpDeleteAttribute class in the Microsoft.AspNetCore.Mvc package.\nIt allows customization of the DELETE HTTP verb attribute in a Controller action method signature.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Attributes.GetAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Attributes.GetAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Attributes.GetAttribute",
+      "Summary": "<p sourcefile=\"API/Solstice.API.Attributes.GetAttribute.yml\" sourcestartlinenumber=\"1\">GetAttribute class inherits from the HttpGetAttribute class in Microsoft.AspNetCore.Mvc. It works as a HTTP GET method attribute\nwith optional route template. This class has two constructors. The default constructor creates a new GetAttribute with no parameters.\nThe second one accepts a string parameter that represents a route template.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Attributes.HeadAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Attributes.HeadAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Attributes.HeadAttribute",
+      "Summary": "<p sourcefile=\"API/Solstice.API.Attributes.HeadAttribute.yml\" sourcestartlinenumber=\"1\">Represents an attribute that specifies that an action supports the HTTP HEAD method.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Attributes.PatchAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Attributes.PatchAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Attributes.PatchAttribute",
+      "Summary": "<p sourcefile=\"API/Solstice.API.Attributes.PatchAttribute.yml\" sourcestartlinenumber=\"1\">The PatchAttribute class represents a custom attribute to indicate that an action method should handle HTTP PATCH requests.\nIt has been derived from the HttpPatchAttribute class provided by the ASP.NET Core MVC framework.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Attributes.PostAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Attributes.PostAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Attributes.PostAttribute",
+      "Summary": "<p sourcefile=\"API/Solstice.API.Attributes.PostAttribute.yml\" sourcestartlinenumber=\"1\">The 'PostAttribute' class is a decorator extending from the 'HttpPostAttribute' class in the Microsoft ASP.NET Core MVC framework.\nIt is used to specify the HTTP POST request methods for the action methods in the controller class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Attributes.PutAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Attributes.PutAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Attributes.PutAttribute",
+      "Summary": "<p sourcefile=\"API/Solstice.API.Attributes.PutAttribute.yml\" sourcestartlinenumber=\"1\">The PutAttribute class inherits from the HttpPutAttribute class and represents an attribute that is used to indicate the HTTP PUT\nmethod for an action within a controller.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Attributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Attributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Controllers.CoreController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Controllers.CoreController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Controllers.CoreController",
+      "Summary": "<p sourcefile=\"API/Solstice.API.Controllers.CoreController.yml\" sourcestartlinenumber=\"1\">The CoreController is responsible for controlling the behavior of the system when it has to Solstice.\nThis includes authorizing the user who is asking for the system restart, and providing the necessary Solstice API endpoint.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Controllers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Controllers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Injections.CoreInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Injections.CoreInjections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Injections.CoreInjections",
+      "Summary": "<p sourcefile=\"API/Solstice.API.Injections.CoreInjections.yml\" sourcestartlinenumber=\"1\">The CoreInjections class is a static class containing methods related to core service injections in an ASP.NET Core application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Injections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Injections",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Scanning.CoreAssemblyScanning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Scanning.CoreAssemblyScanning.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Scanning.CoreAssemblyScanning",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Scanning.CoreAssemblyScanningExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Scanning.CoreAssemblyScanningExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Scanning.CoreAssemblyScanningExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Scanning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Scanning.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Scanning",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Utils.ControllerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Utils.ControllerExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Utils.ControllerExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "API/Solstice.API.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/Solstice.API.Utils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.API.Utils",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "API/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/toc.html"
+        },
+        ".json": {
+          "relative_path": "API/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Helpers.ICaseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Helpers.ICaseHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.Conventions.Helpers.ICaseHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Helpers.LowerCaseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Helpers.LowerCaseHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.Conventions.Helpers.LowerCaseHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Helpers.SnakeCaseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Helpers.SnakeCaseHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.Conventions.Helpers.SnakeCaseHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Helpers.UpperCaseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Helpers.UpperCaseHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.Conventions.Helpers.UpperCaseHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Helpers.UpperSnakeCaseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Helpers.UpperSnakeCaseHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.Conventions.Helpers.UpperSnakeCaseHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Helpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.Conventions.Helpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Injections.ConventionsInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Injections.ConventionsInjections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.Conventions.Injections.ConventionsInjections",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.Injections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.Conventions.Injections",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.NamingConventions.LowerCaseNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.NamingConventions.LowerCaseNamingConvention.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.Conventions.NamingConventions.LowerCaseNamingConvention",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.NamingConventions.SnakeCaseNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.NamingConventions.SnakeCaseNamingConvention.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.Conventions.NamingConventions.SnakeCaseNamingConvention",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.NamingConventions.UpperCaseNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.NamingConventions.UpperCaseNamingConvention.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.Conventions.NamingConventions.UpperCaseNamingConvention",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.NamingConventions.UpperSnakeCaseNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.NamingConventions.UpperSnakeCaseNamingConvention.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.Conventions.NamingConventions.UpperSnakeCaseNamingConvention",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.Conventions.NamingConventions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.Conventions.NamingConventions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.Conventions.NamingConventions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.MySql.Injections.MySqlInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.MySql.Injections.MySqlInjections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.MySql.Injections.MySqlInjections",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.MySql.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.MySql.Injections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.MySql.Injections",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.PostgreSQL.Injections.PostgreSqlInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.PostgreSQL.Injections.PostgreSqlInjections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.PostgreSQL.Injections.PostgreSqlInjections",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Database/Solstice.Database.PostgreSQL.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/Solstice.Database.PostgreSQL.Injections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Database.PostgreSQL.Injections",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Database/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Database/toc.html"
+        },
+        ".json": {
+          "relative_path": "Database/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Exceptions.CoreException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Exceptions.CoreException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Exceptions.CoreException",
+      "Summary": "<p sourcefile=\"Domain/Solstice.Domain.Exceptions.CoreException.yml\" sourcestartlinenumber=\"1\">Represents an exception that is thrown when there is an error.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Exceptions.CoreExceptionEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Exceptions.CoreExceptionEnum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Exceptions.CoreExceptionEnum",
+      "Summary": "<p sourcefile=\"Domain/Solstice.Domain.Exceptions.CoreExceptionEnum.yml\" sourcestartlinenumber=\"1\">Represents the possible exceptions that can be thrown by the Solstice.Domain classes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Exceptions.CoreExceptionEnumExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Exceptions.CoreExceptionEnumExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Exceptions.CoreExceptionEnumExtension",
+      "Summary": "<p sourcefile=\"Domain/Solstice.Domain.Exceptions.CoreExceptionEnumExtension.yml\" sourcestartlinenumber=\"1\">Provides extension methods for the <xref href=\"Solstice.Domain.Exceptions.CoreExceptionEnum\" data-throw-if-not-resolved=\"false\"></xref> enumeration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Extensions.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Extensions.EnumerableExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Extensions.EnumerableExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Extensions.IEnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Extensions.IEnumerableExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Extensions.IEnumerableExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Extensions.IQueryableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Extensions.IQueryableExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Extensions.IQueryableExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Extensions.QueryableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Extensions.QueryableExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Extensions.QueryableExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Models.CoreModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Models.CoreModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Models.CoreModel",
+      "Summary": "<p sourcefile=\"Domain/Solstice.Domain.Models.CoreModel.yml\" sourcestartlinenumber=\"1\">CoreModel class provides a structure to encapsulate information related\nto Solstice functionality in the application. The information mainly includes\nid associated to each Solstice transaction or operation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Models.Page.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Models.Page.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Models.Page",
+      "Summary": "<p sourcefile=\"Domain/Solstice.Domain.Models.Page.yml\" sourcestartlinenumber=\"1\">Represents a page in a Solstice context with a specific page number and size.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Models.PageExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Models.PageExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Models.PageExtension",
+      "Summary": "<p sourcefile=\"Domain/Solstice.Domain.Models.PageExtension.yml\" sourcestartlinenumber=\"1\">Provides extension methods on a <xref href=\"Solstice.Domain.Models.Page\" data-throw-if-not-resolved=\"false\"></xref> instance.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Models.Paged-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Models.Paged-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Models.Paged<T>",
+      "Summary": "<p sourcefile=\"Domain/Solstice.Domain.Models.Paged-1.yml\" sourcestartlinenumber=\"1\">The 'Paged' class provides a simple way to encapsulate a collection of items with a certain count.\nIt's generic, able to support any type of object (indicated by 'T') for pagination purposes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Utils.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Utils.Error.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Utils.Error",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Utils.MatchExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Utils.MatchExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Utils.MatchExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Utils.Result-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Utils.Result-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Utils.Result<TSuccess, TError>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Utils.ResultExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Utils.ResultExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Utils.ResultExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Domain/Solstice.Domain.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/Solstice.Domain.Utils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Domain.Utils",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Domain/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Domain/toc.html"
+        },
+        ".json": {
+          "relative_path": "Domain/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Attributes.QueryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Attributes.QueryAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Attributes.QueryAttribute",
+      "Summary": "<p sourcefile=\"Repository/Solstice.Infrastructure.Attributes.QueryAttribute.yml\" sourcestartlinenumber=\"1\">Represents a custom attribute. This attribute is used to indicate which classes are to be used for database queries.\nIt is a sealed class derived from the Attribute class, hence no other class can inherit from it.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Attributes.RepositoryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Attributes.RepositoryAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Attributes.RepositoryAttribute",
+      "Summary": "<p sourcefile=\"Repository/Solstice.Infrastructure.Attributes.RepositoryAttribute.yml\" sourcestartlinenumber=\"1\">The 'RepositoryAttribute' class, derived from 'Attribute', is a custom attribute class. It may be used to annotate repository classes.\nThis class is 'sealed' which prevents further derivation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Attributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Attributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Core.CoreRepository-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Core.CoreRepository-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Core.CoreRepository<T, TContext>",
+      "Summary": "<p sourcefile=\"Repository/Solstice.Infrastructure.Core.CoreRepository-2.yml\" sourcestartlinenumber=\"1\">An abstract class for the CoreRepository. Constructs a repository with a given context and Http context.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Core.CoreRepositoryExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Core.CoreRepositoryExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Core.CoreRepositoryExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Core.ICoreRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Core.ICoreRepository-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Core.ICoreRepository<T>",
+      "Summary": "<p sourcefile=\"Repository/Solstice.Infrastructure.Core.ICoreRepository-1.yml\" sourcestartlinenumber=\"1\">The ICoreRepository interface provides methods for performing CRUD operations, querying, counting, paging,\ntransactions, and other tasks on an underlying data repository in an asynchronous manner. The repository\nholds objects of a type. The methods in this interface produce\nor consume tasks that represent ongoing work and are used for structuring asynchronous code.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Core",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Extensions.CoreQueryableExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Extensions.CoreQueryableExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Extensions.CoreQueryableExtension",
+      "Summary": "<p sourcefile=\"Repository/Solstice.Infrastructure.Extensions.CoreQueryableExtension.yml\" sourcestartlinenumber=\"1\">Represents a utility class that provides extension methods to IQueryable interface objects.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Injections.RepositoryInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Injections.RepositoryInjections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Injections.RepositoryInjections",
+      "Summary": "<p sourcefile=\"Repository/Solstice.Infrastructure.Injections.RepositoryInjections.yml\" sourcestartlinenumber=\"1\">The RepositoryInjections static class contains extension methods for ModelBuilder and IServiceCollection instances.\nThese extension methods add convenient functionality for database and service-related configurations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Injections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Injections",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Specifications.CoreSpecificationEvaluator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Specifications.CoreSpecificationEvaluator-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Specifications.CoreSpecificationEvaluator<T>",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Specifications.ICoreSpecifications-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Specifications.ICoreSpecifications-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Specifications.ICoreSpecifications<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Specifications.Specification-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Specifications.Specification-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Specifications.Specification<T>",
+      "Summary": "<p sourcefile=\"Repository/Solstice.Infrastructure.Specifications.Specification-1.yml\" sourcestartlinenumber=\"1\">The <code sourcefile=\"Repository/Solstice.Infrastructure.Specifications.Specification-1.yml\" sourcestartlinenumber=\"1\">coreSpecifications&lt;T&gt;</code> class implements the <code sourcefile=\"Repository/Solstice.Infrastructure.Specifications.Specification-1.yml\" sourcestartlinenumber=\"1\">ICoreSpecifications&lt;T&gt;</code> interface for providing generic ways to\ndefine specifications for querying the database.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.Specifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.Specifications.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.Specifications",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.UnitOfWorks.IUnitOfWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.UnitOfWorks.IUnitOfWork.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.UnitOfWorks.IUnitOfWork",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.UnitOfWorks.UnitOfWork-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.UnitOfWorks.UnitOfWork-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.UnitOfWorks.UnitOfWork<TDbContext>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Infrastructure.UnitOfWorks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Infrastructure.UnitOfWorks.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Infrastructure.UnitOfWorks",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Attributes.QueryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Attributes.QueryAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Attributes.QueryAttribute",
+      "Summary": "<p sourcefile=\"Repository/Solstice.Repository.Attributes.QueryAttribute.yml\" sourcestartlinenumber=\"1\">Represents a custom attribute. This attribute is used to indicate which classes are to be used for database queries.\nIt is a sealed class derived from the Attribute class, hence no other class can inherit from it.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Attributes.RepositoryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Attributes.RepositoryAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Attributes.RepositoryAttribute",
+      "Summary": "<p sourcefile=\"Repository/Solstice.Repository.Attributes.RepositoryAttribute.yml\" sourcestartlinenumber=\"1\">The 'RepositoryAttribute' class, derived from 'Attribute', is a custom attribute class. It may be used to annotate repository classes.\nThis class is 'sealed' which prevents further derivation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Attributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Attributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Core.CoreRepository-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Core.CoreRepository-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Core.CoreRepository<T, TContext>",
+      "Summary": "<p sourcefile=\"Repository/Solstice.Repository.Core.CoreRepository-2.yml\" sourcestartlinenumber=\"1\">An abstract class for the CoreRepository. Constructs a repository with a given context and Http context.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Core.CoreRepositoryExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Core.CoreRepositoryExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Core.CoreRepositoryExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Core.ICoreRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Core.ICoreRepository-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Core.ICoreRepository<T>",
+      "Summary": "<p sourcefile=\"Repository/Solstice.Repository.Core.ICoreRepository-1.yml\" sourcestartlinenumber=\"1\">The ICoreRepository interface provides methods for performing CRUD operations, querying, counting, paging,\ntransactions, and other tasks on an underlying data repository in an asynchronous manner. The repository\nholds objects of a type. The methods in this interface produce\nor consume tasks that represent ongoing work and are used for structuring asynchronous code.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Core",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Extensions.CoreQueryableExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Extensions.CoreQueryableExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Extensions.CoreQueryableExtension",
+      "Summary": "<p sourcefile=\"Repository/Solstice.Repository.Extensions.CoreQueryableExtension.yml\" sourcestartlinenumber=\"1\">Represents a utility class that provides extension methods to IQueryable interface objects.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.IUnitOfWork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.IUnitOfWork.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.IUnitOfWork",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Injections.RepositoryInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Injections.RepositoryInjections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Injections.RepositoryInjections",
+      "Summary": "<p sourcefile=\"Repository/Solstice.Repository.Injections.RepositoryInjections.yml\" sourcestartlinenumber=\"1\">The RepositoryInjections static class contains extension methods for ModelBuilder and IServiceCollection instances.\nThese extension methods add convenient functionality for database and service-related configurations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Injections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Injections",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Specifications.CoreSpecificationEvaluator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Specifications.CoreSpecificationEvaluator-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Specifications.CoreSpecificationEvaluator<T>",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Specifications.ICoreSpecifications-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Specifications.ICoreSpecifications-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Specifications.ICoreSpecifications<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Specifications.Specification-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Specifications.Specification-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Specifications.Specification<T>",
+      "Summary": "<p sourcefile=\"Repository/Solstice.Repository.Specifications.Specification-1.yml\" sourcestartlinenumber=\"1\">The <code sourcefile=\"Repository/Solstice.Repository.Specifications.Specification-1.yml\" sourcestartlinenumber=\"1\">coreSpecifications&lt;T&gt;</code> class implements the <code sourcefile=\"Repository/Solstice.Repository.Specifications.Specification-1.yml\" sourcestartlinenumber=\"1\">IcoreSpecifications&lt;T&gt;</code> interface for providing generic ways to\ndefine specifications for querying the database.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.Specifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.Specifications.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.Specifications",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.UnitOfWork-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.UnitOfWork-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository.UnitOfWork<TDbContext>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Repository/Solstice.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/Solstice.Repository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Repository",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Repository/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Repository/toc.html"
+        },
+        ".json": {
+          "relative_path": "Repository/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Core.CoreBackgroundService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Core.CoreBackgroundService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Scheduled.Core.CoreBackgroundService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Scheduled.Core",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Injections.ScheduledInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Injections.ScheduledInjections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Scheduled.Injections.ScheduledInjections",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Injections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Scheduled.Injections",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Queue.CoreQueuedBackgroundService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Queue.CoreQueuedBackgroundService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Scheduled.Queue.CoreQueuedBackgroundService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Queue.DefaultBackgroundTaskQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Queue.DefaultBackgroundTaskQueue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Scheduled.Queue.DefaultBackgroundTaskQueue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Queue.IBackgroundTaskQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Queue.IBackgroundTaskQueue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Scheduled.Queue.IBackgroundTaskQueue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Queue.QueueItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Queue.QueueItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Scheduled.Queue.QueueItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Queue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Queue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Scheduled.Queue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Scheduled.CoreScheduledProcessor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Scheduled.CoreScheduledProcessor-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Scheduled.Scheduled.CoreScheduledProcessor<TDbContext>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Scheduled.CoreScopedProcessor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Scheduled.CoreScopedProcessor-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Scheduled.Scheduled.CoreScopedProcessor<TDbContext>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Scheduled/Solstice.Scheduled.Scheduled.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/Solstice.Scheduled.Scheduled.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Scheduled.Scheduled",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Scheduled/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Scheduled/toc.html"
+        },
+        ".json": {
+          "relative_path": "Scheduled/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Attributes.ServiceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Attributes.ServiceAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Applications.Attributes.ServiceAttribute",
+      "Summary": "<p sourcefile=\"Services/Solstice.Applications.Attributes.ServiceAttribute.yml\" sourcestartlinenumber=\"1\">The ServiceAttribute is a custom attribute used for marking classes within the Solstice.Service namespace.\nThis attribute is sealed, implying that it cannot be inherited from.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Attributes.ServiceInterfaceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Attributes.ServiceInterfaceAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Applications.Attributes.ServiceInterfaceAttribute",
+      "Summary": "<p sourcefile=\"Services/Solstice.Applications.Attributes.ServiceInterfaceAttribute.yml\" sourcestartlinenumber=\"1\">The ServiceInterfaceAttribute is a custom attribute used for marking interface within the Solstice.Service namespace.\nThis attribute is sealed, implying that it cannot be inherited from.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Attributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Applications.Attributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Core.CoreService-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Core.CoreService-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Applications.Core.CoreService<TRepository, T>",
+      "Summary": "<p sourcefile=\"Services/Solstice.Applications.Core.CoreService-2.yml\" sourcestartlinenumber=\"1\">Abstract class 'CoreService' defines the operations for managing entities of type T in the database.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Core.ICoreService-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Core.ICoreService-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Applications.Core.ICoreService<T>",
+      "Summary": "<p sourcefile=\"Services/Solstice.Applications.Core.ICoreService-1.yml\" sourcestartlinenumber=\"1\">This interface describes an abstraction for a data manipulation service on a given type of CoreModel.\nIt includes methods for CRUD operations, queries for specific entities,\ncounting entities, starting transactions, and more.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Applications.Core",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Injections.ServiceInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Injections.ServiceInjections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Applications.Injections.ServiceInjections",
+      "Summary": "<p sourcefile=\"Services/Solstice.Applications.Injections.ServiceInjections.yml\" sourcestartlinenumber=\"1\">A static helper class for service injections.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Applications.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Applications.Injections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Applications.Injections",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Service.Attributes.ServiceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Service.Attributes.ServiceAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Service.Attributes.ServiceAttribute",
+      "Summary": "<p sourcefile=\"Services/Solstice.Service.Attributes.ServiceAttribute.yml\" sourcestartlinenumber=\"1\">The ServiceAttribute is a custom attribute used for marking classes within the Solstice.Service namespace.\nThis attribute is sealed, implying that it cannot be inherited from.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Service.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Service.Attributes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Service.Attributes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Service.Base.CoreService-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Service.Base.CoreService-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Service.Base.CoreService<TRepository, T>",
+      "Summary": "<p sourcefile=\"Services/Solstice.Service.Base.CoreService-2.yml\" sourcestartlinenumber=\"1\">Abstract class 'CoreService' defines the operations for managing entities of type T in the database.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Service.Base.ICoreService-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Service.Base.ICoreService-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Service.Base.ICoreService<T>",
+      "Summary": "<p sourcefile=\"Services/Solstice.Service.Base.ICoreService-1.yml\" sourcestartlinenumber=\"1\">This interface describes an abstraction for a data manipulation service on a given type of RadiantModel.\nIt includes methods for CRUD operations, queries for specific entities,\ncounting entities, starting transactions, and more.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Service.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Service.Base.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Service.Base",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Service.Injections.ServiceInjections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Service.Injections.ServiceInjections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Service.Injections.ServiceInjections",
+      "Summary": "<p sourcefile=\"Services/Solstice.Service.Injections.ServiceInjections.yml\" sourcestartlinenumber=\"1\">A static helper class for service injections.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "Services/Solstice.Service.Injections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/Solstice.Service.Injections.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Solstice.Service.Injections",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Services/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Services/toc.html"
+        },
+        ".json": {
+          "relative_path": "Services/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
