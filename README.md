@@ -24,8 +24,9 @@ The Solstice project is organized into several modules:
 dotnet add package Solstice.API
 dotnet add package Solstice.Domain
 dotnet add package Solstice.Infrastructure
-dotnet add package Solstice.Database.MySql
 dotnet add package Solstice.Applications
+dotnet add package Solstice.Database.MySql
+...
 ```
 
 You can install only the packages you need for your project. You can also find them in Nuget Package Manager. 
@@ -61,7 +62,7 @@ if (string.IsNullOrEmpty(dbConfig))
     throw new ConfigurationErrorsException("Connection string not found");
 }
 
-// Add your DbContext (
+// Add your DbContext
 builder.Services.AddDatabaseContext<`DbContext to load`>(dbConfig, migrate: true);
 ...
     
